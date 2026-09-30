@@ -110,9 +110,12 @@ def validate(doc):
         for k in ("found_at", "published_at"):
             if u.get(k):
                 try:
-                    parse(u[k])
+                    dt = parse(u[k])
                 except ValueError:
                     errors.append(f"updates[{i}] ({u.get('id')}): neplatné datum {k}='{u[k]}'")
+                    continue
+                if k == "found_at" and (dt - datetime.now(timezone.utc)).total_seconds() > 120:
+                    errors.append(f"updates[{i}] ({u.get('id')}): found_at='{u[k]}' je v budoucnosti; použij `date -u +%Y-%m-%dT%H:%M:%SZ`")
         for m in u.get("media", []) or []:
             if m.get("thumb") and not str(m["thumb"]).startswith("https://"):
                 errors.append(f"{u.get('id')}: thumb musí být https URL ({m['thumb']})")
