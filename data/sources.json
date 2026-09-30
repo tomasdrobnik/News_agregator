@@ -243,6 +243,15 @@
       "added_at": "2026-09-30T16:11:37Z",
       "active": true,
       "note": "uznávaný letecký web, shrnutí incidentu FZ1073"
+    },
+    {
+      "name": "Newsweek",
+      "url": "https://www.newsweek.com",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-09-30T18:11:24Z",
+      "active": true,
+      "note": "živé zpravodajství k FZ1073; přímé čtení netestováno, zatím jen WebSearch"
     }
   ]
 }

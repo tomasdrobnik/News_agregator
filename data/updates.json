@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T16:11:54Z",
-    "next_check": "2026-09-30T17:11:54Z",
+    "last_check": "2026-09-30T18:11:24Z",
+    "next_check": "2026-09-30T19:11:24Z",
     "new_count": 1
   },
   "updates": [
@@ -486,6 +486,27 @@
         "en": {
           "title": "Tabuk Airport: all passengers departed on a replacement aircraft, both pilots in hospital",
           "text": "According to Saudi Gazette (article read directly), Tabuk airport says the distress call came at 08:44 local time, the aircraft landed at 09:45 and all passengers left on a replacement aircraft at 17:40. Both the captain and the co-pilot were injured and taken to hospital; the airport says the competent authorities are investigating. The article also repeats flydubai's statement that causes and motives are unknown."
+        }
+      }
+    },
+    {
+      "id": "u019",
+      "found_at": "2026-09-30T18:11:24Z",
+      "published_at": null,
+      "source": "Newsweek / Migflug / Cedar News (přes vyhledávání)",
+      "url": "https://www.newsweek.com/flydubai-plane-suspected-hijacking-live-latest-updates-videos-show-panic-pilot-stabbed-israel-12506168",
+      "title": "Média: kokpit prolomili dva pilotující cestující mimo službu",
+      "text": "Podle výsledků vyhledávání (stránky nebyly přímo čteny) mají média uvádět, že do kokpitu se s pomocí kabinové posádky a cestujících dostali dva piloti cestující mimo službu (jeden z JAR, jeden z Nového Zélandu) a druhého pilota znehybnili. Jde o jednotlivé weby bez potvrzení úřady nebo flydubai; jedno vyhledávání navíc uvádí pokles z FL340 na cca 19 000 ft za ~90 s, což je další varianta k rozporným profilům sestupu.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Médiá: do kokpitu sa dostali dvaja pilotní cestujúci mimo služby",
+          "text": "Podľa výsledkov vyhľadávania (stránky neboli priamo čítané) majú médiá uvádzať, že do kokpitu sa s pomocou kabínovej posádky a cestujúcich dostali dvaja piloti cestujúci mimo služby (jeden z JAR, jeden z Nového Zélandu) a druhého pilota znehybnili. Ide o jednotlivé weby bez potvrdenia úradmi alebo flydubai; jedno vyhľadávanie navyše uvádza pokles z FL340 na cca 19 000 ft za ~90 s, čo je ďalší variant k rozporným profilom zostupu."
+        },
+        "en": {
+          "title": "Media: two off-duty pilots travelling as passengers reportedly broke into the cockpit",
+          "text": "According to search results (pages not read directly), media reportedly say two off-duty pilots travelling as passengers (one South African, one from New Zealand) got into the cockpit with help from cabin crew and passengers and restrained the other pilot. These are individual websites, not confirmed by authorities or flydubai; one search also cites a descent from FL340 to about 19,000 ft in ~90 s, yet another variant among the conflicting descent profiles."
         }
       }
     }

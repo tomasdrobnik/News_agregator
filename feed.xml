@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 30 Sep 2026 16:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 18:11:24 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Média: kokpit prolomili dva pilotující cestující mimo službu</title>
+      <link>https://www.newsweek.com/flydubai-plane-suspected-hijacking-live-latest-updates-videos-show-panic-pilot-stabbed-israel-12506168</link>
+      <guid isPermaLink="false">fz1073-u019</guid>
+      <pubDate>Wed, 30 Sep 2026 18:11:24 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (stránky nebyly přímo čteny) mají média uvádět, že do kokpitu se s pomocí kabinové posádky a cestujících dostali dva piloti cestující mimo službu (jeden z JAR, jeden z Nového Zélandu) a druhého pilota znehybnili. Jde o jednotlivé weby bez potvrzení úřady nebo flydubai; jedno vyhledávání navíc uvádí pokles z FL340 na cca 19 000 ft za ~90 s, což je další varianta k rozporným profilům sestupu. (Zdroj: Newsweek / Migflug / Cedar News (přes vyhledávání))</description>
+    </item>
     <item>
       <title>[Média] Letiště Tabuk: všichni cestující odletěli náhradním letadlem, oba piloti v nemocnici</title>
       <link>https://saudigazette.com.sa/article/665001/saudi-arabia/tabuk-airport-all-flydubai-passengers-depart-on-replacement-aircraft</link>
