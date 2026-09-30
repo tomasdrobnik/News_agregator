@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T13:30:00Z",
-    "next_check": "2026-09-30T14:30:00Z",
-    "new_count": 2
+    "last_check": "2026-09-30T14:10:00Z",
+    "next_check": "2026-09-30T15:10:00Z",
+    "new_count": 1
   },
   "updates": [
     {
@@ -381,6 +381,27 @@
         "en": {
           "title": "Israel: joint investigation, origin of pilots' passports also examined",
           "text": "According to search results (pages not read directly), Mossad, Shin Bet, the military and the transport ministry are involved in the investigation in Israel, which assesses the incident as a possible terror attack. Israeli media say the first officer had worked at flydubai for about nine months, and the transport minister has asked for a check of compliance with agreements on pilots holding passports of states with diplomatic ties to Israel; none of this is officially confirmed."
+        }
+      }
+    },
+    {
+      "id": "u014",
+      "found_at": "2026-09-30T14:10:00Z",
+      "published_at": "2026-09-30T09:59:17Z",
+      "source": "The Aviation Herald (titulek na Bluesky @avherald.com)",
+      "url": "https://avherald.com/h?article=5423fa17&opt=0",
+      "title": "AvHerald upravil titulek: F/O prošetřován pro podezření z pokusu o sebevraždu",
+      "text": "AvHerald v 09:59Z změnil titulek svého článku na „first officer under investigation for suspected suicide attempt“ (předtím jen „fight in the cockpit“). Přímo přečten byl jen titulek na oficiálním Bluesky účtu AvHerald, samotný článek ne – kdo šetření vede a z čeho titulek vychází, není známo. Je to v rozporu s izraelským hodnocením jako možného teroristického činu; oficiálně nic z toho potvrzeno není. Doplňuje u009.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "AvHerald upravil titulok: F/O vyšetrovaný pre podozrenie z pokusu o samovraždu",
+          "text": "AvHerald o 09:59Z zmenil titulok svojho článku na „first officer under investigation for suspected suicide attempt“ (predtým len „fight in the cockpit“). Priamo prečítaný bol len titulok na oficiálnom Bluesky účte AvHerald, samotný článok nie – kto vyšetrovanie vedie a z čoho titulok vychádza, nie je známe. Je to v rozpore s izraelským hodnotením ako možného teroristického činu; oficiálne nič z toho potvrdené nie je. Dopĺňa u009."
+        },
+        "en": {
+          "title": "AvHerald updates headline: F/O under investigation for suspected suicide attempt",
+          "text": "At 09:59Z AvHerald changed its article headline to “first officer under investigation for suspected suicide attempt” (previously only “fight in the cockpit”). Only the headline on AvHerald's official Bluesky account was read directly, not the article itself – who is leading the investigation and what the headline is based on is unknown. This contradicts the Israeli assessment of a possible terrorist act; none of it is officially confirmed. Supplements u009."
         }
       }
     }

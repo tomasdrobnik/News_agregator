@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 13:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 14:10:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] AvHerald updates headline: F/O under investigation for suspected suicide attempt</title>
+      <link>https://avherald.com/h?article=5423fa17&amp;opt=0</link>
+      <guid isPermaLink="false">fz1073-u014</guid>
+      <pubDate>Wed, 30 Sep 2026 14:10:00 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] At 09:59Z AvHerald changed its article headline to “first officer under investigation for suspected suicide attempt” (previously only “fight in the cockpit”). Only the headline on AvHerald's official Bluesky account was read directly, not the article itself – who is leading the investigation and what the headline is based on is unknown. This contradicts the Israeli assessment of a possible terrorist act; none of it is officially confirmed. Supplements u009. (Source: The Aviation Herald (titulek na Bluesky @avherald.com))</description>
+    </item>
     <item>
       <title>[Unconfirmed] Israel: joint investigation, origin of pilots' passports also examined</title>
       <link>https://www.israelhayom.co.il/news/defense/article/21522045</link>

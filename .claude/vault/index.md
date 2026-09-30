@@ -9,7 +9,7 @@
 
 | ID   | Topic | Status | Summary (15 words max) |
 |------|-------|--------|------------------------|
-| - | - | - | - |
+| P001 | AvHerald/ASN monitoring | Active | AvHerald via Bluesky public API works; ASN blocked, WebSearch only |
 
 ---
 
@@ -17,7 +17,7 @@
 
 | If searching for... | Check doc... |
 |---------------------|--------------|
-| - | - |
+| avherald, ASN, bluesky, RSS, feed | P001 |
 
 ---
 

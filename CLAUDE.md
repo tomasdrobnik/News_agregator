@@ -53,7 +53,8 @@ Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravd
   - `"curl"` = web je dostupný a povoluje automatické čtení → přímé čtení jen přes `python3 scripts/fetch_source.py URL` (read-only GET).
   - `"webfetch"` = přímé čtení přes WebFetch.
   - `"tip"` = sociální síť, jen tipy správce přes `data/inbox.json` (viz níže).
-  - `"websearch"` = web automatické čtení zakazuje nebo blokuje → jen WebSearch. Týká se: AvHerald (`robots.txt`: `Disallow: /` pro všechny boty), ASN (Cloudflare challenge), flydubai.com (Akamai 403).
+  - `"websearch"` = web automatické čtení zakazuje nebo blokuje → jen WebSearch. Týká se: AvHerald (`robots.txt`: `Disallow: /` pro všechny boty, i RSS), ASN (Cloudflare challenge, i RSS; Bluesky účet ASN je neaktivní), flydubai.com (Akamai 403).
+  - AvHerald má navíc oficiální Bluesky účet `@avherald.com` čitelný přes veřejné API (`public.api.bsky.app`, `access: "curl"`). Jsou v něm jen titulky → záznam z nich je vždy `unconfirmed`.
 - Přímé čtení (`curl` i `webfetch`) se počítá jako „přímo přečteno“ pro statusy `official` / `data` / `reported`.
 - Pravidla pro `fetch_source.py` (skript je sám vynucuje): jen host aktivního zdroje s `access: "curl"`; `robots.txt` musí čtení povolit; jeden GET s poctivým User-Agentem `FZ1073-monitor/1.0`; žádné opakování s jiným UA, cookies ani obcházení ochrany. Návratový kód 2 / `UNAVAILABLE` = zdroj nedostupný → použij WebSearch a v záznamu uveď, že obsah nebyl přímo čten. Curl ani jiné nástroje mimo tento skript na zdroje nepoužívej.
 - Zdroj převeď na `"curl"` jen po úspěšném testu skriptem; když skript opakovaně vrací `UNAVAILABLE` (403, challenge, robots), vrať ho na `"websearch"` a důvod zapiš do `note`.

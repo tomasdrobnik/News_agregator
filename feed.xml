@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 30 Sep 2026 13:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 14:10:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] AvHerald upravil titulek: F/O prošetřován pro podezření z pokusu o sebevraždu</title>
+      <link>https://avherald.com/h?article=5423fa17&amp;opt=0</link>
+      <guid isPermaLink="false">fz1073-u014</guid>
+      <pubDate>Wed, 30 Sep 2026 14:10:00 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] AvHerald v 09:59Z změnil titulek svého článku na „first officer under investigation for suspected suicide attempt“ (předtím jen „fight in the cockpit“). Přímo přečten byl jen titulek na oficiálním Bluesky účtu AvHerald, samotný článek ne – kdo šetření vede a z čeho titulek vychází, není známo. Je to v rozporu s izraelským hodnocením jako možného teroristického činu; oficiálně nic z toho potvrzeno není. Doplňuje u009. (Zdroj: The Aviation Herald (titulek na Bluesky @avherald.com))</description>
+    </item>
     <item>
       <title>[Neověřeno] Izrael: společné šetření, zkoumá se i původ pilotních pasů</title>
       <link>https://www.israelhayom.co.il/news/defense/article/21522045</link>
