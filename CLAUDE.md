@@ -15,7 +15,7 @@ Veřejný dashboard (GitHub Pages) sledující incident flydubai FZ1073 z 30. 9.
 - Stránka je trojjazyčná (CZ / SK / EN, přepínač v záhlaví). Hlavní `title`, `text` a `caption` jsou **česky**. Každý nový záznam musí mít i překlad v `i18n`: `{"sk": {"title", "text"}, "en": {"title", "text"}}`, u médií `i18n: {"sk": {"caption"}, "en": {"caption"}}`. Překlad je věrný české verzi (stejný status i míra nejistoty). Chybí-li překlad, web ukáže češtinu s označením CZ.
 - Monitoring informace **jen agreguje** – správce je ručně neověřuje. Status proto musí být konzervativní. **Při jakékoli pochybnosti = `unconfirmed`.**
 - Statusy:
-  - `official` – jen když byl text prohlášení dopravce/úřadu/vyšetřovacího orgánu **přímo přečten** na jeho oficiálním webu či účtu (WebFetch uspěl). Z výsledků vyhledávání nebo z citace v médiích nikdy `official`.
+  - `official` – jen když byl text prohlášení dopravce/úřadu/vyšetřovacího orgánu **přímo přečten** na jeho oficiálním webu či účtu (přímé čtení uspělo – WebFetch nebo `scripts/fetch_source.py`, viz Zdroje). Z výsledků vyhledávání nebo z citace v médiích nikdy `official`.
   - `data` – primární data (ADS-B/FR24, METAR, NOTAM) **přímo přečtená** ze zdroje.
   - `reported` – článek renomovaného média/agentury, jehož obsah je jasný (přímo přečten, nebo shodně ve výsledcích vyhledávání u ≥ 2 renomovaných médií). Tvrzení médií nikdy nepodávej jako fakt.
   - `unconfirmed` – vše ostatní: jen úryvky z vyhledávání, jediný zdroj, agregátory, sociální sítě, spekulace, rozporné údaje, nedostupná stránka.
@@ -49,10 +49,16 @@ Veřejný dashboard (GitHub Pages) sledující incident flydubai FZ1073 z 30. 9.
 ## Zdroje
 Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravdy). Každá kontrola projde všechny aktivní zdroje a hledá na webu další důvěryhodné zdroje; nové do registru přidá a od další kontroly je sleduje. Zdroje se nemažou, jen deaktivují (`active: false` + důvod). Každý web citovaný v záznamu (`url`) musí být v registru – web ho zobrazuje v záložce Zdroje.
 
-- `access: "websearch"` = web blokuje automatické čtení (AvHerald, ASN) → jen WebSearch.
+- `access` určuje způsob čtení:
+  - `"curl"` = web je dostupný a povoluje automatické čtení → přímé čtení jen přes `python3 scripts/fetch_source.py URL` (read-only GET).
+  - `"webfetch"` = přímé čtení přes WebFetch.
+  - `"websearch"` = web automatické čtení zakazuje nebo blokuje → jen WebSearch. Týká se: AvHerald (`robots.txt`: `Disallow: /` pro všechny boty), ASN (Cloudflare challenge), flydubai.com (Akamai 403).
+- Přímé čtení (`curl` i `webfetch`) se počítá jako „přímo přečteno“ pro statusy `official` / `data` / `reported`.
+- Pravidla pro `fetch_source.py` (skript je sám vynucuje): jen host aktivního zdroje s `access: "curl"`; `robots.txt` musí čtení povolit; jeden GET s poctivým User-Agentem `FZ1073-monitor/1.0`; žádné opakování s jiným UA, cookies ani obcházení ochrany. Návratový kód 2 / `UNAVAILABLE` = zdroj nedostupný → použij WebSearch a v záznamu uveď, že obsah nebyl přímo čten. Curl ani jiné nástroje mimo tento skript na zdroje nepoužívej.
+- Zdroj převeď na `"curl"` jen po úspěšném testu skriptem; když skript opakovaně vrací `UNAVAILABLE` (403, challenge, robots), vrať ho na `"websearch"` a důvod zapiš do `note`.
 - Priorita: oficiální orgány (flydubai, GCAA UAE, GACA/AIB KSA, izraelské úřady) > agentury a renomovaná média > letecké weby > ostatní.
 
-Nedostupné weby neobcházej (žádné curl, mirrory ani cache). Použij výsledky vyhledávání a v záznamu uveď, že obsah nebyl přímo čten.
+Nedostupné nebo zakázané weby neobcházej (žádné mirrory, cache, změna User-Agenta ani obcházení ochrany proti botům). Použij výsledky vyhledávání a v záznamu uveď, že obsah nebyl přímo čten.
 
 ## Rutina kontroly
 Příkaz `/check-fz1073` (viz `.claude/commands/check-fz1073.md`).
@@ -63,3 +69,4 @@ Příkaz `/check-fz1073` (viz `.claude/commands/check-fz1073.md`).
 - `feed.xml`, `feed-sk.xml`, `feed-en.xml` – generované RSS pro každý jazyk, needituj ručně
 - `config.json` – `site_url` pro RSS (nastav na skutečnou adresu GitHub Pages)
 - `scripts/build_feed.py` – validace + generování RSS
+- `scripts/fetch_source.py` – přímé read-only čtení zdrojů s `access: "curl"` (kontrola registru, robots.txt, bot challenge; vypíše og:/meta tagy a text)
