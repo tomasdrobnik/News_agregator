@@ -288,6 +288,15 @@
       "added_at": "2026-09-30T18:50:00Z",
       "active": true,
       "note": "video z paluby zveřejněné deníkem The Daily Telegraph (AU); ověřeno přes YouTube oEmbed (autor kanálu), 2026-09-30 18:49Z"
+    },
+    {
+      "name": "Gulf News",
+      "url": "https://gulfnews.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-09-30T19:10:31Z",
+      "active": true,
+      "note": "Renomované emirátské médium; cituje prohlášení GCAA UAE k FZ1073 (čteno přes WebFetch)."
     }
   ]
 }

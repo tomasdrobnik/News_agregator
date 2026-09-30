@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 18:49:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 19:10:31 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] GCAA UAE: 'security incident' on FZ1073 brought under control, crew members injured</title>
+      <link>https://gulfnews.com/business/aviation/gcaa-confirms-security-incident-on-flydubai-flight-crew-members-injured-1.500694048</link>
+      <guid isPermaLink="false">fz1073-u021</guid>
+      <pubDate>Wed, 30 Sep 2026 19:10:31 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Gulf News (read directly), the UAE GCAA said flight FZ1073 experienced a security incident that was brought under control, and the aircraft made an emergency landing at Tabuk. Some crew members were injured and treated at a Saudi hospital; GCAA investigation teams are working with relevant authorities on causes and circumstances. The statement text on the GCAA website itself was not read directly (the page contained nothing on it), so this is a media report, not status official; it is the first GCAA statement found on the incident. (Source: Gulf News (cituje prohlášení GCAA UAE))</description>
+    </item>
     <item>
       <title>[Unconfirmed] New onboard videos and photos from Tabuk</title>
       <link>https://www.israelnationalnews.com/news/433885</link>

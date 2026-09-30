@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Wed, 30 Sep 2026 18:49:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 19:10:31 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] GCAA UAE: „bezpečnostný incident“ na FZ1073 pod kontrolou, zranení členovia posádky</title>
+      <link>https://gulfnews.com/business/aviation/gcaa-confirms-security-incident-on-flydubai-flight-crew-members-injured-1.500694048</link>
+      <guid isPermaLink="false">fz1073-u021</guid>
+      <pubDate>Wed, 30 Sep 2026 19:10:31 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa Gulf News (priamo prečítané) úrad GCAA UAE uviedol, že na lete FZ1073 došlo k bezpečnostnému incidentu, ktorý bol zvládnutý, a lietadlo núdzovo pristálo v Tabuku. Niektorí členovia posádky boli zranení a ošetrení v saudskej nemocnici; vyšetrovacie tímy GCAA s príslušnými orgánmi skúmajú príčiny a okolnosti. Text vyhlásenia na webe GCAA priamo prečítaný nebol (web nič neobsahoval), preto ide o správu média, nie o status official; ide o prvé dohľadané vyhlásenie GCAA k incidentu. (Zdroj: Gulf News (cituje prohlášení GCAA UAE))</description>
+    </item>
     <item>
       <title>[Neoverené] Nové videá z paluby a fotky z Tabuku</title>
       <link>https://www.israelnationalnews.com/news/433885</link>
