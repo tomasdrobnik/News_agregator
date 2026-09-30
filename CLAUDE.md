@@ -53,6 +53,7 @@ Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravd
   - `"curl"` = web je dostupný a povoluje automatické čtení → přímé čtení jen přes `python3 scripts/fetch_source.py URL` (read-only GET).
   - `"webfetch"` = přímé čtení přes WebFetch.
   - `"tip"` = sociální síť, jen tipy správce přes `data/inbox.json` (viz níže).
+  - `"api"` = sociální síť hledaná automaticky přes oficiální API (`scripts/social_search.py`) + tipy správce.
   - `"websearch"` = web automatické čtení zakazuje nebo blokuje → jen WebSearch. Týká se: AvHerald (`robots.txt`: `Disallow: /` pro všechny boty, i RSS), ASN (Cloudflare challenge, i RSS; Bluesky účet ASN je neaktivní), flydubai.com (Akamai 403).
   - AvHerald má navíc oficiální Bluesky účet `@avherald.com` čitelný přes veřejné API (`public.api.bsky.app`, `access: "curl"`). Jsou v něm jen titulky → záznam z nich je vždy `unconfirmed`.
 - Přímé čtení (`curl` i `webfetch`) se počítá jako „přímo přečteno“ pro statusy `official` / `data` / `reported`.
@@ -61,6 +62,8 @@ Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravd
 - Priorita: oficiální orgány (flydubai, GCAA UAE, GACA/AIB KSA, izraelské úřady) > agentury a renomovaná média > letecké weby > ostatní.
 
 **Tipy správce (sociální sítě):** X, Instagram, Facebook a Reddit se automaticky nemonitorují (vyžadují přihlášení; fóra a anonymní účty nejsou zdroj pro registr). Správce vkládá odkazy na příspěvky jiných lidí do `data/inbox.json` (`tips`); rutina je zpracuje a přesune do `processed` (`result` = id záznamu nebo „zamítnuto: důvod“). Tip může být samotný odkaz nebo objekt s `url`; formát kontroluje `build_feed.py`. Platformy jsou v registru jako `type: "social"`, `access: "tip"`. Příspěvek sám o sobě = `unconfirmed`; `source` je autor příspěvku, ne správce. Přístupové údaje ke svým účtům správce nikdy nesdílí.
+
+**Automatické hledání přes API (X, Reddit):** `scripts/social_search.py` hledá nové příspěvky přes oficiální API a řadí je do `inbox.json` jako tipy (`via: "x-api" | "reddit-api"`); zpracují se stejně jako ostatní tipy (sám o sobě = `unconfirmed`). Klíče jsou **jen** v proměnných prostředí cloudového prostředí (`X_BEARER_TOKEN`; `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME`), nikdy v repu ani v chatu. X je placené per-use (0,005 USD za přečtený příspěvek, docs.x.com, 30. 9. 2026) – skript bere max. 10 příspěvků na běh. Text příspěvků se do repa neukládá. Facebook a Instagram API pro hledání veřejných příspěvků nenabízí → jen ruční tipy. Stav kurzoru: `data/social_state.json`.
 
 Nedostupné nebo zakázané weby neobcházej (žádné mirrory, cache, změna User-Agenta ani obcházení ochrany proti botům). Použij výsledky vyhledávání a v záznamu uveď, že obsah nebyl přímo čten.
 
@@ -78,6 +81,7 @@ Příkaz `/check-fz1073` (viz `.claude/commands/check-fz1073.md`).
 - `data/sources.json` – registr monitorovaných zdrojů (rutina ho rozšiřuje)
 - `feed.xml`, `feed-sk.xml`, `feed-en.xml` – generované RSS pro každý jazyk, needituj ručně
 - `config.json` – `site_url` pro RSS (nastav na skutečnou adresu GitHub Pages)
+- `scripts/social_search.py` – hledání na X a Redditu přes oficiální API → tipy do `inbox.json`
 - `scripts/build_feed.py` – validace (`updates.json` + `inbox.json`) + generování RSS
 - `scripts/fetch_source.py` – přímé read-only čtení zdrojů s `access: "curl"` (kontrola registru, robots.txt, bot challenge; vypíše og:/meta tagy a text)
 

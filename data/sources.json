@@ -185,10 +185,10 @@
       "name": "X (tipy)",
       "url": "https://x.com/",
       "type": "social",
-      "access": "tip",
+      "access": "api",
       "added_at": "2026-09-30T13:53:00Z",
       "active": true,
-      "note": "Sociální síť – jen tipy od správce přes data/inbox.json, automaticky se nemonitoruje (vyžaduje přihlášení). Příspěvek sám o sobě = unconfirmed."
+      "note": "Sociální síť – automatické hledání přes oficiální API (scripts/social_search.py, aktivní po nastavení klíčů) + tipy správce přes data/inbox.json. Příspěvek sám o sobě = unconfirmed."
     },
     {
       "name": "Instagram (tipy)",
@@ -212,10 +212,10 @@
       "name": "Reddit (tipy)",
       "url": "https://www.reddit.com/",
       "type": "social",
-      "access": "tip",
+      "access": "api",
       "added_at": "2026-09-30T13:53:00Z",
       "active": true,
-      "note": "Sociální síť – jen tipy od správce přes data/inbox.json, automaticky se nemonitoruje (vyžaduje přihlášení). Příspěvek sám o sobě = unconfirmed."
+      "note": "Sociální síť – automatické hledání přes oficiální API (scripts/social_search.py, aktivní po nastavení klíčů) + tipy správce přes data/inbox.json. Příspěvek sám o sobě = unconfirmed."
     },
     {
       "name": "The Aviation Herald – Bluesky (@avherald.com)",
