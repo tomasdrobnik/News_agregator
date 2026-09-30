@@ -1,0 +1,14 @@
+{
+  "note": "Registr monitorovaných zdrojů. Rutina /check-fz1073 kontroluje všechny aktivní zdroje a nově nalezené ověřené zdroje sem přidává.",
+  "sources": [
+    {"name": "The Aviation Herald", "url": "https://avherald.com/h?article=5423fa17&opt=0", "type": "media", "access": "websearch", "added_at": "2026-09-30T12:25:00Z", "active": true, "note": "blokuje automatické čtení"},
+    {"name": "Aviation Safety Network", "url": "https://aviation-safety.net/wikibase/582792", "type": "database", "access": "websearch", "added_at": "2026-09-30T12:25:00Z", "active": true, "note": "blokuje automatické čtení"},
+    {"name": "AeroTime", "url": "https://www.aerotime.aero/articles/flydubai-fz1073-diverts-saudi-arabia-7500-code", "type": "media", "access": "webfetch", "added_at": "2026-09-30T12:25:00Z", "active": true},
+    {"name": "Flightradar24 blog", "url": "https://www.flightradar24.com/blog/flight-tracking-news/major-incident/flydubai-flight-to-tel-aviv-diverts-to-tabuk-amid-onboard-incident/", "type": "data", "access": "webfetch", "added_at": "2026-09-30T12:25:00Z", "active": true, "note": "obsahuje CSV s ADS-B"},
+    {"name": "Ynetnews", "url": "https://www.ynetnews.com/article/ryjhud95fe", "type": "media", "access": "webfetch", "added_at": "2026-09-30T12:25:00Z", "active": true, "note": "izraelský pohled"},
+    {"name": "Jerusalem Post", "url": "https://www.jpost.com/international/article-910155", "type": "media", "access": "webfetch", "added_at": "2026-09-30T12:25:00Z", "active": true, "note": "prohlášení letiště Tabuk"},
+    {"name": "Ctech (Calcalist)", "url": "https://www.calcalistech.com/ctechnews/article/zs72882xh", "type": "media", "access": "webfetch", "added_at": "2026-09-30T12:25:00Z", "active": true, "note": "svědectví cestujícího"},
+    {"name": "flydubai newsroom", "url": "https://www.flydubai.com/en/media-centre/news-releases", "type": "official", "access": "webfetch", "added_at": "2026-09-30T12:25:00Z", "active": true},
+    {"name": "GCAA UAE", "url": "https://www.gcaa.gov.ae", "type": "official", "access": "webfetch", "added_at": "2026-09-30T12:25:00Z", "active": true, "note": "stát provozovatele/registrace"}
+  ]
+}

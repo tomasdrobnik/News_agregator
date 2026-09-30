@@ -51,6 +51,7 @@ Běží jako cloudová rutina v Claude (claude.ai/code/routines) – počítač 
 |---|---|
 | `index.html` | stránka dashboardu |
 | `data/updates.json` | data (jediný zdroj pravdy) |
+| `data/sources.json` | registr sledovaných zdrojů, kontrola ho sama rozšiřuje |
 | `feed.xml` | RSS, generuje `scripts/build_feed.py`, needitovat |
 | `config.json` | adresa webu a popis feedu |
 | `CLAUDE.md` | kontext incidentu a pravidla obsahu pro Claude Code |
@@ -59,4 +60,4 @@ Běží jako cloudová rutina v Claude (claude.ai/code/routines) – počítač 
 ## Upozornění
 - Obsah je veřejný. Záznamy „Média“ a „Neověřeno“ nejsou oficiálně potvrzené a stránka to uvádí v záhlaví.
 - AvHerald a ASN blokují automatické čtení. Změny v nich se zachytí jen přes vyhledávání, se zpožděním nebo vůbec.
-- Stránka nesbírá žádné osobní údaje. Stav „přečteno“ zůstává v prohlížeči uživatele (localStorage). Google Fonts však načítá písma z Google serverů, a tím mu předává IP adresu návštěvníka. Pokud to nechcete, odstraňte `<link>` na fonts.googleapis.com z `index.html`, stránka použije systémová písma.
+- Stránka nesbírá žádné osobní údaje. Stav „přečteno“ je čistě lokální v prohlížeči každého uživatele (localStorage), na server se nic neposílá. Co si přečte jeden uživatel, zůstává pro ostatní „Nové“ (platí i pro různá zařízení/prohlížeče téhož uživatele). Google Fonts však načítá písma z Google serverů, a tím mu předává IP adresu návštěvníka. Pokud to nechcete, odstraňte `<link>` na fonts.googleapis.com z `index.html`, stránka použije systémová písma.

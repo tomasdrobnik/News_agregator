@@ -46,17 +46,10 @@ Veřejný dashboard (GitHub Pages) sledující incident flydubai FZ1073 z 30. 9.
 - Po každé změně spusť `python3 scripts/build_feed.py`. Validuje data a přegeneruje `feed.xml`. Při chybě necommituj.
 
 ## Zdroje
-| Zdroj | URL | Přístup |
-|---|---|---|
-| The Aviation Herald | https://avherald.com/h?article=5423fa17&opt=0 | blokuje automatické čtení → jen WebSearch |
-| Aviation Safety Network | https://aviation-safety.net/wikibase/582792 | blokuje automatické čtení → jen WebSearch |
-| AeroTime | https://www.aerotime.aero/articles/flydubai-fz1073-diverts-saudi-arabia-7500-code | WebFetch OK |
-| Flightradar24 blog | https://www.flightradar24.com/blog/flight-tracking-news/major-incident/flydubai-flight-to-tel-aviv-diverts-to-tabuk-amid-onboard-incident/ | WebFetch OK, obsahuje CSV s ADS-B |
-| Ynetnews | https://www.ynetnews.com/article/ryjhud95fe | izraelský pohled |
-| Jerusalem Post | https://www.jpost.com/international/article-910155 | prohlášení letiště Tabuk |
-| Ctech (Calcalist) | https://www.calcalistech.com/ctechnews/article/zs72882xh | svědectví cestujícího |
-| flydubai newsroom | https://www.flydubai.com/en/media-centre/news-releases | oficiální |
-| GCAA UAE | https://www.gcaa.gov.ae | oficiální (stát provozovatele/registrace) |
+Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravdy). Každá kontrola projde všechny aktivní zdroje a hledá na webu další důvěryhodné zdroje; nové do registru přidá a od další kontroly je sleduje. Zdroje se nemažou, jen deaktivují (`active: false` + důvod).
+
+- `access: "websearch"` = web blokuje automatické čtení (AvHerald, ASN) → jen WebSearch.
+- Priorita: oficiální orgány (flydubai, GCAA UAE, GACA/AIB KSA, izraelské úřady) > agentury a renomovaná média > letecké weby > ostatní.
 
 Nedostupné weby neobcházej (žádné curl, mirrory ani cache). Použij výsledky vyhledávání a v záznamu uveď, že obsah nebyl přímo čten.
 
@@ -65,6 +58,7 @@ Příkaz `/check-fz1073` (viz `.claude/commands/check-fz1073.md`).
 
 ## Struktura
 - `index.html` – stránka se záložkami Aktualizace a Foto & video (agregace médií se sloučením duplicit a filtry typ/status/zdroj/nové); čte `data/updates.json` a každých 5 min kontroluje nové záznamy; stav „přečteno“ je v localStorage prohlížeče
+- `data/sources.json` – registr monitorovaných zdrojů (rutina ho rozšiřuje)
 - `feed.xml` – generovaný RSS, needituj ručně
 - `config.json` – `site_url` pro RSS (nastav na skutečnou adresu GitHub Pages)
 - `scripts/build_feed.py` – validace + generování RSS
