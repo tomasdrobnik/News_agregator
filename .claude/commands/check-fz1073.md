@@ -1,6 +1,6 @@
 ---
 description: Zkontroluj zdroje k incidentu FZ1073, doplň nové záznamy, přegeneruj RSS a pushni
-allowed-tools: WebSearch, WebFetch, Read, Edit, Write, Bash(python3 scripts/build_feed.py), Bash(git add:*), Bash(git commit:*), Bash(git push:*), Bash(git pull:*), Bash(git status:*), Bash(date:*)
+allowed-tools: WebSearch, WebFetch, Read, Edit, Write, Bash(python3 scripts/build_feed.py), Bash(git add:*), Bash(git commit:*), Bash(git push:*), Bash(git pull:*), Bash(git status:*), Bash(git checkout -- data/updates.json feed.xml), Bash(date:*)
 ---
 
 Proveď jednu kontrolu incidentu FZ1073 podle pravidel v CLAUDE.md.
@@ -17,6 +17,6 @@ Proveď jednu kontrolu incidentu FZ1073 podle pravidel v CLAUDE.md.
 7. Spusť `python3 scripts/build_feed.py`. Pokud selže, oprav data a spusť znovu. Upozornění na duplicity projdi a zbytečné záznamy odstraň.
 8. Commit a push:
    - nové záznamy: `git commit -am "FZ1073: +N aktualizací (HH:MMZ)"`
-   - nic nového: commitni jen změnu `meta` se zprávou `FZ1073: kontrola HH:MMZ, beze změn`
+   - nic nového: **necommituj a nepushuj** (zahoď lokální změnu `meta`: `git checkout -- data/updates.json feed.xml`). Push = signál pro RSS a upozornění na webu, proto jen při nových záznamech.
 9. Na závěr stručně česky vypiš nové záznamy (status, co se změnilo, zdroj). Pokud nic nového, napiš jen „Beze změn“.
 10. Pokud vyšla finální zpráva nebo 72 h nepřibylo nic nového, upozorni na to a navrhni snížit frekvenci kontrol.

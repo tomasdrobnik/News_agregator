@@ -32,6 +32,7 @@ a{color:var(--accent)}
 .strip{background:var(--strip);border:1px solid var(--line);border-radius:6px;padding:12px 16px;display:grid;gap:6px}
 .sub{font-family:var(--f-mono);font-size:.85rem;color:var(--muted)}
 .check{font-size:.85rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.check button{font-size:.85rem;padding:2px 10px}
 .disclaimer{font-size:.82rem;color:var(--muted);margin:0}
 .bar{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding-block:8px;z-index:5}
 .filters{display:flex;flex-wrap:wrap;gap:6px}
@@ -99,7 +100,7 @@ select{font:inherit;font-size:.82rem;padding:4px 6px;border:1px solid var(--line
   <header class="strip">
     <h1>FZ1073 · DXB → TLV · div. TUU</h1>
     <div class="sub">30.09.2026 · B737-8 A6-FKF · squawk 7700 → 7500 → 7700</div>
-    <div class="check"><span id="check">Načítám…</span><a href="feed.xml">RSS odběr</a></div>
+    <div class="check"><span id="check">Načítám…</span><a href="feed.xml">RSS odběr</a><button type="button" id="notify" hidden>Zapnout upozornění</button></div>
     <p class="disclaimer">Souhrn veřejných zdrojů. Záznamy označené „Média“ a „Neověřeno“ nejsou oficiálně potvrzené. Nejde o oficiální informace dopravce ani úřadů.</p>
   </header>
 
@@ -269,7 +270,7 @@ async function refresh(){
     const d=await r.json(), m=d.meta||{};
     const next=(d.updates||[]).slice().sort((a,b)=>String(b.found_at).localeCompare(String(a.found_at))||String(b.id).localeCompare(String(a.id)));
     if(known){const fresh=next.filter(i=>!known.has(i.id));
-      if(fresh.length){document.getElementById("banner-text").textContent=`Přibylo ${fresh.length} ${fresh.length===1?"nová aktualizace":fresh.length<5?"nové aktualizace":"nových aktualizací"}.`;document.getElementById("banner").hidden=false;}}
+      if(fresh.length){document.getElementById("banner-text").textContent=`Přibylo ${fresh.length} ${fresh.length===1?"nová aktualizace":fresh.length<5?"nové aktualizace":"nových aktualizací"}.`;document.getElementById("banner").hidden=false;notify(fresh);}}
     known=new Set(next.map(i=>i.id)); items=next;
     document.getElementById("check").innerHTML=`Poslední kontrola zdrojů: <span class="mono">${fmt(m.last_check)}</span>`;
     render();
@@ -289,6 +290,20 @@ window.addEventListener("hashchange",()=>showTab(location.hash==="#media"?"media
 showTab(location.hash==="#media"?"media":"aktualizace");
 document.getElementById("banner-show").addEventListener("click",()=>{document.getElementById("banner").hidden=true;showTab("aktualizace");setFilter("new");window.scrollTo({top:0});});
 document.addEventListener("visibilitychange",()=>{if(!document.hidden)refresh();});
+function notify(fresh){
+  if(!("Notification" in window)||Notification.permission!=="granted")return;
+  try{const n=new Notification(`FZ1073: ${fresh.length===1?"nová aktualizace":fresh.length+" nové aktualizace"}`,{body:fresh.slice(0,3).map(i=>`[${(LBL[i.status]||LBL.reported)[0]}] ${i.title}`).join("\n"),tag:"fz1073"});
+    n.onclick=()=>{window.focus();document.getElementById("banner-show").click();n.close();};}catch(e){}
+}
+function notifyBtn(){
+  const b=document.getElementById("notify");
+  if(!("Notification" in window)){b.hidden=true;return;}
+  b.hidden=false;const p=Notification.permission;
+  b.textContent=p==="granted"?"🔔 Upozornění zapnuta":p==="denied"?"Upozornění zablokována v prohlížeči":"Zapnout upozornění";
+  b.disabled=p!=="default";
+}
+document.getElementById("notify").addEventListener("click",()=>Notification.requestPermission().then(notifyBtn));
+notifyBtn();
 refresh(); setInterval(refresh,POLL);
 </script>
 </body>

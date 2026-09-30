@@ -43,19 +43,7 @@ a v Claude Code zadejte `/check-fz1073`.
 
 ## 3. Automatická kontrola každou hodinu
 
-Vyberte jednu možnost:
-
-**a) Naplánovaná úloha v Claude (bez vlastního počítače)**
-Požádejte Clauda v konverzaci, ať vytvoří hodinovou naplánovanou úlohu s připojeným repem `tomasdrobnik/News_agregator` (s právem push) a promptem `Spusť /check-fz1073`.
-
-**b) Váš Mac přes cron** (běží jen když je Mac zapnutý):
-```bash
-crontab -e
-```
-```cron
-31 * * * * cd ~/GitHub/News_agregator && /usr/local/bin/claude -p "/check-fz1073" >> ~/GitHub/News_agregator.log 2>&1
-```
-Cestu ke `claude` ověřte příkazem `which claude`. Neinteraktivní režim může vyžadovat předem povolené nástroje. Ty jsou v hlavičce `.claude/commands/check-fz1073.md`, případně je doplňte do `.claude/settings.json`.
+Běží jako cloudová rutina v Claude (claude.ai/code/routines) – počítač nemusí být zapnutý. Každou celou hodinu (UTC) spustí `/check-fz1073` nad tímto repem. Commit a push proběhne **jen při nových záznamech**. Ten aktualizuje RSS (`feed.xml`) a otevřené stránky to do 5 minut zobrazí (banner, počet v titulku, volitelně systémové upozornění prohlížeče přes tlačítko „Zapnout upozornění“).
 
 ## Struktura
 
