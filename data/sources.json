@@ -8,7 +8,7 @@
       "access": "websearch",
       "added_at": "2026-09-30T12:25:00Z",
       "active": true,
-      "note": "blokuje automatické čtení"
+      "note": "robots.txt zakazuje automatické čtení (User-agent: * Disallow: /) – jen WebSearch (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Aviation Safety Network",
@@ -17,68 +17,70 @@
       "access": "websearch",
       "added_at": "2026-09-30T12:25:00Z",
       "active": true,
-      "note": "blokuje automatické čtení"
+      "note": "Cloudflare bot challenge (HTTP 403) – jen WebSearch (test 2026-09-30 13:48Z)"
     },
     {
       "name": "AeroTime",
       "url": "https://www.aerotime.aero/articles/flydubai-fz1073-diverts-saudi-arabia-7500-code",
       "type": "media",
-      "access": "webfetch",
+      "access": "curl",
       "added_at": "2026-09-30T12:25:00Z",
-      "active": true
+      "active": true,
+      "note": "přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Flightradar24 blog",
       "url": "https://www.flightradar24.com/blog/flight-tracking-news/major-incident/flydubai-flight-to-tel-aviv-diverts-to-tabuk-amid-onboard-incident/",
       "type": "data",
-      "access": "webfetch",
+      "access": "curl",
       "added_at": "2026-09-30T12:25:00Z",
       "active": true,
-      "note": "obsahuje CSV s ADS-B"
+      "note": "obsahuje CSV s ADS-B; přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Ynetnews",
       "url": "https://www.ynetnews.com/article/ryjhud95fe",
       "type": "media",
-      "access": "webfetch",
+      "access": "curl",
       "added_at": "2026-09-30T12:25:00Z",
       "active": true,
-      "note": "izraelský pohled"
+      "note": "izraelský pohled; přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Jerusalem Post",
       "url": "https://www.jpost.com/international/article-910155",
       "type": "media",
-      "access": "webfetch",
+      "access": "curl",
       "added_at": "2026-09-30T12:25:00Z",
       "active": true,
-      "note": "prohlášení letiště Tabuk"
+      "note": "prohlášení letiště Tabuk; přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Ctech (Calcalist)",
       "url": "https://www.calcalistech.com/ctechnews/article/zs72882xh",
       "type": "media",
-      "access": "webfetch",
+      "access": "curl",
       "added_at": "2026-09-30T12:25:00Z",
       "active": true,
-      "note": "svědectví cestujícího"
+      "note": "svědectví cestujícího; přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "flydubai newsroom",
       "url": "https://www.flydubai.com/en/media-centre/news-releases",
       "type": "official",
-      "access": "webfetch",
+      "access": "websearch",
       "added_at": "2026-09-30T12:25:00Z",
-      "active": true
+      "active": true,
+      "note": "Akamai HTTP 403 pro boty (i robots.txt) – jen WebSearch; official jen z jiného přímo přečteného oficiálního kanálu (test 2026-09-30 13:48Z)"
     },
     {
       "name": "GCAA UAE",
       "url": "https://www.gcaa.gov.ae",
       "type": "official",
-      "access": "webfetch",
+      "access": "websearch",
       "added_at": "2026-09-30T12:25:00Z",
       "active": true,
-      "note": "stát provozovatele/registrace"
+      "note": "stát provozovatele/registrace; stránka se načítá jen přes JavaScript (bez čitelného obsahu) – jen WebSearch (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Times of Israel",
@@ -87,16 +89,16 @@
       "access": "websearch",
       "added_at": "2026-09-30T13:30:00Z",
       "active": true,
-      "note": "izraelské zpravodajství k incidentu"
+      "note": "izraelské zpravodajství k incidentu; HTTP 403 pro automatické čtení – jen WebSearch (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Haaretz",
       "url": "https://www.haaretz.com",
       "type": "media",
-      "access": "websearch",
+      "access": "curl",
       "added_at": "2026-09-30T13:30:00Z",
       "active": true,
-      "note": "izraelský deník, pokrytí incidentu"
+      "note": "izraelský deník, pokrytí incidentu; přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Israel Hayom",
@@ -105,7 +107,7 @@
       "access": "websearch",
       "added_at": "2026-09-30T13:30:00Z",
       "active": true,
-      "note": "hebrejské pokrytí šetření"
+      "note": "hebrejské pokrytí šetření; bot challenge (HTTP 403) – jen WebSearch (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Kan News",
@@ -114,7 +116,7 @@
       "access": "websearch",
       "added_at": "2026-09-30T13:30:00Z",
       "active": true,
-      "note": "veřejnoprávní izraelské médium"
+      "note": "veřejnoprávní izraelské médium; bot challenge (HTTP 403) – jen WebSearch (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Al Arabiya",
@@ -123,52 +125,52 @@
       "access": "websearch",
       "added_at": "2026-09-30T13:30:00Z",
       "active": true,
-      "note": "arabské pokrytí, vyjádření letiště Tabuk"
+      "note": "arabské pokrytí, vyjádření letiště Tabuk; bot challenge (HTTP 403) – jen WebSearch (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Asharq News",
       "url": "https://asharq.com",
       "type": "media",
-      "access": "websearch",
+      "access": "curl",
       "added_at": "2026-09-30T13:30:00Z",
       "active": true,
-      "note": "arabské pokrytí, vyjádření letiště Tabuk"
+      "note": "arabské pokrytí, vyjádření letiště Tabuk; přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "AeroCorner",
       "url": "https://aerocorner.com",
       "type": "media",
-      "access": "websearch",
+      "access": "curl",
       "added_at": "2026-09-30T13:45:00Z",
       "active": true,
-      "note": "letecký web, rané shrnutí (u003)"
+      "note": "letecký web, rané shrnutí (u003); přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Euronews",
       "url": "https://www.euronews.com",
       "type": "media",
-      "access": "websearch",
+      "access": "curl",
       "added_at": "2026-09-30T13:45:00Z",
       "active": true,
-      "note": "evropské zpravodajství (u008)"
+      "note": "evropské zpravodajství (u008); přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "CNN",
       "url": "https://edition.cnn.com",
       "type": "media",
-      "access": "websearch",
+      "access": "curl",
       "added_at": "2026-09-30T13:45:00Z",
       "active": true,
-      "note": "live zpravodajství, cituje izraelské činitele (u011)"
+      "note": "live zpravodajství, cituje izraelské činitele (u011); přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "The Week (India)",
       "url": "https://www.theweek.in",
       "type": "media",
-      "access": "websearch",
+      "access": "curl",
       "added_at": "2026-09-30T13:45:00Z",
       "active": true,
-      "note": "indický pohled na národnost posádky (u012)"
+      "note": "indický pohled na národnost posádky (u012); přímé čtení přes fetch_source.py OK (test 2026-09-30 13:48Z)"
     },
     {
       "name": "Cedar News",
