@@ -13,12 +13,13 @@ Veřejný dashboard (GitHub Pages) sledující incident flydubai FZ1073 z 30. 9.
 
 ## Pravidla obsahu (závazná)
 - Veškerý text pro uživatele **česky**.
-- Buď kritický. Každý záznam má status:
-  - `official` – prohlášení dopravce, úřadu, vyšetřovacího orgánu
-  - `data` – primární data (ADS-B/FR24, METAR, NOTAM)
-  - `reported` – média, i když citují nejmenované představitele
-  - `unconfirmed` – jednotlivý zdroj, spekulace, vzájemně rozporné údaje
-- Status zvyšuj jen tehdy, když ho potvrdí oficiální zdroj. Mediální tvrzení nikdy neprezentuj jako fakt. Rozpory mezi zdroji výslovně uveď.
+- Monitoring informace **jen agreguje** – správce je ručně neověřuje. Status proto musí být konzervativní. **Při jakékoli pochybnosti = `unconfirmed`.**
+- Statusy:
+  - `official` – jen když byl text prohlášení dopravce/úřadu/vyšetřovacího orgánu **přímo přečten** na jeho oficiálním webu či účtu (WebFetch uspěl). Z výsledků vyhledávání nebo z citace v médiích nikdy `official`.
+  - `data` – primární data (ADS-B/FR24, METAR, NOTAM) **přímo přečtená** ze zdroje.
+  - `reported` – článek renomovaného média/agentury, jehož obsah je jasný (přímo přečten, nebo shodně ve výsledcích vyhledávání u ≥ 2 renomovaných médií). Tvrzení médií nikdy nepodávej jako fakt.
+  - `unconfirmed` – vše ostatní: jen úryvky z vyhledávání, jediný zdroj, agregátory, sociální sítě, spekulace, rozporné údaje, nedostupná stránka.
+- Status nikdy neodhaduj směrem nahoru. Zvýšit ho lze až novým záznamem, když se objeví přímo přečtený oficiální zdroj. Rozpory mezi zdroji výslovně uveď. Pokud stránka nebyla přímo přečtena, uveď to v textu („podle výsledků vyhledávání“).
 - Text záznamu: 1–3 věty **vlastními slovy**, bez delších citací (max. jedna krátká citace do 15 slov na zdroj).
 - Fotky a videa **nikdy nestahuj do repa**. Stránka zobrazuje náhled načtený přímo ze zdroje.
 - `thumb` = náhledový obrázek, který zdroj sám zveřejňuje: `og:image` / `twitter:image` stránky, přímá URL obrázku, nebo pro YouTube nic (web si náhled odvodí sám). Nic nevymýšlej. Když zdroj náhled nemá, `thumb` vynech.
