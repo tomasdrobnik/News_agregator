@@ -178,6 +178,42 @@
       "added_at": "2026-09-30T13:45:00Z",
       "active": false,
       "note": "agregátor – necitovat jako zdroj pro monitoring, jen historicky u u007"
+    },
+    {
+      "name": "X (tipy)",
+      "url": "https://x.com/",
+      "type": "social",
+      "access": "tip",
+      "added_at": "2026-09-30T13:53:00Z",
+      "active": true,
+      "note": "Sociální síť – jen tipy od správce přes data/inbox.json, automaticky se nemonitoruje (vyžaduje přihlášení). Příspěvek sám o sobě = unconfirmed."
+    },
+    {
+      "name": "Instagram (tipy)",
+      "url": "https://www.instagram.com/",
+      "type": "social",
+      "access": "tip",
+      "added_at": "2026-09-30T13:53:00Z",
+      "active": true,
+      "note": "Sociální síť – jen tipy od správce přes data/inbox.json, automaticky se nemonitoruje (vyžaduje přihlášení). Příspěvek sám o sobě = unconfirmed."
+    },
+    {
+      "name": "Facebook (tipy)",
+      "url": "https://www.facebook.com/",
+      "type": "social",
+      "access": "tip",
+      "added_at": "2026-09-30T13:53:00Z",
+      "active": true,
+      "note": "Sociální síť – jen tipy od správce přes data/inbox.json, automaticky se nemonitoruje (vyžaduje přihlášení). Příspěvek sám o sobě = unconfirmed."
+    },
+    {
+      "name": "Reddit (tipy)",
+      "url": "https://www.reddit.com/",
+      "type": "social",
+      "access": "tip",
+      "added_at": "2026-09-30T13:53:00Z",
+      "active": true,
+      "note": "Sociální síť – jen tipy od správce přes data/inbox.json, automaticky se nemonitoruje (vyžaduje přihlášení). Příspěvek sám o sobě = unconfirmed."
     }
   ]
 }

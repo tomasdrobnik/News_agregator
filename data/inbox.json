@@ -1,0 +1,10 @@
+{
+  "note": "Schránka tipů od správce. Do 'tips' vlož odkaz na příspěvek (X, Instagram, Facebook, Reddit, …). Rutina /check-fz1073 každý tip zpracuje a přesune do 'processed'.",
+  "tips": [],
+  "example": {
+    "url": "https://x.com/uzivatel/status/123",
+    "added_at": "2026-09-30T14:00:00Z",
+    "note": "volitelná poznámka"
+  },
+  "processed": []
+}

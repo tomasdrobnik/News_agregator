@@ -52,13 +52,21 @@ Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravd
 - `access: "websearch"` = web blokuje automatické čtení (AvHerald, ASN) → jen WebSearch.
 - Priorita: oficiální orgány (flydubai, GCAA UAE, GACA/AIB KSA, izraelské úřady) > agentury a renomovaná média > letecké weby > ostatní.
 
+**Tipy správce (sociální sítě):** X, Instagram, Facebook a Reddit se automaticky nemonitorují (vyžadují přihlášení; fóra a anonymní účty nejsou zdroj pro registr). Správce vkládá odkazy na příspěvky jiných lidí do `data/inbox.json` (`tips`); rutina je zpracuje a přesune do `processed`. Platformy jsou v registru jako `type: "social"`, `access: "tip"`. Příspěvek sám o sobě = `unconfirmed`; `source` je autor příspěvku, ne správce. Přístupové údaje ke svým účtům správce nikdy nesdílí.
+
 Nedostupné weby neobcházej (žádné curl, mirrory ani cache). Použij výsledky vyhledávání a v záznamu uveď, že obsah nebyl přímo čten.
+
+## Komunikace se správcem
+- Když je požadavek nejasný nebo chybí údaj potřebný pro správnou/bezpečnou odpověď, ptej se **interaktivně** (nástroj AskUserQuestion s volbami) a **vždy jen jednu otázku najednou**. Další otázku polož až po odpovědi. Otázky nevypisuj hromadně v textu.
+- Doporučenou volbu dej první a označ „(Recommended)“.
+- Fakta uváděj se zdrojem; co není ověřeno, výslovně označ jako názor.
 
 ## Rutina kontroly
 Příkaz `/check-fz1073` (viz `.claude/commands/check-fz1073.md`).
 
 ## Struktura
 - `index.html` – stránka se záložkami Aktualizace a Foto & video (agregace médií se sloučením duplicit a filtry typ/status/zdroj/nové); čte `data/updates.json` a každých 5 min kontroluje nové záznamy; stav „přečteno“ je v localStorage prohlížeče
+- `data/inbox.json` – schránka tipů od správce (odkazy na příspěvky ze sociálních sítí)
 - `data/sources.json` – registr monitorovaných zdrojů (rutina ho rozšiřuje)
 - `feed.xml`, `feed-sk.xml`, `feed-en.xml` – generované RSS pro každý jazyk, needituj ručně
 - `config.json` – `site_url` pro RSS (nastav na skutečnou adresu GitHub Pages)
