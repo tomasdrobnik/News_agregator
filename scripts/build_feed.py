@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate data/updates.json and regenerate feed.xml, feed-sk.xml, feed-en.xml (RSS 2.0).
+"""Validate data/updates.json (+ data/inbox.json) and regenerate feed.xml, feed-sk.xml, feed-en.xml (RSS 2.0).
 
 Usage:  python3 scripts/build_feed.py
 Reads site URL from config.json ("site_url"). Exits non-zero on invalid data,
@@ -16,6 +16,7 @@ from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "updates.json"
+INBOX = ROOT / "data" / "inbox.json"
 FEEDS = {"cs": ROOT / "feed.xml", "sk": ROOT / "feed-sk.xml", "en": ROOT / "feed-en.xml"}
 CONFIG = ROOT / "config.json"
 
@@ -122,6 +123,59 @@ def validate(doc):
     return errors
 
 
+def validate_inbox(ids):
+    """Vrátí (errors, warnings) pro data/inbox.json (tipy správce). Chybějící soubor = OK."""
+    if not INBOX.exists():
+        return [], []
+    try:
+        doc = json.loads(INBOX.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        return [f"inbox.json: neplatný JSON na řádku {e.lineno}, sloupci {e.colno} ({e.msg})"], []
+    errors, warnings = [], []
+    tips, processed = doc.get("tips", []), doc.get("processed", [])
+    if not isinstance(tips, list) or not isinstance(processed, list):
+        return ["inbox.json: 'tips' i 'processed' musí být seznamy [ ]"], []
+
+    def norm(u):
+        return str(u).strip().rstrip("/").lower()
+
+    done = {}
+    for i, p in enumerate(processed):
+        if not isinstance(p, dict) or not str(p.get("url", "")).startswith("http"):
+            errors.append(f"inbox processed[{i}]: chybí platné 'url'")
+            continue
+        try:
+            parse(p.get("processed_at") or "")
+        except ValueError:
+            errors.append(f"inbox processed[{i}]: neplatné 'processed_at' ({p.get('processed_at')})")
+        r = str(p.get("result", ""))
+        if re.fullmatch(r"u\d{3}", r):
+            if r not in ids:
+                errors.append(f"inbox processed[{i}]: result '{r}' neodkazuje na existující záznam")
+        elif not r.startswith("zamítnuto"):
+            errors.append(f"inbox processed[{i}]: result musí být id záznamu (u0xx) nebo 'zamítnuto: důvod'")
+        done[norm(p["url"])] = r
+
+    seen = set()
+    for i, t in enumerate(tips):
+        url = t if isinstance(t, str) else t.get("url") if isinstance(t, dict) else None
+        if not str(url or "").startswith("http"):
+            errors.append(f"inbox tips[{i}]: tip musí být odkaz \"https://…\" nebo objekt s 'url'")
+            continue
+        if isinstance(t, dict) and t.get("added_at"):
+            try:
+                parse(t["added_at"])
+            except ValueError:
+                errors.append(f"inbox tips[{i}]: neplatné 'added_at' ({t['added_at']})")
+        k = norm(url)
+        if k in seen:
+            warnings.append(f"inbox tips[{i}]: stejný odkaz je v tipech vícekrát ({url})")
+        if k in done:
+            warnings.append(f"inbox tips[{i}]: odkaz už byl zpracován ({done[k]}): {url}")
+        seen.add(k)
+    return errors, warnings
+
+
 def main():
     cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
     site = cfg["site_url"].rstrip("/") + "/"
@@ -129,7 +183,9 @@ def main():
     errors = validate(doc)
     dup_err, dup_warn = duplicates(doc)
     errors += dup_err
-    for w in dup_warn:
+    inbox_err, inbox_warn = validate_inbox({u.get("id") for u in doc.get("updates", [])})
+    errors += inbox_err
+    for w in dup_warn + inbox_warn:
         print("Upozornění: " + w, file=sys.stderr)
     if errors:
         print("Neplatná data:\n  " + "\n  ".join(errors), file=sys.stderr)
