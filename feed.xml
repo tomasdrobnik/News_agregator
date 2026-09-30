@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 30 Sep 2026 20:10:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 22:10:46 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Al Jazeera: časová osa FZ1073, útok na let zatím nepotvrzen nezávisle</title>
+      <link>https://www.aljazeera.com/news/2026/9/30/flydubai-fz1073-timeline-how-the-israel-bound-flight-emergency-unfolded</link>
+      <guid isPermaLink="false">fz1073-u024</guid>
+      <pubDate>Wed, 30 Sep 2026 22:10:46 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle Al Jazeery (přímo přečteno) začaly nezvyklé manévry v 05:21Z, squawk 7700 v 05:28Z a 7500 v 05:35Z, přistání v Tabuku v 06:45Z. Tvrzení Netanjahua o bodnutí pilota a pokusu o zřícení letadla médium označuje za nezávisle nepotvrzené, stejně jako ománskou národnost druhého pilota. Časy squawků se mírně liší od jiných zdrojů (05:31Z / 05:38Z) a opozice (Lapid) zpochybňuje politické využití incidentu. (Zdroj: Al Jazeera)</description>
+    </item>
+    <item>
+      <title>[Oficiální] flydubai (oficiální web): roztržka v kokpitu a pozastavení letů do Izraele</title>
+      <link>https://news.flydubai.com/updates-on-fz-1073-dxb-tlv-on-30-september-2026</link>
+      <guid isPermaLink="false">fz1073-u023</guid>
+      <pubDate>Wed, 30 Sep 2026 22:10:46 +0000</pubDate>
+      <category>Oficiální</category>
+      <description>[Oficiální] Na oficiálním webu flydubai (přímo přečteno) jsou tři prohlášení: letadlo bezpečně přistálo v Tabuku, v kokpitu došlo k roztržce, kterou posádka zvládla, a všichni cestující i posádka jsou v pořádku. Dopravce v koordinaci s úřady pozastavuje lety do a z Izraele po dobu šetření. Potvrzuje tím dříve hlášené (u010, u022); příčinu ani totožnost osob neuvádí. (Zdroj: flydubai News)</description>
+    </item>
     <item>
       <title>[Neověřeno] flydubai dočasně pozastavuje všechny lety do a z Izraele</title>
       <link>https://www.dubaieye1038.com/news/local/flydubai-suspends-israel-flights-amid-fz1073-incident-investigation/</link>

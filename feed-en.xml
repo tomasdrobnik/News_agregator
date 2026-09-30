@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 20:10:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 22:10:46 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Al Jazeera: FZ1073 timeline, attack claim not independently confirmed</title>
+      <link>https://www.aljazeera.com/news/2026/9/30/flydubai-fz1073-timeline-how-the-israel-bound-flight-emergency-unfolded</link>
+      <guid isPermaLink="false">fz1073-u024</guid>
+      <pubDate>Wed, 30 Sep 2026 22:10:46 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Al Jazeera (read directly), unusual manoeuvres began at 05:21Z, squawk 7700 at 05:28Z and 7500 at 05:35Z, landing in Tabuk at 06:45Z. The outlet describes Netanyahu's claim of a pilot stabbing and attempt to crash the aircraft as not independently confirmed, as is the Omani nationality of the other pilot. Squawk times differ slightly from other sources (05:31Z / 05:38Z), and the opposition (Lapid) questions political use of the incident. (Source: Al Jazeera)</description>
+    </item>
+    <item>
+      <title>[Official] flydubai (official site): cockpit altercation and suspension of Israel flights</title>
+      <link>https://news.flydubai.com/updates-on-fz-1073-dxb-tlv-on-30-september-2026</link>
+      <guid isPermaLink="false">fz1073-u023</guid>
+      <pubDate>Wed, 30 Sep 2026 22:10:46 +0000</pubDate>
+      <category>Official</category>
+      <description>[Official] The flydubai official website (read directly) carries three statements: the aircraft landed safely in Tabuk, an altercation occurred in the flight deck and was contained by the crew, and all passengers and crew are safe. The carrier is suspending flights to and from Israel in coordination with authorities while the investigation continues. This confirms earlier reports (u010, u022); it gives no cause or identities. (Source: flydubai News)</description>
+    </item>
     <item>
       <title>[Unconfirmed] flydubai temporarily suspends all flights to and from Israel</title>
       <link>https://www.dubaieye1038.com/news/local/flydubai-suspends-israel-flights-amid-fz1073-incident-investigation/</link>

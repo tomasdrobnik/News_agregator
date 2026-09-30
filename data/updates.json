@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T20:10:59Z",
-    "next_check": "2026-09-30T21:10:59Z",
-    "new_count": 1
+    "last_check": "2026-09-30T22:10:46Z",
+    "next_check": "2026-09-30T23:10:46Z",
+    "new_count": 2
   },
   "updates": [
     {
@@ -643,6 +643,48 @@
         "en": {
           "title": "flydubai temporarily suspends all flights to and from Israel",
           "text": "According to a Dubai Eye article (read directly; the flydubai statement on its own website has not yet been read directly), the carrier temporarily suspended all flights to and from Israel in coordination with the relevant authorities so the FZ1073 investigation can continue. It apologised to affected passengers and said it would review the suspension as more information emerges."
+        }
+      }
+    },
+    {
+      "id": "u023",
+      "found_at": "2026-09-30T22:10:46Z",
+      "published_at": null,
+      "source": "flydubai News",
+      "url": "https://news.flydubai.com/updates-on-fz-1073-dxb-tlv-on-30-september-2026",
+      "title": "flydubai (oficiální web): roztržka v kokpitu a pozastavení letů do Izraele",
+      "text": "Na oficiálním webu flydubai (přímo přečteno) jsou tři prohlášení: letadlo bezpečně přistálo v Tabuku, v kokpitu došlo k roztržce, kterou posádka zvládla, a všichni cestující i posádka jsou v pořádku. Dopravce v koordinaci s úřady pozastavuje lety do a z Izraele po dobu šetření. Potvrzuje tím dříve hlášené (u010, u022); příčinu ani totožnost osob neuvádí.",
+      "status": "official",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "flydubai (oficiálny web): roztržka v kokpite a pozastavenie letov do Izraela",
+          "text": "Na oficiálnom webe flydubai (priamo prečítané) sú tri vyhlásenia: lietadlo bezpečne pristálo v Tabuku, v kokpite došlo k roztržke, ktorú posádka zvládla, a všetci cestujúci aj posádka sú v poriadku. Dopravca v koordinácii s úradmi pozastavuje lety do a z Izraela počas šetrenia. Potvrdzuje tým skôr hlásené (u010, u022); príčinu ani totožnosť osôb neuvádza."
+        },
+        "en": {
+          "title": "flydubai (official site): cockpit altercation and suspension of Israel flights",
+          "text": "The flydubai official website (read directly) carries three statements: the aircraft landed safely in Tabuk, an altercation occurred in the flight deck and was contained by the crew, and all passengers and crew are safe. The carrier is suspending flights to and from Israel in coordination with authorities while the investigation continues. This confirms earlier reports (u010, u022); it gives no cause or identities."
+        }
+      }
+    },
+    {
+      "id": "u024",
+      "found_at": "2026-09-30T22:10:46Z",
+      "published_at": null,
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/30/flydubai-fz1073-timeline-how-the-israel-bound-flight-emergency-unfolded",
+      "title": "Al Jazeera: časová osa FZ1073, útok na let zatím nepotvrzen nezávisle",
+      "text": "Podle Al Jazeery (přímo přečteno) začaly nezvyklé manévry v 05:21Z, squawk 7700 v 05:28Z a 7500 v 05:35Z, přistání v Tabuku v 06:45Z. Tvrzení Netanjahua o bodnutí pilota a pokusu o zřícení letadla médium označuje za nezávisle nepotvrzené, stejně jako ománskou národnost druhého pilota. Časy squawků se mírně liší od jiných zdrojů (05:31Z / 05:38Z) a opozice (Lapid) zpochybňuje politické využití incidentu.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Al Jazeera: časová os FZ1073, útok na let zatiaľ nepotvrdený nezávisle",
+          "text": "Podľa Al Jazeery (priamo prečítané) sa nezvyčajné manévre začali o 05:21Z, squawk 7700 o 05:28Z a 7500 o 05:35Z, pristátie v Tabuku o 06:45Z. Tvrdenie Netanjahua o bodnutí pilota a pokuse o zrútenie lietadla médium označuje za nezávisle nepotvrdené, rovnako ako ománsku národnosť druhého pilota. Časy squawkov sa mierne líšia od iných zdrojov (05:31Z / 05:38Z) a opozícia (Lapid) spochybňuje politické využitie incidentu."
+        },
+        "en": {
+          "title": "Al Jazeera: FZ1073 timeline, attack claim not independently confirmed",
+          "text": "According to Al Jazeera (read directly), unusual manoeuvres began at 05:21Z, squawk 7700 at 05:28Z and 7500 at 05:35Z, landing in Tabuk at 06:45Z. The outlet describes Netanyahu's claim of a pilot stabbing and attempt to crash the aircraft as not independently confirmed, as is the Omani nationality of the other pilot. Squawk times differ slightly from other sources (05:31Z / 05:38Z), and the opposition (Lapid) questions political use of the incident."
         }
       }
     }

@@ -306,6 +306,24 @@
       "added_at": "2026-09-30T20:10:59Z",
       "active": true,
       "note": "Dubajské zpravodajské rádio; přenáší prohlášení flydubai (pozastavení letů do Izraele)."
+    },
+    {
+      "name": "flydubai News (news.flydubai.com)",
+      "url": "https://news.flydubai.com",
+      "type": "official",
+      "access": "webfetch",
+      "added_at": "2026-09-30T22:10:46Z",
+      "active": true,
+      "note": "Oficiální zpravodajský web flydubai s prohlášeními k FZ1073; přímé čtení přes WebFetch uspělo."
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-09-30T22:10:46Z",
+      "active": true,
+      "note": "Renomovaná média; časová osa FZ1073, výslovně odlišuje neověřená tvrzení. Přímé čtení přes WebFetch uspělo."
     }
   ]
 }
