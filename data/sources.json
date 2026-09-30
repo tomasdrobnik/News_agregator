@@ -133,6 +133,51 @@
       "added_at": "2026-09-30T13:30:00Z",
       "active": true,
       "note": "arabské pokrytí, vyjádření letiště Tabuk"
+    },
+    {
+      "name": "AeroCorner",
+      "url": "https://aerocorner.com",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-09-30T13:45:00Z",
+      "active": true,
+      "note": "letecký web, rané shrnutí (u003)"
+    },
+    {
+      "name": "Euronews",
+      "url": "https://www.euronews.com",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-09-30T13:45:00Z",
+      "active": true,
+      "note": "evropské zpravodajství (u008)"
+    },
+    {
+      "name": "CNN",
+      "url": "https://edition.cnn.com",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-09-30T13:45:00Z",
+      "active": true,
+      "note": "live zpravodajství, cituje izraelské činitele (u011)"
+    },
+    {
+      "name": "The Week (India)",
+      "url": "https://www.theweek.in",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-09-30T13:45:00Z",
+      "active": true,
+      "note": "indický pohled na národnost posádky (u012)"
+    },
+    {
+      "name": "Cedar News",
+      "url": "https://cedarnews.net",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-09-30T13:45:00Z",
+      "active": false,
+      "note": "agregátor – necitovat jako zdroj pro monitoring, jen historicky u u007"
     }
   ]
 }

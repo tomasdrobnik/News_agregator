@@ -47,7 +47,7 @@ Veřejný dashboard (GitHub Pages) sledující incident flydubai FZ1073 z 30. 9.
 - Po každé změně spusť `python3 scripts/build_feed.py`. Validuje data a přegeneruje `feed.xml`, `feed-sk.xml`, `feed-en.xml` (upozorní na chybějící překlady). Při chybě necommituj.
 
 ## Zdroje
-Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravdy). Každá kontrola projde všechny aktivní zdroje a hledá na webu další důvěryhodné zdroje; nové do registru přidá a od další kontroly je sleduje. Zdroje se nemažou, jen deaktivují (`active: false` + důvod).
+Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravdy). Každá kontrola projde všechny aktivní zdroje a hledá na webu další důvěryhodné zdroje; nové do registru přidá a od další kontroly je sleduje. Zdroje se nemažou, jen deaktivují (`active: false` + důvod). Každý web citovaný v záznamu (`url`) musí být v registru – web ho zobrazuje v záložce Zdroje.
 
 - `access: "websearch"` = web blokuje automatické čtení (AvHerald, ASN) → jen WebSearch.
 - Priorita: oficiální orgány (flydubai, GCAA UAE, GACA/AIB KSA, izraelské úřady) > agentury a renomovaná média > letecké weby > ostatní.

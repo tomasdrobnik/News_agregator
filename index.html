@@ -79,7 +79,18 @@ select{font:inherit;font-size:.82rem;padding:4px 6px;border:1px solid var(--line
 .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
 .mcard{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:12px 14px;display:grid;gap:6px;align-content:start;min-width:0}
 .mcard:hover{background:var(--strip)}
-.mcard.unread{box-shadow:0 0 0 2px var(--accent) inset}
+.mcard.unread{box-shadow:0 0 0 2px var(--accent) inset;background:var(--accent-bg)}
+.mcard.viewed{opacity:.78}
+.srcs{display:grid;gap:8px}
+.src{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:4px;padding:10px 14px;display:grid;gap:4px;min-width:0}
+.src.t-official{border-left-color:var(--ok)} .src.t-data{border-left-color:var(--accent)} .src.t-media{border-left-color:var(--warn)} .src.t-database{border-left-color:var(--muted)}
+.src.off{opacity:.6}
+.src h3{margin:0;font-size:1rem;font-weight:600;overflow-wrap:anywhere}
+.src-meta{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;font-size:.8rem;color:var(--muted)}
+.src p{margin:0;font-size:.85rem;color:var(--muted);overflow-wrap:anywhere}
+.mfoot{display:flex;justify-content:flex-end}
+.mfoot button{position:relative;z-index:2}
+.seen[aria-pressed="true"]{color:var(--ok);border-color:var(--ok)}
 .mhead{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .mtype{font-family:var(--f-disp);font-weight:700;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:3px;border:1px solid var(--line)}
 .mtype.video{background:var(--fg);color:var(--panel);border-color:var(--fg)}
@@ -115,6 +126,7 @@ select{font:inherit;font-size:.82rem;padding:4px 6px;border:1px solid var(--line
   <nav class="tabs" role="tablist" aria-label="Sekce" data-i18n-aria="sections">
     <button type="button" role="tab" id="tab-u" data-tab="aktualizace" aria-selected="true" aria-controls="p-u"><span data-i18n="tabUpdates">Aktualizace</span><span class="count" id="t-u"></span></button>
     <button type="button" role="tab" id="tab-m" data-tab="media" aria-selected="false" aria-controls="p-m"><span data-i18n="tabMedia">Foto &amp; video</span><span class="count" id="t-m"></span></button>
+    <button type="button" role="tab" id="tab-s" data-tab="zdroje" aria-selected="false" aria-controls="p-s"><span data-i18n="tabSources">Zdroje</span><span class="count" id="t-s"></span></button>
   </nav>
 
   <section id="p-u" role="tabpanel" aria-labelledby="tab-u" class="panel-sec">
@@ -130,7 +142,7 @@ select{font:inherit;font-size:.82rem;padding:4px 6px;border:1px solid var(--line
       <button type="button" id="ack-all" hidden data-i18n="ackAll">Označit vše jako přečtené</button>
     </div>
     <div class="feed" id="feed"><div class="empty" data-i18n="loadingUpdates">Načítám aktualizace…</div></div>
-    <p class="note" data-i18n="note">Kliknutím na záznam otevřete zdroj. Stav „přečteno“ se ukládá jen v tomto prohlížeči. Stránka se sama kontroluje každých 5 minut.</p>
+    <p class="note" data-i18n="note">Kliknutím na záznam otevřete zdroj. Stav „přečteno“ / „zhlédnuto“ se ukládá jen v tomto prohlížeči. Stránka se sama kontroluje každých 5 minut.</p>
   </section>
 
   <section id="p-m" role="tabpanel" aria-labelledby="tab-m" class="panel-sec" hidden>
@@ -146,35 +158,50 @@ select{font:inherit;font-size:.82rem;padding:4px 6px;border:1px solid var(--line
         <label for="m-source" data-i18n="source">Zdroj</label>
         <select id="m-source"><option value="all">Vše</option></select>
         <label class="chk" for="m-new"><input type="checkbox" id="m-new"> <span data-i18n="onlyNew">jen nové</span></label>
+        <button type="button" id="seen-all" hidden data-i18n="seenAll">Označit vše jako zhlédnuté</button>
       </div>
     </div>
     <div class="gallery" id="gallery"><div class="empty" data-i18n="loading">Načítám…</div></div>
     <p class="note" id="m-note">Náhledy se načítají přímo ze zdrojů. Stejné médium uvedené ve více záznamech se zobrazí jednou.</p>
+  </section>
+
+  <section id="p-s" role="tabpanel" aria-labelledby="tab-s" class="panel-sec" hidden>
+    <div class="bar">
+      <div class="filters" role="group" aria-label="Typ zdroje" data-i18n-aria="srcType">
+        <button type="button" data-s="all" aria-pressed="true"><span data-i18n="all">Vše</span><span class="count" id="s-n-all"></span></button>
+        <button type="button" data-s="official" aria-pressed="false"><span data-i18n="sOfficial">Oficiální</span><span class="count" id="s-n-official"></span></button>
+        <button type="button" data-s="data" aria-pressed="false"><span data-i18n="data">Data</span><span class="count" id="s-n-data"></span></button>
+        <button type="button" data-s="media" aria-pressed="false"><span data-i18n="sMedia">Média</span><span class="count" id="s-n-media"></span></button>
+        <button type="button" data-s="database" aria-pressed="false"><span data-i18n="sDatabase">Databáze</span><span class="count" id="s-n-database"></span></button>
+      </div>
+    </div>
+    <div class="srcs" id="srcs"><div class="empty" data-i18n="loading">Načítám…</div></div>
+    <p class="note" data-i18n="srcNote">Seznam zdrojů, které monitoring pravidelně kontroluje. Nově nalezené důvěryhodné zdroje se přidávají automaticky.</p>
   </section>
 </div>
 
 <script>
 const TZ="Europe/Bratislava", KEY="fz1073.read", LKEY="fz1073.lang", POLL=5*60*1000;
 const I18N={
- cs:{loc:"cs-CZ",loading:"Načítám…",loadingUpdates:"Načítám aktualizace…",rss:"RSS odběr",disclaimer:"Souhrn veřejných zdrojů. Záznamy označené „Média“ a „Neověřeno“ nejsou oficiálně potvrzené. Nejde o oficiální informace dopravce ani úřadů.",
+ cs:{tabSources:"Zdroje",srcType:"Typ zdroje",sOfficial:"Oficiální",sMedia:"Média",sDatabase:"Databáze",direct:"přímé čtení",searchOnly:"jen přes vyhledávání",inactive:"neaktivní",addedAt:"přidáno",entriesN:n=>`${n} ${n===1?"záznam":n>1&&n<5?"záznamy":"záznamů"}`,noSrc:"Pro tento filtr žádné zdroje.",srcNote:"Seznam zdrojů, které monitoring pravidelně kontroluje. Nově nalezené důvěryhodné zdroje se přidávají automaticky. Poznámky ke zdrojům jsou česky.",markSeen:"Označit jako zhlédnuté",seen:"✓ Zhlédnuto",seenAll:"Označit vše jako zhlédnuté",loc:"cs-CZ",loading:"Načítám…",loadingUpdates:"Načítám aktualizace…",rss:"RSS odběr",disclaimer:"Souhrn veřejných zdrojů. Záznamy označené „Média“ a „Neověřeno“ nejsou oficiálně potvrzené. Nejde o oficiální informace dopravce ani úřadů.",
   showNew:"Zobrazit nové",sections:"Sekce",tabUpdates:"Aktualizace",tabMedia:"Foto & video",filterUpdates:"Filtr aktualizací",fNew:"Nové",all:"Vše",official:"Oficiální",data:"Data",reported:"Média",unconfirmed:"Neověřeno",
-  ackAll:"Označit vše jako přečtené",note:"Kliknutím na záznam otevřete zdroj. Stav „přečteno“ se ukládá jen v tomto prohlížeči. Stránka se sama kontroluje každých 5 minut.",mediaType:"Typ média",photo:"Foto",video:"Video",status:"Status",source:"Zdroj",onlyNew:"jen nové",
+  ackAll:"Označit vše jako přečtené",note:"Kliknutím na záznam otevřete zdroj. Stav „přečteno“ / „zhlédnuto“ se ukládá jen v tomto prohlížeči. Stránka se sama kontroluje každých 5 minut.",mediaType:"Typ média",photo:"Foto",video:"Video",status:"Status",source:"Zdroj",onlyNew:"jen nové",
   noDate:"datum neuvedeno",link:"odkaz",noThumb:"náhled není k dispozici",thumbFail:"zdroj náhled neposkytl",noAuthor:"autor ve zdroji neuveden",src:"Zdroj",newTag:"Nové",timesIn:n=>`${n}× v záznamech`,first:"poprvé",also:"Též",toEntry:"K záznamu",
   mNote:n=>`Náhledy se načítají přímo ze zdrojů, stránka je neukládá. Autorská práva náleží uvedeným autorům a zdrojům. Sloučené duplicity: ${n}.`,noMedia:"Pro zvolený filtr žádné foto ani video.",
   noUnread:"Žádné nepřečtené aktualizace.",noFilter:"Pro tento filtr zatím nic.",found:"zjištěno",publ:"publ.",read:"✓ Přečteno",ack:"Potvrdit přečtení",
   added:n=>`Přibylo ${n} ${n===1?"nová aktualizace":n<5?"nové aktualizace":"nových aktualizací"}.`,lastCheck:"Poslední kontrola zdrojů",loadFail:"Data se nepodařilo načíst. Zkusím to znovu za 5 minut.",noData:"Data nejsou dostupná.",
   notifTitle:n=>`FZ1073: ${n===1?"nová aktualizace":n+" nové aktualizace"}`,notifOn:"🔔 Upozornění zapnuta",notifBlocked:"Upozornění zablokována v prohlížeči",notifEnable:"Zapnout upozornění",fallback:"CZ",fallbackTitle:"Překlad zatím není k dispozici"},
- sk:{loc:"sk-SK",loading:"Načítavam…",loadingUpdates:"Načítavam aktualizácie…",rss:"RSS odber",disclaimer:"Súhrn verejných zdrojov. Záznamy označené „Médiá“ a „Neoverené“ nie sú oficiálne potvrdené. Nejde o oficiálne informácie dopravcu ani úradov.",
+ sk:{tabSources:"Zdroje",srcType:"Typ zdroja",sOfficial:"Oficiálne",sMedia:"Médiá",sDatabase:"Databázy",direct:"priame čítanie",searchOnly:"len cez vyhľadávanie",inactive:"neaktívny",addedAt:"pridané",entriesN:n=>`${n} ${n===1?"záznam":n>1&&n<5?"záznamy":"záznamov"}`,noSrc:"Pre tento filter žiadne zdroje.",srcNote:"Zoznam zdrojov, ktoré monitoring pravidelne kontroluje. Novo nájdené dôveryhodné zdroje sa pridávajú automaticky. Poznámky k zdrojom sú v češtine.",markSeen:"Označiť ako videné",seen:"✓ Videné",seenAll:"Označiť všetko ako videné",loc:"sk-SK",loading:"Načítavam…",loadingUpdates:"Načítavam aktualizácie…",rss:"RSS odber",disclaimer:"Súhrn verejných zdrojov. Záznamy označené „Médiá“ a „Neoverené“ nie sú oficiálne potvrdené. Nejde o oficiálne informácie dopravcu ani úradov.",
   showNew:"Zobraziť nové",sections:"Sekcie",tabUpdates:"Aktualizácie",tabMedia:"Foto a video",filterUpdates:"Filter aktualizácií",fNew:"Nové",all:"Všetko",official:"Oficiálne",data:"Dáta",reported:"Médiá",unconfirmed:"Neoverené",
-  ackAll:"Označiť všetko ako prečítané",note:"Kliknutím na záznam otvoríte zdroj. Stav „prečítané“ sa ukladá len v tomto prehliadači. Stránka sa sama kontroluje každých 5 minút.",mediaType:"Typ média",photo:"Foto",video:"Video",status:"Status",source:"Zdroj",onlyNew:"len nové",
+  ackAll:"Označiť všetko ako prečítané",note:"Kliknutím na záznam otvoríte zdroj. Stav „prečítané“ / „videné“ sa ukladá len v tomto prehliadači. Stránka sa sama kontroluje každých 5 minút.",mediaType:"Typ média",photo:"Foto",video:"Video",status:"Status",source:"Zdroj",onlyNew:"len nové",
   noDate:"dátum neuvedený",link:"odkaz",noThumb:"náhľad nie je k dispozícii",thumbFail:"zdroj náhľad neposkytol",noAuthor:"autor v zdroji neuvedený",src:"Zdroj",newTag:"Nové",timesIn:n=>`${n}× v záznamoch`,first:"prvýkrát",also:"Aj",toEntry:"K záznamu",
   mNote:n=>`Náhľady sa načítavajú priamo zo zdrojov, stránka ich neukladá. Autorské práva patria uvedeným autorom a zdrojom. Zlúčené duplicity: ${n}.`,noMedia:"Pre zvolený filter žiadne foto ani video.",
   noUnread:"Žiadne neprečítané aktualizácie.",noFilter:"Pre tento filter zatiaľ nič.",found:"zistené",publ:"publ.",read:"✓ Prečítané",ack:"Potvrdiť prečítanie",
   added:n=>`Pribudl${n===1?"a":"o"} ${n} ${n===1?"nová aktualizácia":n<5?"nové aktualizácie":"nových aktualizácií"}.`,lastCheck:"Posledná kontrola zdrojov",loadFail:"Dáta sa nepodarilo načítať. Skúsim to znova o 5 minút.",noData:"Dáta nie sú dostupné.",
   notifTitle:n=>`FZ1073: ${n===1?"nová aktualizácia":n+" nové aktualizácie"}`,notifOn:"🔔 Upozornenia zapnuté",notifBlocked:"Upozornenia zablokované v prehliadači",notifEnable:"Zapnúť upozornenia",fallback:"CZ",fallbackTitle:"Preklad zatiaľ nie je k dispozícii"},
- en:{loc:"en-GB",loading:"Loading…",loadingUpdates:"Loading updates…",rss:"RSS feed",disclaimer:"Summary of public sources. Entries labelled “Media” and “Unconfirmed” are not officially confirmed. This is not official information from the airline or authorities.",
+ en:{tabSources:"Sources",srcType:"Source type",sOfficial:"Official",sMedia:"Media",sDatabase:"Databases",direct:"read directly",searchOnly:"search only",inactive:"inactive",addedAt:"added",entriesN:n=>`${n} entr${n===1?"y":"ies"}`,noSrc:"No sources for this filter.",srcNote:"Sources the monitor checks regularly. Newly found credible sources are added automatically. Source notes are in Czech.",markSeen:"Mark as viewed",seen:"✓ Viewed",seenAll:"Mark all as viewed",loc:"en-GB",loading:"Loading…",loadingUpdates:"Loading updates…",rss:"RSS feed",disclaimer:"Summary of public sources. Entries labelled “Media” and “Unconfirmed” are not officially confirmed. This is not official information from the airline or authorities.",
   showNew:"Show new",sections:"Sections",tabUpdates:"Updates",tabMedia:"Photo & video",filterUpdates:"Update filter",fNew:"New",all:"All",official:"Official",data:"Data",reported:"Media",unconfirmed:"Unconfirmed",
-  ackAll:"Mark all as read",note:"Click an entry to open its source. Read status is stored only in this browser. The page checks for updates every 5 minutes.",mediaType:"Media type",photo:"Photo",video:"Video",status:"Status",source:"Source",onlyNew:"new only",
+  ackAll:"Mark all as read",note:"Click an entry to open its source. Read and viewed status is stored only in this browser. The page checks for updates every 5 minutes.",mediaType:"Media type",photo:"Photo",video:"Video",status:"Status",source:"Source",onlyNew:"new only",
   noDate:"date not given",link:"link",noThumb:"no preview available",thumbFail:"source provides no preview",noAuthor:"author not named in source",src:"Source",newTag:"New",timesIn:n=>`in ${n} entries`,first:"first seen",also:"Also",toEntry:"Entry",
   mNote:n=>`Previews load directly from the sources; this page does not store them. Copyright belongs to the credited authors and sources. Merged duplicates: ${n}.`,noMedia:"No photos or videos for this filter.",
   noUnread:"No unread updates.",noFilter:"Nothing for this filter yet.",found:"found",publ:"publ.",read:"✓ Read",ack:"Mark as read",
@@ -196,7 +223,11 @@ const esc=(s)=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":
 const CLS={official:"c-ok",reported:"c-warn",unconfirmed:"c-crit",data:"c-info"};
 const lbl=s=>[t(CLS[s]?s:"reported"),CLS[s]||CLS.reported];
 const load=()=>{try{return new Set(JSON.parse(localStorage.getItem(KEY)||"[]"))}catch(e){return new Set()}};
+const MKEY="fz1073.mviewed";
+const loadM=()=>{try{return new Set(JSON.parse(localStorage.getItem(MKEY)||"[]"))}catch(e){return new Set()}};
+const storeM=()=>{try{localStorage.setItem(MKEY,JSON.stringify([...viewedSet]))}catch(e){}};
 const store=()=>{try{localStorage.setItem(KEY,JSON.stringify([...readSet]))}catch(e){}};
+let viewedSet=loadM(), sources=[], sType="all";
 let items=[],filter="new",readSet=load(),known=null,lastCheck=null,loadErr=false;
 let mType="all",mStatus="all",mSource="all",mNew=false,media=[];
 const RANK={official:4,data:3,reported:2,unconfirmed:1};
@@ -245,7 +276,7 @@ function aggregateMedia(){
 }
 function renderMedia(){
   const dups=aggregateMedia();
-  const isNew=e=>e.refs.every(r=>!readSet.has(r.id));
+  const isNew=e=>!viewedSet.has(e.key);
   const srcSel=document.getElementById("m-source"), cur=srcSel.value;
   const srcs=[...new Set(media.flatMap(e=>[...e.sources]))].sort((a,b)=>a.localeCompare(b,lang));
   srcSel.innerHTML=`<option value="all">${esc(t("all"))}</option>`+srcs.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join("");
@@ -254,7 +285,9 @@ function renderMedia(){
   document.getElementById("m-n-all").textContent=base.length;
   document.getElementById("m-n-photo").textContent=base.filter(e=>e.type==="photo").length;
   document.getElementById("m-n-video").textContent=base.filter(e=>e.type==="video").length;
-  document.getElementById("t-m").textContent=media.length;
+  const unseen=media.filter(isNew).length;
+  document.getElementById("t-m").textContent=unseen||"";
+  document.getElementById("seen-all").hidden=!unseen;
   document.getElementById("m-note").textContent=t("mNote",dups);
   const list=base.filter(e=>mType==="all"||e.type===mType);
   const g=document.getElementById("gallery");
@@ -265,22 +298,39 @@ function renderMedia(){
     const cap=e.captions[0]||host||t("link");
     const ph=`<div class="ph"><span>${e.type==="video"?"▶":"◻"}</span><span>${esc(host)}</span><span class="ph-note">${esc(t("noThumb"))}</span></div>`;
     const cite=`<figcaption class="cite">${e.type==="video"?t("video"):t("photo")}: ${esc(e.credit||t("noAuthor"))}<br>${esc(t("src"))}: <a href="${esc(e.citeUrl)}" target="_blank" rel="noopener">${esc(e.citeName)}</a>, <span class="mono">${fmtDate(e.citeDate)}</span></figcaption>`;
-    return `<article class="mcard${fresh?" unread":""}">
+    return `<article class="mcard ${fresh?"unread":"viewed"}">
       <figure class="fig"><div class="thumb${e.type==="video"?" is-video":""}">${e.thumb?`<img src="${esc(e.thumb)}" alt="${esc(cap)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:ph}${e.type==="video"&&e.thumb?'<span class="play" aria-hidden="true">▶</span>':""}</div>${cite}</figure>
       <div class="mhead"><span class="mtype ${e.type}">${e.type==="video"?"▶ "+t("video"):t("photo")}</span><span class="tag ${c}">${l}</span>${fresh?`<span class="tag new">${t("newTag")}</span>`:""}${e.refs.length>1?`<span class="dup">${t("timesIn",e.refs.length)}</span>`:""}</div>
       <h3><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(cap)}</a></h3>
       <div class="mmeta"><span>${esc(host)} · ${esc([...e.sources].join(", "))}</span><span class="mono">${t("first")} ${fmt(e.first)}</span>${e.captions.length>1?`<span>${t("also")}: ${esc(e.captions.slice(1).join("; "))}</span>`:""}<span>${t("toEntry")}: ${esc(e.refs.map(r=>r.title).join(" | "))}</span></div>
+      <div class="mfoot"><button type="button" class="seen" data-key="${esc(e.key)}" aria-pressed="${!fresh}">${fresh?t("markSeen"):t("seen")}</button></div>
     </article>`;}).join("");
   g.querySelectorAll(".thumb img").forEach(img=>img.addEventListener("error",()=>{
     const host=(()=>{try{return new URL(img.src).hostname.replace(/^www\./,"")}catch(x){return""}})();
     img.parentElement.querySelector(".play")?.remove();img.outerHTML=`<div class="ph"><span>◻</span><span>${esc(host)}</span><span class="ph-note">${esc(t("thumbFail"))}</span></div>`;},{once:true}));
 }
-function render(){renderCheck();renderFeed();renderMedia();document.getElementById("t-u").textContent=items.filter(i=>!readSet.has(i.id)).length||"";}
+function render(){renderCheck();renderFeed();renderMedia();renderSources();document.getElementById("t-u").textContent=items.filter(i=>!readSet.has(i.id)).length||"";}
 function renderCheck(){const c=document.getElementById("check");if(loadErr){c.textContent=t("loadFail");return;}if(!lastCheck){c.textContent=t("loading");return;}c.innerHTML=`${esc(t("lastCheck"))}: <span class="mono">${fmt(lastCheck)}</span>`;}
+const hostOf=u=>{try{return new URL(u).hostname.replace(/^(www|edition|m)\./,"")}catch(e){return""}};
+function renderSources(){
+  const box=document.getElementById("srcs");
+  const TYPES=["official","data","media","database"], TL={official:["sOfficial","c-ok"],data:["data","c-info"],media:["sMedia","c-warn"],database:["sDatabase",""]};
+  document.getElementById("t-s").textContent=sources.filter(x=>x.active!==false).length||"";
+  document.getElementById("s-n-all").textContent=sources.length;
+  TYPES.forEach(k=>document.getElementById("s-n-"+k).textContent=sources.filter(x=>x.type===k).length);
+  const count=x=>{const h=hostOf(x.url);return h?items.filter(i=>{const ih=hostOf(i.url);return ih===h||ih.endsWith("."+h)||h.endsWith("."+ih);}).length:0;};
+  const list=sources.filter(x=>sType==="all"||x.type===sType).sort((a,b)=>(a.active===false)-(b.active===false)||TYPES.indexOf(a.type)-TYPES.indexOf(b.type)||a.name.localeCompare(b.name,lang));
+  if(!list.length){box.innerHTML=`<div class="empty">${esc(t(sources.length?"noSrc":"loading"))}</div>`;return;}
+  box.innerHTML=list.map(x=>{const [lk,c]=TL[x.type]||TL.media, n=count(x);
+    return `<article class="src t-${esc(x.type)}${x.active===false?" off":""}">
+      <h3><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a></h3>
+      <div class="src-meta"><span class="tag ${c}">${esc(t(lk))}</span>${x.active===false?`<span class="tag c-crit">${esc(t("inactive"))}</span>`:""}<span>${esc(hostOf(x.url))}</span><span>${esc(t(x.access==="websearch"?"searchOnly":"direct"))}</span>${n?`<span>${esc(t("entriesN",n))}</span>`:""}<span class="mono">${t("addedAt")} ${fmtDate(x.added_at)}</span></div>
+      ${x.note?`<p>${esc(x.note)}</p>`:""}
+    </article>`;}).join("");
+}
 function showTab(tab){
-  const m=tab==="media";
-  document.getElementById("p-u").hidden=m;document.getElementById("p-m").hidden=!m;
-  document.getElementById("tab-u").setAttribute("aria-selected",String(!m));document.getElementById("tab-m").setAttribute("aria-selected",String(m));
+  if(!["aktualizace","media","zdroje"].includes(tab))tab="aktualizace";
+  [["u","aktualizace"],["m","media"],["s","zdroje"]].forEach(([k,n])=>{const on=n===tab;document.getElementById("p-"+k).hidden=!on;document.getElementById("tab-"+k).setAttribute("aria-selected",String(on));});
   if(location.hash!=="#"+tab)history.replaceState(null,"",location.search+"#"+tab);
 }
 
@@ -311,6 +361,7 @@ async function refresh(){
     const r=await fetch("data/updates.json?t="+Date.now(),{cache:"no-store"});
     if(!r.ok)throw new Error(r.status);
     const d=await r.json(), m=d.meta||{};
+    try{const rs=await fetch("data/sources.json?t="+Date.now(),{cache:"no-store"});if(rs.ok)sources=(await rs.json()).sources||[];}catch(e){}
     const next=(d.updates||[]).slice().sort((a,b)=>String(b.found_at).localeCompare(String(a.found_at))||String(b.id).localeCompare(String(a.id)));
     if(known){const fresh=next.filter(i=>!known.has(i.id));
       if(fresh.length){document.getElementById("banner-text").textContent=t("added",fresh.length);document.getElementById("banner").hidden=false;notify(fresh);}}
@@ -326,10 +377,15 @@ document.querySelectorAll("button[data-f]").forEach(b=>b.addEventListener("click
 document.querySelectorAll("button[data-m]").forEach(b=>b.addEventListener("click",()=>{mType=b.dataset.m;document.querySelectorAll("button[data-m]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));renderMedia();}));
 document.getElementById("m-status").addEventListener("change",e=>{mStatus=e.target.value;renderMedia();});
 document.getElementById("m-source").addEventListener("change",e=>{mSource=e.target.value;renderMedia();});
+document.getElementById("gallery").addEventListener("click",e=>{
+  const b=e.target.closest(".seen");if(!b)return;e.preventDefault();e.stopPropagation();
+  const k=b.dataset.key;viewedSet.has(k)?viewedSet.delete(k):viewedSet.add(k);storeM();renderMedia();});
+document.getElementById("seen-all").addEventListener("click",()=>{media.forEach(e=>viewedSet.add(e.key));storeM();renderMedia();});
 document.getElementById("m-new").addEventListener("change",e=>{mNew=e.target.checked;renderMedia();});
 document.querySelectorAll("[role=tab]").forEach(b=>b.addEventListener("click",()=>showTab(b.dataset.tab)));
-window.addEventListener("hashchange",()=>showTab(location.hash==="#media"?"media":"aktualizace"));
-showTab(location.hash==="#media"?"media":"aktualizace");
+window.addEventListener("hashchange",()=>showTab(location.hash.slice(1)));
+showTab(location.hash.slice(1));
+document.querySelectorAll("button[data-s]").forEach(b=>b.addEventListener("click",()=>{sType=b.dataset.s;document.querySelectorAll("button[data-s]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));renderSources();}));
 document.getElementById("banner-show").addEventListener("click",()=>{document.getElementById("banner").hidden=true;showTab("aktualizace");setFilter("new");window.scrollTo({top:0});});
 document.addEventListener("visibilitychange",()=>{if(!document.hidden)refresh();});
 function notify(fresh){

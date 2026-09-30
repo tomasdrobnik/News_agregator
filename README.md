@@ -2,7 +2,7 @@
 
 Statický dashboard pro GitHub Pages sledující incident flydubai FZ1073 (30. 9. 2026).
 
-- **Pro uživatele:** stránka bez přihlášení, zvýraznění nepřečtených záznamů, stav „přečteno“ v prohlížeči, automatická kontrola nových dat každých 5 minut, přepínač jazyka CZ / SK / EN (volba se pamatuje v prohlížeči, odkaz lze sdílet s `?lang=sk|en|cs`), RSS odběr pro každý jazyk (`feed.xml`, `feed-sk.xml`, `feed-en.xml`), záložka **Foto & video** se všemi médii ze záznamů (duplicity sloučené, filtry typ / status / zdroj / jen nové).
+- **Pro uživatele:** stránka bez přihlášení, zvýraznění nepřečtených záznamů, stav „přečteno“ v prohlížeči, automatická kontrola nových dat každých 5 minut, přepínač jazyka CZ / SK / EN (volba se pamatuje v prohlížeči, odkaz lze sdílet s `?lang=sk|en|cs`), RSS odběr pro každý jazyk (`feed.xml`, `feed-sk.xml`, `feed-en.xml`), záložka **Foto & video** se všemi médii ze záznamů (duplicity sloučené, filtry typ / status / zdroj / jen nové, stav „zhlédnuto“ per uživatel) a záložka **Zdroje** se seznamem všech sledovaných zdrojů.
 - **Pro správce:** data v `data/updates.json`, aktualizace přes Claude Code příkazem `/check-fz1073`.
 
 ## 1. Zprovoznění (jednorázově)
