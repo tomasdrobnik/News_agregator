@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 15:11:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 16:11:54 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Tabuk Airport: all passengers departed on a replacement aircraft, both pilots in hospital</title>
+      <link>https://saudigazette.com.sa/article/665001/saudi-arabia/tabuk-airport-all-flydubai-passengers-depart-on-replacement-aircraft</link>
+      <guid isPermaLink="false">fz1073-u018</guid>
+      <pubDate>Wed, 30 Sep 2026 16:11:54 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Saudi Gazette (article read directly), Tabuk airport says the distress call came at 08:44 local time, the aircraft landed at 09:45 and all passengers left on a replacement aircraft at 17:40. Both the captain and the co-pilot were injured and taken to hospital; the airport says the competent authorities are investigating. The article also repeats flydubai's statement that causes and motives are unknown. (Source: Saudi Gazette)</description>
+    </item>
     <item>
       <title>[Media] Israeli Defense Minister Katz: attempted terrorist attack; flydubai urges no speculation</title>
       <link>https://www.ynetnews.com/article/h18fh5qqge</link>

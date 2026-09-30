@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T15:11:29Z",
-    "next_check": "2026-09-30T16:11:29Z",
+    "last_check": "2026-09-30T16:11:54Z",
+    "next_check": "2026-09-30T17:11:54Z",
     "new_count": 1
   },
   "updates": [
@@ -465,6 +465,27 @@
         "en": {
           "title": "Israeli Defense Minister Katz: attempted terrorist attack; flydubai urges no speculation",
           "text": "According to Ynetnews (article read directly), Defense Minister Katz called the incident an attempted \"jihadist terrorist attack\" and said the intent was to crash the aircraft; this is a claim by an Israeli official, not a confirmed fact. Flydubai, by contrast, says the causes and motives are unknown and subject to an official investigation, and urges against speculation. Israeli passengers left Tabuk on a replacement flight after Mossad vetted the crew."
+        }
+      }
+    },
+    {
+      "id": "u018",
+      "found_at": "2026-09-30T16:11:54Z",
+      "published_at": "2026-09-30T15:49:34Z",
+      "source": "Saudi Gazette",
+      "url": "https://saudigazette.com.sa/article/665001/saudi-arabia/tabuk-airport-all-flydubai-passengers-depart-on-replacement-aircraft",
+      "title": "Letiště Tabuk: všichni cestující odletěli náhradním letadlem, oba piloti v nemocnici",
+      "text": "Podle Saudi Gazette (článek přímo přečten) letiště Tabuk uvádí, že tísňové volání přišlo v 08:44 místního času, přistání proběhlo v 09:45 a všichni cestující odletěli náhradním letadlem v 17:40. Kapitán i druhý pilot byli zranění a převezeni do nemocnice; letiště říká, že šetření vedou příslušné orgány. Text přebírá i prohlášení flydubai, že příčiny a motivy jsou neznámé.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Letisko Tabuk: všetci cestujúci odleteli náhradným lietadlom, obaja piloti v nemocnici",
+          "text": "Podľa Saudi Gazette (článok priamo prečítaný) letisko Tabuk uvádza, že tiesňové volanie prišlo o 08:44 miestneho času, pristátie prebehlo o 09:45 a všetci cestujúci odleteli náhradným lietadlom o 17:40. Kapitán aj druhý pilot boli zranení a prevezení do nemocnice; letisko hovorí, že vyšetrovanie vedú príslušné orgány. Text preberá aj vyhlásenie flydubai, že príčiny a motívy sú neznáme."
+        },
+        "en": {
+          "title": "Tabuk Airport: all passengers departed on a replacement aircraft, both pilots in hospital",
+          "text": "According to Saudi Gazette (article read directly), Tabuk airport says the distress call came at 08:44 local time, the aircraft landed at 09:45 and all passengers left on a replacement aircraft at 17:40. Both the captain and the co-pilot were injured and taken to hospital; the airport says the competent authorities are investigating. The article also repeats flydubai's statement that causes and motives are unknown."
         }
       }
     }

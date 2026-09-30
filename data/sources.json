@@ -225,6 +225,24 @@
       "added_at": "2026-09-30T14:10:00Z",
       "active": true,
       "note": "Oficiální účet AvHerald na Bluesky (handle ověřený doménou avherald.com), veřejné API bez přihlášení, robots.txt API čtení povoluje. Obsahuje jen titulky a odkazy na články – změna titulku = aktualizace článku. Záznam jen z titulku = unconfirmed (článek nebyl přímo čten)."
+    },
+    {
+      "name": "Saudi Gazette",
+      "url": "https://saudigazette.com.sa",
+      "type": "media",
+      "access": "curl",
+      "added_at": "2026-09-30T16:11:37Z",
+      "active": true,
+      "note": "saúdské zpravodajství, vyjádření letiště Tabuk (odlet cestujících náhradním letadlem)"
+    },
+    {
+      "name": "Airways Magazine",
+      "url": "https://www.airwaysmag.com",
+      "type": "media",
+      "access": "curl",
+      "added_at": "2026-09-30T16:11:37Z",
+      "active": true,
+      "note": "uznávaný letecký web, shrnutí incidentu FZ1073"
     }
   ]
 }

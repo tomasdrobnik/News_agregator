@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Wed, 30 Sep 2026 15:11:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 16:11:54 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Letisko Tabuk: všetci cestujúci odleteli náhradným lietadlom, obaja piloti v nemocnici</title>
+      <link>https://saudigazette.com.sa/article/665001/saudi-arabia/tabuk-airport-all-flydubai-passengers-depart-on-replacement-aircraft</link>
+      <guid isPermaLink="false">fz1073-u018</guid>
+      <pubDate>Wed, 30 Sep 2026 16:11:54 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa Saudi Gazette (článok priamo prečítaný) letisko Tabuk uvádza, že tiesňové volanie prišlo o 08:44 miestneho času, pristátie prebehlo o 09:45 a všetci cestujúci odleteli náhradným lietadlom o 17:40. Kapitán aj druhý pilot boli zranení a prevezení do nemocnice; letisko hovorí, že vyšetrovanie vedú príslušné orgány. Text preberá aj vyhlásenie flydubai, že príčiny a motívy sú neznáme. (Zdroj: Saudi Gazette)</description>
+    </item>
     <item>
       <title>[Médiá] Izraelský minister obrany Katz: pokus o teroristický útok; flydubai vyzýva na nespekulovanie</title>
       <link>https://www.ynetnews.com/article/h18fh5qqge</link>
