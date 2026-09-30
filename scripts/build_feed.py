@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate data/updates.json and regenerate feed.xml (RSS 2.0).
+"""Validate data/updates.json and regenerate feed.xml, feed-sk.xml, feed-en.xml (RSS 2.0).
 
 Usage:  python3 scripts/build_feed.py
 Reads site URL from config.json ("site_url"). Exits non-zero on invalid data,
@@ -16,10 +16,29 @@ from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "updates.json"
-FEED = ROOT / "feed.xml"
+FEEDS = {"cs": ROOT / "feed.xml", "sk": ROOT / "feed-sk.xml", "en": ROOT / "feed-en.xml"}
 CONFIG = ROOT / "config.json"
 
 STATUSES = {"official": "Oficiální", "data": "Data", "reported": "Média", "unconfirmed": "Neověřeno"}
+LABELS = {
+    "cs": STATUSES,
+    "sk": {"official": "Oficiálne", "data": "Dáta", "reported": "Médiá", "unconfirmed": "Neoverené"},
+    "en": {"official": "Official", "data": "Data", "reported": "Media", "unconfirmed": "Unconfirmed"},
+}
+WORDS = {
+    "cs": {"video": "Video", "photo": "Foto", "link": "odkaz", "source": "Zdroj", "suffix": ""},
+    "sk": {"video": "Video", "photo": "Foto", "link": "odkaz", "source": "Zdroj", "suffix": " (SK)"},
+    "en": {"video": "Video", "photo": "Photo", "link": "link", "source": "Source", "suffix": " (EN)"},
+}
+
+
+def tr(obj, lang, key):
+    """Text v daném jazyce; chybí-li překlad, vrátí češtinu."""
+    if lang != "cs":
+        v = ((obj.get("i18n") or {}).get(lang) or {}).get(key)
+        if v:
+            return v
+    return obj.get(key, "")
 REQUIRED = ("id", "found_at", "source", "url", "title", "text", "status")
 
 
@@ -118,43 +137,49 @@ def main():
 
     updates = sorted(doc["updates"], key=lambda u: (u["found_at"], u["id"]), reverse=True)[:100]
     last = doc.get("meta", {}).get("last_check") or updates[0]["found_at"]
+    missing = [u["id"] for u in doc["updates"] if not all(((u.get("i18n") or {}).get(l) or {}).get("title") for l in ("sk", "en"))]
+    if missing:
+        print("Upozornění: chybí překlad SK/EN u " + ", ".join(missing), file=sys.stderr)
 
-    items = []
-    for u in updates:
-        label = STATUSES[u["status"]]
-        media = "".join(
-            f'<br><a href="{escape(m["url"])}">{"Video" if m.get("type") == "video" else "Foto"}: {escape(m.get("caption", "odkaz"))}</a>'
-            + (f' ({escape(m["credit"])}, via {escape(u["source"])})' if m.get("credit") else f' (via {escape(u["source"])})')
-            for m in u.get("media", [])
+    for lang, path in FEEDS.items():
+        labels, w = LABELS[lang], WORDS[lang]
+        items = []
+        for u in updates:
+            label = labels[u["status"]]
+            media = "".join(
+                f'<br><a href="{escape(m["url"])}">{w["video"] if m.get("type") == "video" else w["photo"]}: {escape(tr(m, lang, "caption") or w["link"])}</a>'
+                + (f' ({escape(m["credit"])}, via {escape(u["source"])})' if m.get("credit") else f' (via {escape(u["source"])})')
+                for m in u.get("media", [])
+            )
+            desc = f"[{label}] {escape(tr(u, lang, 'text'))} ({w['source']}: {escape(u['source'])}){media}"
+            items.append(
+                "    <item>\n"
+                f"      <title>{escape('[' + label + '] ' + tr(u, lang, 'title'))}</title>\n"
+                f"      <link>{escape(u['url'])}</link>\n"
+                f"      <guid isPermaLink=\"false\">fz1073-{escape(u['id'])}</guid>\n"
+                f"      <pubDate>{format_datetime(parse(u['found_at']))}</pubDate>\n"
+                f"      <category>{escape(label)}</category>\n"
+                f"      <description>{escape(desc)}</description>\n"
+                "    </item>"
+            )
+        ctitle = cfg.get("title", "FZ1073 Incident Monitor") + w["suffix"]
+        cdesc = (cfg.get("description_i18n") or {}).get(lang) or cfg.get("description", "")
+        xml = (
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+            "  <channel>\n"
+            f"    <title>{escape(ctitle)}</title>\n"
+            f"    <link>{escape(site)}?lang={lang}</link>\n"
+            f'    <atom:link href="{escape(site)}{path.name}" rel="self" type="application/rss+xml"/>\n'
+            f"    <description>{escape(cdesc)}</description>\n"
+            f"    <language>{lang}</language>\n"
+            f"    <lastBuildDate>{format_datetime(parse(last))}</lastBuildDate>\n"
+            "    <ttl>60</ttl>\n"
+            + "\n".join(items)
+            + "\n  </channel>\n</rss>\n"
         )
-        desc = f"[{label}] {escape(u['text'])} (Zdroj: {escape(u['source'])}){media}"
-        items.append(
-            "    <item>\n"
-            f"      <title>{escape('[' + label + '] ' + u['title'])}</title>\n"
-            f"      <link>{escape(u['url'])}</link>\n"
-            f"      <guid isPermaLink=\"false\">fz1073-{escape(u['id'])}</guid>\n"
-            f"      <pubDate>{format_datetime(parse(u['found_at']))}</pubDate>\n"
-            f"      <category>{escape(label)}</category>\n"
-            f"      <description>{escape(desc)}</description>\n"
-            "    </item>"
-        )
-
-    xml = (
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
-        "  <channel>\n"
-        f"    <title>{escape(cfg.get('title', 'FZ1073 Incident Monitor'))}</title>\n"
-        f"    <link>{escape(site)}</link>\n"
-        f'    <atom:link href="{escape(site)}feed.xml" rel="self" type="application/rss+xml"/>\n'
-        f"    <description>{escape(cfg.get('description', ''))}</description>\n"
-        "    <language>cs</language>\n"
-        f"    <lastBuildDate>{format_datetime(parse(last))}</lastBuildDate>\n"
-        "    <ttl>60</ttl>\n"
-        + "\n".join(items)
-        + "\n  </channel>\n</rss>\n"
-    )
-    FEED.write_text(xml, encoding="utf-8")
-    print(f"OK: {len(doc['updates'])} záznamů, feed.xml ({len(items)} položek)")
+        path.write_text(xml, encoding="utf-8")
+    print(f"OK: {len(doc['updates'])} záznamů, feed.xml / feed-sk.xml / feed-en.xml ({len(updates)} položek)")
 
 
 if __name__ == "__main__":

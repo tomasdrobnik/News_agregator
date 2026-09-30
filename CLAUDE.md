@@ -12,7 +12,7 @@ Veřejný dashboard (GitHub Pages) sledující incident flydubai FZ1073 z 30. 9.
 - Otevřené otázky: kdo nastavil 7500 a proč; kdo vede šetření (GCAA UAE / GACA-AIB KSA, Annex 13 vs. bezpečnostní vyšetřování); režim dvou osob v kokpitu; přítomnost záložního pilota.
 
 ## Pravidla obsahu (závazná)
-- Veškerý text pro uživatele **česky**.
+- Stránka je trojjazyčná (CZ / SK / EN, přepínač v záhlaví). Hlavní `title`, `text` a `caption` jsou **česky**. Každý nový záznam musí mít i překlad v `i18n`: `{"sk": {"title", "text"}, "en": {"title", "text"}}`, u médií `i18n: {"sk": {"caption"}, "en": {"caption"}}`. Překlad je věrný české verzi (stejný status i míra nejistoty). Chybí-li překlad, web ukáže češtinu s označením CZ.
 - Monitoring informace **jen agreguje** – správce je ručně neověřuje. Status proto musí být konzervativní. **Při jakékoli pochybnosti = `unconfirmed`.**
 - Statusy:
   - `official` – jen když byl text prohlášení dopravce/úřadu/vyšetřovacího orgánu **přímo přečten** na jeho oficiálním webu či účtu (WebFetch uspěl). Z výsledků vyhledávání nebo z citace v médiích nikdy `official`.
@@ -44,7 +44,7 @@ Veřejný dashboard (GitHub Pages) sledující incident flydubai FZ1073 z 30. 9.
 - `id` je `u` + trojmístné číslo, pokračuj od nejvyššího existujícího. Existující `id` nikdy neměň (stránka podle něj eviduje stav „přečteno“ u uživatelů).
 - Opravu staršího záznamu zapiš jako **nový** záznam, který na původní odkazuje. Starý záznam nepřepisuj.
 - Média: stejné foto/video nepřidávej opakovaně. `build_feed.py` porovnává normalizované URL (twitter↔x, youtu.be↔youtube, zmenšeniny obrázků, sledovací parametry). Duplicita v rámci jednoho záznamu je chyba, napříč záznamy jen upozornění (web je sloučí do jedné karty).
-- Po každé změně spusť `python3 scripts/build_feed.py`. Validuje data a přegeneruje `feed.xml`. Při chybě necommituj.
+- Po každé změně spusť `python3 scripts/build_feed.py`. Validuje data a přegeneruje `feed.xml`, `feed-sk.xml`, `feed-en.xml` (upozorní na chybějící překlady). Při chybě necommituj.
 
 ## Zdroje
 Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravdy). Každá kontrola projde všechny aktivní zdroje a hledá na webu další důvěryhodné zdroje; nové do registru přidá a od další kontroly je sleduje. Zdroje se nemažou, jen deaktivují (`active: false` + důvod).
@@ -60,6 +60,6 @@ Příkaz `/check-fz1073` (viz `.claude/commands/check-fz1073.md`).
 ## Struktura
 - `index.html` – stránka se záložkami Aktualizace a Foto & video (agregace médií se sloučením duplicit a filtry typ/status/zdroj/nové); čte `data/updates.json` a každých 5 min kontroluje nové záznamy; stav „přečteno“ je v localStorage prohlížeče
 - `data/sources.json` – registr monitorovaných zdrojů (rutina ho rozšiřuje)
-- `feed.xml` – generovaný RSS, needituj ručně
+- `feed.xml`, `feed-sk.xml`, `feed-en.xml` – generované RSS pro každý jazyk, needituj ručně
 - `config.json` – `site_url` pro RSS (nastav na skutečnou adresu GitHub Pages)
 - `scripts/build_feed.py` – validace + generování RSS

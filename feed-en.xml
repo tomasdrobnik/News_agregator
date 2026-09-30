@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FZ1073 Incident Monitor (EN)</title>
+    <link>https://tomasdrobnik.github.io/News_agregator/?lang=en</link>
+    <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
+    <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Sep 2026 13:10:36 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Israeli official: captain from the UAE, second pilot from Oman; media describe stab wound</title>
+      <link>https://edition.cnn.com/2026/09/30/world/live-news/dubai-israel-plane-flydubai-intl</link>
+      <guid isPermaLink="false">fz1073-u011</guid>
+      <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] Media citing an Israeli official say the captain is a UAE national and the second pilot an Omani national, and that it is suspected the second pilot tried to crash the aircraft. Some reports mention a stab wound to the captain and two off-duty pilots among the passengers who helped; none of this is officially confirmed and details differ from earlier reports. Content was not read directly. (Source: CNN / Reuters (přes vyhledávání))</description>
+    </item>
+    <item>
+      <title>[Unconfirmed] flydubai: emergency caused by altercation between pilots, investigation opened</title>
+      <link>https://news.flydubai.com/updates-on-fz-1073-dxb-tlv-on-30-september-2026</link>
+      <guid isPermaLink="false">fz1073-u010</guid>
+      <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (the carrier's page was not read directly) flydubai says the emergency signal was triggered by a violent altercation between the pilots, the aircraft landed safely in Tabuk and passengers are fine. The carrier reportedly opened its own investigation and sent a replacement aircraft to Tabuk. (Source: flydubai (news.flydubai.com))</description>
+    </item>
+    <item>
+      <title>[Unconfirmed] AvHerald and ASN have an entry – content not available for automated reading</title>
+      <link>https://avherald.com/h?article=5423fa17&amp;opt=0</link>
+      <guid isPermaLink="false">fz1073-u009</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] Both sites block automated access, so the monitor only picks up changes to these entries indirectly (via search). (Source: The Aviation Herald / ASN)</description>
+    </item>
+    <item>
+      <title>[Media] Euronews: Israeli officials speak of an averted disaster</title>
+      <link>https://www.euronews.com/2026/09/30/flydubai-plane-traveling-to-israel-diverted-to-saudi-arabia-after-alleged-dispute-between-</link>
+      <guid isPermaLink="false">fz1073-u008</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Summary of witness accounts of one pilot being stabbed and the Israeli suspicion of a terrorist act. (Source: Euronews)</description>
+    </item>
+    <item>
+      <title>[Media] Video: injured passenger's account</title>
+      <link>https://cedarnews.net/newstasks/1017589/video-bloodied-flydubai-fz1073-passenger-recounts-cockpit-attack-we-thought-we-wouldnt-make-it-out-alive/</link>
+      <guid isPermaLink="false">fz1073-u007</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Video of a passenger describing the attack in the cockpit. The video content has not been verified; the source is an aggregator. (Source: Cedar News)&lt;br&gt;&lt;a href="https://cedarnews.net/newstasks/1017589/video-bloodied-flydubai-fz1073-passenger-recounts-cockpit-attack-we-thought-we-wouldnt-make-it-out-alive/"&gt;Video: passenger's account&lt;/a&gt; (via Cedar News)</description>
+    </item>
+    <item>
+      <title>[Media] Tabuk airport: both pilots injured; Israel asks to halt flydubai flights</title>
+      <link>https://www.jpost.com/international/article-910155</link>
+      <guid isPermaLink="false">fz1073-u006</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] JPost cites a Tabuk airport statement that both pilots were injured and taken to hospital. Transport Minister M. Regev asked Shin Bet to suspend flydubai flights. It also mentions a photo of a damaged rudder – not technically verified, unconfirmed. (Source: Jerusalem Post)&lt;br&gt;&lt;a href="https://www.jpost.com/international/article-910155"&gt;Photo: damaged rudder per JPost (unconfirmed)&lt;/a&gt; (autor ve zdroji neuveden, via Jerusalem Post)</description>
+    </item>
+    <item>
+      <title>[Media] Passenger describes subduing the attacker in the cockpit</title>
+      <link>https://www.calcalistech.com/ctechnews/article/zs72882xh</link>
+      <guid isPermaLink="false">fz1073-u005</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] A passenger (CEO of Barak Capital Underwriting) says he entered the cockpit with other men and a relief pilot and overpowered the attacker. This is a witness account, not an investigation finding. (Source: Ctech (Calcalist))</description>
+    </item>
+    <item>
+      <title>[Media] Israel: suspicion the F/O tried to crash the aircraft</title>
+      <link>https://www.ynetnews.com/article/ryjhud95fe</link>
+      <guid isPermaLink="false">fz1073-u004</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the Israeli assessment the F/O (reportedly from Oman) is the suspect. Contact with Saudi Arabia is handled by Mossad. Ynet says flydubai described the incident as a scuffle between pilots and opened its own investigation – that statement is not yet visible in other sources. (Source: Ynetnews)&lt;br&gt;&lt;a href="https://www.ynetnews.com/article/s1lpsm95ge"&gt;Photo: illustrative flydubai photo (2024), not from the incident&lt;/a&gt; (Photofex_AUT / Shutterstock.com, via Ynetnews)</description>
+    </item>
+    <item>
+      <title>[Media] Israeli sources: not a hijacking</title>
+      <link>https://aerocorner.com/news/flydubai-fz1073-tel-aviv-tabuk-diversion-7500/</link>
+      <guid isPermaLink="false">fz1073-u003</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Early Israeli reports ruled out a hijacking; the explanation was said to be a cockpit altercation. No statement in the flydubai newsroom at that time. Ynet: 174 PAX incl. 27 children; the aircraft briefly entered Jordanian airspace and turned back. (Source: AeroCorner)</description>
+    </item>
+    <item>
+      <title>[Data] FR24: flight ADS-B data, squawk 7700 → 7500 → 7700</title>
+      <link>https://www.flightradar24.com/blog/flight-tracking-news/major-incident/flydubai-flight-to-tel-aviv-diverts-to-tabuk-amid-onboard-incident/</link>
+      <guid isPermaLink="false">fz1073-u002</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Data</category>
+      <description>[Data] Departure 03:05Z, FL340, last ADS-B 06:58Z after landing in Tabuk. The blog offers a CSV with barometric altitude, GS and vertical speed – useful for your own analysis of the descent profile. (Source: Flightradar24 blog)&lt;br&gt;&lt;a href="https://x.com/flightradar24/status/2105219645229645874"&gt;Photo: FR24 extended timeline (X)&lt;/a&gt; (Flightradar24 (@flightradar24), via Flightradar24 blog)&lt;br&gt;&lt;a href="https://www.flightradar24.com/data/flights/fz1073"&gt;Video: FR24 flight playback&lt;/a&gt; (Flightradar24, via Flightradar24 blog)</description>
+    </item>
+    <item>
+      <title>[Official] flydubai confirms incident and safe landing in Tabuk</title>
+      <link>https://www.aerotime.aero/articles/flydubai-fz1073-diverts-saudi-arabia-7500-code</link>
+      <guid isPermaLink="false">fz1073-u001</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Official</category>
+      <description>[Official] A flydubai spokesperson confirmed an incident on FZ1073 DXB–TLV, a safe landing at TUU and that all passengers are fine. No cause given. The article cites KAN on a 'fight between pilots' – per AeroTime not independently confirmed. (Source: AeroTime)&lt;br&gt;&lt;a href="https://www.aerotime.aero/images/2026/09/Flydubai-Boeing-737-MAX-8-at-Dubai-airport-DXB.jpg"&gt;Photo: illustrative flydubai B38M (not A6-FKF)&lt;/a&gt; (Markus Mainka / Shutterstock.com, via AeroTime)&lt;br&gt;&lt;a href="https://x.com/flightradar24/status/2105192495529279734"&gt;Photo: FR24 timeline (X)&lt;/a&gt; (Flightradar24 (@flightradar24), via AeroTime)</description>
+    </item>
+  </channel>
+</rss>

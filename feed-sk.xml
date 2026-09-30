@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FZ1073 Incident Monitor (SK)</title>
+    <link>https://tomasdrobnik.github.io/News_agregator/?lang=sk</link>
+    <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
+    <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
+    <language>sk</language>
+    <lastBuildDate>Wed, 30 Sep 2026 13:10:36 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] Izraelský predstaviteľ: kapitán zo SAE, druhý pilot z Ománu; médiá opisujú bodnú ranu</title>
+      <link>https://edition.cnn.com/2026/09/30/world/live-news/dubai-israel-plane-flydubai-intl</link>
+      <guid isPermaLink="false">fz1073-u011</guid>
+      <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Médiá s odkazom na izraelského predstaviteľa uvádzajú, že kapitán je občanom SAE a druhý pilot občanom Ománu a že sa zvažuje podozrenie, že sa druhý pilot pokúsil lietadlo zrútiť. Niektoré správy hovoria o bodnom zranení kapitána a o dvoch pilotoch mimo služby medzi cestujúcimi; oficiálne nič z toho potvrdené nie je a údaje sa líšia od skorších správ. Obsah nebol priamo čítaný. (Zdroj: CNN / Reuters (přes vyhledávání))</description>
+    </item>
+    <item>
+      <title>[Neoverené] flydubai: núdzový stav vyvolala roztržka medzi pilotmi, začaté vyšetrovanie</title>
+      <link>https://news.flydubai.com/updates-on-fz-1073-dxb-tlv-on-30-september-2026</link>
+      <guid isPermaLink="false">fz1073-u010</guid>
+      <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Podľa výsledkov vyhľadávania (stránka dopravcu nebola priamo prečítaná) flydubai uvádza, že signál núdze vyvolala násilná roztržka medzi pilotmi, lietadlo bezpečne pristálo v Tabuku a cestujúci sú v poriadku. Dopravca vraj začal vlastné vyšetrovanie a do Tabuku poslal náhradné lietadlo. (Zdroj: flydubai (news.flydubai.com))</description>
+    </item>
+    <item>
+      <title>[Neoverené] AvHerald a ASN majú záznam – obsah nedostupný na automatické čítanie</title>
+      <link>https://avherald.com/h?article=5423fa17&amp;opt=0</link>
+      <guid isPermaLink="false">fz1073-u009</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Oba weby blokujú automatizovaný prístup. Zmeny v týchto záznamoch preto monitoring zachytí len nepriamo (cez vyhľadávanie). (Zdroj: The Aviation Herald / ASN)</description>
+    </item>
+    <item>
+      <title>[Médiá] Euronews: izraelskí predstavitelia hovoria o odvrátenom nešťastí</title>
+      <link>https://www.euronews.com/2026/09/30/flydubai-plane-traveling-to-israel-diverted-to-saudi-arabia-after-alleged-dispute-between-</link>
+      <guid isPermaLink="false">fz1073-u008</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Zhrnutie svedectiev o bodnutí jedného z pilotov a izraelského podozrenia na teroristický čin. (Zdroj: Euronews)</description>
+    </item>
+    <item>
+      <title>[Médiá] Video: výpoveď zraneného cestujúceho</title>
+      <link>https://cedarnews.net/newstasks/1017589/video-bloodied-flydubai-fz1073-passenger-recounts-cockpit-attack-we-thought-we-wouldnt-make-it-out-alive/</link>
+      <guid isPermaLink="false">fz1073-u007</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Video s cestujúcim, ktorý opisuje útok v kokpite. Obsah videa nebol overený; zdrojom je agregátor. (Zdroj: Cedar News)&lt;br&gt;&lt;a href="https://cedarnews.net/newstasks/1017589/video-bloodied-flydubai-fz1073-passenger-recounts-cockpit-attack-we-thought-we-wouldnt-make-it-out-alive/"&gt;Video: výpoveď cestujúceho&lt;/a&gt; (via Cedar News)</description>
+    </item>
+    <item>
+      <title>[Médiá] Letisko Tabuk: obaja piloti zranení; Izrael žiada zastavenie letov flydubai</title>
+      <link>https://www.jpost.com/international/article-910155</link>
+      <guid isPermaLink="false">fz1073-u006</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] JPost cituje vyhlásenie letiska Tabuk o zranení oboch pilotov a prevoze do nemocnice. Min. dopravy M. Regev požiadala Šin Bet o pozastavenie letov flydubai. Spomína aj fotografiu poškodeného smerového kormidla – bez technického overenia, neoverené. (Zdroj: Jerusalem Post)&lt;br&gt;&lt;a href="https://www.jpost.com/international/article-910155"&gt;Foto: poškodené smerové kormidlo podľa JPost (neoverené)&lt;/a&gt; (autor ve zdroji neuveden, via Jerusalem Post)</description>
+    </item>
+    <item>
+      <title>[Médiá] Cestujúci opisuje zneškodnenie útočníka v kokpite</title>
+      <link>https://www.calcalistech.com/ctechnews/article/zs72882xh</link>
+      <guid isPermaLink="false">fz1073-u005</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Cestujúci (CEO Barak Capital Underwriting) uvádza, že s ďalšími mužmi a záložným pilotom vstúpil do kokpitu a útočníka premohol. Ide o výpoveď svedka, nie o zistenie vyšetrovania. (Zdroj: Ctech (Calcalist))</description>
+    </item>
+    <item>
+      <title>[Médiá] Izrael: podozrenie, že F/O sa pokúsil lietadlo zrútiť</title>
+      <link>https://www.ynetnews.com/article/ryjhud95fe</link>
+      <guid isPermaLink="false">fz1073-u004</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa izraelského hodnotenia je podozrivý F/O (údajne z Ománu). Kontakt so Saudskou Arábiou rieši Mossad. Ynet uvádza, že flydubai incident opísal ako potýčku medzi pilotmi a začal vlastné vyšetrovanie – toto vyhlásenie v iných zdrojoch zatiaľ nevidno. (Zdroj: Ynetnews)&lt;br&gt;&lt;a href="https://www.ynetnews.com/article/s1lpsm95ge"&gt;Foto: ilustračné foto flydubai (2024), nie z incidentu&lt;/a&gt; (Photofex_AUT / Shutterstock.com, via Ynetnews)</description>
+    </item>
+    <item>
+      <title>[Médiá] Izraelské zdroje: nešlo o únos</title>
+      <link>https://aerocorner.com/news/flydubai-fz1073-tel-aviv-tabuk-diversion-7500/</link>
+      <guid isPermaLink="false">fz1073-u003</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Skoré izraelské správy vylúčili únos, vysvetlením mala byť zrážka v kokpite. V tom čase bez vyhlásenia v newsroome flydubai. Ynet: 174 PAX vrátane 27 detí; lietadlo krátko vletelo do jordánskeho priestoru a otočilo sa. (Zdroj: AeroCorner)</description>
+    </item>
+    <item>
+      <title>[Dáta] FR24: ADS-B dáta letu, squawk 7700 → 7500 → 7700</title>
+      <link>https://www.flightradar24.com/blog/flight-tracking-news/major-incident/flydubai-flight-to-tel-aviv-diverts-to-tabuk-amid-onboard-incident/</link>
+      <guid isPermaLink="false">fz1073-u002</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Dáta</category>
+      <description>[Dáta] Vzlet 03:05Z, FL340, posledné ADS-B 06:58Z po pristátí v Tabuku. Blog ponúka CSV s barometrickou výškou, GS a vertikálnou rýchlosťou – vhodné na vlastnú analýzu profilu klesania. (Zdroj: Flightradar24 blog)&lt;br&gt;&lt;a href="https://x.com/flightradar24/status/2105219645229645874"&gt;Foto: rozšírená časová os FR24 (X)&lt;/a&gt; (Flightradar24 (@flightradar24), via Flightradar24 blog)&lt;br&gt;&lt;a href="https://www.flightradar24.com/data/flights/fz1073"&gt;Video: prehrávka letu FR24&lt;/a&gt; (Flightradar24, via Flightradar24 blog)</description>
+    </item>
+    <item>
+      <title>[Oficiálne] flydubai potvrdzuje incident a bezpečné pristátie v Tabuku</title>
+      <link>https://www.aerotime.aero/articles/flydubai-fz1073-diverts-saudi-arabia-7500-code</link>
+      <guid isPermaLink="false">fz1073-u001</guid>
+      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
+      <category>Oficiálne</category>
+      <description>[Oficiálne] Hovorca flydubai potvrdil incident na FZ1073 DXB–TLV, bezpečné pristátie v TUU a že všetci cestujúci sú v poriadku. Príčinu neuvádza. Článok cituje KAN o „bitke medzi pilotmi“ – podľa AeroTime nezávisle nepotvrdené. (Zdroj: AeroTime)&lt;br&gt;&lt;a href="https://www.aerotime.aero/images/2026/09/Flydubai-Boeing-737-MAX-8-at-Dubai-airport-DXB.jpg"&gt;Foto: ilustračný B38M flydubai (nie A6-FKF)&lt;/a&gt; (Markus Mainka / Shutterstock.com, via AeroTime)&lt;br&gt;&lt;a href="https://x.com/flightradar24/status/2105192495529279734"&gt;Foto: časová os FR24 (X)&lt;/a&gt; (Flightradar24 (@flightradar24), via AeroTime)</description>
+    </item>
+  </channel>
+</rss>
