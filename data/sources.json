@@ -252,6 +252,42 @@
       "added_at": "2026-09-30T18:11:24Z",
       "active": true,
       "note": "živé zpravodajství k FZ1073; přímé čtení netestováno, zatím jen WebSearch"
+    },
+    {
+      "name": "Israel National News",
+      "url": "https://www.israelnationalnews.com",
+      "type": "media",
+      "access": "curl",
+      "added_at": "2026-09-30T18:50:00Z",
+      "active": true,
+      "note": "izraelské médium, video cestujícího po přistání; přímé čtení přes fetch_source.py OK (test 2026-09-30 18:48Z)"
+    },
+    {
+      "name": "One Mile at a Time",
+      "url": "https://onemileatatime.com",
+      "type": "media",
+      "access": "curl",
+      "added_at": "2026-09-30T18:50:00Z",
+      "active": true,
+      "note": "letecký web, analýza incidentu; přímé čtení přes fetch_source.py OK (test 2026-09-30 18:48Z)"
+    },
+    {
+      "name": "The Media Line",
+      "url": "https://themedialine.org",
+      "type": "media",
+      "access": "curl",
+      "added_at": "2026-09-30T18:50:00Z",
+      "active": true,
+      "note": "zpravodajská agentura pro Blízký východ; přímé čtení přes fetch_source.py OK (test 2026-09-30 18:48Z)"
+    },
+    {
+      "name": "YouTube – The Daily Telegraph (AU)",
+      "url": "https://www.youtube.com/@dailytelegraphAU",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-09-30T18:50:00Z",
+      "active": true,
+      "note": "video z paluby zveřejněné deníkem The Daily Telegraph (AU); ověřeno přes YouTube oEmbed (autor kanálu), 2026-09-30 18:49Z"
     }
   ]
 }

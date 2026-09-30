@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T18:11:24Z",
-    "next_check": "2026-09-30T19:11:24Z",
+    "last_check": "2026-09-30T18:49:22Z",
+    "next_check": "2026-09-30T19:49:22Z",
     "new_count": 1
   },
   "updates": [
@@ -507,6 +507,100 @@
         "en": {
           "title": "Media: two off-duty pilots travelling as passengers reportedly broke into the cockpit",
           "text": "According to search results (pages not read directly), media reportedly say two off-duty pilots travelling as passengers (one South African, one from New Zealand) got into the cockpit with help from cabin crew and passengers and restrained the other pilot. These are individual websites, not confirmed by authorities or flydubai; one search also cites a descent from FL340 to about 19,000 ft in ~90 s, yet another variant among the conflicting descent profiles."
+        }
+      }
+    },
+    {
+      "id": "u020",
+      "found_at": "2026-09-30T18:49:22Z",
+      "published_at": null,
+      "source": "Israel National News / The Media Line / One Mile at a Time / The Daily Telegraph / Times of Israel",
+      "url": "https://www.israelnationalnews.com/news/433885",
+      "title": "Nová videa z paluby a fotky z Tabuku",
+      "text": "Média zveřejnila další záběry: video cestujícího těsně před přistáním, video zásahu cestujících a video z kabiny během sestupu (sdílené na X), fotku vystupujících cestujících v Tabuku a podle výsledků vyhledávání i fotky poškozené směrovky (Times of Israel; stránka nebyla přímo čtena). Poškození směrovky zmiňuje i přímo přečtený One Mile at a Time, oficiálně potvrzeno není (viz u006). Původ a pravost záběrů nikdo oficiálně neověřil; některá videa mohou být drastická.",
+      "status": "unconfirmed",
+      "media": [
+        {
+          "type": "video",
+          "caption": "Cestující natáčí situaci po zneškodnění útočníka, těsně před přistáním v Tabuku (neověřeno)",
+          "url": "https://www.israelnationalnews.com/news/433885",
+          "thumb": "https://2.a7.org/files/pictures/000/1226955.jpg",
+          "credit": "autor ve zdroji neuveden (via Israel National News)",
+          "i18n": {
+            "sk": {
+              "caption": "Cestujúci natáča situáciu po zneškodnení útočníka, tesne pred pristátím v Tabuku (neoverené)"
+            },
+            "en": {
+              "caption": "Passenger films the situation after the attacker was subdued, shortly before landing in Tabuk (unverified)"
+            }
+          }
+        },
+        {
+          "type": "video",
+          "caption": "Video z paluby: zásah cestujících (The Daily Telegraph, YouTube Shorts; neověřeno)",
+          "url": "https://www.youtube.com/shorts/ZoF6evD-1Nk",
+          "credit": "The Daily Telegraph (AU)",
+          "i18n": {
+            "sk": {
+              "caption": "Video z paluby: zásah cestujúcich (The Daily Telegraph, YouTube Shorts; neoverené)"
+            },
+            "en": {
+              "caption": "Onboard video: passengers intervene (The Daily Telegraph, YouTube Shorts; unverified)"
+            }
+          }
+        },
+        {
+          "type": "video",
+          "caption": "Video z kabiny během prudkého sestupu, slyšet křik (sdíleno na X, původní autor neznámý; neověřeno)",
+          "url": "https://pic.twitter.com/iRdmgmmsxr",
+          "credit": "Heidi Bachram (@HeidiBachram) na X, původní autor neuveden",
+          "i18n": {
+            "sk": {
+              "caption": "Video z kabíny počas prudkého klesania, počuť krik (zdieľané na X, pôvodný autor neznámy; neoverené)"
+            },
+            "en": {
+              "caption": "Cabin video during the steep descent, screaming audible (shared on X, original author unknown; unverified)"
+            }
+          }
+        },
+        {
+          "type": "photo",
+          "caption": "Cestující vystupují z letadla v Tabuku (hlavní foto článku The Media Line; neověřeno)",
+          "url": "https://themedialine.org/top-stories/fight-in-the-cockpit-israel-bound-flydubai-jet-drops-thousands-of-feet-before-saudi-landing/",
+          "thumb": "https://themedialine.org/wp-content/uploads/2026/09/image.jpg",
+          "credit": "sociální sítě (dle popisku The Media Line)",
+          "i18n": {
+            "sk": {
+              "caption": "Cestujúci vystupujú z lietadla v Tabuku (hlavná foto článku The Media Line; neoverené)"
+            },
+            "en": {
+              "caption": "Passengers disembark in Tabuk (lead photo of The Media Line article; unverified)"
+            }
+          }
+        },
+        {
+          "type": "photo",
+          "caption": "Fotky ocasu po přistání – poškozená směrovka (Times of Israel, podle výsledků vyhledávání; neověřeno)",
+          "url": "https://www.timesofisrael.com/liveblog_entry/photos-of-flydubai-plane-after-landing-show-tail-has-broken-rudder/",
+          "credit": "autor ve zdroji neuveden",
+          "i18n": {
+            "sk": {
+              "caption": "Fotky chvosta po pristátí – poškodené smerové kormidlo (Times of Israel, podľa výsledkov vyhľadávania; neoverené)"
+            },
+            "en": {
+              "caption": "Photos of the tail after landing – damaged rudder (Times of Israel, per search results; unverified)"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "sk": {
+          "title": "Nové videá z paluby a fotky z Tabuku",
+          "text": "Médiá zverejnili ďalšie zábery: video cestujúceho tesne pred pristátím, video zásahu cestujúcich a video z kabíny počas klesania (zdieľané na X), fotku vystupujúcich cestujúcich v Tabuku a podľa výsledkov vyhľadávania aj fotky poškodeného smerového kormidla (Times of Israel; stránka nebola priamo čítaná). Poškodenie kormidla spomína aj priamo prečítaný One Mile at a Time, oficiálne potvrdené nie je (pozri u006). Pôvod a pravosť záberov nikto oficiálne neoveril; niektoré videá môžu byť drastické."
+        },
+        "en": {
+          "title": "New onboard videos and photos from Tabuk",
+          "text": "Media have published more footage: a passenger's video shortly before landing, a video of passengers intervening and a cabin video during the descent (shared on X), a photo of passengers disembarking in Tabuk and, per search results, photos of the damaged rudder (Times of Israel; page not read directly). The directly read One Mile at a Time also mentions rudder damage; it is not officially confirmed (see u006). No one has officially verified the origin or authenticity of the footage; some videos may be graphic."
         }
       }
     }
