@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 30 Sep 2026 13:10:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 13:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Izrael: společné šetření, zkoumá se i původ pilotních pasů</title>
+      <link>https://www.israelhayom.co.il/news/defense/article/21522045</link>
+      <guid isPermaLink="false">fz1073-u013</guid>
+      <pubDate>Wed, 30 Sep 2026 13:30:00 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (stránky nebyly přímo čteny) se do šetření v Izraeli zapojily Mossad, Šin Bet, armáda i ministerstvo dopravy a incident hodnotí jako možný teroristický útok. Izraelská média uvádějí, že F/O pracoval u flydubai asi devět měsíců a ministr dopravy žádá prověřit dodržování dohod o pilotech s pasy států s diplomatickými vztahy k Izraeli; nic z toho není oficiálně potvrzeno. (Zdroj: Israel Hayom / Kan / Reuters (přes vyhledávání))</description>
+    </item>
+    <item>
+      <title>[Neověřeno] Rozpor: národnost kapitána – indická vs. emirátská</title>
+      <link>https://www.theweek.in/news/middle-east/2026/09/30/stabbed-flydubai-pilot-is-indian-say-reports-terror-angle-not-ruled-out-in-violent-mid-air-clash-as-mossad-joins-probe.html</link>
+      <guid isPermaLink="false">fz1073-u012</guid>
+      <pubDate>Wed, 30 Sep 2026 13:30:00 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Indická média podle výsledků vyhledávání (stránky nebyly přímo čteny) s odkazem na izraelské zdroje uvádějí, že kapitán je Ind. To odporuje záznamu u011, kde izraelský činitel (přes CNN) označil kapitána za občana SAE. Ani jedno tvrzení není oficiálně potvrzeno. (Zdroj: The Week / India TV (přes vyhledávání))</description>
+    </item>
     <item>
       <title>[Neověřeno] Izraelský činitel: kapitán z SAE, druhý pilot z Ománu; média popisují bodnou ránu</title>
       <link>https://edition.cnn.com/2026/09/30/world/live-news/dubai-israel-plane-flydubai-intl</link>

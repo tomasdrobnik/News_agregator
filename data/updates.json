@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T13:10:36Z",
-    "next_check": "2026-09-30T14:10:36Z",
+    "last_check": "2026-09-30T13:30:00Z",
+    "next_check": "2026-09-30T14:30:00Z",
     "new_count": 2
   },
   "updates": [
@@ -339,6 +339,48 @@
         "en": {
           "title": "Israeli official: captain from the UAE, second pilot from Oman; media describe stab wound",
           "text": "Media citing an Israeli official say the captain is a UAE national and the second pilot an Omani national, and that it is suspected the second pilot tried to crash the aircraft. Some reports mention a stab wound to the captain and two off-duty pilots among the passengers who helped; none of this is officially confirmed and details differ from earlier reports. Content was not read directly."
+        }
+      }
+    },
+    {
+      "id": "u012",
+      "found_at": "2026-09-30T13:30:00Z",
+      "published_at": null,
+      "source": "The Week / India TV (přes vyhledávání)",
+      "url": "https://www.theweek.in/news/middle-east/2026/09/30/stabbed-flydubai-pilot-is-indian-say-reports-terror-angle-not-ruled-out-in-violent-mid-air-clash-as-mossad-joins-probe.html",
+      "title": "Rozpor: národnost kapitána – indická vs. emirátská",
+      "text": "Indická média podle výsledků vyhledávání (stránky nebyly přímo čteny) s odkazem na izraelské zdroje uvádějí, že kapitán je Ind. To odporuje záznamu u011, kde izraelský činitel (přes CNN) označil kapitána za občana SAE. Ani jedno tvrzení není oficiálně potvrzeno.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Rozpor: národnosť kapitána – indická vs. emirátska",
+          "text": "Indické médiá podľa výsledkov vyhľadávania (stránky neboli priamo čítané) s odkazom na izraelské zdroje uvádzajú, že kapitán je Ind. To odporuje záznamu u011, kde izraelský činiteľ (cez CNN) označil kapitána za občana SAE. Ani jedno tvrdenie nie je oficiálne potvrdené."
+        },
+        "en": {
+          "title": "Conflict: captain's nationality – Indian vs. Emirati",
+          "text": "Indian media, according to search results (pages not read directly) and citing Israeli sources, say the captain is Indian. This contradicts entry u011, where an Israeli official (via CNN) described the captain as a UAE citizen. Neither claim has been officially confirmed."
+        }
+      }
+    },
+    {
+      "id": "u013",
+      "found_at": "2026-09-30T13:30:00Z",
+      "published_at": null,
+      "source": "Israel Hayom / Kan / Reuters (přes vyhledávání)",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21522045",
+      "title": "Izrael: společné šetření, zkoumá se i původ pilotních pasů",
+      "text": "Podle výsledků vyhledávání (stránky nebyly přímo čteny) se do šetření v Izraeli zapojily Mossad, Šin Bet, armáda i ministerstvo dopravy a incident hodnotí jako možný teroristický útok. Izraelská média uvádějí, že F/O pracoval u flydubai asi devět měsíců a ministr dopravy žádá prověřit dodržování dohod o pilotech s pasy států s diplomatickými vztahy k Izraeli; nic z toho není oficiálně potvrzeno.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Izrael: spoločné vyšetrovanie, skúma sa aj pôvod pilotných pasov",
+          "text": "Podľa výsledkov vyhľadávania (stránky neboli priamo čítané) sa do vyšetrovania v Izraeli zapojili Mossad, Šin Bet, armáda aj ministerstvo dopravy a incident hodnotia ako možný teroristický útok. Izraelské médiá uvádzajú, že F/O pracoval u flydubai asi deväť mesiacov a minister dopravy žiada preveriť dodržiavanie dohôd o pilotoch s pasmi štátov s diplomatickými vzťahmi k Izraelu; nič z toho nie je oficiálne potvrdené."
+        },
+        "en": {
+          "title": "Israel: joint investigation, origin of pilots' passports also examined",
+          "text": "According to search results (pages not read directly), Mossad, Shin Bet, the military and the transport ministry are involved in the investigation in Israel, which assesses the incident as a possible terror attack. Israeli media say the first officer had worked at flydubai for about nine months, and the transport minister has asked for a check of compliance with agreements on pilots holding passports of states with diplomatic ties to Israel; none of this is officially confirmed."
         }
       }
     }
