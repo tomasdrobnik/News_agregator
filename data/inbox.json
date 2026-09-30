@@ -1,5 +1,5 @@
 {
-  "note": "Schránka tipů od správce. Do 'tips' vlož odkaz na příspěvek (X, Instagram, Facebook, Reddit, …). Rutina /check-fz1073 každý tip zpracuje a přesune do 'processed'.",
+  "note": "Schránka tipů od správce. Do 'tips' vlož odkaz na příspěvek (X, Instagram, Facebook, Reddit, …) – stačí samotný odkaz v uvozovkách, např. \"https://x.com/…\", více odkazů odděl čárkou. Rutina /check-fz1073 každý tip zpracuje a přesune do 'processed'. Formát kontroluje scripts/build_feed.py.",
   "tips": [],
   "example": {
     "url": "https://x.com/uzivatel/status/123",

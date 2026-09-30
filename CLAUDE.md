@@ -59,7 +59,7 @@ Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravd
 - Zdroj převeď na `"curl"` jen po úspěšném testu skriptem; když skript opakovaně vrací `UNAVAILABLE` (403, challenge, robots), vrať ho na `"websearch"` a důvod zapiš do `note`.
 - Priorita: oficiální orgány (flydubai, GCAA UAE, GACA/AIB KSA, izraelské úřady) > agentury a renomovaná média > letecké weby > ostatní.
 
-**Tipy správce (sociální sítě):** X, Instagram, Facebook a Reddit se automaticky nemonitorují (vyžadují přihlášení; fóra a anonymní účty nejsou zdroj pro registr). Správce vkládá odkazy na příspěvky jiných lidí do `data/inbox.json` (`tips`); rutina je zpracuje a přesune do `processed`. Platformy jsou v registru jako `type: "social"`, `access: "tip"`. Příspěvek sám o sobě = `unconfirmed`; `source` je autor příspěvku, ne správce. Přístupové údaje ke svým účtům správce nikdy nesdílí.
+**Tipy správce (sociální sítě):** X, Instagram, Facebook a Reddit se automaticky nemonitorují (vyžadují přihlášení; fóra a anonymní účty nejsou zdroj pro registr). Správce vkládá odkazy na příspěvky jiných lidí do `data/inbox.json` (`tips`); rutina je zpracuje a přesune do `processed` (`result` = id záznamu nebo „zamítnuto: důvod“). Tip může být samotný odkaz nebo objekt s `url`; formát kontroluje `build_feed.py`. Platformy jsou v registru jako `type: "social"`, `access: "tip"`. Příspěvek sám o sobě = `unconfirmed`; `source` je autor příspěvku, ne správce. Přístupové údaje ke svým účtům správce nikdy nesdílí.
 
 Nedostupné nebo zakázané weby neobcházej (žádné mirrory, cache, změna User-Agenta ani obcházení ochrany proti botům). Použij výsledky vyhledávání a v záznamu uveď, že obsah nebyl přímo čten.
 
@@ -77,7 +77,7 @@ Příkaz `/check-fz1073` (viz `.claude/commands/check-fz1073.md`).
 - `data/sources.json` – registr monitorovaných zdrojů (rutina ho rozšiřuje)
 - `feed.xml`, `feed-sk.xml`, `feed-en.xml` – generované RSS pro každý jazyk, needituj ručně
 - `config.json` – `site_url` pro RSS (nastav na skutečnou adresu GitHub Pages)
-- `scripts/build_feed.py` – validace + generování RSS
+- `scripts/build_feed.py` – validace (`updates.json` + `inbox.json`) + generování RSS
 - `scripts/fetch_source.py` – přímé read-only čtení zdrojů s `access: "curl"` (kontrola registru, robots.txt, bot challenge; vypíše og:/meta tagy a text)
 
 ---
