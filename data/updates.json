@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T12:25:00Z",
-    "next_check": "2026-09-30T13:31:00Z",
-    "new_count": 9
+    "last_check": "2026-09-30T13:10:36Z",
+    "next_check": "2026-09-30T14:10:36Z",
+    "new_count": 2
   },
   "updates": [
     {
@@ -153,6 +153,28 @@
       "text": "Oba weby blokují automatizovaný přístup. Změny v těchto záznamech proto monitoring zachytí jen nepřímo (přes vyhledávání). Pro jistotu je vhodné je občas otevřít ručně.",
       "title": "AvHerald a ASN mají záznam – obsah nedostupný pro automatické čtení",
       "url": "https://avherald.com/h?article=5423fa17&opt=0"
+    },
+    {
+      "id": "u010",
+      "found_at": "2026-09-30T13:10:36Z",
+      "published_at": null,
+      "source": "flydubai (news.flydubai.com)",
+      "url": "https://news.flydubai.com/updates-on-fz-1073-dxb-tlv-on-30-september-2026",
+      "title": "flydubai: nouzový stav vyvolala roztržka mezi piloty, zahájeno šetření",
+      "text": "Podle aktualizace dopravce byl signál nouze aktivován kvůli násilné roztržce mezi piloty, letadlo bezpečně přistálo v Tabuku a cestující jsou v pořádku. flydubai uvádí, že zahájil vlastní šetření, informoval izraelské úřady a do Tabuku poslal náhradní letoun pro 174 cestujících. Obsah stránky nebyl přímo čten, vychází z výsledků vyhledávání; upřesňuje záznam u001.",
+      "status": "official",
+      "media": []
+    },
+    {
+      "id": "u011",
+      "found_at": "2026-09-30T13:10:36Z",
+      "published_at": null,
+      "source": "CNN / Reuters (přes vyhledávání)",
+      "url": "https://edition.cnn.com/2026/09/30/world/live-news/dubai-israel-plane-flydubai-intl",
+      "title": "Izraelský činitel: kapitán z SAE, druhý pilot z Ománu; média popisují bodnou ránu",
+      "text": "Média s odkazem na izraelského činitele uvádějí, že kapitán je občanem SAE a druhý pilot občanem Ománu, a že se zvažuje podezření, že se druhý pilot pokusil letoun zřítit. Některé zprávy mluví o bodném zranění kapitána a o dvou pilotech mimo službu mezi cestujícími, kteří pomohli; oficiálně nic z toho potvrzeno není a údaje se liší od dřívějších zpráv o jednom záložním pilotovi. Obsah nebyl přímo čten.",
+      "status": "unconfirmed",
+      "media": []
     }
   ]
 }
