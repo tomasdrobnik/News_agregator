@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 30 Sep 2026 22:10:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 23:10:24 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Saúdské národní centrum bezpečnosti dopravy zahájilo šetření přistání v Tabúku</title>
+      <link>https://sabq.org/article/gq7znne</link>
+      <guid isPermaLink="false">fz1073-u025</guid>
+      <pubDate>Wed, 30 Sep 2026 23:10:24 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (stránka nebyla přímo čtena, web vrací 403) saúdskoarabský web Sabq uvádí, že Národní centrum bezpečnosti dopravy zahájilo šetření nouzového přistání FZ1073 v Tabúku a vyšetřovací tým začal pracovat ve spolupráci s příslušnými orgány. Informaci zatím nepotvrzuje přímo přečtené prohlášení centra; vztah k šetření GCAA UAE není upřesněn. (Zdroj: Sabq (přes vyhledávání))</description>
+    </item>
     <item>
       <title>[Média] Al Jazeera: časová osa FZ1073, útok na let zatím nepotvrzen nezávisle</title>
       <link>https://www.aljazeera.com/news/2026/9/30/flydubai-fz1073-timeline-how-the-israel-bound-flight-emergency-unfolded</link>

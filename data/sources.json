@@ -324,6 +324,15 @@
       "added_at": "2026-09-30T22:10:46Z",
       "active": true,
       "note": "Renomovaná média; časová osa FZ1073, výslovně odlišuje neověřená tvrzení. Přímé čtení přes WebFetch uspělo."
+    },
+    {
+      "name": "Sabq",
+      "url": "https://sabq.org",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-09-30T23:10:24Z",
+      "active": true,
+      "note": "saúdský zpravodajský web, hlásí šetření národního centra bezpečnosti dopravy (u025); HTTP 403 pro WebFetch – jen WebSearch"
     }
   ]
 }

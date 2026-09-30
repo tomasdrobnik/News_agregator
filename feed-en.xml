@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 22:10:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 23:10:24 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Saudi national transport safety centre opens investigation into Tabuk landing</title>
+      <link>https://sabq.org/article/gq7znne</link>
+      <guid isPermaLink="false">fz1073-u025</guid>
+      <pubDate>Wed, 30 Sep 2026 23:10:24 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (page not read directly, site returns 403), Saudi outlet Sabq reports that the national transport safety centre has opened an investigation into the FZ1073 emergency landing at Tabuk and an investigation team has begun work with the relevant authorities. No directly read statement from the centre confirms this yet; the relationship to the GCAA UAE investigation is not specified. (Source: Sabq (přes vyhledávání))</description>
+    </item>
     <item>
       <title>[Media] Al Jazeera: FZ1073 timeline, attack claim not independently confirmed</title>
       <link>https://www.aljazeera.com/news/2026/9/30/flydubai-fz1073-timeline-how-the-israel-bound-flight-emergency-unfolded</link>

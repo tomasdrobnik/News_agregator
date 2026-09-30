@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T22:10:46Z",
-    "next_check": "2026-09-30T23:10:46Z",
-    "new_count": 2
+    "last_check": "2026-09-30T23:10:24Z",
+    "next_check": "2026-10-01T00:10:24Z",
+    "new_count": 1
   },
   "updates": [
     {
@@ -685,6 +685,27 @@
         "en": {
           "title": "Al Jazeera: FZ1073 timeline, attack claim not independently confirmed",
           "text": "According to Al Jazeera (read directly), unusual manoeuvres began at 05:21Z, squawk 7700 at 05:28Z and 7500 at 05:35Z, landing in Tabuk at 06:45Z. The outlet describes Netanyahu's claim of a pilot stabbing and attempt to crash the aircraft as not independently confirmed, as is the Omani nationality of the other pilot. Squawk times differ slightly from other sources (05:31Z / 05:38Z), and the opposition (Lapid) questions political use of the incident."
+        }
+      }
+    },
+    {
+      "id": "u025",
+      "found_at": "2026-09-30T23:10:24Z",
+      "published_at": null,
+      "source": "Sabq (přes vyhledávání)",
+      "url": "https://sabq.org/article/gq7znne",
+      "title": "Saúdské národní centrum bezpečnosti dopravy zahájilo šetření přistání v Tabúku",
+      "text": "Podle výsledků vyhledávání (stránka nebyla přímo čtena, web vrací 403) saúdskoarabský web Sabq uvádí, že Národní centrum bezpečnosti dopravy zahájilo šetření nouzového přistání FZ1073 v Tabúku a vyšetřovací tým začal pracovat ve spolupráci s příslušnými orgány. Informaci zatím nepotvrzuje přímo přečtené prohlášení centra; vztah k šetření GCAA UAE není upřesněn.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Saudské národné centrum bezpečnosti dopravy začalo vyšetrovať pristátie v Tabúku",
+          "text": "Podľa výsledkov vyhľadávania (stránka nebola priamo čítaná, web vracia 403) saudskoarabský web Sabq uvádza, že Národné centrum bezpečnosti dopravy začalo vyšetrovať núdzové pristátie FZ1073 v Tabúku a vyšetrovací tím začal pracovať v spolupráci s príslušnými orgánmi. Informáciu zatiaľ nepotvrdzuje priamo prečítané vyhlásenie centra; vzťah k vyšetrovaniu GCAA UAE nie je upresnený."
+        },
+        "en": {
+          "title": "Saudi national transport safety centre opens investigation into Tabuk landing",
+          "text": "According to search results (page not read directly, site returns 403), Saudi outlet Sabq reports that the national transport safety centre has opened an investigation into the FZ1073 emergency landing at Tabuk and an investigation team has begun work with the relevant authorities. No directly read statement from the centre confirms this yet; the relationship to the GCAA UAE investigation is not specified."
         }
       }
     }
