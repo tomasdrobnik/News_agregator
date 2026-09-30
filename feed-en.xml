@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 14:20:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 15:11:29 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Israeli Defense Minister Katz: attempted terrorist attack; flydubai urges no speculation</title>
+      <link>https://www.ynetnews.com/article/h18fh5qqge</link>
+      <guid isPermaLink="false">fz1073-u017</guid>
+      <pubDate>Wed, 30 Sep 2026 15:11:29 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Ynetnews (article read directly), Defense Minister Katz called the incident an attempted "jihadist terrorist attack" and said the intent was to crash the aircraft; this is a claim by an Israeli official, not a confirmed fact. Flydubai, by contrast, says the causes and motives are unknown and subject to an official investigation, and urges against speculation. Israeli passengers left Tabuk on a replacement flight after Mossad vetted the crew. (Source: Ynetnews)</description>
+    </item>
     <item>
       <title>[Unconfirmed] Second flydubai flight to Tel Aviv: media say tracking glitch</title>
       <link>https://www.theweek.in/news/middle-east/2026/09/30/flydubai-emergency-landing-saudi-arabia.html</link>

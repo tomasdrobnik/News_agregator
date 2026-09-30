@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T14:20:00Z",
-    "next_check": "2026-09-30T15:20:00Z",
-    "new_count": 2
+    "last_check": "2026-09-30T15:11:29Z",
+    "next_check": "2026-09-30T16:11:29Z",
+    "new_count": 1
   },
   "updates": [
     {
@@ -444,6 +444,27 @@
         "en": {
           "title": "Second flydubai flight to Tel Aviv: media say tracking glitch",
           "text": "According to search results (pages not read directly), hours after FZ1073 reports emerged that another flydubai flight was turning back from Tel Aviv. Media say it was a glitch on flight-tracking sites and flight FZ1081 continued normally; there is no official confirmation."
+        }
+      }
+    },
+    {
+      "id": "u017",
+      "found_at": "2026-09-30T15:11:29Z",
+      "published_at": "2026-09-30T14:09:04Z",
+      "source": "Ynetnews",
+      "url": "https://www.ynetnews.com/article/h18fh5qqge",
+      "title": "Izraelský ministr obrany Katz: pokus o teroristický útok; flydubai vyzývá k nespekulování",
+      "text": "Podle Ynetnews (článek přímo přečten) označil ministr obrany Katz incident za pokus o „džihádistický teroristický útok“ a uvedl, že úmysl byl zřítit letadlo; jde o tvrzení izraelského představitele, nikoli potvrzený fakt. Flydubai naopak uvádí, že příčiny a motivy jsou neznámé a podléhají oficiálnímu šetření, a vyzývá k nespekulování. Izraelští cestující odletěli náhradním letem z Tabuku po prověrce posádky Mossadem.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Izraelský minister obrany Katz: pokus o teroristický útok; flydubai vyzýva na nespekulovanie",
+          "text": "Podľa Ynetnews (článok priamo prečítaný) označil minister obrany Katz incident za pokus o „džihádistický teroristický útok“ a uviedol, že zámerom bolo zrútiť lietadlo; ide o tvrdenie izraelského predstaviteľa, nie potvrdený fakt. Flydubai naopak uvádza, že príčiny a motívy sú neznáme a podliehajú oficiálnemu vyšetrovaniu, a vyzýva na nespekulovanie. Izraelskí cestujúci odleteli náhradným letom z Tabuku po preverení posádky Mossadom."
+        },
+        "en": {
+          "title": "Israeli Defense Minister Katz: attempted terrorist attack; flydubai urges no speculation",
+          "text": "According to Ynetnews (article read directly), Defense Minister Katz called the incident an attempted \"jihadist terrorist attack\" and said the intent was to crash the aircraft; this is a claim by an Israeli official, not a confirmed fact. Flydubai, by contrast, says the causes and motives are unknown and subject to an official investigation, and urges against speculation. Israeli passengers left Tabuk on a replacement flight after Mossad vetted the crew."
         }
       }
     }

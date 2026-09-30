@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 30 Sep 2026 14:20:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 15:11:29 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Izraelský ministr obrany Katz: pokus o teroristický útok; flydubai vyzývá k nespekulování</title>
+      <link>https://www.ynetnews.com/article/h18fh5qqge</link>
+      <guid isPermaLink="false">fz1073-u017</guid>
+      <pubDate>Wed, 30 Sep 2026 15:11:29 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle Ynetnews (článek přímo přečten) označil ministr obrany Katz incident za pokus o „džihádistický teroristický útok“ a uvedl, že úmysl byl zřítit letadlo; jde o tvrzení izraelského představitele, nikoli potvrzený fakt. Flydubai naopak uvádí, že příčiny a motivy jsou neznámé a podléhají oficiálnímu šetření, a vyzývá k nespekulování. Izraelští cestující odletěli náhradním letem z Tabuku po prověrce posádky Mossadem. (Zdroj: Ynetnews)</description>
+    </item>
     <item>
       <title>[Neověřeno] Druhý let flydubai do Tel Avivu: podle médií chyba sledování</title>
       <link>https://www.theweek.in/news/middle-east/2026/09/30/flydubai-emergency-landing-saudi-arabia.html</link>
