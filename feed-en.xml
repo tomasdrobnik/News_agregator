@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 14:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 14:20:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Second flydubai flight to Tel Aviv: media say tracking glitch</title>
+      <link>https://www.theweek.in/news/middle-east/2026/09/30/flydubai-emergency-landing-saudi-arabia.html</link>
+      <guid isPermaLink="false">fz1073-u016</guid>
+      <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (pages not read directly), hours after FZ1073 reports emerged that another flydubai flight was turning back from Tel Aviv. Media say it was a glitch on flight-tracking sites and flight FZ1081 continued normally; there is no official confirmation. (Source: The Week / Business Today / Cedar News (přes vyhledávání))</description>
+    </item>
+    <item>
+      <title>[Media] Netanyahu: pilot stabbed the other and was arrested by the Saudis</title>
+      <link>https://www.jpost.com/israel-news/benjamin-netanyahu/article-910205</link>
+      <guid isPermaLink="false">fz1073-u015</guid>
+      <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to search results (JPost, AFP and others; pages not read directly), Israeli PM Netanyahu said one pilot stabbed the other, apparently tried to crash the plane or sabotage its systems, and was arrested and is being questioned by Saudi authorities. This is a claim by the Israeli side; UAE/KSA and investigators have not officially confirmed it, and it conflicts with the AvHerald headline (u014) about a suspected suicide attempt. (Source: Jerusalem Post / AFP / další (přes vyhledávání))</description>
+    </item>
     <item>
       <title>[Unconfirmed] AvHerald updates headline: F/O under investigation for suspected suicide attempt</title>
       <link>https://avherald.com/h?article=5423fa17&amp;opt=0</link>

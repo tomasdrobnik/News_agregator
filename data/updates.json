@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T14:10:00Z",
-    "next_check": "2026-09-30T15:10:00Z",
-    "new_count": 1
+    "last_check": "2026-09-30T14:20:00Z",
+    "next_check": "2026-09-30T15:20:00Z",
+    "new_count": 2
   },
   "updates": [
     {
@@ -402,6 +402,48 @@
         "en": {
           "title": "AvHerald updates headline: F/O under investigation for suspected suicide attempt",
           "text": "At 09:59Z AvHerald changed its article headline to “first officer under investigation for suspected suicide attempt” (previously only “fight in the cockpit”). Only the headline on AvHerald's official Bluesky account was read directly, not the article itself – who is leading the investigation and what the headline is based on is unknown. This contradicts the Israeli assessment of a possible terrorist act; none of it is officially confirmed. Supplements u009."
+        }
+      }
+    },
+    {
+      "id": "u015",
+      "found_at": "2026-09-30T14:20:00Z",
+      "published_at": null,
+      "source": "Jerusalem Post / AFP / další (přes vyhledávání)",
+      "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-910205",
+      "title": "Netanjahu: pilot bodl druhého a byl zatčen Saúdy",
+      "text": "Podle výsledků vyhledávání (JPost, AFP a další; stránky nebyly přímo čteny) izraelský premiér Netanjahu uvedl, že jeden pilot bodl druhého, zřejmě se pokusil letoun zřítit či sabotovat jeho systémy, a že byl zatčen a saúdské úřady ho vyslýchají. Jde o tvrzení izraelské strany; UAE/KSA ani vyšetřovací orgány to oficiálně nepotvrdily a rozporuje to titulek AvHerald (u014) o podezření ze sebevraždy.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Netanjahu: pilot bodol druhého a bol zatknutý Saudami",
+          "text": "Podľa výsledkov vyhľadávania (JPost, AFP a ďalšie; stránky neboli priamo čítané) izraelský premiér Netanjahu uviedol, že jeden pilot bodol druhého, zrejme sa pokúsil lietadlo zrútiť alebo sabotovať jeho systémy, a že bol zatknutý a saudské úrady ho vypočúvajú. Ide o tvrdenie izraelskej strany; UAE/KSA ani vyšetrovacie orgány to oficiálne nepotvrdili a odporuje tomu titulok AvHerald (u014) o podozrení zo samovraždy."
+        },
+        "en": {
+          "title": "Netanyahu: pilot stabbed the other and was arrested by the Saudis",
+          "text": "According to search results (JPost, AFP and others; pages not read directly), Israeli PM Netanyahu said one pilot stabbed the other, apparently tried to crash the plane or sabotage its systems, and was arrested and is being questioned by Saudi authorities. This is a claim by the Israeli side; UAE/KSA and investigators have not officially confirmed it, and it conflicts with the AvHerald headline (u014) about a suspected suicide attempt."
+        }
+      }
+    },
+    {
+      "id": "u016",
+      "found_at": "2026-09-30T14:20:00Z",
+      "published_at": null,
+      "source": "The Week / Business Today / Cedar News (přes vyhledávání)",
+      "url": "https://www.theweek.in/news/middle-east/2026/09/30/flydubai-emergency-landing-saudi-arabia.html",
+      "title": "Druhý let flydubai do Tel Avivu: podle médií chyba sledování",
+      "text": "Podle výsledků vyhledávání (stránky nebyly přímo čteny) se hodiny po FZ1073 objevily zprávy, že se z Tel Avivu vrací další let flydubai. Média píšou, že šlo o chybu webů pro sledování letů a let FZ1081 pokračoval normálně; oficiální potvrzení chybí.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Druhý let flydubai do Tel Avivu: podľa médií chyba sledovania",
+          "text": "Podľa výsledkov vyhľadávania (stránky neboli priamo čítané) sa hodiny po FZ1073 objavili správy, že sa z Tel Avivu vracia ďalší let flydubai. Médiá píšu, že išlo o chybu webov na sledovanie letov a let FZ1081 pokračoval normálne; oficiálne potvrdenie chýba."
+        },
+        "en": {
+          "title": "Second flydubai flight to Tel Aviv: media say tracking glitch",
+          "text": "According to search results (pages not read directly), hours after FZ1073 reports emerged that another flydubai flight was turning back from Tel Aviv. Media say it was a glitch on flight-tracking sites and flight FZ1081 continued normally; there is no official confirmation."
         }
       }
     }

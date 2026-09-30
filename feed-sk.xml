@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Wed, 30 Sep 2026 14:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 14:20:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] Druhý let flydubai do Tel Avivu: podľa médií chyba sledovania</title>
+      <link>https://www.theweek.in/news/middle-east/2026/09/30/flydubai-emergency-landing-saudi-arabia.html</link>
+      <guid isPermaLink="false">fz1073-u016</guid>
+      <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Podľa výsledkov vyhľadávania (stránky neboli priamo čítané) sa hodiny po FZ1073 objavili správy, že sa z Tel Avivu vracia ďalší let flydubai. Médiá píšu, že išlo o chybu webov na sledovanie letov a let FZ1081 pokračoval normálne; oficiálne potvrdenie chýba. (Zdroj: The Week / Business Today / Cedar News (přes vyhledávání))</description>
+    </item>
+    <item>
+      <title>[Médiá] Netanjahu: pilot bodol druhého a bol zatknutý Saudami</title>
+      <link>https://www.jpost.com/israel-news/benjamin-netanyahu/article-910205</link>
+      <guid isPermaLink="false">fz1073-u015</guid>
+      <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa výsledkov vyhľadávania (JPost, AFP a ďalšie; stránky neboli priamo čítané) izraelský premiér Netanjahu uviedol, že jeden pilot bodol druhého, zrejme sa pokúsil lietadlo zrútiť alebo sabotovať jeho systémy, a že bol zatknutý a saudské úrady ho vypočúvajú. Ide o tvrdenie izraelskej strany; UAE/KSA ani vyšetrovacie orgány to oficiálne nepotvrdili a odporuje tomu titulok AvHerald (u014) o podozrení zo samovraždy. (Zdroj: Jerusalem Post / AFP / další (přes vyhledávání))</description>
+    </item>
     <item>
       <title>[Neoverené] AvHerald upravil titulok: F/O vyšetrovaný pre podozrenie z pokusu o samovraždu</title>
       <link>https://avherald.com/h?article=5423fa17&amp;opt=0</link>
