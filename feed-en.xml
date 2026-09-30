@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 19:10:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 20:10:59 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] flydubai temporarily suspends all flights to and from Israel</title>
+      <link>https://www.dubaieye1038.com/news/local/flydubai-suspends-israel-flights-amid-fz1073-incident-investigation/</link>
+      <guid isPermaLink="false">fz1073-u022</guid>
+      <pubDate>Wed, 30 Sep 2026 20:10:59 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to a Dubai Eye article (read directly; the flydubai statement on its own website has not yet been read directly), the carrier temporarily suspended all flights to and from Israel in coordination with the relevant authorities so the FZ1073 investigation can continue. It apologised to affected passengers and said it would review the suspension as more information emerges. (Source: Dubai Eye 103.8)</description>
+    </item>
     <item>
       <title>[Media] GCAA UAE: 'security incident' on FZ1073 brought under control, crew members injured</title>
       <link>https://gulfnews.com/business/aviation/gcaa-confirms-security-incident-on-flydubai-flight-crew-members-injured-1.500694048</link>

@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T19:10:31Z",
-    "next_check": "2026-09-30T20:10:31Z",
+    "last_check": "2026-09-30T20:10:59Z",
+    "next_check": "2026-09-30T21:10:59Z",
     "new_count": 1
   },
   "updates": [
@@ -622,6 +622,27 @@
         "en": {
           "title": "GCAA UAE: 'security incident' on FZ1073 brought under control, crew members injured",
           "text": "According to Gulf News (read directly), the UAE GCAA said flight FZ1073 experienced a security incident that was brought under control, and the aircraft made an emergency landing at Tabuk. Some crew members were injured and treated at a Saudi hospital; GCAA investigation teams are working with relevant authorities on causes and circumstances. The statement text on the GCAA website itself was not read directly (the page contained nothing on it), so this is a media report, not status official; it is the first GCAA statement found on the incident."
+        }
+      }
+    },
+    {
+      "id": "u022",
+      "found_at": "2026-09-30T20:10:59Z",
+      "published_at": null,
+      "source": "Dubai Eye 103.8",
+      "url": "https://www.dubaieye1038.com/news/local/flydubai-suspends-israel-flights-amid-fz1073-incident-investigation/",
+      "title": "flydubai dočasně pozastavuje všechny lety do a z Izraele",
+      "text": "Podle článku Dubai Eye (přímo přečten; prohlášení flydubai na jeho oficiálním webu zatím nebylo přímo přečteno) dopravce dočasně pozastavil všechny lety do a z Izraele v koordinaci s příslušnými úřady, aby šetření FZ1073 mohlo pokračovat. Omluvil se dotčeným cestujícím a uvedl, že pozastavení přehodnotí podle nových informací.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "flydubai dočasne pozastavuje všetky lety do a z Izraela",
+          "text": "Podľa článku Dubai Eye (priamo prečítaný; vyhlásenie flydubai na jeho oficiálnom webe zatiaľ nebolo priamo prečítané) dopravca dočasne pozastavil všetky lety do a z Izraela v koordinácii s príslušnými úradmi, aby mohlo šetrenie FZ1073 pokračovať. Ospravedlnil sa dotknutým cestujúcim a uviedol, že pozastavenie prehodnotí podľa nových informácií."
+        },
+        "en": {
+          "title": "flydubai temporarily suspends all flights to and from Israel",
+          "text": "According to a Dubai Eye article (read directly; the flydubai statement on its own website has not yet been read directly), the carrier temporarily suspended all flights to and from Israel in coordination with the relevant authorities so the FZ1073 investigation can continue. It apologised to affected passengers and said it would review the suspension as more information emerges."
         }
       }
     }

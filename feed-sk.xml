@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Wed, 30 Sep 2026 19:10:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 20:10:59 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] flydubai dočasne pozastavuje všetky lety do a z Izraela</title>
+      <link>https://www.dubaieye1038.com/news/local/flydubai-suspends-israel-flights-amid-fz1073-incident-investigation/</link>
+      <guid isPermaLink="false">fz1073-u022</guid>
+      <pubDate>Wed, 30 Sep 2026 20:10:59 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Podľa článku Dubai Eye (priamo prečítaný; vyhlásenie flydubai na jeho oficiálnom webe zatiaľ nebolo priamo prečítané) dopravca dočasne pozastavil všetky lety do a z Izraela v koordinácii s príslušnými úradmi, aby mohlo šetrenie FZ1073 pokračovať. Ospravedlnil sa dotknutým cestujúcim a uviedol, že pozastavenie prehodnotí podľa nových informácií. (Zdroj: Dubai Eye 103.8)</description>
+    </item>
     <item>
       <title>[Médiá] GCAA UAE: „bezpečnostný incident“ na FZ1073 pod kontrolou, zranení členovia posádky</title>
       <link>https://gulfnews.com/business/aviation/gcaa-confirms-security-incident-on-flydubai-flight-crew-members-injured-1.500694048</link>
