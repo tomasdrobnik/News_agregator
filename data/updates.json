@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T19:10:46Z",
-    "next_check": "2026-10-01T20:10:46Z",
+    "last_check": "2026-10-01T20:10:39Z",
+    "next_check": "2026-10-01T21:10:39Z",
     "new_count": 1
   },
   "updates": [
@@ -1135,6 +1135,26 @@
         "en": {
           "title": "CNN: suspect co-pilot and injured captain both flew from Saudi Arabia to Abu Dhabi",
           "text": "CNN (live blog read directly), citing the Saudi Interior Ministry, reports that both pilots, once medically cleared, left Tabuk for Abu Dhabi on Thursday accompanied by a UAE security team. According to the ministry, the preliminary Saudi investigation with UAE team participation found an assault on the captain by the co-pilot; the motive and weapon have not been disclosed and authorities have not named the suspect."
+        }
+      }
+    },
+    {
+      "id": "u044",
+      "found_at": "2026-10-01T20:10:39Z",
+      "published_at": null,
+      "source": "Israel Hayom (přes vyhledávání)",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21534358",
+      "title": "Israel Hayom: nové podezření, že druhý pilot FZ1073 nejednal sám",
+      "text": "Podle titulku článku Israel Hayom ve výsledcích vyhledávání se v šetření objevuje nové podezření, že nešlo o osamocený čin. Stránka nebyla přímo přečtena (403), obsah ani zdroje tvrzení neznáme; izraelský web Mako ve stejném smyslu uvádí, že jistota není, ale roste podezření na nacionalistický motiv. Jde o neověřené mediální spekulace, UAE ani KSA to nepotvrdily.",
+      "status": "unconfirmed",
+      "i18n": {
+        "sk": {
+          "title": "Israel Hayom: nové podozrenie, že druhý pilot FZ1073 nekonal sám",
+          "text": "Podľa titulku článku Israel Hayom vo výsledkoch vyhľadávania sa v vyšetrovaní objavuje nové podozrenie, že nešlo o osamotený čin. Stránka nebola priamo prečítaná (403), obsah ani zdroje tvrdenia nepoznáme; izraelský web Mako v rovnakom zmysle uvádza, že istota nie je, ale rastie podozrenie na nacionalistický motív. Ide o neoverené mediálne špekulácie, UAE ani KSA to nepotvrdili."
+        },
+        "en": {
+          "title": "Israel Hayom: new suspicion that the FZ1073 first officer did not act alone",
+          "text": "According to the headline of an Israel Hayom article in search results, a new suspicion has emerged in the investigation that this was not a lone act. The page was not read directly (403), so its content and sources are unknown; the Israeli site Mako similarly says certainty is lacking but suspicion of a nationalist motive is growing. These are unverified media speculation, not confirmed by the UAE or KSA."
         }
       }
     }

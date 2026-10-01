@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 01 Oct 2026 19:10:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 20:10:39 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Israel Hayom: nové podezření, že druhý pilot FZ1073 nejednal sám</title>
+      <link>https://www.israelhayom.co.il/news/defense/article/21534358</link>
+      <guid isPermaLink="false">fz1073-u044</guid>
+      <pubDate>Thu, 01 Oct 2026 20:10:39 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle titulku článku Israel Hayom ve výsledcích vyhledávání se v šetření objevuje nové podezření, že nešlo o osamocený čin. Stránka nebyla přímo přečtena (403), obsah ani zdroje tvrzení neznáme; izraelský web Mako ve stejném smyslu uvádí, že jistota není, ale roste podezření na nacionalistický motiv. Jde o neověřené mediální spekulace, UAE ani KSA to nepotvrdily. (Zdroj: Israel Hayom (přes vyhledávání))</description>
+    </item>
     <item>
       <title>[Média] CNN: podezřelý druhý pilot i zraněný kapitán odletěli z Saúdské Arábie do Abú Dhabí</title>
       <link>https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl</link>
