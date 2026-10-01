@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Thu, 01 Oct 2026 02:10:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 06:11:06 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] CNN: izraelský útok označený za terorizmus, motív nepotvrdený; El Al chystá evakuačné lety z Dubaja</title>
+      <link>https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl</link>
+      <guid isPermaLink="false">fz1073-u029</guid>
+      <pubDate>Thu, 01 Oct 2026 06:11:06 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] CNN (live blog priamo prečítaný) uvádza, že Izrael incident nazýva pokusom o teroristický útok, ale motív nie je potvrdený a útočník nebol oficiálne identifikovaný; jeden izraelský činiteľ hovorí o občanovi Ománu. Podľa CNN lietadlo kleslo o 17 400 ft za menej ako dve minúty (rozpor s údajom FR24 &amp;gt;14 000 ft za &amp;lt;30 s). El Al pripravuje evakuáciu Izraelčanov z Dubaja, termín zatiaľ nie je stanovený; flydubai prevádzkovala na trase približne 70 letov týždenne. (Zdroj: CNN)</description>
+    </item>
     <item>
       <title>[Médiá] Newsweek: indické veľvyslanectvo v Rijáde označilo stav kapitána za stabilný</title>
       <link>https://www.newsweek.com/who-is-capt-smit-machchhar-flydubai-pilot-flight-fz1073-12509226</link>

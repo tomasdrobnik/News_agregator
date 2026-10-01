@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 02:10:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 06:11:06 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] CNN: Israel calls it a terror attack, motive unconfirmed; El Al preparing evacuation flights from Dubai</title>
+      <link>https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl</link>
+      <guid isPermaLink="false">fz1073-u029</guid>
+      <pubDate>Thu, 01 Oct 2026 06:11:06 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] CNN (live blog read directly) says Israel calls the incident an attempted terrorist attack, but no motive is confirmed and the attacker has not been officially identified; one Israeli official says he is an Omani national. CNN reports the plane fell 17,400 ft in under two minutes (conflicts with FR24's &amp;gt;14,000 ft in &amp;lt;30 s). El Al is preparing to evacuate Israelis from Dubai, no date set; flydubai operated about 70 flights a week on the route. (Source: CNN)</description>
+    </item>
     <item>
       <title>[Media] Newsweek: Indian embassy in Saudi Arabia says captain's condition is stable</title>
       <link>https://www.newsweek.com/who-is-capt-smit-machchhar-flydubai-pilot-flight-fz1073-12509226</link>
