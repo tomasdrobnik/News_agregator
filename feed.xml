@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 01 Oct 2026 01:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 02:10:45 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Newsweek: indické velvyslanectví v Rijádu označilo stav kapitána za stabilní</title>
+      <link>https://www.newsweek.com/who-is-capt-smit-machchhar-flydubai-pilot-flight-fz1073-12509226</link>
+      <guid isPermaLink="false">fz1073-u028</guid>
+      <pubDate>Thu, 01 Oct 2026 02:10:45 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle Newsweeku (článek přímo přečten), který cituje agenturu AP, indické velvyslanectví v Saúdské Arábii uvedlo, že kapitán je ve stabilizovaném stavu; izraelská média podle článku píší o operaci jeho zranění. Jde o převzatou informaci, neověřenou správcem; oficiální zdravotní zpráva nebyla dohledána. (Zdroj: Newsweek (přes AP))</description>
+    </item>
     <item>
       <title>[Média] Emirates pozastavila codeshare lety flydubai do Tel Avivu</title>
       <link>https://gulfnews.com/business/aviation/emirates-suspends-flydubai-codeshare-flights-to-tel-aviv-1.500694147</link>

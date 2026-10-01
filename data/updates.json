@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T01:10:48Z",
-    "next_check": "2026-10-01T02:10:48Z",
+    "last_check": "2026-10-01T02:10:45Z",
+    "next_check": "2026-10-01T03:10:45Z",
     "new_count": 1
   },
   "updates": [
@@ -747,6 +747,26 @@
         "en": {
           "title": "Emirates suspends codeshare flights with flydubai to Tel Aviv",
           "text": "According to Gulf News (article read directly), Emirates has suspended its codeshare operations with flydubai to and from Tel Aviv with immediate effect until further notice. Passengers whose final destination is Tel Aviv will not be accepted at their origin; those already en route will be supported to complete their journeys. Khaleej Times reports the same (search results only)."
+        }
+      }
+    },
+    {
+      "id": "u028",
+      "found_at": "2026-10-01T02:10:45Z",
+      "published_at": "2026-09-30T00:00:00Z",
+      "source": "Newsweek (přes AP)",
+      "url": "https://www.newsweek.com/who-is-capt-smit-machchhar-flydubai-pilot-flight-fz1073-12509226",
+      "title": "Newsweek: indické velvyslanectví v Rijádu označilo stav kapitána za stabilní",
+      "text": "Podle Newsweeku (článek přímo přečten), který cituje agenturu AP, indické velvyslanectví v Saúdské Arábii uvedlo, že kapitán je ve stabilizovaném stavu; izraelská média podle článku píší o operaci jeho zranění. Jde o převzatou informaci, neověřenou správcem; oficiální zdravotní zpráva nebyla dohledána.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Newsweek: indické veľvyslanectvo v Rijáde označilo stav kapitána za stabilný",
+          "text": "Podľa Newsweeku (článok priamo prečítaný), ktorý cituje agentúru AP, indické veľvyslanectvo v Saudskej Arábii uviedlo, že kapitán je v stabilizovanom stave; izraelské médiá podľa článku píšu o operácii jeho zranenia. Ide o prevzatú informáciu, neoverenú správcom; oficiálna zdravotná správa nebola dohľadaná."
+        },
+        "en": {
+          "title": "Newsweek: Indian embassy in Saudi Arabia says captain's condition is stable",
+          "text": "According to Newsweek (article read directly), citing AP, the Indian embassy in Saudi Arabia said the captain is in stable condition; Israeli media reportedly write of surgery for his wounds. This is relayed information not verified by the maintainer; no official medical report was found."
         }
       }
     }

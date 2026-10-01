@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 01:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 02:10:45 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Newsweek: Indian embassy in Saudi Arabia says captain's condition is stable</title>
+      <link>https://www.newsweek.com/who-is-capt-smit-machchhar-flydubai-pilot-flight-fz1073-12509226</link>
+      <guid isPermaLink="false">fz1073-u028</guid>
+      <pubDate>Thu, 01 Oct 2026 02:10:45 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Newsweek (article read directly), citing AP, the Indian embassy in Saudi Arabia said the captain is in stable condition; Israeli media reportedly write of surgery for his wounds. This is relayed information not verified by the maintainer; no official medical report was found. (Source: Newsweek (přes AP))</description>
+    </item>
     <item>
       <title>[Media] Emirates suspends codeshare flights with flydubai to Tel Aviv</title>
       <link>https://gulfnews.com/business/aviation/emirates-suspends-flydubai-codeshare-flights-to-tel-aviv-1.500694147</link>
