@@ -378,6 +378,24 @@
       "added_at": "2026-10-01T17:10:27Z",
       "active": true,
       "note": "Renomovaný emirátský deník; cituje prohlášení GCAA k FZ1073."
+    },
+    {
+      "name": "CBS News (YouTube)",
+      "url": "https://www.youtube.com/@CBSNews",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-10-01T18:34:55Z",
+      "active": true,
+      "note": "Oficiální YouTube kanál renomovaného média; odkazy na videa k FZ1073. YouTube automatické čtení nepoužíváme, autor kanálu zjištěn přes oEmbed."
+    },
+    {
+      "name": "9 News Australia (YouTube)",
+      "url": "https://www.youtube.com/@9NewsAUS",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-10-01T18:34:55Z",
+      "active": true,
+      "note": "Oficiální YouTube kanál renomovaného média; odkazy na videa k FZ1073. YouTube automatické čtení nepoužíváme, autor kanálu zjištěn přes oEmbed."
     }
   ]
 }

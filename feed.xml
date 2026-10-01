@@ -6,8 +6,32 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 01 Oct 2026 18:11:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 18:34:55 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Al Arabiya: cestující odletěli z Tabuku náhradním letadlem do Izraele</title>
+      <link>https://www.youtube.com/watch?v=J61SxFFANco</link>
+      <guid isPermaLink="false">fz1073-u042</guid>
+      <pubDate>Thu, 01 Oct 2026 18:34:55 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Al Arabiya na YouTube zveřejnila video o tom, že cestující z letu FZ1073 opustili Tabuk náhradním letadlem a dorazili do Izraele. Obsah videa nebyl přehrán, titulek pochází z náhledu (oEmbed). (Zdroj: Al Arabiya)&lt;br&gt;&lt;a href="https://www.youtube.com/watch?v=J61SxFFANco"&gt;Video: odlet cestujících z Tabuku náhradním letadlem&lt;/a&gt; (Al Arabiya (YouTube), via Al Arabiya)</description>
+    </item>
+    <item>
+      <title>[Neověřeno] Video 9 News Australia: pilot pobodán jiným pilotem na letu Dubaj–Tel Aviv</title>
+      <link>https://www.youtube.com/watch?v=huKwkrvsslY</link>
+      <guid isPermaLink="false">fz1073-u041</guid>
+      <pubDate>Thu, 01 Oct 2026 18:34:55 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Australská stanice 9 News na YouTube zařadila reportáž o údajném pobodání pilota na letu FZ1073. Obsah videa nebyl přehrán ani ověřen, titulek pochází z náhledu (oEmbed). Některá videa mohou být drastická. (Zdroj: 9 News Australia (YouTube))&lt;br&gt;&lt;a href="https://www.youtube.com/watch?v=huKwkrvsslY"&gt;Video: reportáž o údajném pobodání pilota&lt;/a&gt; (9 News Australia (YouTube), via 9 News Australia (YouTube))</description>
+    </item>
+    <item>
+      <title>[Neověřeno] Video CBS News: záběry z kabiny a boj o kontrolu nad letadlem</title>
+      <link>https://www.youtube.com/watch?v=8D1oeZAToFY</link>
+      <guid isPermaLink="false">fz1073-u040</guid>
+      <pubDate>Thu, 01 Oct 2026 18:34:55 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] CBS News na YouTube sdílí záběry natočené cestujícími z kabiny letu FZ1073 po údajném pobodání pilota. Titulek videa jsem přečetl jen z náhledu (oEmbed), samotné video nebylo přehráno ani ověřeno; autor původních záběrů není znám. Některá videa mohou být drastická. (Zdroj: CBS News (YouTube))&lt;br&gt;&lt;a href="https://www.youtube.com/watch?v=8D1oeZAToFY"&gt;Video: záběry z kabiny (titulek: boj cestujících o kontrolu nad letadlem)&lt;/a&gt; (CBS News (YouTube); původní autor záběrů není znám, via CBS News (YouTube))</description>
+    </item>
     <item>
       <title>[Neověřeno] Video z kabiny: křik a zmatek při přiblížení k přistání</title>
       <link>https://cedarnews.net/newstasks/1017470/video-captures-passengers-screaming-aboard-flydubai-fz1073-during-reported-cockpit-knife-attack/</link>

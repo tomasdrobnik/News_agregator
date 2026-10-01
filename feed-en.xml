@@ -6,8 +6,32 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 18:11:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 18:34:55 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Al Arabiya: passengers left Tabuk on a replacement aircraft and reached Israel</title>
+      <link>https://www.youtube.com/watch?v=J61SxFFANco</link>
+      <guid isPermaLink="false">fz1073-u042</guid>
+      <pubDate>Thu, 01 Oct 2026 18:34:55 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] Al Arabiya posted a video on YouTube saying FZ1073 passengers left Tabuk on a replacement aircraft and arrived in Israel. The video was not played; the title comes from the preview (oEmbed). (Source: Al Arabiya)&lt;br&gt;&lt;a href="https://www.youtube.com/watch?v=J61SxFFANco"&gt;Video: passengers departing Tabuk on a replacement aircraft&lt;/a&gt; (Al Arabiya (YouTube), via Al Arabiya)</description>
+    </item>
+    <item>
+      <title>[Unconfirmed] 9 News Australia video: pilot stabbed by another pilot on the Dubai–Tel Aviv flight</title>
+      <link>https://www.youtube.com/watch?v=huKwkrvsslY</link>
+      <guid isPermaLink="false">fz1073-u041</guid>
+      <pubDate>Thu, 01 Oct 2026 18:34:55 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] Australian broadcaster 9 News posted a report on YouTube about the alleged stabbing of a pilot on FZ1073. The video was not played or verified; the title comes from the preview (oEmbed). Some videos may be graphic. (Source: 9 News Australia (YouTube))&lt;br&gt;&lt;a href="https://www.youtube.com/watch?v=huKwkrvsslY"&gt;Video: report on the alleged stabbing of a pilot&lt;/a&gt; (9 News Australia (YouTube), via 9 News Australia (YouTube))</description>
+    </item>
+    <item>
+      <title>[Unconfirmed] CBS News video: cabin footage and the fight for control of the aircraft</title>
+      <link>https://www.youtube.com/watch?v=8D1oeZAToFY</link>
+      <guid isPermaLink="false">fz1073-u040</guid>
+      <pubDate>Thu, 01 Oct 2026 18:34:55 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] CBS News on YouTube shares footage shot by passengers in the cabin of FZ1073 after the alleged stabbing of a pilot. I read the video title only from the preview (oEmbed); the video itself was not played or verified, and the author of the original footage is unknown. Some videos may be graphic. (Source: CBS News (YouTube))&lt;br&gt;&lt;a href="https://www.youtube.com/watch?v=8D1oeZAToFY"&gt;Video: cabin footage (title: passengers' fight for control of the aircraft)&lt;/a&gt; (CBS News (YouTube); původní autor záběrů není znám, via CBS News (YouTube))</description>
+    </item>
     <item>
       <title>[Unconfirmed] Cabin video: screaming and confusion on approach to landing</title>
       <link>https://cedarnews.net/newstasks/1017470/video-captures-passengers-screaming-aboard-flydubai-fz1073-during-reported-cockpit-knife-attack/</link>

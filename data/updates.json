@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T18:11:01Z",
-    "next_check": "2026-10-01T19:11:01Z",
-    "new_count": 1
+    "last_check": "2026-10-01T18:34:55Z",
+    "next_check": "2026-10-01T19:34:55Z",
+    "new_count": 3
   },
   "updates": [
     {
@@ -1004,6 +1004,117 @@
         "en": {
           "title": "Cabin video: screaming and confusion on approach to landing",
           "text": "The aggregator Cedar News carries a cabin video in which passengers can be heard screaming amid commotion as the aircraft approaches land. The author is not named and the content has not been verified; the page was read via WebFetch."
+        }
+      }
+    },
+    {
+      "id": "u040",
+      "found_at": "2026-10-01T18:34:55Z",
+      "published_at": null,
+      "source": "CBS News (YouTube)",
+      "url": "https://www.youtube.com/watch?v=8D1oeZAToFY",
+      "title": "Video CBS News: záběry z kabiny a boj o kontrolu nad letadlem",
+      "text": "CBS News na YouTube sdílí záběry natočené cestujícími z kabiny letu FZ1073 po údajném pobodání pilota. Titulek videa jsem přečetl jen z náhledu (oEmbed), samotné video nebylo přehráno ani ověřeno; autor původních záběrů není znám. Některá videa mohou být drastická.",
+      "status": "unconfirmed",
+      "media": [
+        {
+          "type": "video",
+          "caption": "záběry z kabiny (titulek: boj cestujících o kontrolu nad letadlem)",
+          "url": "https://www.youtube.com/watch?v=8D1oeZAToFY",
+          "thumb": "https://i.ytimg.com/vi/8D1oeZAToFY/hqdefault.jpg",
+          "credit": "CBS News (YouTube); původní autor záběrů není znám",
+          "i18n": {
+            "sk": {
+              "caption": "zábery z kabíny (titulok: boj cestujúcich o kontrolu nad lietadlom)"
+            },
+            "en": {
+              "caption": "cabin footage (title: passengers' fight for control of the aircraft)"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "sk": {
+          "title": "Video CBS News: zábery z kabíny a boj o kontrolu nad lietadlom",
+          "text": "CBS News na YouTube zdieľa zábery natočené cestujúcimi z kabíny letu FZ1073 po údajnom pobodaní pilota. Titulok videa som prečítal len z náhľadu (oEmbed), samotné video nebolo prehrané ani overené; autor pôvodných záberov nie je známy. Niektoré videá môžu byť drastické."
+        },
+        "en": {
+          "title": "CBS News video: cabin footage and the fight for control of the aircraft",
+          "text": "CBS News on YouTube shares footage shot by passengers in the cabin of FZ1073 after the alleged stabbing of a pilot. I read the video title only from the preview (oEmbed); the video itself was not played or verified, and the author of the original footage is unknown. Some videos may be graphic."
+        }
+      }
+    },
+    {
+      "id": "u041",
+      "found_at": "2026-10-01T18:34:55Z",
+      "published_at": null,
+      "source": "9 News Australia (YouTube)",
+      "url": "https://www.youtube.com/watch?v=huKwkrvsslY",
+      "title": "Video 9 News Australia: pilot pobodán jiným pilotem na letu Dubaj–Tel Aviv",
+      "text": "Australská stanice 9 News na YouTube zařadila reportáž o údajném pobodání pilota na letu FZ1073. Obsah videa nebyl přehrán ani ověřen, titulek pochází z náhledu (oEmbed). Některá videa mohou být drastická.",
+      "status": "unconfirmed",
+      "media": [
+        {
+          "type": "video",
+          "caption": "reportáž o údajném pobodání pilota",
+          "url": "https://www.youtube.com/watch?v=huKwkrvsslY",
+          "thumb": "https://i.ytimg.com/vi/huKwkrvsslY/hqdefault.jpg",
+          "credit": "9 News Australia (YouTube)",
+          "i18n": {
+            "sk": {
+              "caption": "reportáž o údajnom pobodaní pilota"
+            },
+            "en": {
+              "caption": "report on the alleged stabbing of a pilot"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "sk": {
+          "title": "Video 9 News Australia: pilot pobodaný iným pilotom na lete Dubaj–Tel Aviv",
+          "text": "Austrálska stanica 9 News na YouTube zaradila reportáž o údajnom pobodaní pilota na lete FZ1073. Obsah videa nebol prehraný ani overený, titulok pochádza z náhľadu (oEmbed). Niektoré videá môžu byť drastické."
+        },
+        "en": {
+          "title": "9 News Australia video: pilot stabbed by another pilot on the Dubai–Tel Aviv flight",
+          "text": "Australian broadcaster 9 News posted a report on YouTube about the alleged stabbing of a pilot on FZ1073. The video was not played or verified; the title comes from the preview (oEmbed). Some videos may be graphic."
+        }
+      }
+    },
+    {
+      "id": "u042",
+      "found_at": "2026-10-01T18:34:55Z",
+      "published_at": null,
+      "source": "Al Arabiya",
+      "url": "https://www.youtube.com/watch?v=J61SxFFANco",
+      "title": "Al Arabiya: cestující odletěli z Tabuku náhradním letadlem do Izraele",
+      "text": "Al Arabiya na YouTube zveřejnila video o tom, že cestující z letu FZ1073 opustili Tabuk náhradním letadlem a dorazili do Izraele. Obsah videa nebyl přehrán, titulek pochází z náhledu (oEmbed).",
+      "status": "unconfirmed",
+      "media": [
+        {
+          "type": "video",
+          "caption": "odlet cestujících z Tabuku náhradním letadlem",
+          "url": "https://www.youtube.com/watch?v=J61SxFFANco",
+          "thumb": "https://i.ytimg.com/vi/J61SxFFANco/hqdefault.jpg",
+          "credit": "Al Arabiya (YouTube)",
+          "i18n": {
+            "sk": {
+              "caption": "odlet cestujúcich z Tabuku náhradným lietadlom"
+            },
+            "en": {
+              "caption": "passengers departing Tabuk on a replacement aircraft"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "sk": {
+          "title": "Al Arabiya: cestujúci odleteli z Tabuku náhradným lietadlom do Izraela",
+          "text": "Al Arabiya na YouTube zverejnila video o tom, že cestujúci z letu FZ1073 opustili Tabuk náhradným lietadlom a dorazili do Izraela. Obsah videa nebol prehraný, titulok pochádza z náhľadu (oEmbed)."
+        },
+        "en": {
+          "title": "Al Arabiya: passengers left Tabuk on a replacement aircraft and reached Israel",
+          "text": "Al Arabiya posted a video on YouTube saying FZ1073 passengers left Tabuk on a replacement aircraft and arrived in Israel. The video was not played; the title comes from the preview (oEmbed)."
         }
       }
     }
