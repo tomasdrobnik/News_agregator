@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Thu, 01 Oct 2026 13:12:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 14:11:33 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Saudi Gazette: saudské NTSC začalo bezpečnostné vyšetrovanie pristátia v Tabúku (upresňuje u025)</title>
+      <link>https://saudigazette.com.sa/article/665027/saudi-arabia/saudi-arabia-launches-investigation-into-flydubai-emergency-landing-in-tabuk</link>
+      <guid isPermaLink="false">fz1073-u034</guid>
+      <pubDate>Thu, 01 Oct 2026 14:11:33 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa priamo prečítaného článku Saudi Gazette národné centrum bezpečnosti dopravy KSA uviedlo, že dostalo hlásenie o incidente a vyslalo vyšetrovací tím na okolnosti a dôkazy z hľadiska bezpečnosti letectva. Článok zároveň uvádza, že SAE vedie samostatné trestné vyšetrovanie pod vedením generálneho prokurátora, ktoré má posúdiť aj motívy a prípadnú súvislosť s terorizmom. Ide o prerozprávanie agentúrneho oznámenia, vyhlásenie centra samotného nebolo priamo čítané. (Zdroj: Saudi Gazette)</description>
+    </item>
     <item>
       <title>[Oficiálne] MoFA SAE: sleduje incident FZ1073, vyšetrovanie nariadil generálny prokurátor</title>
       <link>https://www.mofa.gov.ae/en/MediaHub/News/2026/10/1/UAE-fly-dubai</link>

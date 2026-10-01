@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T13:12:03Z",
-    "next_check": "2026-10-01T14:12:03Z",
+    "last_check": "2026-10-01T14:11:33Z",
+    "next_check": "2026-10-01T15:11:33Z",
     "new_count": 1
   },
   "updates": [
@@ -867,6 +867,26 @@
         "en": {
           "title": "UAE MoFA: monitoring FZ1073 incident, Attorney General ordered investigation",
           "text": "The UAE Ministry of Foreign Affairs (text read directly via WebFetch) says it is monitoring the incident and that the Attorney General ordered an investigation team. It states UAE law applies to the UAE-registered aircraft even outside UAE territory, and the probe is to cover possible terrorism links, planning or external direction. It urges the public to rely only on official sources."
+        }
+      }
+    },
+    {
+      "id": "u034",
+      "found_at": "2026-10-01T14:11:33Z",
+      "published_at": "2026-10-01T13:32:26Z",
+      "source": "Saudi Gazette",
+      "url": "https://saudigazette.com.sa/article/665027/saudi-arabia/saudi-arabia-launches-investigation-into-flydubai-emergency-landing-in-tabuk",
+      "status": "reported",
+      "title": "Saudi Gazette: saúdské NTSC zahájilo bezpečnostní šetření přistání v Tabúku (upřesňuje u025)",
+      "text": "Podle přímo přečteného článku Saudi Gazette národní centrum bezpečnosti dopravy KSA uvedlo, že obdrželo hlášení o incidentu a vyslalo vyšetřovací tým pro okolnosti a důkazy z hlediska bezpečnosti letectví. Článek zároveň uvádí, že SAE vede samostatné trestní šetření pod vedením generálního prokurátora, které má posoudit i motivy a případnou souvislost s terorismem. Jde o převyprávění agenturního sdělení, prohlášení centra samotného nebylo přímo čteno.",
+      "i18n": {
+        "sk": {
+          "title": "Saudi Gazette: saudské NTSC začalo bezpečnostné vyšetrovanie pristátia v Tabúku (upresňuje u025)",
+          "text": "Podľa priamo prečítaného článku Saudi Gazette národné centrum bezpečnosti dopravy KSA uviedlo, že dostalo hlásenie o incidente a vyslalo vyšetrovací tím na okolnosti a dôkazy z hľadiska bezpečnosti letectva. Článok zároveň uvádza, že SAE vedie samostatné trestné vyšetrovanie pod vedením generálneho prokurátora, ktoré má posúdiť aj motívy a prípadnú súvislosť s terorizmom. Ide o prerozprávanie agentúrneho oznámenia, vyhlásenie centra samotného nebolo priamo čítané."
+        },
+        "en": {
+          "title": "Saudi Gazette: Saudi NTSC opens safety investigation into Tabuk landing (clarifies u025)",
+          "text": "According to the directly read Saudi Gazette article, the Saudi National Transport Safety Center said it received a report of the incident and sent an investigation team to establish circumstances and evidence from an aviation-safety perspective. The article also says the UAE runs a separate criminal investigation led by the Attorney General, to examine motives and any link to terrorism. This is a retelling of agency reporting; the center's own statement was not read directly."
         }
       }
     }

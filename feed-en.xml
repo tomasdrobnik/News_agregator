@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 13:12:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 14:11:33 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Saudi Gazette: Saudi NTSC opens safety investigation into Tabuk landing (clarifies u025)</title>
+      <link>https://saudigazette.com.sa/article/665027/saudi-arabia/saudi-arabia-launches-investigation-into-flydubai-emergency-landing-in-tabuk</link>
+      <guid isPermaLink="false">fz1073-u034</guid>
+      <pubDate>Thu, 01 Oct 2026 14:11:33 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Saudi Gazette article, the Saudi National Transport Safety Center said it received a report of the incident and sent an investigation team to establish circumstances and evidence from an aviation-safety perspective. The article also says the UAE runs a separate criminal investigation led by the Attorney General, to examine motives and any link to terrorism. This is a retelling of agency reporting; the center's own statement was not read directly. (Source: Saudi Gazette)</description>
+    </item>
     <item>
       <title>[Official] UAE MoFA: monitoring FZ1073 incident, Attorney General ordered investigation</title>
       <link>https://www.mofa.gov.ae/en/MediaHub/News/2026/10/1/UAE-fly-dubai</link>
