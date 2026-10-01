@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Thu, 01 Oct 2026 16:10:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 17:10:27 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Khaleej Times: GCAA vyzýva nešíriť neoficiálne informácie, výsledky šetrenia zverejní</title>
+      <link>https://www.khaleejtimes.com/business/aviation/uaes-gcaa-says-investigations-ongoing-in-dubai-tel-aviv-flydubai-flight-incident</link>
+      <guid isPermaLink="false">fz1073-u037</guid>
+      <pubDate>Thu, 01 Oct 2026 17:10:27 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa článku Khaleej Times (priamo prečítaný) GCAA uvádza, že šetrenie operačných a bezpečnostných aspektov FZ1073 pokračuje a výsledky zverejní po dokončení. Verejnosť žiada, aby nešírila neoficiálne informácie a nepredbiehala závery. Text vyhlásenia nebol čítaný priamo na webe GCAA, preto ide o správu média; vedúci šetrenia zatiaľ nebol oznámený. (Zdroj: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Médiá] The National: incident FZ1073 znovu otvára debatu o kamerách v kokpite</title>
       <link>https://www.thenationalnews.com/news/uae/2026/10/01/flydubai-incident-renews-debate-over-cockpit-video-recorders/</link>

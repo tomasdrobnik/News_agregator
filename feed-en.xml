@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 16:10:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 17:10:27 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Khaleej Times: GCAA urges against sharing unofficial information, will publish findings</title>
+      <link>https://www.khaleejtimes.com/business/aviation/uaes-gcaa-says-investigations-ongoing-in-dubai-tel-aviv-flydubai-flight-incident</link>
+      <guid isPermaLink="false">fz1073-u037</guid>
+      <pubDate>Thu, 01 Oct 2026 17:10:27 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the Khaleej Times article (read directly), the GCAA says its review of operational and security aspects of FZ1073 continues and it will publish results once complete. It asks the public not to circulate unofficial information or pre-empt conclusions. The statement was not read directly on the GCAA site, so this is a media report; no investigation lead has been announced yet. (Source: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Media] The National: FZ1073 incident reopens debate on cockpit video recorders</title>
       <link>https://www.thenationalnews.com/news/uae/2026/10/01/flydubai-incident-renews-debate-over-cockpit-video-recorders/</link>

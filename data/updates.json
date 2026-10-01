@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T16:10:56Z",
-    "next_check": "2026-10-01T17:10:56Z",
-    "new_count": 2
+    "last_check": "2026-10-01T17:10:27Z",
+    "next_check": "2026-10-01T18:10:27Z",
+    "new_count": 1
   },
   "updates": [
     {
@@ -927,6 +927,26 @@
         "en": {
           "title": "The National: FZ1073 incident reopens debate on cockpit video recorders",
           "text": "According to the article (read directly), the incident revived debate on mandatory cockpit video recorders; aircraft currently need only audio and data recorders and no international video mandate exists. An FAA panel recommended against a mandate in August 2025 citing pilot-union concerns. This is a general policy debate, not a finding about the incident."
+        }
+      }
+    },
+    {
+      "id": "u037",
+      "found_at": "2026-10-01T17:10:27Z",
+      "published_at": "2026-09-30T00:00:00Z",
+      "source": "Khaleej Times",
+      "url": "https://www.khaleejtimes.com/business/aviation/uaes-gcaa-says-investigations-ongoing-in-dubai-tel-aviv-flydubai-flight-incident",
+      "title": "Khaleej Times: GCAA vyzývá nešířit neoficiální informace, výsledky šetření zveřejní",
+      "text": "Podle článku Khaleej Times (přímo přečten) GCAA uvádí, že šetření operačních a bezpečnostních aspektů FZ1073 pokračuje a výsledky zveřejní po dokončení. Veřejnost žádá, aby nešířila neoficiální informace a nepředbíhala závěry. Text prohlášení nebyl čten přímo na webu GCAA, proto jde o zprávu média; vedoucí šetření zatím nebyl oznámen.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Khaleej Times: GCAA vyzýva nešíriť neoficiálne informácie, výsledky šetrenia zverejní",
+          "text": "Podľa článku Khaleej Times (priamo prečítaný) GCAA uvádza, že šetrenie operačných a bezpečnostných aspektov FZ1073 pokračuje a výsledky zverejní po dokončení. Verejnosť žiada, aby nešírila neoficiálne informácie a nepredbiehala závery. Text vyhlásenia nebol čítaný priamo na webe GCAA, preto ide o správu média; vedúci šetrenia zatiaľ nebol oznámený."
+        },
+        "en": {
+          "title": "Khaleej Times: GCAA urges against sharing unofficial information, will publish findings",
+          "text": "According to the Khaleej Times article (read directly), the GCAA says its review of operational and security aspects of FZ1073 continues and it will publish results once complete. It asks the public not to circulate unofficial information or pre-empt conclusions. The statement was not read directly on the GCAA site, so this is a media report; no investigation lead has been announced yet."
         }
       }
     }

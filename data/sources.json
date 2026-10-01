@@ -369,6 +369,15 @@
       "added_at": "2026-10-01T16:10:56Z",
       "active": true,
       "note": "emirátský deník; přímé čtení přes WebFetch OK (test 2026-10-01T16:10:56Z)"
+    },
+    {
+      "name": "Khaleej Times",
+      "url": "https://www.khaleejtimes.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-01T17:10:27Z",
+      "active": true,
+      "note": "Renomovaný emirátský deník; cituje prohlášení GCAA k FZ1073."
     }
   ]
 }
