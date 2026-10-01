@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T17:10:27Z",
-    "next_check": "2026-10-01T18:10:27Z",
+    "last_check": "2026-10-01T18:11:01Z",
+    "next_check": "2026-10-01T19:11:01Z",
     "new_count": 1
   },
   "updates": [
@@ -947,6 +947,27 @@
         "en": {
           "title": "Khaleej Times: GCAA urges against sharing unofficial information, will publish findings",
           "text": "According to the Khaleej Times article (read directly), the GCAA says its review of operational and security aspects of FZ1073 continues and it will publish results once complete. It asks the public not to circulate unofficial information or pre-empt conclusions. The statement was not read directly on the GCAA site, so this is a media report; no investigation lead has been announced yet."
+        }
+      }
+    },
+    {
+      "id": "u038",
+      "found_at": "2026-10-01T18:11:01Z",
+      "published_at": null,
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-01/ty-article/netanyahu-pilot-in-flydubai-hijacking-attempt-was-influenced-by-radical-islam/000001a0-f7a3-da28-a3a7-ffa39faa0000",
+      "title": "Haaretz: Netanjahu tvrdí, že druhý pilot FZ1073 prošel „islamistickou radikální indoktrinací“",
+      "text": "Podle přímo přečteného článku Haaretz izraelský premiér v rozhovoru pro Fox News uvedl, že druhý pilot prošel radikální islamistickou indoktrinací; stejné tvrzení shodně přinášejí i ABC, CBS a Al-Monitor (podle výsledků vyhledávání). Jde o tvrzení izraelského představitele, které UAE ani Saúdská Arábie nepotvrdily; podle ABC Netanjahu dodal, že neprovádí konečné závěry, a izraelští činitelé nepotvrdili zapojení Íránu a předběžně předpokládají jednání jednotlivce.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Haaretz: Netanjahu tvrdí, že druhý pilot FZ1073 prešiel „islamistickou radikálnou indoktrináciou“",
+          "text": "Podľa priamo prečítaného článku Haaretz izraelský premiér v rozhovore pre Fox News uviedol, že druhý pilot prešiel radikálnou islamistickou indoktrináciou; rovnaké tvrdenie zhodne prinášajú aj ABC, CBS a Al-Monitor (podľa výsledkov vyhľadávania). Ide o tvrdenie izraelského predstaviteľa, ktoré SAE ani Saudská Arábia nepotvrdili; podľa ABC Netanjahu dodal, že nerobí konečné závery, a izraelskí činitelia nepotvrdili zapojenie Iránu a predbežne predpokladajú konanie jednotlivca."
+        },
+        "en": {
+          "title": "Haaretz: Netanyahu claims FZ1073 co-pilot underwent \"Islamist radical indoctrination\"",
+          "text": "According to the directly read Haaretz article, the Israeli prime minister said in a Fox News interview that the co-pilot underwent radical Islamist indoctrination; ABC, CBS and Al-Monitor carry the same claim consistently (per search results). This is a claim by an Israeli official that the UAE and Saudi Arabia have not confirmed; per ABC, Netanyahu added he is not drawing final conclusions, and Israeli officials have not confirmed Iranian involvement and preliminarily assume a lone actor."
         }
       }
     }

@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 17:10:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 18:11:01 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Haaretz: Netanyahu claims FZ1073 co-pilot underwent "Islamist radical indoctrination"</title>
+      <link>https://www.haaretz.com/israel-news/israel-security/2026-10-01/ty-article/netanyahu-pilot-in-flydubai-hijacking-attempt-was-influenced-by-radical-islam/000001a0-f7a3-da28-a3a7-ffa39faa0000</link>
+      <guid isPermaLink="false">fz1073-u038</guid>
+      <pubDate>Thu, 01 Oct 2026 18:11:01 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Haaretz article, the Israeli prime minister said in a Fox News interview that the co-pilot underwent radical Islamist indoctrination; ABC, CBS and Al-Monitor carry the same claim consistently (per search results). This is a claim by an Israeli official that the UAE and Saudi Arabia have not confirmed; per ABC, Netanyahu added he is not drawing final conclusions, and Israeli officials have not confirmed Iranian involvement and preliminarily assume a lone actor. (Source: Haaretz)</description>
+    </item>
     <item>
       <title>[Media] Khaleej Times: GCAA urges against sharing unofficial information, will publish findings</title>
       <link>https://www.khaleejtimes.com/business/aviation/uaes-gcaa-says-investigations-ongoing-in-dubai-tel-aviv-flydubai-flight-incident</link>

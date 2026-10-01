@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Thu, 01 Oct 2026 17:10:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 18:11:01 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Haaretz: Netanjahu tvrdí, že druhý pilot FZ1073 prešiel „islamistickou radikálnou indoktrináciou“</title>
+      <link>https://www.haaretz.com/israel-news/israel-security/2026-10-01/ty-article/netanyahu-pilot-in-flydubai-hijacking-attempt-was-influenced-by-radical-islam/000001a0-f7a3-da28-a3a7-ffa39faa0000</link>
+      <guid isPermaLink="false">fz1073-u038</guid>
+      <pubDate>Thu, 01 Oct 2026 18:11:01 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa priamo prečítaného článku Haaretz izraelský premiér v rozhovore pre Fox News uviedol, že druhý pilot prešiel radikálnou islamistickou indoktrináciou; rovnaké tvrdenie zhodne prinášajú aj ABC, CBS a Al-Monitor (podľa výsledkov vyhľadávania). Ide o tvrdenie izraelského predstaviteľa, ktoré SAE ani Saudská Arábia nepotvrdili; podľa ABC Netanjahu dodal, že nerobí konečné závery, a izraelskí činitelia nepotvrdili zapojenie Iránu a predbežne predpokladajú konanie jednotlivca. (Zdroj: Haaretz)</description>
+    </item>
     <item>
       <title>[Médiá] Khaleej Times: GCAA vyzýva nešíriť neoficiálne informácie, výsledky šetrenia zverejní</title>
       <link>https://www.khaleejtimes.com/business/aviation/uaes-gcaa-says-investigations-ongoing-in-dubai-tel-aviv-flydubai-flight-incident</link>
