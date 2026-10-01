@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 14:11:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 16:10:56 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] The National: FZ1073 incident reopens debate on cockpit video recorders</title>
+      <link>https://www.thenationalnews.com/news/uae/2026/10/01/flydubai-incident-renews-debate-over-cockpit-video-recorders/</link>
+      <guid isPermaLink="false">fz1073-u036</guid>
+      <pubDate>Thu, 01 Oct 2026 16:10:56 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the article (read directly), the incident revived debate on mandatory cockpit video recorders; aircraft currently need only audio and data recorders and no international video mandate exists. An FAA panel recommended against a mandate in August 2025 citing pilot-union concerns. This is a general policy debate, not a finding about the incident. (Source: The National (UAE))</description>
+    </item>
+    <item>
+      <title>[Media] Al Jazeera: how the FZ1073 co-pilot was cleared to fly</title>
+      <link>https://www.aljazeera.com/news/2026/10/1/how-was-the-flydubai-pilot-who-attacked-his-co-pilot-cleared-to-fly</link>
+      <guid isPermaLink="false">fz1073-u035</guid>
+      <pubDate>Thu, 01 Oct 2026 16:10:56 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] The article (read directly) explains that the co-pilot met GCAA UAE requirements for licence, Class 1 medical and language proficiency; experts note such checks are a snapshot in time and may not detect behavioural problems. It says the UAE ordered an investigation into motives and that Israeli officials initially suggested terrorism but evidence is not yet sufficient. This is analysis and expert opinion, not an investigation result. (Source: Al Jazeera)</description>
+    </item>
     <item>
       <title>[Media] Saudi Gazette: Saudi NTSC opens safety investigation into Tabuk landing (clarifies u025)</title>
       <link>https://saudigazette.com.sa/article/665027/saudi-arabia/saudi-arabia-launches-investigation-into-flydubai-emergency-landing-in-tabuk</link>

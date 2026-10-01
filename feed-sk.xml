@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Thu, 01 Oct 2026 14:11:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 16:10:56 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] The National: incident FZ1073 znovu otvára debatu o kamerách v kokpite</title>
+      <link>https://www.thenationalnews.com/news/uae/2026/10/01/flydubai-incident-renews-debate-over-cockpit-video-recorders/</link>
+      <guid isPermaLink="false">fz1073-u036</guid>
+      <pubDate>Thu, 01 Oct 2026 16:10:56 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa článku (priamo prečítaný) incident obnovil diskusiu o povinných video záznamníkoch v kokpite; lietadlá dnes musia mať len audio a dátové zapisovače a medzinárodná povinnosť videa neexistuje. Panel FAA sa v auguste 2025 proti povinnosti vyslovil kvôli obavám pilotných odborov. Ide o všeobecnú debatu, nie o zistenie k incidentu. (Zdroj: The National (UAE))</description>
+    </item>
+    <item>
+      <title>[Médiá] Al Jazeera: ako mohol byť druhý pilot FZ1073 spôsobilý na let</title>
+      <link>https://www.aljazeera.com/news/2026/10/1/how-was-the-flydubai-pilot-who-attacked-his-co-pilot-cleared-to-fly</link>
+      <guid isPermaLink="false">fz1073-u035</guid>
+      <pubDate>Thu, 01 Oct 2026 16:10:56 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Článok (priamo prečítaný) vysvetľuje, že druhý pilot spĺňal požiadavky GCAA SAE na licenciu, zdravotnú triedu 1 a jazykovú spôsobilosť; experti upozorňujú, že kontroly zachytávajú len momentálny stav a nemusia odhaliť problémy v správaní. Uvádza, že SAE nariadilo vyšetrovanie motívov a že izraelskí predstavitelia spočiatku naznačovali terorizmus, ale dôkazy zatiaľ nie sú dostatočné. Ide o analýzu a názory expertov, nie o výsledok vyšetrovania. (Zdroj: Al Jazeera)</description>
+    </item>
     <item>
       <title>[Médiá] Saudi Gazette: saudské NTSC začalo bezpečnostné vyšetrovanie pristátia v Tabúku (upresňuje u025)</title>
       <link>https://saudigazette.com.sa/article/665027/saudi-arabia/saudi-arabia-launches-investigation-into-flydubai-emergency-landing-in-tabuk</link>

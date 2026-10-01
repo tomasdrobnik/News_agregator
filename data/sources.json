@@ -360,6 +360,15 @@
       "added_at": "2026-10-01T13:12:03Z",
       "active": true,
       "note": "Oficiální prohlášení SAE k FZ1073 (1. 10. 2026), čteno přes WebFetch."
+    },
+    {
+      "name": "The National (UAE)",
+      "url": "https://www.thenationalnews.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-01T16:10:56Z",
+      "active": true,
+      "note": "emirátský deník; přímé čtení přes WebFetch OK (test 2026-10-01T16:10:56Z)"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T14:11:33Z",
-    "next_check": "2026-10-01T15:11:33Z",
-    "new_count": 1
+    "last_check": "2026-10-01T16:10:56Z",
+    "next_check": "2026-10-01T17:10:56Z",
+    "new_count": 2
   },
   "updates": [
     {
@@ -887,6 +887,46 @@
         "en": {
           "title": "Saudi Gazette: Saudi NTSC opens safety investigation into Tabuk landing (clarifies u025)",
           "text": "According to the directly read Saudi Gazette article, the Saudi National Transport Safety Center said it received a report of the incident and sent an investigation team to establish circumstances and evidence from an aviation-safety perspective. The article also says the UAE runs a separate criminal investigation led by the Attorney General, to examine motives and any link to terrorism. This is a retelling of agency reporting; the center's own statement was not read directly."
+        }
+      }
+    },
+    {
+      "id": "u035",
+      "found_at": "2026-10-01T16:10:56Z",
+      "published_at": null,
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/1/how-was-the-flydubai-pilot-who-attacked-his-co-pilot-cleared-to-fly",
+      "title": "Al Jazeera: jak mohl být druhý pilot FZ1073 způsobilý k letu",
+      "text": "Článek (přímo přečten) vysvětluje, že druhý pilot splňoval požadavky GCAA SAE na licenci, zdravotní třídu 1 a jazykovou způsobilost; experti upozorňují, že kontroly zachycují jen momentální stav a nemusí odhalit problémy v chování. Uvádí, že SAE nařídilo šetření motivů a že izraelští představitelé zprvu naznačovali terorismus, ale důkazy zatím nejsou dostatečné. Jde o analýzu a názory expertů, nikoli o výsledek šetření.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Al Jazeera: ako mohol byť druhý pilot FZ1073 spôsobilý na let",
+          "text": "Článok (priamo prečítaný) vysvetľuje, že druhý pilot spĺňal požiadavky GCAA SAE na licenciu, zdravotnú triedu 1 a jazykovú spôsobilosť; experti upozorňujú, že kontroly zachytávajú len momentálny stav a nemusia odhaliť problémy v správaní. Uvádza, že SAE nariadilo vyšetrovanie motívov a že izraelskí predstavitelia spočiatku naznačovali terorizmus, ale dôkazy zatiaľ nie sú dostatočné. Ide o analýzu a názory expertov, nie o výsledok vyšetrovania."
+        },
+        "en": {
+          "title": "Al Jazeera: how the FZ1073 co-pilot was cleared to fly",
+          "text": "The article (read directly) explains that the co-pilot met GCAA UAE requirements for licence, Class 1 medical and language proficiency; experts note such checks are a snapshot in time and may not detect behavioural problems. It says the UAE ordered an investigation into motives and that Israeli officials initially suggested terrorism but evidence is not yet sufficient. This is analysis and expert opinion, not an investigation result."
+        }
+      }
+    },
+    {
+      "id": "u036",
+      "found_at": "2026-10-01T16:10:56Z",
+      "published_at": "2026-10-01T04:19:00Z",
+      "source": "The National (UAE)",
+      "url": "https://www.thenationalnews.com/news/uae/2026/10/01/flydubai-incident-renews-debate-over-cockpit-video-recorders/",
+      "title": "The National: incident FZ1073 znovu otevírá debatu o kamerách v kokpitu",
+      "text": "Podle článku (přímo přečten) incident obnovil diskusi o povinných video záznamnících v kokpitu; letadla dnes musí mít jen audio a datové zapisovače a mezinárodní povinnost videa neexistuje. Panel FAA se v srpnu 2025 proti povinnosti vyslovil kvůli obavám pilotních odborů. Jde o obecnou debatu, nikoli o zjištění k incidentu.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "The National: incident FZ1073 znovu otvára debatu o kamerách v kokpite",
+          "text": "Podľa článku (priamo prečítaný) incident obnovil diskusiu o povinných video záznamníkoch v kokpite; lietadlá dnes musia mať len audio a dátové zapisovače a medzinárodná povinnosť videa neexistuje. Panel FAA sa v auguste 2025 proti povinnosti vyslovil kvôli obavám pilotných odborov. Ide o všeobecnú debatu, nie o zistenie k incidentu."
+        },
+        "en": {
+          "title": "The National: FZ1073 incident reopens debate on cockpit video recorders",
+          "text": "According to the article (read directly), the incident revived debate on mandatory cockpit video recorders; aircraft currently need only audio and data recorders and no international video mandate exists. An FAA panel recommended against a mandate in August 2025 citing pilot-union concerns. This is a general policy debate, not a finding about the incident."
         }
       }
     }
