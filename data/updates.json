@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T00:11:12Z",
-    "next_check": "2026-10-01T01:11:12Z",
+    "last_check": "2026-10-01T01:10:48Z",
+    "next_check": "2026-10-01T02:10:48Z",
     "new_count": 1
   },
   "updates": [
@@ -727,6 +727,26 @@
         "en": {
           "title": "ABC: Netanyahu praises injured captain, cause still unknown per flydubai",
           "text": "According to ABC (article read directly), the Israeli prime minister claims the injured captain opened the cockpit door, which let passengers and crew overpower the attacker. ABC says flydubai states the underlying reasons remain unknown and warns against premature conclusions. ABC also reports that Saudi Arabia arrested one pilot and that it is unexplained how a weapon got on board; these are claims by Israeli officials and media, not official investigation findings, and no lead investigating authority has published any yet."
+        }
+      }
+    },
+    {
+      "id": "u027",
+      "found_at": "2026-10-01T01:10:48Z",
+      "published_at": "2026-09-30T23:57:00Z",
+      "source": "Gulf News",
+      "url": "https://gulfnews.com/business/aviation/emirates-suspends-flydubai-codeshare-flights-to-tel-aviv-1.500694147",
+      "title": "Emirates pozastavila codeshare lety flydubai do Tel Avivu",
+      "text": "Podle Gulf News (článek přímo přečten) Emirates s okamžitou platností pozastavila codeshare provoz s flydubai do a z Tel Avivu až do odvolání. Cestující s cílem v Tel Avivu nebudou na výchozích letištích přijati, kdo je již na cestě, dostane podporu k dokončení cesty. Informaci shodně uvádí i Khaleej Times (jen ve výsledcích vyhledávání).",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Emirates pozastavila codeshare lety flydubai do Tel Avivu",
+          "text": "Podľa Gulf News (článok priamo prečítaný) Emirates s okamžitou platnosťou pozastavila codeshare prevádzku s flydubai do a z Tel Avivu až do odvolania. Cestujúci s cieľom v Tel Avive nebudú na východiskových letiskách prijatí, kto je už na ceste, dostane podporu na dokončenie cesty. Informáciu zhodne uvádza aj Khaleej Times (iba vo výsledkoch vyhľadávania)."
+        },
+        "en": {
+          "title": "Emirates suspends codeshare flights with flydubai to Tel Aviv",
+          "text": "According to Gulf News (article read directly), Emirates has suspended its codeshare operations with flydubai to and from Tel Aviv with immediate effect until further notice. Passengers whose final destination is Tel Aviv will not be accepted at their origin; those already en route will be supported to complete their journeys. Khaleej Times reports the same (search results only)."
         }
       }
     }

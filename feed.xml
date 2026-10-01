@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 01 Oct 2026 00:11:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 01:10:48 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Emirates pozastavila codeshare lety flydubai do Tel Avivu</title>
+      <link>https://gulfnews.com/business/aviation/emirates-suspends-flydubai-codeshare-flights-to-tel-aviv-1.500694147</link>
+      <guid isPermaLink="false">fz1073-u027</guid>
+      <pubDate>Thu, 01 Oct 2026 01:10:48 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle Gulf News (článek přímo přečten) Emirates s okamžitou platností pozastavila codeshare provoz s flydubai do a z Tel Avivu až do odvolání. Cestující s cílem v Tel Avivu nebudou na výchozích letištích přijati, kdo je již na cestě, dostane podporu k dokončení cesty. Informaci shodně uvádí i Khaleej Times (jen ve výsledcích vyhledávání). (Zdroj: Gulf News)</description>
+    </item>
     <item>
       <title>[Média] ABC: Netanjahu chválí zraněného kapitána, příčina podle flydubai stále neznámá</title>
       <link>https://www.abc.net.au/news/2026-10-01/what-to-know-about-the-terrifying-flydubai-flight-forced-to-land/107214766</link>

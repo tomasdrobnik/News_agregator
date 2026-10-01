@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 00:11:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 01:10:48 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Emirates suspends codeshare flights with flydubai to Tel Aviv</title>
+      <link>https://gulfnews.com/business/aviation/emirates-suspends-flydubai-codeshare-flights-to-tel-aviv-1.500694147</link>
+      <guid isPermaLink="false">fz1073-u027</guid>
+      <pubDate>Thu, 01 Oct 2026 01:10:48 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Gulf News (article read directly), Emirates has suspended its codeshare operations with flydubai to and from Tel Aviv with immediate effect until further notice. Passengers whose final destination is Tel Aviv will not be accepted at their origin; those already en route will be supported to complete their journeys. Khaleej Times reports the same (search results only). (Source: Gulf News)</description>
+    </item>
     <item>
       <title>[Media] ABC: Netanyahu praises injured captain, cause still unknown per flydubai</title>
       <link>https://www.abc.net.au/news/2026-10-01/what-to-know-about-the-terrifying-flydubai-flight-forced-to-land/107214766</link>
