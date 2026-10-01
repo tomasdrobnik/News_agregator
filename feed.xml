@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 01 Oct 2026 06:11:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 08:10:36 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Generální prokurátor SAE nařídil vytvoření vyšetřovacího týmu k FZ1073</title>
+      <link>https://www.dubaieye1038.com/news/local/uae-attorney-general-orders-investigation-of-flydubai-flight-incident/</link>
+      <guid isPermaLink="false">fz1073-u030</guid>
+      <pubDate>Thu, 01 Oct 2026 08:10:36 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle článku Dubai Eye (přímo přečten) nařídil generální prokurátor SAE vytvořit tým veřejné žaloby, který má zjistit motivy incidentu a posoudit možnou předem plánovanou činnost či vazby na terorismus; spolupracovat má s GCAA. SAE zakládá příslušnost na tom, že letadlo je registrováno v SAE. Prokurátor vyzval veřejnost, aby nešířila spekulace. Text prohlášení nebyl čten na oficiálním webu. (Zdroj: Dubai Eye 103.8)</description>
+    </item>
     <item>
       <title>[Média] CNN: izraelský útok označen za terorismus, motiv nepotvrzen; El Al chystá evakuační lety z Dubaje</title>
       <link>https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl</link>

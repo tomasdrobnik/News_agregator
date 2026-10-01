@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T06:11:06Z",
-    "next_check": "2026-10-01T07:11:06Z",
+    "last_check": "2026-10-01T08:10:36Z",
+    "next_check": "2026-10-01T09:10:36Z",
     "new_count": 1
   },
   "updates": [
@@ -787,6 +787,26 @@
         "en": {
           "title": "CNN: Israel calls it a terror attack, motive unconfirmed; El Al preparing evacuation flights from Dubai",
           "text": "CNN (live blog read directly) says Israel calls the incident an attempted terrorist attack, but no motive is confirmed and the attacker has not been officially identified; one Israeli official says he is an Omani national. CNN reports the plane fell 17,400 ft in under two minutes (conflicts with FR24's >14,000 ft in <30 s). El Al is preparing to evacuate Israelis from Dubai, no date set; flydubai operated about 70 flights a week on the route."
+        }
+      }
+    },
+    {
+      "id": "u030",
+      "found_at": "2026-10-01T08:10:36Z",
+      "published_at": null,
+      "source": "Dubai Eye 103.8",
+      "url": "https://www.dubaieye1038.com/news/local/uae-attorney-general-orders-investigation-of-flydubai-flight-incident/",
+      "title": "Generální prokurátor SAE nařídil vytvoření vyšetřovacího týmu k FZ1073",
+      "text": "Podle článku Dubai Eye (přímo přečten) nařídil generální prokurátor SAE vytvořit tým veřejné žaloby, který má zjistit motivy incidentu a posoudit možnou předem plánovanou činnost či vazby na terorismus; spolupracovat má s GCAA. SAE zakládá příslušnost na tom, že letadlo je registrováno v SAE. Prokurátor vyzval veřejnost, aby nešířila spekulace. Text prohlášení nebyl čten na oficiálním webu.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Generálny prokurátor SAE nariadil vytvorenie vyšetrovacieho tímu k FZ1073",
+          "text": "Podľa článku Dubai Eye (priamo prečítaný) nariadil generálny prokurátor SAE vytvoriť tím verejnej žaloby, ktorý má zistiť motívy incidentu a posúdiť možnú vopred plánovanú činnosť či väzby na terorizmus; spolupracovať má s GCAA. SAE zakladá príslušnosť na tom, že lietadlo je registrované v SAE. Prokurátor vyzval verejnosť, aby nešírila špekulácie. Text vyhlásenia nebol čítaný na oficiálnom webe."
+        },
+        "en": {
+          "title": "UAE Attorney-General orders investigation team for FZ1073",
+          "text": "According to a Dubai Eye article (read directly), the UAE Attorney-General ordered a Public Prosecution team to establish the motives of the incident and assess possible premeditation or terrorist links, in coordination with the GCAA. The UAE bases jurisdiction on the aircraft being UAE-registered. The Attorney-General urged the public not to spread speculation. The statement text itself was not read on an official site."
         }
       }
     }
