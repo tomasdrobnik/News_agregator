@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 18:34:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 19:10:46 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] CNN: suspect co-pilot and injured captain both flew from Saudi Arabia to Abu Dhabi</title>
+      <link>https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl</link>
+      <guid isPermaLink="false">fz1073-u043</guid>
+      <pubDate>Thu, 01 Oct 2026 19:10:46 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] CNN (live blog read directly), citing the Saudi Interior Ministry, reports that both pilots, once medically cleared, left Tabuk for Abu Dhabi on Thursday accompanied by a UAE security team. According to the ministry, the preliminary Saudi investigation with UAE team participation found an assault on the captain by the co-pilot; the motive and weapon have not been disclosed and authorities have not named the suspect. (Source: CNN)</description>
+    </item>
     <item>
       <title>[Unconfirmed] Al Arabiya: passengers left Tabuk on a replacement aircraft and reached Israel</title>
       <link>https://www.youtube.com/watch?v=J61SxFFANco</link>

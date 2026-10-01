@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Thu, 01 Oct 2026 18:34:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 19:10:46 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] CNN: podozrivý druhý pilot aj zranený kapitán odleteli zo Saudskej Arábie do Abú Zabí</title>
+      <link>https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl</link>
+      <guid isPermaLink="false">fz1073-u043</guid>
+      <pubDate>Thu, 01 Oct 2026 19:10:46 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] CNN (live blog priamo prečítaný) s odkazom na saudské ministerstvo vnútra uvádza, že obaja piloti po lekárskom uvoľnení odleteli vo štvrtok z Tabuku do Abú Zabí v sprievode emirátskeho bezpečnostného tímu. Saudské predbežné vyšetrovanie za účasti tímu SAE podľa ministerstva potvrdilo napadnutie kapitána druhým pilotom; motív ani použitá zbraň zatiaľ nie sú zverejnené a totožnosť podozrivého úrady neuviedli. (Zdroj: CNN)</description>
+    </item>
     <item>
       <title>[Neoverené] Al Arabiya: cestujúci odleteli z Tabuku náhradným lietadlom do Izraela</title>
       <link>https://www.youtube.com/watch?v=J61SxFFANco</link>

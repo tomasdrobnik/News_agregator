@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T18:34:55Z",
-    "next_check": "2026-10-01T19:34:55Z",
-    "new_count": 3
+    "last_check": "2026-10-01T19:10:46Z",
+    "next_check": "2026-10-01T20:10:46Z",
+    "new_count": 1
   },
   "updates": [
     {
@@ -1115,6 +1115,26 @@
         "en": {
           "title": "Al Arabiya: passengers left Tabuk on a replacement aircraft and reached Israel",
           "text": "Al Arabiya posted a video on YouTube saying FZ1073 passengers left Tabuk on a replacement aircraft and arrived in Israel. The video was not played; the title comes from the preview (oEmbed)."
+        }
+      }
+    },
+    {
+      "id": "u043",
+      "found_at": "2026-10-01T19:10:46Z",
+      "published_at": "2026-10-01T18:58:14Z",
+      "source": "CNN",
+      "url": "https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl",
+      "title": "CNN: podezřelý druhý pilot i zraněný kapitán odletěli z Saúdské Arábie do Abú Dhabí",
+      "text": "CNN (live blog přímo přečten) s odkazem na saúdské ministerstvo vnitra uvádí, že oba piloti po lékařském uvolnění odletěli ve čtvrtek z Tabuku do Abú Dhabí v doprovodu emirátského bezpečnostního týmu. Saúdské předběžné šetření za účasti týmu SAE podle ministerstva potvrdilo napadení kapitána druhým pilotem; motiv ani použitá zbraň zatím nejsou zveřejněny a totožnost podezřelého úřady neuvedly.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "CNN: podozrivý druhý pilot aj zranený kapitán odleteli zo Saudskej Arábie do Abú Zabí",
+          "text": "CNN (live blog priamo prečítaný) s odkazom na saudské ministerstvo vnútra uvádza, že obaja piloti po lekárskom uvoľnení odleteli vo štvrtok z Tabuku do Abú Zabí v sprievode emirátskeho bezpečnostného tímu. Saudské predbežné vyšetrovanie za účasti tímu SAE podľa ministerstva potvrdilo napadnutie kapitána druhým pilotom; motív ani použitá zbraň zatiaľ nie sú zverejnené a totožnosť podozrivého úrady neuviedli."
+        },
+        "en": {
+          "title": "CNN: suspect co-pilot and injured captain both flew from Saudi Arabia to Abu Dhabi",
+          "text": "CNN (live blog read directly), citing the Saudi Interior Ministry, reports that both pilots, once medically cleared, left Tabuk for Abu Dhabi on Thursday accompanied by a UAE security team. According to the ministry, the preliminary Saudi investigation with UAE team participation found an assault on the captain by the co-pilot; the motive and weapon have not been disclosed and authorities have not named the suspect."
         }
       }
     }
