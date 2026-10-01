@@ -333,6 +333,15 @@
       "added_at": "2026-09-30T23:10:24Z",
       "active": true,
       "note": "saúdský zpravodajský web, hlásí šetření národního centra bezpečnosti dopravy (u025); HTTP 403 pro WebFetch – jen WebSearch"
+    },
+    {
+      "name": "ABC News (Australia)",
+      "url": "https://www.abc.net.au",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-01T00:11:12Z",
+      "active": true,
+      "note": "veřejnoprávní australská média, shrnutí incidentu (u026); přímé čtení přes WebFetch OK"
     }
   ]
 }

@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 30 Sep 2026 23:10:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:11:12 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] ABC: Netanjahu chválí zraněného kapitána, příčina podle flydubai stále neznámá</title>
+      <link>https://www.abc.net.au/news/2026-10-01/what-to-know-about-the-terrifying-flydubai-flight-forced-to-land/107214766</link>
+      <guid isPermaLink="false">fz1073-u026</guid>
+      <pubDate>Thu, 01 Oct 2026 00:11:12 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle ABC (článek přímo přečten) izraelský premiér tvrdí, že zraněný kapitán otevřel dveře kokpitu, což cestujícím a posádce umožnilo útočníka přemoci. Flydubai podle ABC uvádí, že příčiny události zůstávají neznámé, a varuje před předčasnými závěry. ABC též uvádí, že Saúdská Arábie jednoho pilota zatkla a že není vysvětleno, jak se na palubu dostala zbraň; jde o tvrzení izraelských představitelů a médií, nikoli o oficiální závěry šetření, které vedoucí orgán zatím nezveřejnil. (Zdroj: ABC News (Australia))</description>
+    </item>
     <item>
       <title>[Neověřeno] Saúdské národní centrum bezpečnosti dopravy zahájilo šetření přistání v Tabúku</title>
       <link>https://sabq.org/article/gq7znne</link>

@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 23:10:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:11:12 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] ABC: Netanyahu praises injured captain, cause still unknown per flydubai</title>
+      <link>https://www.abc.net.au/news/2026-10-01/what-to-know-about-the-terrifying-flydubai-flight-forced-to-land/107214766</link>
+      <guid isPermaLink="false">fz1073-u026</guid>
+      <pubDate>Thu, 01 Oct 2026 00:11:12 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to ABC (article read directly), the Israeli prime minister claims the injured captain opened the cockpit door, which let passengers and crew overpower the attacker. ABC says flydubai states the underlying reasons remain unknown and warns against premature conclusions. ABC also reports that Saudi Arabia arrested one pilot and that it is unexplained how a weapon got on board; these are claims by Israeli officials and media, not official investigation findings, and no lead investigating authority has published any yet. (Source: ABC News (Australia))</description>
+    </item>
     <item>
       <title>[Unconfirmed] Saudi national transport safety centre opens investigation into Tabuk landing</title>
       <link>https://sabq.org/article/gq7znne</link>

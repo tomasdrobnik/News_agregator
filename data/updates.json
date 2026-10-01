@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-09-30T23:10:24Z",
-    "next_check": "2026-10-01T00:10:24Z",
+    "last_check": "2026-10-01T00:11:12Z",
+    "next_check": "2026-10-01T01:11:12Z",
     "new_count": 1
   },
   "updates": [
@@ -706,6 +706,27 @@
         "en": {
           "title": "Saudi national transport safety centre opens investigation into Tabuk landing",
           "text": "According to search results (page not read directly, site returns 403), Saudi outlet Sabq reports that the national transport safety centre has opened an investigation into the FZ1073 emergency landing at Tabuk and an investigation team has begun work with the relevant authorities. No directly read statement from the centre confirms this yet; the relationship to the GCAA UAE investigation is not specified."
+        }
+      }
+    },
+    {
+      "id": "u026",
+      "found_at": "2026-10-01T00:11:12Z",
+      "published_at": "2026-09-30T22:03:00Z",
+      "source": "ABC News (Australia)",
+      "url": "https://www.abc.net.au/news/2026-10-01/what-to-know-about-the-terrifying-flydubai-flight-forced-to-land/107214766",
+      "title": "ABC: Netanjahu chválí zraněného kapitána, příčina podle flydubai stále neznámá",
+      "text": "Podle ABC (článek přímo přečten) izraelský premiér tvrdí, že zraněný kapitán otevřel dveře kokpitu, což cestujícím a posádce umožnilo útočníka přemoci. Flydubai podle ABC uvádí, že příčiny události zůstávají neznámé, a varuje před předčasnými závěry. ABC též uvádí, že Saúdská Arábie jednoho pilota zatkla a že není vysvětleno, jak se na palubu dostala zbraň; jde o tvrzení izraelských představitelů a médií, nikoli o oficiální závěry šetření, které vedoucí orgán zatím nezveřejnil.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "ABC: Netanjahu chváli zraneného kapitána, príčina podľa flydubai stále neznáma",
+          "text": "Podľa ABC (článok priamo prečítaný) izraelský premiér tvrdí, že zranený kapitán otvoril dvere kokpitu, čo cestujúcim a posádke umožnilo útočníka premôcť. Flydubai podľa ABC uvádza, že príčiny udalosti zostávajú neznáme, a varuje pred predčasnými závermi. ABC tiež uvádza, že Saudská Arábia jedného pilota zatkla a že nie je vysvetlené, ako sa na palubu dostala zbraň; ide o tvrdenia izraelských predstaviteľov a médií, nie o oficiálne závery vyšetrovania, ktoré vedúci orgán zatiaľ nezverejnil."
+        },
+        "en": {
+          "title": "ABC: Netanyahu praises injured captain, cause still unknown per flydubai",
+          "text": "According to ABC (article read directly), the Israeli prime minister claims the injured captain opened the cockpit door, which let passengers and crew overpower the attacker. ABC says flydubai states the underlying reasons remain unknown and warns against premature conclusions. ABC also reports that Saudi Arabia arrested one pilot and that it is unexplained how a weapon got on board; these are claims by Israeli officials and media, not official investigation findings, and no lead investigating authority has published any yet."
         }
       }
     }
