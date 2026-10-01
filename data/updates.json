@@ -970,6 +970,42 @@
           "text": "According to the directly read Haaretz article, the Israeli prime minister said in a Fox News interview that the co-pilot underwent radical Islamist indoctrination; ABC, CBS and Al-Monitor carry the same claim consistently (per search results). This is a claim by an Israeli official that the UAE and Saudi Arabia have not confirmed; per ABC, Netanyahu added he is not drawing final conclusions, and Israeli officials have not confirmed Iranian involvement and preliminarily assume a lone actor."
         }
       }
+    },
+    {
+      "id": "u039",
+      "found_at": "2026-10-01T18:16:31Z",
+      "published_at": "2026-09-30T11:05:00Z",
+      "source": "Cedar News",
+      "url": "https://cedarnews.net/newstasks/1017470/video-captures-passengers-screaming-aboard-flydubai-fz1073-during-reported-cockpit-knife-attack/",
+      "title": "Video z kabiny: křik a zmatek při přiblížení k přistání",
+      "text": "Agregátor Cedar News uvádí video z kabiny, na němž je slyšet křik a zmatek cestujících při přibližování letadla k zemi. Autor videa není uveden a obsah nebyl ověřen; stránka byla přečtena přes WebFetch.",
+      "status": "unconfirmed",
+      "media": [
+        {
+          "type": "video",
+          "caption": "záběry z kabiny během přiblížení k přistání",
+          "url": "https://cedarnews.net/newstasks/1017470/video-captures-passengers-screaming-aboard-flydubai-fz1073-during-reported-cockpit-knife-attack/",
+          "credit": "autor ve zdroji neuveden",
+          "i18n": {
+            "sk": {
+              "caption": "zábery z kabíny počas približovania k pristátiu"
+            },
+            "en": {
+              "caption": "cabin footage during approach to landing"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "sk": {
+          "title": "Video z kabíny: krik a zmätok pri približovaní k pristátiu",
+          "text": "Agregátor Cedar News uvádza video z kabíny, na ktorom je počuť krik a zmätok cestujúcich pri približovaní lietadla k zemi. Autor videa nie je uvedený a obsah nebol overený; stránka bola prečítaná cez WebFetch."
+        },
+        "en": {
+          "title": "Cabin video: screaming and confusion on approach to landing",
+          "text": "The aggregator Cedar News carries a cabin video in which passengers can be heard screaming amid commotion as the aircraft approaches land. The author is not named and the content has not been verified; the page was read via WebFetch."
+        }
+      }
     }
   ]
 }
