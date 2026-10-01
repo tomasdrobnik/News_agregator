@@ -342,6 +342,15 @@
       "added_at": "2026-10-01T00:11:12Z",
       "active": true,
       "note": "veřejnoprávní australská média, shrnutí incidentu (u026); přímé čtení přes WebFetch OK"
+    },
+    {
+      "name": "Arab News",
+      "url": "https://www.arabnews.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-01T12:12:30Z",
+      "active": true,
+      "note": "saudskoarabský anglický deník, vyšetřování SAE (u032); přímé čtení přes WebFetch OK"
     }
   ]
 }

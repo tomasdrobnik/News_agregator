@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Thu, 01 Oct 2026 11:11:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 12:12:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Arab News: vyšetrovanie SAE má posúdiť terorizmus, kapitán otvoril dvere kokpitu</title>
+      <link>https://www.arabnews.com/middle-east/uae-launches-investigation-into-flydubai-flight-incident-3004025</link>
+      <guid isPermaLink="false">fz1073-u032</guid>
+      <pubDate>Thu, 01 Oct 2026 12:12:30 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Arab News (článok priamo prečítaný) uvádza, že útočník bol občan Ománu a zranený kapitán otvoril dvere kokpitu, takže útočníka zadržali cestujúci; na palube bolo 174 osôb. Vyšetrovanie SAE má zistiť, či išlo o terorizmus alebo plánovanú akciu, Netanjahu podľa článku povedal, že je príliš skoro určiť, kto za činom stojí; indický premiér pilota označil za hrdinu. Ide o tvrdenia sprostredkované médiom, národnosť a priebeh nie sú overené úradmi. (Zdroj: Arab News)</description>
+    </item>
     <item>
       <title>[Médiá] CNN: podozrivý má byť odovzdaný SAE, zbraň (sekera) nepotvrdená, Ben Gvir žiada vydanie do Izraela</title>
       <link>https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl</link>

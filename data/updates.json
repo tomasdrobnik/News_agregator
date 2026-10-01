@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T11:11:26Z",
-    "next_check": "2026-10-01T12:11:26Z",
+    "last_check": "2026-10-01T12:12:30Z",
+    "next_check": "2026-10-01T13:12:30Z",
     "new_count": 1
   },
   "updates": [
@@ -827,6 +827,26 @@
         "en": {
           "title": "CNN: suspect expected to be handed to UAE, axe weapon unconfirmed, Ben Gvir demands extradition to Israel",
           "text": "CNN (live blog read directly) quotes Israeli PM Netanyahu: the suspect was detained by Saudi authorities and Netanyahu expects him to be transferred to the UAE for questioning with Israeli involvement; he called the use of an axe unconfirmed. An Israeli official told CNN the first officer had worked at flydubai for eight months. Minister Ben Gvir demands the suspect be extradited to Israel; the UAE bases jurisdiction on the aircraft's registration. These are claims by Israeli officials relayed by the media, not verified investigation findings."
+        }
+      }
+    },
+    {
+      "id": "u032",
+      "found_at": "2026-10-01T12:12:30Z",
+      "published_at": "2026-10-01T00:00:00Z",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/middle-east/uae-launches-investigation-into-flydubai-flight-incident-3004025",
+      "status": "reported",
+      "title": "Arab News: vyšetřování SAE má posoudit terorismus, kapitán otevřel dveře kokpitu",
+      "text": "Arab News (článek přímo přečten) uvádí, že útočník byl občan Ománu a zraněný kapitán otevřel dveře kokpitu, takže útočníka zadrželi cestující; na palubě bylo 174 osob. Vyšetřování SAE má zjistit, zda šlo o terorismus či plánovanou akci, Netanjahu podle článku řekl, že je příliš brzy určit, kdo za činem stojí; indický premiér pilota označil za hrdinu. Jde o tvrzení zprostředkovaná médiem, národnost a průběh nejsou ověřeny úřady.",
+      "i18n": {
+        "sk": {
+          "title": "Arab News: vyšetrovanie SAE má posúdiť terorizmus, kapitán otvoril dvere kokpitu",
+          "text": "Arab News (článok priamo prečítaný) uvádza, že útočník bol občan Ománu a zranený kapitán otvoril dvere kokpitu, takže útočníka zadržali cestujúci; na palube bolo 174 osôb. Vyšetrovanie SAE má zistiť, či išlo o terorizmus alebo plánovanú akciu, Netanjahu podľa článku povedal, že je príliš skoro určiť, kto za činom stojí; indický premiér pilota označil za hrdinu. Ide o tvrdenia sprostredkované médiom, národnosť a priebeh nie sú overené úradmi."
+        },
+        "en": {
+          "title": "Arab News: UAE probe to assess terrorism; captain opened cockpit door",
+          "text": "Arab News (article read directly) says the attacker was an Omani national and the injured captain opened the cockpit door, allowing passengers to restrain the attacker; 174 people were aboard. The UAE probe is to determine whether it was terrorism or planned, Netanyahu reportedly said it is too early to say who is behind it, and India's prime minister called the pilot a hero. These are media-relayed claims; nationality and sequence are not verified by authorities."
         }
       }
     }
