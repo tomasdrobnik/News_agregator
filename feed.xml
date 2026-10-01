@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 01 Oct 2026 08:10:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 11:11:26 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] CNN: podezřelý má být předán SAE, zbraň (sekera) nepotvrzena, Ben Gvir žádá vydání do Izraele</title>
+      <link>https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl</link>
+      <guid isPermaLink="false">fz1073-u031</guid>
+      <pubDate>Thu, 01 Oct 2026 11:11:26 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] CNN (live blog přímo přečten) cituje izraelského premiéra Netanjahua: podezřelého zadržely saúdské úřady a Netanjahu předpokládá jeho brzké předání do SAE k výslechu za účasti Izraele; použití sekery označil za nepotvrzené. Izraelský činitel podle CNN uvedl, že druhý pilot u flydubai pracoval osm měsíců. Ministr Ben Gvir žádá vydání podezřelého Izraeli; SAE zakládá příslušnost na registraci letadla. Jde o tvrzení izraelských představitelů zprostředkovaná médiem, nikoli ověřená zjištění vyšetřovatelů. (Zdroj: CNN)</description>
+    </item>
     <item>
       <title>[Média] Generální prokurátor SAE nařídil vytvoření vyšetřovacího týmu k FZ1073</title>
       <link>https://www.dubaieye1038.com/news/local/uae-attorney-general-orders-investigation-of-flydubai-flight-incident/</link>

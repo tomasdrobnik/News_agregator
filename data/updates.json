@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T08:10:36Z",
-    "next_check": "2026-10-01T09:10:36Z",
+    "last_check": "2026-10-01T11:11:26Z",
+    "next_check": "2026-10-01T12:11:26Z",
     "new_count": 1
   },
   "updates": [
@@ -807,6 +807,26 @@
         "en": {
           "title": "UAE Attorney-General orders investigation team for FZ1073",
           "text": "According to a Dubai Eye article (read directly), the UAE Attorney-General ordered a Public Prosecution team to establish the motives of the incident and assess possible premeditation or terrorist links, in coordination with the GCAA. The UAE bases jurisdiction on the aircraft being UAE-registered. The Attorney-General urged the public not to spread speculation. The statement text itself was not read on an official site."
+        }
+      }
+    },
+    {
+      "id": "u031",
+      "found_at": "2026-10-01T11:11:26Z",
+      "published_at": "2026-10-01T10:55:30Z",
+      "source": "CNN",
+      "url": "https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl",
+      "title": "CNN: podezřelý má být předán SAE, zbraň (sekera) nepotvrzena, Ben Gvir žádá vydání do Izraele",
+      "text": "CNN (live blog přímo přečten) cituje izraelského premiéra Netanjahua: podezřelého zadržely saúdské úřady a Netanjahu předpokládá jeho brzké předání do SAE k výslechu za účasti Izraele; použití sekery označil za nepotvrzené. Izraelský činitel podle CNN uvedl, že druhý pilot u flydubai pracoval osm měsíců. Ministr Ben Gvir žádá vydání podezřelého Izraeli; SAE zakládá příslušnost na registraci letadla. Jde o tvrzení izraelských představitelů zprostředkovaná médiem, nikoli ověřená zjištění vyšetřovatelů.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "CNN: podozrivý má byť odovzdaný SAE, zbraň (sekera) nepotvrdená, Ben Gvir žiada vydanie do Izraela",
+          "text": "CNN (live blog priamo prečítaný) cituje izraelského premiéra Netanjahua: podozrivého zadržali saudské úrady a Netanjahu predpokladá jeho skoré odovzdanie do SAE na výsluch za účasti Izraela; použitie sekery označil za nepotvrdené. Izraelský činiteľ podľa CNN uviedol, že druhý pilot u flydubai pracoval osem mesiacov. Minister Ben Gvir žiada vydanie podozrivého Izraelu; SAE zakladá príslušnosť na registrácii lietadla. Ide o tvrdenia izraelských predstaviteľov sprostredkované médiom, nie o overené zistenia vyšetrovateľov."
+        },
+        "en": {
+          "title": "CNN: suspect expected to be handed to UAE, axe weapon unconfirmed, Ben Gvir demands extradition to Israel",
+          "text": "CNN (live blog read directly) quotes Israeli PM Netanyahu: the suspect was detained by Saudi authorities and Netanyahu expects him to be transferred to the UAE for questioning with Israeli involvement; he called the use of an axe unconfirmed. An Israeli official told CNN the first officer had worked at flydubai for eight months. Minister Ben Gvir demands the suspect be extradited to Israel; the UAE bases jurisdiction on the aircraft's registration. These are claims by Israeli officials relayed by the media, not verified investigation findings."
         }
       }
     }
