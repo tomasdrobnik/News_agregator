@@ -351,6 +351,15 @@
       "added_at": "2026-10-01T12:12:30Z",
       "active": true,
       "note": "saudskoarabský anglický deník, vyšetřování SAE (u032); přímé čtení přes WebFetch OK"
+    },
+    {
+      "name": "Ministerstvo zahraničních věcí SAE (MoFA)",
+      "url": "https://www.mofa.gov.ae",
+      "type": "official",
+      "access": "webfetch",
+      "added_at": "2026-10-01T13:12:03Z",
+      "active": true,
+      "note": "Oficiální prohlášení SAE k FZ1073 (1. 10. 2026), čteno přes WebFetch."
     }
   ]
 }

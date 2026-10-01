@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 01 Oct 2026 12:12:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 13:12:03 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Oficiální] MoFA SAE: sleduje incident FZ1073, vyšetřování nařídil generální prokurátor</title>
+      <link>https://www.mofa.gov.ae/en/MediaHub/News/2026/10/1/UAE-fly-dubai</link>
+      <guid isPermaLink="false">fz1073-u033</guid>
+      <pubDate>Thu, 01 Oct 2026 13:12:03 +0000</pubDate>
+      <category>Oficiální</category>
+      <description>[Oficiální] Ministerstvo zahraničí SAE (text přímo přečten WebFetch) uvádí, že incident sleduje a že generální prokurátor nařídil vyšetřovací tým. Podle ministerstva se na letadlo registrované v SAE vztahuje právo SAE i mimo území státu a šetření má zahrnout i možné napojení na terorismus, plánování či řízení zvenčí. Veřejnost vyzývá, aby se držela jen oficiálních zdrojů. (Zdroj: Ministerstvo zahraničních věcí SAE (MoFA))</description>
+    </item>
     <item>
       <title>[Média] Arab News: vyšetřování SAE má posoudit terorismus, kapitán otevřel dveře kokpitu</title>
       <link>https://www.arabnews.com/middle-east/uae-launches-investigation-into-flydubai-flight-incident-3004025</link>

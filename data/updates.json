@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T12:12:30Z",
-    "next_check": "2026-10-01T13:12:30Z",
+    "last_check": "2026-10-01T13:12:03Z",
+    "next_check": "2026-10-01T14:12:03Z",
     "new_count": 1
   },
   "updates": [
@@ -847,6 +847,26 @@
         "en": {
           "title": "Arab News: UAE probe to assess terrorism; captain opened cockpit door",
           "text": "Arab News (article read directly) says the attacker was an Omani national and the injured captain opened the cockpit door, allowing passengers to restrain the attacker; 174 people were aboard. The UAE probe is to determine whether it was terrorism or planned, Netanyahu reportedly said it is too early to say who is behind it, and India's prime minister called the pilot a hero. These are media-relayed claims; nationality and sequence are not verified by authorities."
+        }
+      }
+    },
+    {
+      "id": "u033",
+      "found_at": "2026-10-01T13:12:03Z",
+      "published_at": "2026-10-01T00:00:00Z",
+      "source": "Ministerstvo zahraničních věcí SAE (MoFA)",
+      "url": "https://www.mofa.gov.ae/en/MediaHub/News/2026/10/1/UAE-fly-dubai",
+      "title": "MoFA SAE: sleduje incident FZ1073, vyšetřování nařídil generální prokurátor",
+      "text": "Ministerstvo zahraničí SAE (text přímo přečten WebFetch) uvádí, že incident sleduje a že generální prokurátor nařídil vyšetřovací tým. Podle ministerstva se na letadlo registrované v SAE vztahuje právo SAE i mimo území státu a šetření má zahrnout i možné napojení na terorismus, plánování či řízení zvenčí. Veřejnost vyzývá, aby se držela jen oficiálních zdrojů.",
+      "status": "official",
+      "i18n": {
+        "sk": {
+          "title": "MoFA SAE: sleduje incident FZ1073, vyšetrovanie nariadil generálny prokurátor",
+          "text": "Ministerstvo zahraničia SAE (text priamo prečítaný cez WebFetch) uvádza, že incident sleduje a že generálny prokurátor nariadil vyšetrovací tím. Podľa ministerstva sa na lietadlo registrované v SAE vzťahuje právo SAE aj mimo územia štátu a vyšetrovanie má zahŕňať aj možné prepojenie na terorizmus, plánovanie či riadenie zvonku. Verejnosť vyzýva, aby sa držala len oficiálnych zdrojov."
+        },
+        "en": {
+          "title": "UAE MoFA: monitoring FZ1073 incident, Attorney General ordered investigation",
+          "text": "The UAE Ministry of Foreign Affairs (text read directly via WebFetch) says it is monitoring the incident and that the Attorney General ordered an investigation team. It states UAE law applies to the UAE-registered aircraft even outside UAE territory, and the probe is to cover possible terrorism links, planning or external direction. It urges the public to rely only on official sources."
         }
       }
     }

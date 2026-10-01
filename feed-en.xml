@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 12:12:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 13:12:03 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Official] UAE MoFA: monitoring FZ1073 incident, Attorney General ordered investigation</title>
+      <link>https://www.mofa.gov.ae/en/MediaHub/News/2026/10/1/UAE-fly-dubai</link>
+      <guid isPermaLink="false">fz1073-u033</guid>
+      <pubDate>Thu, 01 Oct 2026 13:12:03 +0000</pubDate>
+      <category>Official</category>
+      <description>[Official] The UAE Ministry of Foreign Affairs (text read directly via WebFetch) says it is monitoring the incident and that the Attorney General ordered an investigation team. It states UAE law applies to the UAE-registered aircraft even outside UAE territory, and the probe is to cover possible terrorism links, planning or external direction. It urges the public to rely only on official sources. (Source: Ministerstvo zahraničních věcí SAE (MoFA))</description>
+    </item>
     <item>
       <title>[Media] Arab News: UAE probe to assess terrorism; captain opened cockpit door</title>
       <link>https://www.arabnews.com/middle-east/uae-launches-investigation-into-flydubai-flight-incident-3004025</link>
