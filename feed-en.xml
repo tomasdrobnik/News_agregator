@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 03:10:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 04:10:58 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] JPost: Israeli agencies reportedly believe in a "lone wolf", not Iranian direction</title>
+      <link>https://www.jpost.com/international/article-910155</link>
+      <guid isPermaLink="false">fz1073-u048</guid>
+      <pubDate>Fri, 02 Oct 2026 04:10:58 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] The Jerusalem Post (article read directly, updated Oct 1) says several unnamed sources from the Mossad, Shin Bet, the military and the transport ministry believe the attacker was a lone actor not acting on orders from Iran or a terror group. These are claims by anonymous Israeli sources, not an official conclusion; they conflict with suspicions of other involvement (u044) and hints at Iran (u046), and neither the UAE nor Saudi investigations have confirmed them. (Source: Jerusalem Post)</description>
+    </item>
     <item>
       <title>[Unconfirmed] Arabian Business: Saudi preliminary investigation says F/O assaulted the captain</title>
       <link>https://www.arabianbusiness.com/business/transport/flydubai-fz1073-co-pilot-assaulted-captain-saudi-preliminary-investigation-finds</link>

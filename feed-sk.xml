@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Fri, 02 Oct 2026 03:10:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 04:10:58 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] JPost: izraelské zložky podľa zdrojov veria v „osamelého útočníka“, nie v riadenie z Iránu</title>
+      <link>https://www.jpost.com/international/article-910155</link>
+      <guid isPermaLink="false">fz1073-u048</guid>
+      <pubDate>Fri, 02 Oct 2026 04:10:58 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Jerusalem Post (článok priamo prečítaný, aktualizovaný 1. 10.) uvádza, že niekoľko nemenovaných zdrojov z Mossadu, Šin Bet, armády a ministerstva dopravy považuje útočníka za osamelého aktéra bez pokynov z Iránu či teroristickej skupiny. Ide o tvrdenie anonymných izraelských zdrojov, nie o oficiálny záver; je v rozpore s úvahami o spoluúčasti ďalších osôb (u044) a s narážkami na Irán (u046) a nepotvrdilo ho ani vyšetrovanie SAE, ani Saudskej Arábie. (Zdroj: Jerusalem Post)</description>
+    </item>
     <item>
       <title>[Neoverené] Arabian Business: saudské predbežné vyšetrovanie uvádza, že F/O napadol kapitána</title>
       <link>https://www.arabianbusiness.com/business/transport/flydubai-fz1073-co-pilot-assaulted-captain-saudi-preliminary-investigation-finds</link>

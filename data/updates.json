@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T03:10:23Z",
-    "next_check": "2026-10-02T04:10:23Z",
+    "last_check": "2026-10-02T04:10:58Z",
+    "next_check": "2026-10-02T05:10:58Z",
     "new_count": 1
   },
   "updates": [
@@ -1218,6 +1218,26 @@
         "en": {
           "title": "Arabian Business: Saudi preliminary investigation says F/O assaulted the captain",
           "text": "According to search results (page not read directly, server returned error 405), Arabian Business reports that Saudi authorities' preliminary investigation concluded the co-pilot assaulted the captain and both were injured. Per the article the Saudi statement gives no motive; this is a single-outlet claim and the Saudi statement itself was not read directly."
+        }
+      }
+    },
+    {
+      "id": "u048",
+      "found_at": "2026-10-02T04:10:58Z",
+      "published_at": null,
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/international/article-910155",
+      "title": "JPost: izraelské složky podle zdrojů věří v „osamělého útočníka“, ne v řízení z Íránu",
+      "text": "Jerusalem Post (článek přímo přečten, aktualizován 1. 10.) uvádí, že několik nejmenovaných zdrojů z Mossadu, Šin Bet, armády a ministerstva dopravy považuje útočníka za osamělého aktéra bez pokynů z Íránu či teroristické skupiny. Jde o tvrzení anonymních izraelských zdrojů, nikoli o oficiální závěr; stojí v rozporu s úvahami o spoluúčasti dalších osob (u044) a s narážkami na Írán (u046) a vyšetřování SAE ani Saúdské Arábie je nepotvrdilo.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "JPost: izraelské zložky podľa zdrojov veria v „osamelého útočníka“, nie v riadenie z Iránu",
+          "text": "Jerusalem Post (článok priamo prečítaný, aktualizovaný 1. 10.) uvádza, že niekoľko nemenovaných zdrojov z Mossadu, Šin Bet, armády a ministerstva dopravy považuje útočníka za osamelého aktéra bez pokynov z Iránu či teroristickej skupiny. Ide o tvrdenie anonymných izraelských zdrojov, nie o oficiálny záver; je v rozpore s úvahami o spoluúčasti ďalších osôb (u044) a s narážkami na Irán (u046) a nepotvrdilo ho ani vyšetrovanie SAE, ani Saudskej Arábie."
+        },
+        "en": {
+          "title": "JPost: Israeli agencies reportedly believe in a \"lone wolf\", not Iranian direction",
+          "text": "The Jerusalem Post (article read directly, updated Oct 1) says several unnamed sources from the Mossad, Shin Bet, the military and the transport ministry believe the attacker was a lone actor not acting on orders from Iran or a terror group. These are claims by anonymous Israeli sources, not an official conclusion; they conflict with suspicions of other involvement (u044) and hints at Iran (u046), and neither the UAE nor Saudi investigations have confirmed them."
         }
       }
     }
