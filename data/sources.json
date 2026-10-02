@@ -405,6 +405,15 @@
       "added_at": "2026-10-02T03:10:23Z",
       "active": true,
       "note": "Regionální obchodní/letecké médium; přímé čtení vrací HTTP 405, proto jen WebSearch."
+    },
+    {
+      "name": "Lead Stories (fact-check)",
+      "url": "https://leadstories.com/",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-02T06:11:06Z",
+      "active": true,
+      "note": "Fact-checkingová redakce; ověřuje virální videa k FZ1073 (dezinformace, staré záběry)."
     }
   ]
 }

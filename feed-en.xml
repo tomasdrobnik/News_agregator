@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 04:10:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 06:11:06 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Lead Stories: viral video of FZ1073 passengers "celebrating" is from August 2025, not the incident</title>
+      <link>https://leadstories.com/hoax-alert/2026/10/fact-check-video-does-not-show-passengers-flydubai-flight-fz1073-tel-aviv-celebrating-big-speaker-hijacking-attempt-2025.html</link>
+      <guid isPermaLink="false">fz1073-u049</guid>
+      <pubDate>Fri, 02 Oct 2026 06:11:06 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to a directly read Lead Stories fact-check (1 Oct 2026), a video circulated on social media as showing FZ1073 passengers celebrating after the hijacking attempt actually shows the Israeli men's basketball team on a plane in 2025 (originally Sport5). This is a disinformation warning; it adds nothing new about the incident itself. (Source: Lead Stories (fact-check))</description>
+    </item>
     <item>
       <title>[Media] JPost: Israeli agencies reportedly believe in a "lone wolf", not Iranian direction</title>
       <link>https://www.jpost.com/international/article-910155</link>

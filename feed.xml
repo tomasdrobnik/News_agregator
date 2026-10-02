@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Fri, 02 Oct 2026 04:10:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 06:11:06 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Lead Stories: virální video „oslav“ cestujících FZ1073 je ze srpna 2025, ne z incidentu</title>
+      <link>https://leadstories.com/hoax-alert/2026/10/fact-check-video-does-not-show-passengers-flydubai-flight-fz1073-tel-aviv-celebrating-big-speaker-hijacking-attempt-2025.html</link>
+      <guid isPermaLink="false">fz1073-u049</guid>
+      <pubDate>Fri, 02 Oct 2026 06:11:06 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle přímo přečteného fact-checku Lead Stories (1. 10. 2026) video, které na sociálních sítích kolovalo jako záběr cestujících slavících po pokusu o únos letu FZ1073, ve skutečnosti ukazuje izraelský basketbalový tým v letadle z roku 2025 (původně Sport5). Jde o upozornění na dezinformaci; k incidentu samotnému nic nového nepřináší. (Zdroj: Lead Stories (fact-check))</description>
+    </item>
     <item>
       <title>[Média] JPost: izraelské složky podle zdrojů věří v „osamělého útočníka“, ne v řízení z Íránu</title>
       <link>https://www.jpost.com/international/article-910155</link>

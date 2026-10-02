@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T04:10:58Z",
-    "next_check": "2026-10-02T05:10:58Z",
+    "last_check": "2026-10-02T06:11:06Z",
+    "next_check": "2026-10-02T07:11:06Z",
     "new_count": 1
   },
   "updates": [
@@ -1238,6 +1238,26 @@
         "en": {
           "title": "JPost: Israeli agencies reportedly believe in a \"lone wolf\", not Iranian direction",
           "text": "The Jerusalem Post (article read directly, updated Oct 1) says several unnamed sources from the Mossad, Shin Bet, the military and the transport ministry believe the attacker was a lone actor not acting on orders from Iran or a terror group. These are claims by anonymous Israeli sources, not an official conclusion; they conflict with suspicions of other involvement (u044) and hints at Iran (u046), and neither the UAE nor Saudi investigations have confirmed them."
+        }
+      }
+    },
+    {
+      "id": "u049",
+      "found_at": "2026-10-02T06:11:06Z",
+      "published_at": "2026-10-01T00:00:00Z",
+      "source": "Lead Stories (fact-check)",
+      "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-video-does-not-show-passengers-flydubai-flight-fz1073-tel-aviv-celebrating-big-speaker-hijacking-attempt-2025.html",
+      "title": "Lead Stories: virální video „oslav“ cestujících FZ1073 je ze srpna 2025, ne z incidentu",
+      "text": "Podle přímo přečteného fact-checku Lead Stories (1. 10. 2026) video, které na sociálních sítích kolovalo jako záběr cestujících slavících po pokusu o únos letu FZ1073, ve skutečnosti ukazuje izraelský basketbalový tým v letadle z roku 2025 (původně Sport5). Jde o upozornění na dezinformaci; k incidentu samotnému nic nového nepřináší.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Lead Stories: virálne video „osláv“ cestujúcich FZ1073 je z augusta 2025, nie z incidentu",
+          "text": "Podľa priamo prečítaného fact-checku Lead Stories (1. 10. 2026) video, ktoré na sociálnych sieťach kolovalo ako záber cestujúcich oslavujúcich po pokuse o únos letu FZ1073, v skutočnosti ukazuje izraelský basketbalový tím v lietadle z roku 2025 (pôvodne Sport5). Ide o upozornenie na dezinformáciu; k samotnému incidentu nič nové neprináša."
+        },
+        "en": {
+          "title": "Lead Stories: viral video of FZ1073 passengers \"celebrating\" is from August 2025, not the incident",
+          "text": "According to a directly read Lead Stories fact-check (1 Oct 2026), a video circulated on social media as showing FZ1073 passengers celebrating after the hijacking attempt actually shows the Israeli men's basketball team on a plane in 2025 (originally Sport5). This is a disinformation warning; it adds nothing new about the incident itself."
         }
       }
     }
