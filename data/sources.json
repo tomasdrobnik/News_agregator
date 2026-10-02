@@ -414,6 +414,15 @@
       "added_at": "2026-10-02T06:11:06Z",
       "active": true,
       "note": "Fact-checkingová redakce; ověřuje virální videa k FZ1073 (dezinformace, staré záběry)."
+    },
+    {
+      "name": "FlightAware Squawks",
+      "url": "https://www.flightaware.com/squawks/browse/general/7_days/popular",
+      "type": "media",
+      "access": "curl",
+      "added_at": "2026-10-02T11:06:37Z",
+      "active": true,
+      "note": "Komunitní agregátor odkazů na letecké zprávy (příspěvky uživatelů FlightAware). Jen pro objevování článků – citovat původní článek, ne squawk; nové weby z něj přidat do registru. Přímé čtení přes fetch_source.py OK (test 2026-10-02 11:06Z)."
     }
   ]
 }
