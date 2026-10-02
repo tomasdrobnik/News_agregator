@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 10:11:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 14:11:42 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] AP: attack on FZ1073 pilot raises questions over crew vetting and cockpit doors</title>
+      <link>https://abcnews.com/Business/wireStory/flight-attack-flydubai-pilot-puts-aviation-security-measures-136940754</link>
+      <guid isPermaLink="false">fz1073-u053</guid>
+      <pubDate>Fri, 02 Oct 2026 14:11:42 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] The AP (article read directly) quotes security experts: pilot vetting varies worldwide and may not match passenger screening; reinforced post-9/11 cockpit doors make outside intervention hard when the threat is inside. According to the article, the Omani first officer reportedly bypassed Israeli safeguards against pilots from countries without diplomatic ties; this is a claim in the article, not a confirmed fact. It adds no new facts on the cause. (Source: AP přes ABC News (USA))&lt;br&gt;&lt;a href="https://abcnews.com/Business/wireStory/flight-attack-flydubai-pilot-puts-aviation-security-measures-136940754"&gt;Photo: Israeli passenger arriving at Ben Gurion airport after the emergency landing in Saudi Arabia, 30 Sept 2026.&lt;/a&gt; (AP Photo/Ariel Schalit, via AP přes ABC News (USA))</description>
+    </item>
     <item>
       <title>[Media] JPost: some Israelis refused to board the rescue flight, Saudis did not permit the Israeli air force</title>
       <link>https://www.jpost.com/middle-east/article-910203</link>

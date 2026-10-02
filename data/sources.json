@@ -423,6 +423,15 @@
       "added_at": "2026-10-02T11:06:37Z",
       "active": true,
       "note": "Celý web povoluje přímé čtení přes fetch_source.py (test 2026-10-02 11:07Z). Historie letu https://www.flightaware.com/live/flight/FDB1073/history = primární data (stav letů, zrušení). Squawks https://www.flightaware.com/squawks/browse/general/7_days/popular = komunitní odkazy, jen pro objevování článků – citovat původní článek, ne squawk."
+    },
+    {
+      "name": "ABC News (USA) – AP wire",
+      "url": "https://abcnews.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-02T14:11:42Z",
+      "active": true,
+      "note": "Americká televize; přebírá zprávy AP o incidentu FZ1073 (wireStory). Přímé čtení přes WebFetch uspělo."
     }
   ]
 }

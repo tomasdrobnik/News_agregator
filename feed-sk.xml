@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Fri, 02 Oct 2026 10:11:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 14:11:42 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] AP: útok na pilota FZ1073 vyvoláva otázky o preverovaní posádok a kokpitových dverí</title>
+      <link>https://abcnews.com/Business/wireStory/flight-attack-flydubai-pilot-puts-aviation-security-measures-136940754</link>
+      <guid isPermaLink="false">fz1073-u053</guid>
+      <pubDate>Fri, 02 Oct 2026 14:11:42 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Agentúra AP (článok priamo prečítaný) cituje bezpečnostných expertov: preverovanie pilotov sa vo svete líši a nemusí byť také prísne ako pri cestujúcich; zosilnené dvere kokpitu po 11. septembri sťažujú zásah zvonka pri ohrození zvnútra. Podľa článku mal omanský druhý pilot obísť izraelské opatrenia proti pilotom z krajín bez diplomatických vzťahov; ide o tvrdenie z článku, nie potvrdený fakt. Text neprináša nové fakty o príčine incidentu. (Zdroj: AP přes ABC News (USA))&lt;br&gt;&lt;a href="https://abcnews.com/Business/wireStory/flight-attack-flydubai-pilot-puts-aviation-security-measures-136940754"&gt;Foto: Izraelský cestujúci po prílete na letisko Ben Gurion po núdzovom pristátí v Saudskej Arábii, 30. 9. 2026.&lt;/a&gt; (AP Photo/Ariel Schalit, via AP přes ABC News (USA))</description>
+    </item>
     <item>
       <title>[Médiá] JPost: niektorí Izraelčania odmietli nastúpiť na záchranný let, Saudovci nepovolili izraelské letectvo</title>
       <link>https://www.jpost.com/middle-east/article-910203</link>

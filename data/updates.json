@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T10:11:18Z",
-    "next_check": "2026-10-02T11:11:18Z",
+    "last_check": "2026-10-02T14:11:42Z",
+    "next_check": "2026-10-02T15:11:42Z",
     "new_count": 1
   },
   "updates": [
@@ -1335,6 +1335,43 @@
         "en": {
           "title": "JPost: some Israelis refused to board the rescue flight, Saudis did not permit the Israeli air force",
           "text": "According to JPost (read directly), some Israeli passengers initially refused to board flydubai's replacement flight from Tabuk because it was not operated by an Israeli aircraft; of 174 passengers, 166 were reportedly Israelis (per Israeli media). The article says Saudi authorities refused to let the Israeli air force fly in, and a 51-year-old passenger was taken to hospital with a mild injury on arrival; the details come from unnamed sources and media and are not officially confirmed."
+        }
+      }
+    },
+    {
+      "id": "u053",
+      "found_at": "2026-10-02T14:11:42Z",
+      "published_at": "2026-10-02T00:00:00Z",
+      "source": "AP přes ABC News (USA)",
+      "url": "https://abcnews.com/Business/wireStory/flight-attack-flydubai-pilot-puts-aviation-security-measures-136940754",
+      "title": "AP: útok na pilota FZ1073 vyvolává otázky o prověřování posádek a kokpitových dveří",
+      "text": "Agentura AP (článek přímo přečten) cituje bezpečnostní experty: prověřování pilotů se ve světě liší a nemusí být tak přísné jako u cestujících; zesílené dveře kokpitu po 11. září ztěžují zásah zvenčí při ohrožení zevnitř. Podle článku měl omanský druhý pilot obejít izraelská opatření proti pilotům ze zemí bez diplomatických vztahů; jde o tvrzení z článku, nikoli o potvrzený fakt. Text nepřináší nová fakta o příčině incidentu.",
+      "status": "reported",
+      "media": [
+        {
+          "type": "photo",
+          "caption": "Izraelský cestující po příletu na letiště Ben Gurion po nouzovém přistání v Saúdské Arábii, 30. 9. 2026.",
+          "url": "https://abcnews.com/Business/wireStory/flight-attack-flydubai-pilot-puts-aviation-security-measures-136940754",
+          "thumb": "https://i.abcnewsfe.com/a/be8b095d-159d-4118-868b-ca9bab71f470/wirestory_be124a20976fc7fd35ba794c0823bc5b_16x9.jpg?w=992",
+          "credit": "AP Photo/Ariel Schalit",
+          "i18n": {
+            "sk": {
+              "caption": "Izraelský cestujúci po prílete na letisko Ben Gurion po núdzovom pristátí v Saudskej Arábii, 30. 9. 2026."
+            },
+            "en": {
+              "caption": "Israeli passenger arriving at Ben Gurion airport after the emergency landing in Saudi Arabia, 30 Sept 2026."
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "sk": {
+          "title": "AP: útok na pilota FZ1073 vyvoláva otázky o preverovaní posádok a kokpitových dverí",
+          "text": "Agentúra AP (článok priamo prečítaný) cituje bezpečnostných expertov: preverovanie pilotov sa vo svete líši a nemusí byť také prísne ako pri cestujúcich; zosilnené dvere kokpitu po 11. septembri sťažujú zásah zvonka pri ohrození zvnútra. Podľa článku mal omanský druhý pilot obísť izraelské opatrenia proti pilotom z krajín bez diplomatických vzťahov; ide o tvrdenie z článku, nie potvrdený fakt. Text neprináša nové fakty o príčine incidentu."
+        },
+        "en": {
+          "title": "AP: attack on FZ1073 pilot raises questions over crew vetting and cockpit doors",
+          "text": "The AP (article read directly) quotes security experts: pilot vetting varies worldwide and may not match passenger screening; reinforced post-9/11 cockpit doors make outside intervention hard when the threat is inside. According to the article, the Omani first officer reportedly bypassed Israeli safeguards against pilots from countries without diplomatic ties; this is a claim in the article, not a confirmed fact. It adds no new facts on the cause."
         }
       }
     }
