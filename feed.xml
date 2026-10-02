@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 01 Oct 2026 20:10:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 00:11:15 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] ABC: rekonstrukce sestupu FZ1073 uvádí přes 20 000 ft, opakované propady</title>
+      <link>https://www.abc.net.au/news/2026-10-01/how-flydubai-flight-fz1073-plunge-unfolded/107215048</link>
+      <guid isPermaLink="false">fz1073-u045</guid>
+      <pubDate>Fri, 02 Oct 2026 00:11:15 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] ABC News (článek přímo přečten) popisuje opakované propady, které cestující přirovnal k střemhlavému letu, a uvádí ztrátu výšky přes 20 000 ft a konečný sestup zhruba na 5 000 ft; opírá se o izraelské představitele, cestující a flydubai. Údaj se liší od FR24 (&amp;gt;14 000 ft za &amp;lt;30 s) i od jiných zdrojů (17 000 ft za ~2 min), rozpor zůstává nevyjasněný. Dle ABC bylo na palubě 174 osob. (Zdroj: ABC News (Australia))</description>
+    </item>
     <item>
       <title>[Neověřeno] Israel Hayom: nové podezření, že druhý pilot FZ1073 nejednal sám</title>
       <link>https://www.israelhayom.co.il/news/defense/article/21534358</link>

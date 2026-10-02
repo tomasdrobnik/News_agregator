@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-01T20:10:39Z",
-    "next_check": "2026-10-01T21:10:39Z",
+    "last_check": "2026-10-02T00:11:15Z",
+    "next_check": "2026-10-02T01:11:15Z",
     "new_count": 1
   },
   "updates": [
@@ -1155,6 +1155,27 @@
         "en": {
           "title": "Israel Hayom: new suspicion that the FZ1073 first officer did not act alone",
           "text": "According to the headline of an Israel Hayom article in search results, a new suspicion has emerged in the investigation that this was not a lone act. The page was not read directly (403), so its content and sources are unknown; the Israeli site Mako similarly says certainty is lacking but suspicion of a nationalist motive is growing. These are unverified media speculation, not confirmed by the UAE or KSA."
+        }
+      }
+    },
+    {
+      "id": "u045",
+      "found_at": "2026-10-02T00:11:15Z",
+      "published_at": null,
+      "source": "ABC News (Australia)",
+      "url": "https://www.abc.net.au/news/2026-10-01/how-flydubai-flight-fz1073-plunge-unfolded/107215048",
+      "title": "ABC: rekonstrukce sestupu FZ1073 uvádí přes 20 000 ft, opakované propady",
+      "text": "ABC News (článek přímo přečten) popisuje opakované propady, které cestující přirovnal k střemhlavému letu, a uvádí ztrátu výšky přes 20 000 ft a konečný sestup zhruba na 5 000 ft; opírá se o izraelské představitele, cestující a flydubai. Údaj se liší od FR24 (>14 000 ft za <30 s) i od jiných zdrojů (17 000 ft za ~2 min), rozpor zůstává nevyjasněný. Dle ABC bylo na palubě 174 osob.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "ABC: rekonštrukcia zostupu FZ1073 uvádza vyše 20 000 ft, opakované prepady",
+          "text": "ABC News (článok priamo prečítaný) opisuje opakované prepady, ktoré cestujúci prirovnal k strmhlavému letu, a uvádza stratu výšky vyše 20 000 ft a konečný zostup zhruba na 5 000 ft; opiera sa o izraelských predstaviteľov, cestujúcich a flydubai. Údaj sa líši od FR24 (>14 000 ft za <30 s) aj od iných zdrojov (17 000 ft za ~2 min), rozpor ostáva nevyjasnený. Podľa ABC bolo na palube 174 osôb."
+        },
+        "en": {
+          "title": "ABC: FZ1073 descent reconstruction cites over 20,000 ft, repeated drops",
+          "text": "ABC News (article read directly) describes repeated drops that a passenger likened to a nosedive, citing a height loss of over 20,000 ft and a final descent to about 5,000 ft; it relies on Israeli officials, passengers and flydubai. This differs from FR24 (>14,000 ft in <30 s) and from other sources (17,000 ft in ~2 min); the discrepancy remains unresolved. ABC says 174 people were on board."
         }
       }
     }

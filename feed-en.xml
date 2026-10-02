@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 20:10:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 00:11:15 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] ABC: FZ1073 descent reconstruction cites over 20,000 ft, repeated drops</title>
+      <link>https://www.abc.net.au/news/2026-10-01/how-flydubai-flight-fz1073-plunge-unfolded/107215048</link>
+      <guid isPermaLink="false">fz1073-u045</guid>
+      <pubDate>Fri, 02 Oct 2026 00:11:15 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] ABC News (article read directly) describes repeated drops that a passenger likened to a nosedive, citing a height loss of over 20,000 ft and a final descent to about 5,000 ft; it relies on Israeli officials, passengers and flydubai. This differs from FR24 (&amp;gt;14,000 ft in &amp;lt;30 s) and from other sources (17,000 ft in ~2 min); the discrepancy remains unresolved. ABC says 174 people were on board. (Source: ABC News (Australia))</description>
+    </item>
     <item>
       <title>[Unconfirmed] Israel Hayom: new suspicion that the FZ1073 first officer did not act alone</title>
       <link>https://www.israelhayom.co.il/news/defense/article/21534358</link>
