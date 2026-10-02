@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T00:11:15Z",
-    "next_check": "2026-10-02T01:11:15Z",
+    "last_check": "2026-10-02T02:10:36Z",
+    "next_check": "2026-10-02T03:10:36Z",
     "new_count": 1
   },
   "updates": [
@@ -1176,6 +1176,27 @@
         "en": {
           "title": "ABC: FZ1073 descent reconstruction cites over 20,000 ft, repeated drops",
           "text": "ABC News (article read directly) describes repeated drops that a passenger likened to a nosedive, citing a height loss of over 20,000 ft and a final descent to about 5,000 ft; it relies on Israeli officials, passengers and flydubai. This differs from FR24 (>14,000 ft in <30 s) and from other sources (17,000 ft in ~2 min); the discrepancy remains unresolved. ABC says 174 people were on board."
+        }
+      }
+    },
+    {
+      "id": "u046",
+      "found_at": "2026-10-02T02:10:36Z",
+      "published_at": "2026-10-02T00:37:27Z",
+      "source": "CNN",
+      "url": "https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl",
+      "title": "CNN: Trump naznačil možné íránské spojení druhého pilota FZ1073, bez důkazů",
+      "text": "Podle živého zpravodajství CNN (přímo přečteno) americký prezident Trump na dotaz, zda může být pilot spojen s Íránem, řekl, že „podle toho, co slyší“, ano, ale že na tom pracují; žádné podrobnosti neuvedl. Izraelský premiér Netanjahu označil za příliš brzké hodnotit roli Íránu, SAE šetří možnou souvislost s terorismem a motiv zůstává neznámý. Jde o politická tvrzení, nikoli o ověřené zjištění; navazuje na u038.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "CNN: Trump naznačil možné iránske spojenie druhého pilota FZ1073, bez dôkazov",
+          "text": "Podľa živého spravodajstva CNN (priamo prečítané) americký prezident Trump na otázku, či môže byť pilot spojený s Iránom, povedal, že „podľa toho, čo počuje“, áno, ale že na tom pracujú; žiadne podrobnosti neuviedol. Izraelský premiér Netanjahu označil za príliš skoré hodnotiť úlohu Iránu, SAE skúmajú možnú súvislosť s terorizmom a motív zostáva neznámy. Ide o politické tvrdenia, nie o overené zistenie; nadväzuje na u038."
+        },
+        "en": {
+          "title": "CNN: Trump suggests possible Iran link for FZ1073 second pilot, no evidence given",
+          "text": "According to CNN's live coverage (read directly), US President Trump, asked whether the pilot may be linked to Iran, said that \"based on what he is hearing\" yes, but that they are still working on it; he gave no details. Israeli PM Netanyahu called it too early to assess any Iranian role, the UAE is investigating a possible link to terrorism, and the motive remains unknown. These are political claims, not a verified finding; follows u038."
         }
       }
     }

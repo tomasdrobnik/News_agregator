@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 00:11:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 02:10:36 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] CNN: Trump suggests possible Iran link for FZ1073 second pilot, no evidence given</title>
+      <link>https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl</link>
+      <guid isPermaLink="false">fz1073-u046</guid>
+      <pubDate>Fri, 02 Oct 2026 02:10:36 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to CNN's live coverage (read directly), US President Trump, asked whether the pilot may be linked to Iran, said that "based on what he is hearing" yes, but that they are still working on it; he gave no details. Israeli PM Netanyahu called it too early to assess any Iranian role, the UAE is investigating a possible link to terrorism, and the motive remains unknown. These are political claims, not a verified finding; follows u038. (Source: CNN)</description>
+    </item>
     <item>
       <title>[Media] ABC: FZ1073 descent reconstruction cites over 20,000 ft, repeated drops</title>
       <link>https://www.abc.net.au/news/2026-10-01/how-flydubai-flight-fz1073-plunge-unfolded/107215048</link>
