@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T08:13:09Z",
-    "next_check": "2026-10-02T09:13:09Z",
-    "new_count": 2
+    "last_check": "2026-10-02T10:11:18Z",
+    "next_check": "2026-10-02T11:11:18Z",
+    "new_count": 1
   },
   "updates": [
     {
@@ -1298,6 +1298,43 @@
         "en": {
           "title": "JPost: Omani first officer of FZ1073 held no second nationality",
           "text": "According to JPost (read directly), unnamed sources familiar with the investigation say the suspected Omani F/O held no other nationality and that the Israel-UAE aviation agreement, in their account, does not require pilots from countries with ties to Israel. This contradicts an earlier claim by a source at Israel's transport ministry; neither UAE nor Omani authorities have confirmed it."
+        }
+      }
+    },
+    {
+      "id": "u052",
+      "found_at": "2026-10-02T10:11:18Z",
+      "published_at": "2026-09-30T14:28:00Z",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-910203",
+      "title": "JPost: někteří Izraelci odmítli nastoupit do záchranného letu, Saúdové nepovolili izraelské letectvo",
+      "text": "Podle JPost (přímo přečteno) část izraelských cestujících zprvu odmítla nastoupit do náhradního letu flydubai z Tabuku, protože jej neprovozovalo izraelské letadlo; z 174 cestujících mělo být 166 Izraelců (podle izraelských médií). Podle článku saúdské úřady odmítly vyslat izraelské letectvo a jeden 51letý cestující byl po příletu převezen do nemocnice s lehkým zraněním; údaje pocházejí z nejmenovaných zdrojů a médií a oficiálně potvrzeny nejsou.",
+      "status": "reported",
+      "media": [
+        {
+          "type": "photo",
+          "caption": "Přílet záchranného letu s cestujícími FZ1073 na letiště Ben Gurion, 30. 9. 2026",
+          "url": "https://www.jpost.com/middle-east/article-910203",
+          "thumb": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/739976",
+          "credit": "Section 27A (podle popisku JPost)",
+          "i18n": {
+            "sk": {
+              "caption": "Prílet záchranného letu s cestujúcimi FZ1073 na letisko Ben Gurion, 30. 9. 2026"
+            },
+            "en": {
+              "caption": "Arrival of the rescue flight with FZ1073 passengers at Ben Gurion Airport, 30 Sep 2026"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "sk": {
+          "title": "JPost: niektorí Izraelčania odmietli nastúpiť na záchranný let, Saudovci nepovolili izraelské letectvo",
+          "text": "Podľa JPost (priamo prečítané) časť izraelských cestujúcich spočiatku odmietla nastúpiť na náhradný let flydubai z Tabuku, pretože ho neprevádzkovalo izraelské lietadlo; zo 174 cestujúcich malo byť 166 Izraelčanov (podľa izraelských médií). Podľa článku saudské úrady odmietli vyslať izraelské letectvo a jeden 51-ročný cestujúci bol po prílete prevezený do nemocnice s ľahkým zranením; údaje pochádzajú z nemenovaných zdrojov a médií a oficiálne potvrdené nie sú."
+        },
+        "en": {
+          "title": "JPost: some Israelis refused to board the rescue flight, Saudis did not permit the Israeli air force",
+          "text": "According to JPost (read directly), some Israeli passengers initially refused to board flydubai's replacement flight from Tabuk because it was not operated by an Israeli aircraft; of 174 passengers, 166 were reportedly Israelis (per Israeli media). The article says Saudi authorities refused to let the Israeli air force fly in, and a 51-year-old passenger was taken to hospital with a mild injury on arrival; the details come from unnamed sources and media and are not officially confirmed."
         }
       }
     }

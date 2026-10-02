@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 08:13:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 10:11:18 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] JPost: some Israelis refused to board the rescue flight, Saudis did not permit the Israeli air force</title>
+      <link>https://www.jpost.com/middle-east/article-910203</link>
+      <guid isPermaLink="false">fz1073-u052</guid>
+      <pubDate>Fri, 02 Oct 2026 10:11:18 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to JPost (read directly), some Israeli passengers initially refused to board flydubai's replacement flight from Tabuk because it was not operated by an Israeli aircraft; of 174 passengers, 166 were reportedly Israelis (per Israeli media). The article says Saudi authorities refused to let the Israeli air force fly in, and a 51-year-old passenger was taken to hospital with a mild injury on arrival; the details come from unnamed sources and media and are not officially confirmed. (Source: Jerusalem Post)&lt;br&gt;&lt;a href="https://www.jpost.com/middle-east/article-910203"&gt;Photo: Arrival of the rescue flight with FZ1073 passengers at Ben Gurion Airport, 30 Sep 2026&lt;/a&gt; (Section 27A (podle popisku JPost), via Jerusalem Post)</description>
+    </item>
     <item>
       <title>[Media] JPost: Omani first officer of FZ1073 held no second nationality</title>
       <link>https://www.jpost.com/israel-news/article-910405</link>

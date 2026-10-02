@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Fri, 02 Oct 2026 08:13:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 10:11:18 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] JPost: niektorí Izraelčania odmietli nastúpiť na záchranný let, Saudovci nepovolili izraelské letectvo</title>
+      <link>https://www.jpost.com/middle-east/article-910203</link>
+      <guid isPermaLink="false">fz1073-u052</guid>
+      <pubDate>Fri, 02 Oct 2026 10:11:18 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa JPost (priamo prečítané) časť izraelských cestujúcich spočiatku odmietla nastúpiť na náhradný let flydubai z Tabuku, pretože ho neprevádzkovalo izraelské lietadlo; zo 174 cestujúcich malo byť 166 Izraelčanov (podľa izraelských médií). Podľa článku saudské úrady odmietli vyslať izraelské letectvo a jeden 51-ročný cestujúci bol po prílete prevezený do nemocnice s ľahkým zranením; údaje pochádzajú z nemenovaných zdrojov a médií a oficiálne potvrdené nie sú. (Zdroj: Jerusalem Post)&lt;br&gt;&lt;a href="https://www.jpost.com/middle-east/article-910203"&gt;Foto: Prílet záchranného letu s cestujúcimi FZ1073 na letisko Ben Gurion, 30. 9. 2026&lt;/a&gt; (Section 27A (podle popisku JPost), via Jerusalem Post)</description>
+    </item>
     <item>
       <title>[Médiá] JPost: omanský druhý pilot FZ1073 nemal druhé občianstvo</title>
       <link>https://www.jpost.com/israel-news/article-910405</link>
