@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Fri, 02 Oct 2026 14:11:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 16:11:10 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] The National: FZ1073 púta pozornosť na „deadheading“ pilotov</title>
+      <link>https://www.thenationalnews.com/business/aviation/2026/10/02/flydubai-flight-fz1073-puts-airline-deadheading-in-the-spotlight/</link>
+      <guid isPermaLink="false">fz1073-u054</guid>
+      <pubDate>Fri, 02 Oct 2026 16:11:10 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa článku (priamo prečítaný) pomohli na FZ1073 dvaja piloti letiaci mimo služby ako cestujúci, ktorí pristátie v Tabuku podporili. Článok rozoberá prax prepravy posádok ako cestujúcich, ktorej početnosť podľa analytika Saja Ahmada v Perzskom zálive vzrástla; uvádza pokles približne o 17 400 ft. Ide o výklad média, nie o oficiálne zistenia. (Zdroj: The National (UAE))</description>
+    </item>
     <item>
       <title>[Médiá] AP: útok na pilota FZ1073 vyvoláva otázky o preverovaní posádok a kokpitových dverí</title>
       <link>https://abcnews.com/Business/wireStory/flight-attack-flydubai-pilot-puts-aviation-security-measures-136940754</link>

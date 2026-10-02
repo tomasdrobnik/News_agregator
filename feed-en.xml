@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 14:11:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 16:11:10 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] The National: FZ1073 puts pilot "deadheading" in the spotlight</title>
+      <link>https://www.thenationalnews.com/business/aviation/2026/10/02/flydubai-flight-fz1073-puts-airline-deadheading-in-the-spotlight/</link>
+      <guid isPermaLink="false">fz1073-u054</guid>
+      <pubDate>Fri, 02 Oct 2026 16:11:10 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the article (read directly), two off-duty pilots travelling as passengers on FZ1073 helped with the landing at Tabuk. The piece examines the practice of positioning crews as passengers, which analyst Saj Ahmad says has become more common in the Gulf; it cites a descent of about 17,400 ft. This is the outlet's analysis, not an official finding. (Source: The National (UAE))</description>
+    </item>
     <item>
       <title>[Media] AP: attack on FZ1073 pilot raises questions over crew vetting and cockpit doors</title>
       <link>https://abcnews.com/Business/wireStory/flight-attack-flydubai-pilot-puts-aviation-security-measures-136940754</link>

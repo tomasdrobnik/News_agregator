@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T14:11:42Z",
-    "next_check": "2026-10-02T15:11:42Z",
+    "last_check": "2026-10-02T16:11:10Z",
+    "next_check": "2026-10-02T17:11:10Z",
     "new_count": 1
   },
   "updates": [
@@ -1372,6 +1372,26 @@
         "en": {
           "title": "AP: attack on FZ1073 pilot raises questions over crew vetting and cockpit doors",
           "text": "The AP (article read directly) quotes security experts: pilot vetting varies worldwide and may not match passenger screening; reinforced post-9/11 cockpit doors make outside intervention hard when the threat is inside. According to the article, the Omani first officer reportedly bypassed Israeli safeguards against pilots from countries without diplomatic ties; this is a claim in the article, not a confirmed fact. It adds no new facts on the cause."
+        }
+      }
+    },
+    {
+      "id": "u054",
+      "found_at": "2026-10-02T16:11:10Z",
+      "published_at": "2026-10-02T00:00:00Z",
+      "source": "The National (UAE)",
+      "url": "https://www.thenationalnews.com/business/aviation/2026/10/02/flydubai-flight-fz1073-puts-airline-deadheading-in-the-spotlight/",
+      "title": "The National: FZ1073 přivádí do pozornosti „deadheading“ pilotů",
+      "text": "Podle článku (přímo přečten) pomohli na FZ1073 dva piloti letící mimo službu jako cestující, kteří přistání v Tabuku podpořili. Článek rozebírá praxi přepravy posádek jako cestujících, jejíž četnost podle analytika Saje Ahmada v Perském zálivu vzrostla; uvádí pokles zhruba o 17 400 ft. Jde o výklad média, ne o oficiální zjištění.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "The National: FZ1073 púta pozornosť na „deadheading“ pilotov",
+          "text": "Podľa článku (priamo prečítaný) pomohli na FZ1073 dvaja piloti letiaci mimo služby ako cestujúci, ktorí pristátie v Tabuku podporili. Článok rozoberá prax prepravy posádok ako cestujúcich, ktorej početnosť podľa analytika Saja Ahmada v Perzskom zálive vzrástla; uvádza pokles približne o 17 400 ft. Ide o výklad média, nie o oficiálne zistenia."
+        },
+        "en": {
+          "title": "The National: FZ1073 puts pilot \"deadheading\" in the spotlight",
+          "text": "According to the article (read directly), two off-duty pilots travelling as passengers on FZ1073 helped with the landing at Tabuk. The piece examines the practice of positioning crews as passengers, which analyst Saj Ahmad says has become more common in the Gulf; it cites a descent of about 17,400 ft. This is the outlet's analysis, not an official finding."
         }
       }
     }
