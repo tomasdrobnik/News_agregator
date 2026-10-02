@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T22:10:20Z",
-    "next_check": "2026-10-02T23:10:20Z",
+    "last_check": "2026-10-02T23:11:30Z",
+    "next_check": "2026-10-03T00:11:30Z",
     "new_count": 1
   },
   "updates": [
@@ -1452,6 +1452,26 @@
         "en": {
           "title": "Al Jazeera: reconstruction of FZ1073's 12 minutes – captain and passengers intervene",
           "text": "According to the article (read directly), the crisis unfolded roughly between 05:21 and 05:33 GMT and the landing at Tabuk took place around 06:58 GMT. The media report a drop of about 17,000 ft in two minutes (conflicting with FR24: >14,000 ft in <30 s) and that the wounded captain opened the cockpit door, after which passengers subdued the attacker and one briefly controlled the aircraft. Based on passenger accounts and politicians' statements, not independently verified."
+        }
+      }
+    },
+    {
+      "id": "u058",
+      "found_at": "2026-10-02T23:11:30Z",
+      "published_at": null,
+      "source": "Israel Hayom",
+      "url": "https://israelhayom.co.il/news/world-news/article/21540378",
+      "title": "Israel Hayom: druhý pilot FZ1073 se prý při výslechu přiznal, že chtěl letadlo zřítit",
+      "text": "Podle výsledků vyhledávání (stránka nebyla přímo přečtena) Israel Hayom cituje nepotvrzenou zprávu, že ománský druhý pilot měl při výslechu v Saúdské Arábii přiznat úmysl zřítit letadlo v Izraeli. Podobně hebrejské výsledky (Mako) uvádějí předběžné poznatky o nacionalistickém motivu a radikalizaci; úřady SAE ani KSA to nepotvrdily a jde o jediný zdroj.",
+      "status": "unconfirmed",
+      "i18n": {
+        "sk": {
+          "title": "Israel Hayom: druhý pilot FZ1073 sa údajne pri výsluchu priznal, že chcel lietadlo zrútiť",
+          "text": "Podľa výsledkov vyhľadávania (stránka nebola priamo prečítaná) Israel Hayom cituje nepotvrdenú správu, že ománsky druhý pilot mal pri výsluchu v Saudskej Arábii priznať úmysel zrútiť lietadlo v Izraeli. Podobne hebrejské výsledky (Mako) uvádzajú predbežné poznatky o nacionalistickom motíve a radikalizácii; úrady SAE ani KSA to nepotvrdili a ide o jediný zdroj."
+        },
+        "en": {
+          "title": "Israel Hayom: FZ1073 co-pilot reportedly confessed under questioning to planning to crash the aircraft",
+          "text": "According to search results (page not read directly), Israel Hayom cites an unconfirmed report that the Omani co-pilot admitted during questioning in Saudi Arabia to intending to crash the aircraft in Israel. Hebrew search results (Mako) similarly mention preliminary findings of a nationalist motive and radicalisation; UAE and Saudi authorities have not confirmed this and it rests on a single source."
         }
       }
     }

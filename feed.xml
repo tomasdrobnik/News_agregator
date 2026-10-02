@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Fri, 02 Oct 2026 22:10:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 23:11:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Israel Hayom: druhý pilot FZ1073 se prý při výslechu přiznal, že chtěl letadlo zřítit</title>
+      <link>https://israelhayom.co.il/news/world-news/article/21540378</link>
+      <guid isPermaLink="false">fz1073-u058</guid>
+      <pubDate>Fri, 02 Oct 2026 23:11:30 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (stránka nebyla přímo přečtena) Israel Hayom cituje nepotvrzenou zprávu, že ománský druhý pilot měl při výslechu v Saúdské Arábii přiznat úmysl zřítit letadlo v Izraeli. Podobně hebrejské výsledky (Mako) uvádějí předběžné poznatky o nacionalistickém motivu a radikalizaci; úřady SAE ani KSA to nepotvrdily a jde o jediný zdroj. (Zdroj: Israel Hayom)</description>
+    </item>
     <item>
       <title>[Média] Al Jazeera: rekonstrukce 12 minut FZ1073 – zásah kapitána a cestujících</title>
       <link>https://www.aljazeera.com/news/2026/10/2/12-minutes-of-madness-how-flydubai-pilot-passengers-saved-plane-midfall</link>
