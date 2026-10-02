@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 20:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 22:10:20 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Al Jazeera: reconstruction of FZ1073's 12 minutes – captain and passengers intervene</title>
+      <link>https://www.aljazeera.com/news/2026/10/2/12-minutes-of-madness-how-flydubai-pilot-passengers-saved-plane-midfall</link>
+      <guid isPermaLink="false">fz1073-u057</guid>
+      <pubDate>Fri, 02 Oct 2026 22:10:20 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the article (read directly), the crisis unfolded roughly between 05:21 and 05:33 GMT and the landing at Tabuk took place around 06:58 GMT. The media report a drop of about 17,000 ft in two minutes (conflicting with FR24: &amp;gt;14,000 ft in &amp;lt;30 s) and that the wounded captain opened the cockpit door, after which passengers subdued the attacker and one briefly controlled the aircraft. Based on passenger accounts and politicians' statements, not independently verified. (Source: Al Jazeera)</description>
+    </item>
     <item>
       <title>[Media] Fortune: FZ1073 raises questions about crew vetting and cockpit security</title>
       <link>https://fortune.com/2026/10/02/flydubai-attack-cockpit-security/</link>

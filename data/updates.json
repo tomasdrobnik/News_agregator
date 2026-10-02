@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T20:11:30Z",
-    "next_check": "2026-10-02T21:11:30Z",
-    "new_count": 2
+    "last_check": "2026-10-02T22:10:20Z",
+    "next_check": "2026-10-02T23:10:20Z",
+    "new_count": 1
   },
   "updates": [
     {
@@ -1432,6 +1432,26 @@
         "en": {
           "title": "Fortune: FZ1073 raises questions about crew vetting and cockpit security",
           "text": "According to the article (read directly), Netanyahu acknowledged a \"loophole\" and Israel will now vet all pilots flying into the country. Fortune also says the crew reported a hijacking to air traffic control and requested ambulances, and that initial landing requests in Saudi Arabia and Jordan were refused before Tabuk was approved. It gives 182 people on board, another discrepancy with earlier figures (174 / ~150 / ~180). This is the media's account."
+        }
+      }
+    },
+    {
+      "id": "u057",
+      "found_at": "2026-10-02T22:10:20Z",
+      "published_at": "2026-10-02T00:00:00Z",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/2/12-minutes-of-madness-how-flydubai-pilot-passengers-saved-plane-midfall",
+      "title": "Al Jazeera: rekonstrukce 12 minut FZ1073 – zásah kapitána a cestujících",
+      "text": "Podle článku (přímo přečten) se krize odehrála zhruba mezi 05:21 a 05:33 GMT a přistání v Tabuku proběhlo kolem 06:58 GMT. Média uvádějí pokles asi o 17 000 ft za dvě minuty (rozpor s FR24: >14 000 ft za <30 s) a že zraněný kapitán otevřel dveře kokpitu, načež cestující útočníka zadrželi a jeden z nich krátce ovládal letadlo. Údaje vycházejí z výpovědí cestujících a prohlášení politiků, nezávisle neověřeno.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Al Jazeera: rekonštrukcia 12 minút FZ1073 – zásah kapitána a cestujúcich",
+          "text": "Podľa článku (priamo prečítaný) sa kríza odohrala približne medzi 05:21 a 05:33 GMT a pristátie v Tabuku prebehlo okolo 06:58 GMT. Médiá uvádzajú pokles asi o 17 000 ft za dve minúty (rozpor s FR24: >14 000 ft za <30 s) a že zranený kapitán otvoril dvere kokpitu, načo cestujúci útočníka zadržali a jeden z nich krátko ovládal lietadlo. Údaje vychádzajú z výpovedí cestujúcich a vyhlásení politikov, nezávisle neoverené."
+        },
+        "en": {
+          "title": "Al Jazeera: reconstruction of FZ1073's 12 minutes – captain and passengers intervene",
+          "text": "According to the article (read directly), the crisis unfolded roughly between 05:21 and 05:33 GMT and the landing at Tabuk took place around 06:58 GMT. The media report a drop of about 17,000 ft in two minutes (conflicting with FR24: >14,000 ft in <30 s) and that the wounded captain opened the cockpit door, after which passengers subdued the attacker and one briefly controlled the aircraft. Based on passenger accounts and politicians' statements, not independently verified."
         }
       }
     }

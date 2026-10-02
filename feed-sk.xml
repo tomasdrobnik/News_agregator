@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Fri, 02 Oct 2026 20:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 22:10:20 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Al Jazeera: rekonštrukcia 12 minút FZ1073 – zásah kapitána a cestujúcich</title>
+      <link>https://www.aljazeera.com/news/2026/10/2/12-minutes-of-madness-how-flydubai-pilot-passengers-saved-plane-midfall</link>
+      <guid isPermaLink="false">fz1073-u057</guid>
+      <pubDate>Fri, 02 Oct 2026 22:10:20 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa článku (priamo prečítaný) sa kríza odohrala približne medzi 05:21 a 05:33 GMT a pristátie v Tabuku prebehlo okolo 06:58 GMT. Médiá uvádzajú pokles asi o 17 000 ft za dve minúty (rozpor s FR24: &amp;gt;14 000 ft za &amp;lt;30 s) a že zranený kapitán otvoril dvere kokpitu, načo cestujúci útočníka zadržali a jeden z nich krátko ovládal lietadlo. Údaje vychádzajú z výpovedí cestujúcich a vyhlásení politikov, nezávisle neoverené. (Zdroj: Al Jazeera)</description>
+    </item>
     <item>
       <title>[Médiá] Fortune: FZ1073 vyvoláva otázky o preverovaní posádok a zabezpečení kokpitu</title>
       <link>https://fortune.com/2026/10/02/flydubai-attack-cockpit-security/</link>
