@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T02:10:36Z",
-    "next_check": "2026-10-02T03:10:36Z",
+    "last_check": "2026-10-02T03:10:23Z",
+    "next_check": "2026-10-02T04:10:23Z",
     "new_count": 1
   },
   "updates": [
@@ -1197,6 +1197,27 @@
         "en": {
           "title": "CNN: Trump suggests possible Iran link for FZ1073 second pilot, no evidence given",
           "text": "According to CNN's live coverage (read directly), US President Trump, asked whether the pilot may be linked to Iran, said that \"based on what he is hearing\" yes, but that they are still working on it; he gave no details. Israeli PM Netanyahu called it too early to assess any Iranian role, the UAE is investigating a possible link to terrorism, and the motive remains unknown. These are political claims, not a verified finding; follows u038."
+        }
+      }
+    },
+    {
+      "id": "u047",
+      "found_at": "2026-10-02T03:10:23Z",
+      "published_at": null,
+      "source": "Arabian Business (přes vyhledávání)",
+      "url": "https://www.arabianbusiness.com/business/transport/flydubai-fz1073-co-pilot-assaulted-captain-saudi-preliminary-investigation-finds",
+      "title": "Arabian Business: saúdské předběžné šetření uvádí, že F/O napadl kapitána",
+      "text": "Podle výsledků vyhledávání (stránka nebyla přímo čtena, server vrátil chybu 405) Arabian Business uvádí, že saúdské orgány v předběžném šetření dospěly k závěru, že druhý pilot napadl kapitána a oba byli zranění. Motiv saúdské prohlášení podle článku neuvádí; jde o údaj z jediného média, prohlášení saúdských orgánů samotné nebylo přímo čteno.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Arabian Business: saudské predbežné vyšetrovanie uvádza, že F/O napadol kapitána",
+          "text": "Podľa výsledkov vyhľadávania (stránka nebola priamo čítaná, server vrátil chybu 405) Arabian Business uvádza, že saudské orgány v predbežnom vyšetrovaní dospeli k záveru, že druhý pilot napadol kapitána a obaja boli zranení. Motív saudské vyhlásenie podľa článku neuvádza; ide o údaj z jediného média, vyhlásenie saudských orgánov samotné nebolo priamo čítané."
+        },
+        "en": {
+          "title": "Arabian Business: Saudi preliminary investigation says F/O assaulted the captain",
+          "text": "According to search results (page not read directly, server returned error 405), Arabian Business reports that Saudi authorities' preliminary investigation concluded the co-pilot assaulted the captain and both were injured. Per the article the Saudi statement gives no motive; this is a single-outlet claim and the Saudi statement itself was not read directly."
         }
       }
     }

@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Fri, 02 Oct 2026 02:10:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 03:10:23 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Arabian Business: saúdské předběžné šetření uvádí, že F/O napadl kapitána</title>
+      <link>https://www.arabianbusiness.com/business/transport/flydubai-fz1073-co-pilot-assaulted-captain-saudi-preliminary-investigation-finds</link>
+      <guid isPermaLink="false">fz1073-u047</guid>
+      <pubDate>Fri, 02 Oct 2026 03:10:23 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (stránka nebyla přímo čtena, server vrátil chybu 405) Arabian Business uvádí, že saúdské orgány v předběžném šetření dospěly k závěru, že druhý pilot napadl kapitána a oba byli zranění. Motiv saúdské prohlášení podle článku neuvádí; jde o údaj z jediného média, prohlášení saúdských orgánů samotné nebylo přímo čteno. (Zdroj: Arabian Business (přes vyhledávání))</description>
+    </item>
     <item>
       <title>[Média] CNN: Trump naznačil možné íránské spojení druhého pilota FZ1073, bez důkazů</title>
       <link>https://edition.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl</link>

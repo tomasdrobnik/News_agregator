@@ -396,6 +396,15 @@
       "added_at": "2026-10-01T18:34:55Z",
       "active": true,
       "note": "Oficiální YouTube kanál renomovaného média; odkazy na videa k FZ1073. YouTube automatické čtení nepoužíváme, autor kanálu zjištěn přes oEmbed."
+    },
+    {
+      "name": "Arabian Business",
+      "url": "https://www.arabianbusiness.com",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-10-02T03:10:23Z",
+      "active": true,
+      "note": "Regionální obchodní/letecké médium; přímé čtení vrací HTTP 405, proto jen WebSearch."
     }
   ]
 }
