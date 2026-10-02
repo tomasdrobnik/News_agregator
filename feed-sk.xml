@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Fri, 02 Oct 2026 06:11:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 08:13:09 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] JPost: omanský druhý pilot FZ1073 nemal druhé občianstvo</title>
+      <link>https://www.jpost.com/israel-news/article-910405</link>
+      <guid isPermaLink="false">fz1073-u051</guid>
+      <pubDate>Fri, 02 Oct 2026 08:13:09 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa JPost (priamo prečítané) nemenované zdroje znalé vyšetrovania tvrdia, že podozrivý ománsky F/O nemal iné občianstvo a že izraelsko-emirátska letecká dohoda podľa nich nevyžaduje pilotov zo štátov s diplomatickými vzťahmi k Izraelu. To je v rozpore s skorším tvrdením zdroja na izraelskom ministerstve dopravy; úrady SAE ani Ománu to nepotvrdili. (Zdroj: Jerusalem Post)</description>
+    </item>
+    <item>
+      <title>[Médiá] JPost: prečo boli na FZ1073 štyria piloti</title>
+      <link>https://www.jpost.com/israel-news/article-910217</link>
+      <guid isPermaLink="false">fz1073-u050</guid>
+      <pubDate>Fri, 02 Oct 2026 08:13:09 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa JPost (priamo prečítané) boli na palube dvaja prídavní piloti kvôli možnému predĺženiu trasy a limitom pracovného času posádky, nie kvôli bezpečnostnému varovaniu; zdrojom je nemenovaná osoba. Cestujúci citovaný denníkom uvádza, že jeden z prídavných pilotov prevzal riadenie; priebeh udalostí v kokpite nebol nezávisle potvrdený. Dopĺňa otvorenú otázku o záložnom pilotovi. (Zdroj: Jerusalem Post)</description>
+    </item>
     <item>
       <title>[Médiá] Lead Stories: virálne video „osláv“ cestujúcich FZ1073 je z augusta 2025, nie z incidentu</title>
       <link>https://leadstories.com/hoax-alert/2026/10/fact-check-video-does-not-show-passengers-flydubai-flight-fz1073-tel-aviv-celebrating-big-speaker-hijacking-attempt-2025.html</link>

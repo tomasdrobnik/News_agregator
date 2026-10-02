@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 06:11:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 08:13:09 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] JPost: Omani first officer of FZ1073 held no second nationality</title>
+      <link>https://www.jpost.com/israel-news/article-910405</link>
+      <guid isPermaLink="false">fz1073-u051</guid>
+      <pubDate>Fri, 02 Oct 2026 08:13:09 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to JPost (read directly), unnamed sources familiar with the investigation say the suspected Omani F/O held no other nationality and that the Israel-UAE aviation agreement, in their account, does not require pilots from countries with ties to Israel. This contradicts an earlier claim by a source at Israel's transport ministry; neither UAE nor Omani authorities have confirmed it. (Source: Jerusalem Post)</description>
+    </item>
+    <item>
+      <title>[Media] JPost: why four pilots were aboard FZ1073</title>
+      <link>https://www.jpost.com/israel-news/article-910217</link>
+      <guid isPermaLink="false">fz1073-u050</guid>
+      <pubDate>Fri, 02 Oct 2026 08:13:09 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to JPost (read directly), two additional pilots were aboard because of possible route extensions and crew duty-time limits, not because of a security warning; the source is an unnamed person. A passenger quoted by the paper says one of the extra pilots took control; the sequence inside the cockpit has not been independently confirmed. This addresses the open question about the additional pilot. (Source: Jerusalem Post)</description>
+    </item>
     <item>
       <title>[Media] Lead Stories: viral video of FZ1073 passengers "celebrating" is from August 2025, not the incident</title>
       <link>https://leadstories.com/hoax-alert/2026/10/fact-check-video-does-not-show-passengers-flydubai-flight-fz1073-tel-aviv-celebrating-big-speaker-hijacking-attempt-2025.html</link>

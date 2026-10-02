@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T06:11:06Z",
-    "next_check": "2026-10-02T07:11:06Z",
-    "new_count": 1
+    "last_check": "2026-10-02T08:13:09Z",
+    "next_check": "2026-10-02T09:13:09Z",
+    "new_count": 2
   },
   "updates": [
     {
@@ -1258,6 +1258,46 @@
         "en": {
           "title": "Lead Stories: viral video of FZ1073 passengers \"celebrating\" is from August 2025, not the incident",
           "text": "According to a directly read Lead Stories fact-check (1 Oct 2026), a video circulated on social media as showing FZ1073 passengers celebrating after the hijacking attempt actually shows the Israeli men's basketball team on a plane in 2025 (originally Sport5). This is a disinformation warning; it adds nothing new about the incident itself."
+        }
+      }
+    },
+    {
+      "id": "u050",
+      "found_at": "2026-10-02T08:13:09Z",
+      "published_at": "2026-09-30T19:04:00Z",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-910217",
+      "title": "JPost: proč byli na FZ1073 čtyři piloti",
+      "text": "Podle JPost (přímo přečteno) byli na palubě dva přídavní piloti kvůli možnému prodloužení trasy a limitům pracovní doby posádky, nikoli kvůli bezpečnostnímu varování; zdrojem je nejmenovaná osoba. Cestující citovaný listem uvádí, že jeden z přídavných pilotů převzal řízení; sled událostí v kokpitu nebyl nezávisle potvrzen. Doplňuje otevřenou otázku o záložním pilotovi.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "JPost: prečo boli na FZ1073 štyria piloti",
+          "text": "Podľa JPost (priamo prečítané) boli na palube dvaja prídavní piloti kvôli možnému predĺženiu trasy a limitom pracovného času posádky, nie kvôli bezpečnostnému varovaniu; zdrojom je nemenovaná osoba. Cestujúci citovaný denníkom uvádza, že jeden z prídavných pilotov prevzal riadenie; priebeh udalostí v kokpite nebol nezávisle potvrdený. Dopĺňa otvorenú otázku o záložnom pilotovi."
+        },
+        "en": {
+          "title": "JPost: why four pilots were aboard FZ1073",
+          "text": "According to JPost (read directly), two additional pilots were aboard because of possible route extensions and crew duty-time limits, not because of a security warning; the source is an unnamed person. A passenger quoted by the paper says one of the extra pilots took control; the sequence inside the cockpit has not been independently confirmed. This addresses the open question about the additional pilot."
+        }
+      }
+    },
+    {
+      "id": "u051",
+      "found_at": "2026-10-02T08:13:09Z",
+      "published_at": "2026-10-02T10:34:00Z",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-910405",
+      "title": "JPost: omanský druhý pilot FZ1073 neměl druhé občanství",
+      "text": "Podle JPost (přímo přečteno) nejmenované zdroje znalé šetření tvrdí, že podezřelý omanský F/O neměl jiné občanství a že izraelsko-emirátská letecká dohoda podle nich nevyžaduje piloty ze států s diplomatickými vztahy k Izraeli. To je v rozporu s dřívějším tvrzením zdroje na izraelském ministerstvu dopravy; úřady SAE ani Ománu to nepotvrdily.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "JPost: omanský druhý pilot FZ1073 nemal druhé občianstvo",
+          "text": "Podľa JPost (priamo prečítané) nemenované zdroje znalé vyšetrovania tvrdia, že podozrivý ománsky F/O nemal iné občianstvo a že izraelsko-emirátska letecká dohoda podľa nich nevyžaduje pilotov zo štátov s diplomatickými vzťahmi k Izraelu. To je v rozpore s skorším tvrdením zdroja na izraelskom ministerstve dopravy; úrady SAE ani Ománu to nepotvrdili."
+        },
+        "en": {
+          "title": "JPost: Omani first officer of FZ1073 held no second nationality",
+          "text": "According to JPost (read directly), unnamed sources familiar with the investigation say the suspected Omani F/O held no other nationality and that the Israel-UAE aviation agreement, in their account, does not require pilots from countries with ties to Israel. This contradicts an earlier claim by a source at Israel's transport ministry; neither UAE nor Omani authorities have confirmed it."
         }
       }
     }
