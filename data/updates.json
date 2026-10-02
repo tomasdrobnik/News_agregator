@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T16:11:10Z",
-    "next_check": "2026-10-02T17:11:10Z",
-    "new_count": 1
+    "last_check": "2026-10-02T20:11:30Z",
+    "next_check": "2026-10-02T21:11:30Z",
+    "new_count": 2
   },
   "updates": [
     {
@@ -1392,6 +1392,46 @@
         "en": {
           "title": "The National: FZ1073 puts pilot \"deadheading\" in the spotlight",
           "text": "According to the article (read directly), two off-duty pilots travelling as passengers on FZ1073 helped with the landing at Tabuk. The piece examines the practice of positioning crews as passengers, which analyst Saj Ahmad says has become more common in the Gulf; it cites a descent of about 17,400 ft. This is the outlet's analysis, not an official finding."
+        }
+      }
+    },
+    {
+      "id": "u055",
+      "found_at": "2026-10-02T20:11:30Z",
+      "published_at": "2026-10-01T00:00:00Z",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/flydubai-plane-attempted-crash-hijacking-israel-dubai-what-to-know/",
+      "title": "CBS: ománský úředník potvrdil původ druhého pilota, vyšetřovatelé zkoumají, zda jednal sám",
+      "text": "Podle článku (přímo přečten) nejmenovaný ománský úředník agentuře CBS potvrdil, že druhý pilot se v Ománu narodil a má ománské občanství; ománská vláda to veřejně nepotvrdila. Podezřelý byl podle CBS předán do SAE k výslechu a vyšetřovatelé zkoumají, zda jednal sám. Netanjahu uvedl, že se podle něj radikalizoval, a nevyloučil, že byl „vyslán“; íránskou souvislost označil za předčasnou. Jde o tvrzení představitelů předaná médiem, motiv oficiálně nebyl zveřejněn.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "CBS: omanský úradník potvrdil pôvod druhého pilota, vyšetrovatelia skúmajú, či konal sám",
+          "text": "Podľa článku (priamo prečítaný) nemenovaný omanský úradník agentúre CBS potvrdil, že druhý pilot sa v Ománe narodil a má omanské občianstvo; omanská vláda to verejne nepotvrdila. Podozrivý bol podľa CBS odovzdaný do SAE na výsluch a vyšetrovatelia skúmajú, či konal sám. Netanjahu uviedol, že sa podľa neho radikalizoval, a nevylúčil, že bol „vyslaný“; iránsku súvislosť označil za predčasnú. Ide o tvrdenia predstaviteľov odovzdané médiom, motív oficiálne nebol zverejnený."
+        },
+        "en": {
+          "title": "CBS: Omani official confirms first officer's origin; investigators probe whether he acted alone",
+          "text": "According to the article (read directly), an unnamed Omani official told CBS the first officer was born in Oman and holds Omani citizenship; the Omani government has not publicly confirmed this. CBS says the suspect was transferred to the UAE for questioning and investigators are examining whether he acted alone. Netanyahu said he believes the man was radicalized and did not rule out that he was \"dispatched\"; he called an Iran link premature. These are officials' claims relayed by the media; no motive has been officially published."
+        }
+      }
+    },
+    {
+      "id": "u056",
+      "found_at": "2026-10-02T20:11:30Z",
+      "published_at": "2026-10-02T00:00:00Z",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/10/02/flydubai-attack-cockpit-security/",
+      "title": "Fortune: FZ1073 vyvolává otázky o prověřování posádek a zabezpečení kokpitu",
+      "text": "Podle článku (přímo přečten) Netanjahu připustil „mezeru“ v systému a Izrael bude prověřovat všechny piloty létající do země. Fortune dále uvádí, že posádka při komunikaci s řízením hlásila únos a žádala sanitky a že první žádosti o přistání v Saúdské Arábii a Jordánsku byly odmítnuty, než bylo povoleno Tabuk. Počet osob na palubě uvádí 182, což je další rozpor s dosavadními údaji (174 / ~150 / ~180). Jde o výklad média.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Fortune: FZ1073 vyvoláva otázky o preverovaní posádok a zabezpečení kokpitu",
+          "text": "Podľa článku (priamo prečítaný) Netanjahu pripustil „medzeru“ v systéme a Izrael bude preverovať všetkých pilotov lietajúcich do krajiny. Fortune ďalej uvádza, že posádka pri komunikácii s riadením hlásila únos a žiadala sanitky a že prvé žiadosti o pristátie v Saudskej Arábii a Jordánsku boli odmietnuté, kým bolo povolené Tabuk. Počet osôb na palube uvádza 182, čo je ďalší rozpor s doterajšími údajmi (174 / ~150 / ~180). Ide o výklad média."
+        },
+        "en": {
+          "title": "Fortune: FZ1073 raises questions about crew vetting and cockpit security",
+          "text": "According to the article (read directly), Netanyahu acknowledged a \"loophole\" and Israel will now vet all pilots flying into the country. Fortune also says the crew reported a hijacking to air traffic control and requested ambulances, and that initial landing requests in Saudi Arabia and Jordan were refused before Tabuk was approved. It gives 182 people on board, another discrepancy with earlier figures (174 / ~150 / ~180). This is the media's account."
         }
       }
     }

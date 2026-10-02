@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 16:11:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 20:11:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Fortune: FZ1073 raises questions about crew vetting and cockpit security</title>
+      <link>https://fortune.com/2026/10/02/flydubai-attack-cockpit-security/</link>
+      <guid isPermaLink="false">fz1073-u056</guid>
+      <pubDate>Fri, 02 Oct 2026 20:11:30 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the article (read directly), Netanyahu acknowledged a "loophole" and Israel will now vet all pilots flying into the country. Fortune also says the crew reported a hijacking to air traffic control and requested ambulances, and that initial landing requests in Saudi Arabia and Jordan were refused before Tabuk was approved. It gives 182 people on board, another discrepancy with earlier figures (174 / ~150 / ~180). This is the media's account. (Source: Fortune)</description>
+    </item>
+    <item>
+      <title>[Media] CBS: Omani official confirms first officer's origin; investigators probe whether he acted alone</title>
+      <link>https://www.cbsnews.com/news/flydubai-plane-attempted-crash-hijacking-israel-dubai-what-to-know/</link>
+      <guid isPermaLink="false">fz1073-u055</guid>
+      <pubDate>Fri, 02 Oct 2026 20:11:30 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the article (read directly), an unnamed Omani official told CBS the first officer was born in Oman and holds Omani citizenship; the Omani government has not publicly confirmed this. CBS says the suspect was transferred to the UAE for questioning and investigators are examining whether he acted alone. Netanyahu said he believes the man was radicalized and did not rule out that he was "dispatched"; he called an Iran link premature. These are officials' claims relayed by the media; no motive has been officially published. (Source: CBS News)</description>
+    </item>
     <item>
       <title>[Media] The National: FZ1073 puts pilot "deadheading" in the spotlight</title>
       <link>https://www.thenationalnews.com/business/aviation/2026/10/02/flydubai-flight-fz1073-puts-airline-deadheading-in-the-spotlight/</link>

@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Fri, 02 Oct 2026 16:11:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 20:11:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Fortune: FZ1073 vyvolává otázky o prověřování posádek a zabezpečení kokpitu</title>
+      <link>https://fortune.com/2026/10/02/flydubai-attack-cockpit-security/</link>
+      <guid isPermaLink="false">fz1073-u056</guid>
+      <pubDate>Fri, 02 Oct 2026 20:11:30 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle článku (přímo přečten) Netanjahu připustil „mezeru“ v systému a Izrael bude prověřovat všechny piloty létající do země. Fortune dále uvádí, že posádka při komunikaci s řízením hlásila únos a žádala sanitky a že první žádosti o přistání v Saúdské Arábii a Jordánsku byly odmítnuty, než bylo povoleno Tabuk. Počet osob na palubě uvádí 182, což je další rozpor s dosavadními údaji (174 / ~150 / ~180). Jde o výklad média. (Zdroj: Fortune)</description>
+    </item>
+    <item>
+      <title>[Média] CBS: ománský úředník potvrdil původ druhého pilota, vyšetřovatelé zkoumají, zda jednal sám</title>
+      <link>https://www.cbsnews.com/news/flydubai-plane-attempted-crash-hijacking-israel-dubai-what-to-know/</link>
+      <guid isPermaLink="false">fz1073-u055</guid>
+      <pubDate>Fri, 02 Oct 2026 20:11:30 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle článku (přímo přečten) nejmenovaný ománský úředník agentuře CBS potvrdil, že druhý pilot se v Ománu narodil a má ománské občanství; ománská vláda to veřejně nepotvrdila. Podezřelý byl podle CBS předán do SAE k výslechu a vyšetřovatelé zkoumají, zda jednal sám. Netanjahu uvedl, že se podle něj radikalizoval, a nevyloučil, že byl „vyslán“; íránskou souvislost označil za předčasnou. Jde o tvrzení představitelů předaná médiem, motiv oficiálně nebyl zveřejněn. (Zdroj: CBS News)</description>
+    </item>
     <item>
       <title>[Média] The National: FZ1073 přivádí do pozornosti „deadheading“ pilotů</title>
       <link>https://www.thenationalnews.com/business/aviation/2026/10/02/flydubai-flight-fz1073-puts-airline-deadheading-in-the-spotlight/</link>

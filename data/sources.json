@@ -432,6 +432,24 @@
       "added_at": "2026-10-02T14:11:42Z",
       "active": true,
       "note": "Americká televize; přebírá zprávy AP o incidentu FZ1073 (wireStory). Přímé čtení přes WebFetch uspělo."
+    },
+    {
+      "name": "CBS News",
+      "url": "https://www.cbsnews.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-02T20:11:30Z",
+      "active": true,
+      "note": "Americká televize; podrobně sleduje FZ1073 (původ druhého pilota, vyšetřování). Přímé čtení přes WebFetch uspělo."
+    },
+    {
+      "name": "Fortune",
+      "url": "https://fortune.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-02T20:11:30Z",
+      "active": true,
+      "note": "Americký ekonomický magazín; rozbor prověřování posádek a zabezpečení kokpitu po FZ1073. Přímé čtení přes WebFetch uspělo."
     }
   ]
 }
