@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-03T03:10:39Z",
-    "next_check": "2026-10-03T04:10:39Z",
+    "last_check": "2026-10-03T06:11:28Z",
+    "next_check": "2026-10-03T07:11:28Z",
     "new_count": 1
   },
   "updates": [
@@ -1513,6 +1513,27 @@
         "en": {
           "title": "Emirates 24|7: flydubai CEO confirms official FZ1073 investigation",
           "text": "According to the article (read directly), the flydubai CEO said a security incident occurred in the cockpit of FZ1073 and that a comprehensive official investigation is underway; he praised the captain and crew. The airline is reported to have suspended Tel Aviv operations until the investigation concludes. This is a news site's retelling, not a statement read directly on flydubai's own site, hence unconfirmed."
+        }
+      }
+    },
+    {
+      "id": "u061",
+      "found_at": "2026-10-03T06:11:28Z",
+      "published_at": "2026-10-02T00:00:00Z",
+      "source": "Gulf News",
+      "url": "https://gulfnews.com/business/aviation/gcaa-commends-flydubai-captain-machchhar-smit-crew-and-passengers-after-fz1073-incident-1.500696490",
+      "title": "Gulf News: GCAA chválí kapitána, posádku a cestující FZ1073, šetření vede státní zastupitelství",
+      "text": "Podle Gulf News (článek přímo přečten) úřad GCAA ocenil odvahu a rychlou reakci kapitána, posádky a cestujících, kteří pomohli situaci zvládnout. Kapitán se vrátil do SAE, je v dobrém stavu a dostává péči. Šetření vede tým z řad státního zastupitelství; GCAA se k podrobnostem a tvrzením nevyjadřuje a vyzývá spoléhat jen na oficiální zdroje. Prohlášení nebylo čteno na webu GCAA, proto status reported.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Gulf News: GCAA chváli kapitána, posádku a cestujúcich FZ1073, vyšetrovanie vedie štátne zastupiteľstvo",
+          "text": "Podľa Gulf News (článok priamo prečítaný) úrad GCAA ocenil odvahu a rýchlu reakciu kapitána, posádky a cestujúcich, ktorí pomohli situáciu zvládnuť. Kapitán sa vrátil do SAE, je v dobrom stave a dostáva starostlivosť. Vyšetrovanie vedie tím zo štátneho zastupiteľstva; GCAA sa k podrobnostiam a tvrdeniam nevyjadruje a vyzýva spoliehať sa len na oficiálne zdroje. Vyhlásenie nebolo čítané na webe GCAA, preto status reported."
+        },
+        "en": {
+          "title": "Gulf News: GCAA praises FZ1073 captain, crew and passengers; Public Prosecution leads the investigation",
+          "text": "According to Gulf News (article read directly), the GCAA praised the courage and quick response of the captain, crew and passengers who helped bring the situation under control. The captain has returned to the UAE, is in good condition and receiving care. A Public Prosecution team leads the investigation; the GCAA declines to comment on details or claims and urges reliance on official sources only. The statement was not read on the GCAA site, hence status reported."
         }
       }
     }

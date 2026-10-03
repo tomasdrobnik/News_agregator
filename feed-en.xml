@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 03:10:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 06:11:28 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Gulf News: GCAA praises FZ1073 captain, crew and passengers; Public Prosecution leads the investigation</title>
+      <link>https://gulfnews.com/business/aviation/gcaa-commends-flydubai-captain-machchhar-smit-crew-and-passengers-after-fz1073-incident-1.500696490</link>
+      <guid isPermaLink="false">fz1073-u061</guid>
+      <pubDate>Sat, 03 Oct 2026 06:11:28 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Gulf News (article read directly), the GCAA praised the courage and quick response of the captain, crew and passengers who helped bring the situation under control. The captain has returned to the UAE, is in good condition and receiving care. A Public Prosecution team leads the investigation; the GCAA declines to comment on details or claims and urges reliance on official sources only. The statement was not read on the GCAA site, hence status reported. (Source: Gulf News)</description>
+    </item>
     <item>
       <title>[Unconfirmed] Emirates 24|7: flydubai CEO confirms official FZ1073 investigation</title>
       <link>https://www.emirates247.com/uae/flydubai-ceo-a-full-official-investigation-is-currently-underway-regarding-flight-fz1073/6284</link>

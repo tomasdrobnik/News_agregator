@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sat, 03 Oct 2026 03:10:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 06:11:28 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Gulf News: GCAA chválí kapitána, posádku a cestující FZ1073, šetření vede státní zastupitelství</title>
+      <link>https://gulfnews.com/business/aviation/gcaa-commends-flydubai-captain-machchhar-smit-crew-and-passengers-after-fz1073-incident-1.500696490</link>
+      <guid isPermaLink="false">fz1073-u061</guid>
+      <pubDate>Sat, 03 Oct 2026 06:11:28 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle Gulf News (článek přímo přečten) úřad GCAA ocenil odvahu a rychlou reakci kapitána, posádky a cestujících, kteří pomohli situaci zvládnout. Kapitán se vrátil do SAE, je v dobrém stavu a dostává péči. Šetření vede tým z řad státního zastupitelství; GCAA se k podrobnostem a tvrzením nevyjadřuje a vyzývá spoléhat jen na oficiální zdroje. Prohlášení nebylo čteno na webu GCAA, proto status reported. (Zdroj: Gulf News)</description>
+    </item>
     <item>
       <title>[Neověřeno] Emirates 24|7: CEO flydubai potvrzuje oficiální šetření FZ1073</title>
       <link>https://www.emirates247.com/uae/flydubai-ceo-a-full-official-investigation-is-currently-underway-regarding-flight-fz1073/6284</link>
