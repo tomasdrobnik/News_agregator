@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-03T09:11:38Z",
-    "next_check": "2026-10-03T10:11:38Z",
+    "last_check": "2026-10-03T11:11:54Z",
+    "next_check": "2026-10-03T12:11:54Z",
     "new_count": 1
   },
   "updates": [
@@ -1596,6 +1596,27 @@
         "en": {
           "title": "Reuters/JPost: Israeli investigators expected to take part in questioning the FZ1073 co-pilot in the UAE",
           "text": "According to Reuters (read directly on JPost; Ynetnews concurs), the co-pilot was transferred from Saudi Arabia to the UAE on Thursday and Israeli officials are expected to take part in questioning him within the UAE-led investigation, per an unnamed source and an Israeli government official. The text says a motive has not been established; the UAE is examining whether it was a terrorist act or prior planning, and Netanyahu said Israel is checking whether the pilot acted on anyone's direction – these are claims by media and politicians, not verified facts."
+        }
+      }
+    },
+    {
+      "id": "u065",
+      "found_at": "2026-10-03T11:11:54Z",
+      "published_at": "2026-10-03T09:07:00Z",
+      "source": "Emirates 24|7",
+      "url": "https://www.emirates247.com/uae/flydubai-fz1073-incident-still-under-investigation-airline-in-contact-with-government-agencies-and-regulators/6301",
+      "title": "Emirates 24|7: flydubai uvádí, že incident FZ1073 je stále předmětem šetření",
+      "text": "Podle článku (přímo přečten; jde o zprávu média, ne o přímé čtení webu dopravce) flydubai uvádí, že incident FZ1073 je stále předmětem šetření a že aerolinie je v kontaktu s vládními úřady a regulátory a plně šetření podporuje. Nové podrobnosti k incidentu článek nepřináší.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Emirates 24|7: flydubai uvádza, že incident FZ1073 je stále predmetom vyšetrovania",
+          "text": "Podľa článku (priamo prečítaný; ide o správu média, nie o priame čítanie webu dopravcu) flydubai uvádza, že incident FZ1073 je stále predmetom vyšetrovania a že aerolínia je v kontakte s vládnymi úradmi a regulátormi a vyšetrovanie plne podporuje. Nové podrobnosti k incidentu článok neprináša."
+        },
+        "en": {
+          "title": "Emirates 24|7: flydubai says FZ1073 incident remains under investigation",
+          "text": "According to the article (read directly; a media report, not a direct read of the carrier's own site), flydubai says the FZ1073 incident remains under investigation and that the airline is in contact with government agencies and regulators and fully supports the probe. The article brings no new details about the incident."
         }
       }
     }

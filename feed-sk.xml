@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sat, 03 Oct 2026 09:11:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 11:11:54 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] Emirates 24|7: flydubai uvádza, že incident FZ1073 je stále predmetom vyšetrovania</title>
+      <link>https://www.emirates247.com/uae/flydubai-fz1073-incident-still-under-investigation-airline-in-contact-with-government-agencies-and-regulators/6301</link>
+      <guid isPermaLink="false">fz1073-u065</guid>
+      <pubDate>Sat, 03 Oct 2026 11:11:54 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Podľa článku (priamo prečítaný; ide o správu média, nie o priame čítanie webu dopravcu) flydubai uvádza, že incident FZ1073 je stále predmetom vyšetrovania a že aerolínia je v kontakte s vládnymi úradmi a regulátormi a vyšetrovanie plne podporuje. Nové podrobnosti k incidentu článok neprináša. (Zdroj: Emirates 24|7)</description>
+    </item>
     <item>
       <title>[Médiá] Reuters/JPost: izraelskí vyšetrovatelia sa majú zúčastniť výsluchu druhého pilota FZ1073 v SAE</title>
       <link>http://www.jpost.com/israel-news/article-910420</link>

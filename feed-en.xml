@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 09:11:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 11:11:54 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Emirates 24|7: flydubai says FZ1073 incident remains under investigation</title>
+      <link>https://www.emirates247.com/uae/flydubai-fz1073-incident-still-under-investigation-airline-in-contact-with-government-agencies-and-regulators/6301</link>
+      <guid isPermaLink="false">fz1073-u065</guid>
+      <pubDate>Sat, 03 Oct 2026 11:11:54 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to the article (read directly; a media report, not a direct read of the carrier's own site), flydubai says the FZ1073 incident remains under investigation and that the airline is in contact with government agencies and regulators and fully supports the probe. The article brings no new details about the incident. (Source: Emirates 24|7)</description>
+    </item>
     <item>
       <title>[Media] Reuters/JPost: Israeli investigators expected to take part in questioning the FZ1073 co-pilot in the UAE</title>
       <link>http://www.jpost.com/israel-news/article-910420</link>
