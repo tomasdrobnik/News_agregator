@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sat, 03 Oct 2026 07:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 08:10:34 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Gulf News: saudské ministerstvo vnútra potvrdzuje núdzové pristátie v Tabúku a útok druhého pilota na kapitána</title>
+      <link>https://gulfnews.com/business/aviation/flydubai-emergency-landing-saudi-arabia-issues-clarification-1.500695587</link>
+      <guid isPermaLink="false">fz1073-u063</guid>
+      <pubDate>Sat, 03 Oct 2026 08:10:34 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa priamo prečítaného článku Gulf News (publikácia zrejme 2. 10.) saudské ministerstvo vnútra uvádza, že na tiesňové hlásenie FZ1073 povolilo núdzové pristátie v Tabúku (174 cestujúcich a 8 členov posádky) a že predbežné vyšetrovanie ukázalo, že druhý pilot napadol kapitána a obaja utrpeli zranenia. Obaja piloti boli po lekárskom schválení 1. 10. prevezení do Abú Zabí. Vyhlásenie ministerstva samotného nebolo priamo čítané, ide o prerozprávanie médiom. (Zdroj: Gulf News)</description>
+    </item>
     <item>
       <title>[Médiá] The National: generálny prokurátor SAE uvádza, že druhý pilot FZ1073 sa pokúsil o teroristický čin</title>
       <link>https://www.thenationalnews.com/news/uae/2026/10/03/co-pilot-on-flydubai-flight-attempted-to-carry-out-terrorist-act-uaes-attorney-general-says/</link>

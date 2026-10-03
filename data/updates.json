@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-03T07:11:00Z",
-    "next_check": "2026-10-03T08:11:00Z",
+    "last_check": "2026-10-03T08:10:34Z",
+    "next_check": "2026-10-03T09:10:34Z",
     "new_count": 1
   },
   "updates": [
@@ -1555,6 +1555,27 @@
         "en": {
           "title": "The National: UAE attorney general says FZ1073 co-pilot attempted a terrorist act",
           "text": "According to The National (article read directly), UAE Attorney General Hamad Al Shamsi said the co-pilot attempted to carry out a terrorist act, allegedly attacking the captain with a crash axe and trying to take control of the aircraft. The investigation into motive, circumstances and possible links continues. The statement was not read on the prosecution's official site, hence status reported; it is an authority's claim relayed by media."
+        }
+      }
+    },
+    {
+      "id": "u063",
+      "found_at": "2026-10-03T08:10:34Z",
+      "published_at": "2026-10-02T00:00:00Z",
+      "source": "Gulf News",
+      "url": "https://gulfnews.com/business/aviation/flydubai-emergency-landing-saudi-arabia-issues-clarification-1.500695587",
+      "title": "Gulf News: saúdské ministerstvo vnitra potvrzuje nouzové přistání v Tabúku a útok druhého pilota na kapitána",
+      "text": "Podle přímo přečteného článku Gulf News (publikace zřejmě 2. 10.) saúdské ministerstvo vnitra uvádí, že na tísňové hlášení FZ1073 povolilo nouzové přistání v Tabúku (174 cestujících a 8 členů posádky) a že předběžné šetření ukázalo, že druhý pilot napadl kapitána a oba utrpěli zranění. Oba piloti byli po lékařském schválení 1. 10. převezeni do Abú Dhabí. Prohlášení ministerstva samotného nebylo přímo čteno, jde o převyprávění médiem.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Gulf News: saudské ministerstvo vnútra potvrdzuje núdzové pristátie v Tabúku a útok druhého pilota na kapitána",
+          "text": "Podľa priamo prečítaného článku Gulf News (publikácia zrejme 2. 10.) saudské ministerstvo vnútra uvádza, že na tiesňové hlásenie FZ1073 povolilo núdzové pristátie v Tabúku (174 cestujúcich a 8 členov posádky) a že predbežné vyšetrovanie ukázalo, že druhý pilot napadol kapitána a obaja utrpeli zranenia. Obaja piloti boli po lekárskom schválení 1. 10. prevezení do Abú Zabí. Vyhlásenie ministerstva samotného nebolo priamo čítané, ide o prerozprávanie médiom."
+        },
+        "en": {
+          "title": "Gulf News: Saudi Interior Ministry confirms emergency landing at Tabuk and first officer's assault on captain",
+          "text": "According to the directly read Gulf News article (apparently published 2 Oct), the Saudi Ministry of Interior says it cleared FZ1073 for an emergency landing at Tabuk (174 passengers and 8 crew) and that preliminary investigation found the first officer assaulted the captain, with both injured. Both pilots were taken to Abu Dhabi on 1 Oct after medical clearance. The ministry's statement itself was not read directly; this is the outlet's account."
         }
       }
     }

@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 07:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 08:10:34 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Gulf News: Saudi Interior Ministry confirms emergency landing at Tabuk and first officer's assault on captain</title>
+      <link>https://gulfnews.com/business/aviation/flydubai-emergency-landing-saudi-arabia-issues-clarification-1.500695587</link>
+      <guid isPermaLink="false">fz1073-u063</guid>
+      <pubDate>Sat, 03 Oct 2026 08:10:34 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Gulf News article (apparently published 2 Oct), the Saudi Ministry of Interior says it cleared FZ1073 for an emergency landing at Tabuk (174 passengers and 8 crew) and that preliminary investigation found the first officer assaulted the captain, with both injured. Both pilots were taken to Abu Dhabi on 1 Oct after medical clearance. The ministry's statement itself was not read directly; this is the outlet's account. (Source: Gulf News)</description>
+    </item>
     <item>
       <title>[Media] The National: UAE attorney general says FZ1073 co-pilot attempted a terrorist act</title>
       <link>https://www.thenationalnews.com/news/uae/2026/10/03/co-pilot-on-flydubai-flight-attempted-to-carry-out-terrorist-act-uaes-attorney-general-says/</link>
