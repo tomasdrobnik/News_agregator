@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-03T11:11:54Z",
-    "next_check": "2026-10-03T12:11:54Z",
+    "last_check": "2026-10-03T12:11:57Z",
+    "next_check": "2026-10-03T13:11:00Z",
     "new_count": 1
   },
   "updates": [
@@ -1617,6 +1617,27 @@
         "en": {
           "title": "Emirates 24|7: flydubai says FZ1073 incident remains under investigation",
           "text": "According to the article (read directly; a media report, not a direct read of the carrier's own site), flydubai says the FZ1073 incident remains under investigation and that the airline is in contact with government agencies and regulators and fully supports the probe. The article brings no new details about the incident."
+        }
+      }
+    },
+    {
+      "id": "u066",
+      "found_at": "2026-10-03T12:11:57Z",
+      "published_at": "2026-10-02T00:00:00Z",
+      "source": "ABC News (USA)",
+      "url": "https://abcnews.com/US/suspect-flydubai-incident-previously-identified-security-risk-officials/story?id=136960488",
+      "title": "ABC News: druhý pilot FZ1073 měl být dříve veden jako bezpečnostní riziko",
+      "text": "ABC News (článek přímo přečten) s odvoláním na nejmenované představitele zpravodajských a policejních složek uvádí, že podezřelý druhý pilot byl v roce 2024 jako stážista Oman Air odstaven poté, co u něj našli extrémistické materiály, a dál tam pracoval v administrativní roli. Údaje pocházejí od anonymních zdrojů, nejsou potvrzeny oficiálním orgánem; podle výsledků vyhledávání je přebírají i další média. Otevřená zůstává otázka, jak se pak dostal k letům flydubai.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "ABC News: druhý pilot FZ1073 mal byť predtým vedený ako bezpečnostné riziko",
+          "text": "ABC News (článok priamo prečítaný) s odvolaním na nemenovaných predstaviteľov spravodajských a policajných zložiek uvádza, že podozrivý druhý pilot bol v roku 2024 ako stážista Oman Air odstavený po tom, čo u neho našli extrémistické materiály, a naďalej tam pracoval v administratívnej úlohe. Údaje pochádzajú od anonymných zdrojov, nie sú potvrdené oficiálnym orgánom; podľa výsledkov vyhľadávania ich preberajú aj ďalšie médiá. Otvorená zostáva otázka, ako sa potom dostal k letom flydubai."
+        },
+        "en": {
+          "title": "ABC News: FZ1073 second pilot reportedly previously flagged as a security risk",
+          "text": "ABC News (article read directly), citing unnamed intelligence and law-enforcement officials, reports that the suspected second pilot was taken off flying in 2024 as an Oman Air trainee after extremist materials were found on him, and continued there in an administrative role. The claims come from anonymous sources and are not confirmed by any official body; per search results other outlets repeat them. How he later came to fly for flydubai remains an open question."
         }
       }
     }

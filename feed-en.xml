@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 11:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 12:11:57 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] ABC News: FZ1073 second pilot reportedly previously flagged as a security risk</title>
+      <link>https://abcnews.com/US/suspect-flydubai-incident-previously-identified-security-risk-officials/story?id=136960488</link>
+      <guid isPermaLink="false">fz1073-u066</guid>
+      <pubDate>Sat, 03 Oct 2026 12:11:57 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] ABC News (article read directly), citing unnamed intelligence and law-enforcement officials, reports that the suspected second pilot was taken off flying in 2024 as an Oman Air trainee after extremist materials were found on him, and continued there in an administrative role. The claims come from anonymous sources and are not confirmed by any official body; per search results other outlets repeat them. How he later came to fly for flydubai remains an open question. (Source: ABC News (USA))</description>
+    </item>
     <item>
       <title>[Unconfirmed] Emirates 24|7: flydubai says FZ1073 incident remains under investigation</title>
       <link>https://www.emirates247.com/uae/flydubai-fz1073-incident-still-under-investigation-airline-in-contact-with-government-agencies-and-regulators/6301</link>

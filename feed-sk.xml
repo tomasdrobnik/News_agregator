@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sat, 03 Oct 2026 11:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 12:11:57 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] ABC News: druhý pilot FZ1073 mal byť predtým vedený ako bezpečnostné riziko</title>
+      <link>https://abcnews.com/US/suspect-flydubai-incident-previously-identified-security-risk-officials/story?id=136960488</link>
+      <guid isPermaLink="false">fz1073-u066</guid>
+      <pubDate>Sat, 03 Oct 2026 12:11:57 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] ABC News (článok priamo prečítaný) s odvolaním na nemenovaných predstaviteľov spravodajských a policajných zložiek uvádza, že podozrivý druhý pilot bol v roku 2024 ako stážista Oman Air odstavený po tom, čo u neho našli extrémistické materiály, a naďalej tam pracoval v administratívnej úlohe. Údaje pochádzajú od anonymných zdrojov, nie sú potvrdené oficiálnym orgánom; podľa výsledkov vyhľadávania ich preberajú aj ďalšie médiá. Otvorená zostáva otázka, ako sa potom dostal k letom flydubai. (Zdroj: ABC News (USA))</description>
+    </item>
     <item>
       <title>[Neoverené] Emirates 24|7: flydubai uvádza, že incident FZ1073 je stále predmetom vyšetrovania</title>
       <link>https://www.emirates247.com/uae/flydubai-fz1073-incident-still-under-investigation-airline-in-contact-with-government-agencies-and-regulators/6301</link>
