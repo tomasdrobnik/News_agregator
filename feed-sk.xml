@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sat, 03 Oct 2026 01:11:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 03:10:39 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] Emirates 24|7: CEO flydubai potvrdzuje oficiálne vyšetrovanie FZ1073</title>
+      <link>https://www.emirates247.com/uae/flydubai-ceo-a-full-official-investigation-is-currently-underway-regarding-flight-fz1073/6284</link>
+      <guid isPermaLink="false">fz1073-u060</guid>
+      <pubDate>Sat, 03 Oct 2026 03:10:39 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Podľa článku (prečítaný priamo) generálny riaditeľ flydubai uviedol, že na lete FZ1073 došlo k bezpečnostnému incidentu v kokpite a že prebieha komplexné oficiálne vyšetrovanie; kapitána a posádku pochválil. Letecká spoločnosť má pozastaviť prevádzku do Tel Avivu do skončenia vyšetrovania. Ide o prerozprávanie v spravodajskom webe, nie o priamo prečítané vyhlásenie na webe flydubai, preto status unconfirmed. (Zdroj: Emirates 24|7)</description>
+    </item>
     <item>
       <title>[Neoverené] Mako: Omán mal druhému pilotovi FZ1073 predtým zakázať lietať</title>
       <link>https://www.mako.co.il/news-world/2026_q4/Article-10600d05dfdf0a1027.htm</link>

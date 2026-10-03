@@ -459,6 +459,15 @@
       "added_at": "2026-10-03T01:11:06Z",
       "active": true,
       "note": "Izraelský zpravodajský web (Keshet 12); články k FZ1073 zatím jen přes výsledky vyhledávání, přímé čtení neověřeno."
+    },
+    {
+      "name": "Emirates 24|7",
+      "url": "https://www.emirates247.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-03T03:10:39Z",
+      "active": true,
+      "note": "Emirátský zpravodajský web; článek s prohlášením CEO flydubai k FZ1073 přečten přímo přes WebFetch."
     }
   ]
 }

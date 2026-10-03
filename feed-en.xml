@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 01:11:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 03:10:39 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Emirates 24|7: flydubai CEO confirms official FZ1073 investigation</title>
+      <link>https://www.emirates247.com/uae/flydubai-ceo-a-full-official-investigation-is-currently-underway-regarding-flight-fz1073/6284</link>
+      <guid isPermaLink="false">fz1073-u060</guid>
+      <pubDate>Sat, 03 Oct 2026 03:10:39 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to the article (read directly), the flydubai CEO said a security incident occurred in the cockpit of FZ1073 and that a comprehensive official investigation is underway; he praised the captain and crew. The airline is reported to have suspended Tel Aviv operations until the investigation concludes. This is a news site's retelling, not a statement read directly on flydubai's own site, hence unconfirmed. (Source: Emirates 24|7)</description>
+    </item>
     <item>
       <title>[Unconfirmed] Mako: Oman reportedly previously barred FZ1073 first officer from flying</title>
       <link>https://www.mako.co.il/news-world/2026_q4/Article-10600d05dfdf0a1027.htm</link>
