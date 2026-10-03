@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 08:10:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 09:11:38 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Reuters/JPost: Israeli investigators expected to take part in questioning the FZ1073 co-pilot in the UAE</title>
+      <link>http://www.jpost.com/israel-news/article-910420</link>
+      <guid isPermaLink="false">fz1073-u064</guid>
+      <pubDate>Sat, 03 Oct 2026 09:11:38 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Reuters (read directly on JPost; Ynetnews concurs), the co-pilot was transferred from Saudi Arabia to the UAE on Thursday and Israeli officials are expected to take part in questioning him within the UAE-led investigation, per an unnamed source and an Israeli government official. The text says a motive has not been established; the UAE is examining whether it was a terrorist act or prior planning, and Netanyahu said Israel is checking whether the pilot acted on anyone's direction – these are claims by media and politicians, not verified facts. (Source: Jerusalem Post (Reuters))</description>
+    </item>
     <item>
       <title>[Media] Gulf News: Saudi Interior Ministry confirms emergency landing at Tabuk and first officer's assault on captain</title>
       <link>https://gulfnews.com/business/aviation/flydubai-emergency-landing-saudi-arabia-issues-clarification-1.500695587</link>

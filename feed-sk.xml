@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sat, 03 Oct 2026 08:10:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 09:11:38 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Reuters/JPost: izraelskí vyšetrovatelia sa majú zúčastniť výsluchu druhého pilota FZ1073 v SAE</title>
+      <link>http://www.jpost.com/israel-news/article-910420</link>
+      <guid isPermaLink="false">fz1073-u064</guid>
+      <pubDate>Sat, 03 Oct 2026 09:11:38 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa agentúry Reuters (priamo prečítané na JPost; zhodne Ynetnews) bol druhý pilot vo štvrtok odovzdaný zo Saudskej Arábie do SAE a izraelskí predstavitelia sa majú zúčastniť jeho výsluchu v rámci vyšetrovania vedeného SAE; uviedol to nemenovaný zdroj a izraelský vládny predstaviteľ. Motív podľa textu zatiaľ nie je stanovený; SAE vyšetruje, či išlo o teroristický čin alebo predchádzajúce plánovanie, a Netanjahu uviedol, že Izrael zisťuje, či pilot konal na niečí pokyn – ide o tvrdenia médií a politikov, nie overené fakty. (Zdroj: Jerusalem Post (Reuters))</description>
+    </item>
     <item>
       <title>[Médiá] Gulf News: saudské ministerstvo vnútra potvrdzuje núdzové pristátie v Tabúku a útok druhého pilota na kapitána</title>
       <link>https://gulfnews.com/business/aviation/flydubai-emergency-landing-saudi-arabia-issues-clarification-1.500695587</link>

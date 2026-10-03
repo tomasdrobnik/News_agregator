@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-03T08:10:34Z",
-    "next_check": "2026-10-03T09:10:34Z",
+    "last_check": "2026-10-03T09:11:38Z",
+    "next_check": "2026-10-03T10:11:38Z",
     "new_count": 1
   },
   "updates": [
@@ -1576,6 +1576,26 @@
         "en": {
           "title": "Gulf News: Saudi Interior Ministry confirms emergency landing at Tabuk and first officer's assault on captain",
           "text": "According to the directly read Gulf News article (apparently published 2 Oct), the Saudi Ministry of Interior says it cleared FZ1073 for an emergency landing at Tabuk (174 passengers and 8 crew) and that preliminary investigation found the first officer assaulted the captain, with both injured. Both pilots were taken to Abu Dhabi on 1 Oct after medical clearance. The ministry's statement itself was not read directly; this is the outlet's account."
+        }
+      }
+    },
+    {
+      "id": "u064",
+      "found_at": "2026-10-03T09:11:38Z",
+      "published_at": "2026-10-02T18:01:00Z",
+      "source": "Jerusalem Post (Reuters)",
+      "url": "http://www.jpost.com/israel-news/article-910420",
+      "status": "reported",
+      "title": "Reuters/JPost: izraelští vyšetřovatelé se mají zúčastnit výslechu druhého pilota FZ1073 v SAE",
+      "text": "Podle agentury Reuters (přímo přečteno na JPost; shodně Ynetnews) byl druhý pilot ve čtvrtek předán ze Saúdské Arábie do SAE a izraelští představitelé se mají zúčastnit jeho výslechu v rámci šetření vedeného SAE; to uvedl nejmenovaný zdroj a izraelský vládní představitel. Motiv podle textu zatím není stanoven; SAE šetří, zda šlo o teroristický čin nebo předchozí plánování, a Netanjahu uvedl, že Izrael zjišťuje, zda pilot jednal na něčí pokyn – jde o tvrzení médií a politiků, nikoli ověřené fakty.",
+      "i18n": {
+        "sk": {
+          "title": "Reuters/JPost: izraelskí vyšetrovatelia sa majú zúčastniť výsluchu druhého pilota FZ1073 v SAE",
+          "text": "Podľa agentúry Reuters (priamo prečítané na JPost; zhodne Ynetnews) bol druhý pilot vo štvrtok odovzdaný zo Saudskej Arábie do SAE a izraelskí predstavitelia sa majú zúčastniť jeho výsluchu v rámci vyšetrovania vedeného SAE; uviedol to nemenovaný zdroj a izraelský vládny predstaviteľ. Motív podľa textu zatiaľ nie je stanovený; SAE vyšetruje, či išlo o teroristický čin alebo predchádzajúce plánovanie, a Netanjahu uviedol, že Izrael zisťuje, či pilot konal na niečí pokyn – ide o tvrdenia médií a politikov, nie overené fakty."
+        },
+        "en": {
+          "title": "Reuters/JPost: Israeli investigators expected to take part in questioning the FZ1073 co-pilot in the UAE",
+          "text": "According to Reuters (read directly on JPost; Ynetnews concurs), the co-pilot was transferred from Saudi Arabia to the UAE on Thursday and Israeli officials are expected to take part in questioning him within the UAE-led investigation, per an unnamed source and an Israeli government official. The text says a motive has not been established; the UAE is examining whether it was a terrorist act or prior planning, and Netanyahu said Israel is checking whether the pilot acted on anyone's direction – these are claims by media and politicians, not verified facts."
         }
       }
     }
