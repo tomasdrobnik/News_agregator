@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sat, 03 Oct 2026 15:10:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 21:10:34 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Dáta] FlightAware: let FDB1073 z 2. 10. zrušený, na 4. a 5. 10. je zatiaľ vedený ako plánovaný</title>
+      <link>https://www.flightaware.com/live/flight/FDB1073/history</link>
+      <guid isPermaLink="false">fz1073-u068</guid>
+      <pubDate>Sat, 03 Oct 2026 21:10:34 +0000</pubDate>
+      <category>Dáta</category>
+      <description>[Dáta] Podľa priamo prečítanej histórie letu na FlightAware bol spoj FDB1073 Dubaj–Tel Aviv dňa 2. 10. zrušený a na 4. a 5. 10. je v rozvrhu uvedený ako plánovaný (B39M). Ide len o rozvrhové dáta, nie o potvrdenie, že lety skutočne prebehnú; flydubai pritom podľa skorších zdrojov lety do Izraela pozastavilo. (Zdroj: FlightAware)</description>
+    </item>
     <item>
       <title>[Médiá] Times of Israel: nové video z kabíny FZ1073 po zvládnutí útoku (Channel 12)</title>
       <link>https://www.timesofisrael.com/is-there-a-doctor-or-pilot-new-video-shows-chaos-on-flydubai-flight-after-attack-thwarted/</link>

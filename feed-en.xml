@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 15:10:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 21:10:34 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Data] FlightAware: FDB1073 cancelled on 2 Oct, still listed as scheduled for 4 and 5 Oct</title>
+      <link>https://www.flightaware.com/live/flight/FDB1073/history</link>
+      <guid isPermaLink="false">fz1073-u068</guid>
+      <pubDate>Sat, 03 Oct 2026 21:10:34 +0000</pubDate>
+      <category>Data</category>
+      <description>[Data] According to the directly read FlightAware flight history, the Dubai–Tel Aviv service FDB1073 was cancelled on 2 Oct and is listed as scheduled (B39M) for 4 and 5 Oct. These are schedule data only, not confirmation the flights will operate; earlier sources say flydubai suspended Israel flights. (Source: FlightAware)</description>
+    </item>
     <item>
       <title>[Media] Times of Israel: new cabin video from FZ1073 after the attack was thwarted (Channel 12)</title>
       <link>https://www.timesofisrael.com/is-there-a-doctor-or-pilot-new-video-shows-chaos-on-flydubai-flight-after-attack-thwarted/</link>
