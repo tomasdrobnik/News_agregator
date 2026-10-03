@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 23:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 01:11:06 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Mako: Oman reportedly previously barred FZ1073 first officer from flying</title>
+      <link>https://www.mako.co.il/news-world/2026_q4/Article-10600d05dfdf0a1027.htm</link>
+      <guid isPermaLink="false">fz1073-u059</guid>
+      <pubDate>Sat, 03 Oct 2026 01:11:06 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to a headline in search results (page not read directly), Israeli site Mako reports that Oman had earlier barred the first officer from flying. This is a single source with no confirmation from UAE, KSA or Omani authorities, and the details and the claim's origin are unknown. (Source: Mako (N12))</description>
+    </item>
     <item>
       <title>[Unconfirmed] Israel Hayom: FZ1073 co-pilot reportedly confessed under questioning to planning to crash the aircraft</title>
       <link>https://israelhayom.co.il/news/world-news/article/21540378</link>

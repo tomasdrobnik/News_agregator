@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Fri, 02 Oct 2026 23:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 01:11:06 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Mako: Omán prý druhému pilotovi FZ1073 dříve zakázal létat</title>
+      <link>https://www.mako.co.il/news-world/2026_q4/Article-10600d05dfdf0a1027.htm</link>
+      <guid isPermaLink="false">fz1073-u059</guid>
+      <pubDate>Sat, 03 Oct 2026 01:11:06 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle titulku ve výsledcích vyhledávání (stránka nebyla přímo přečtena) izraelský web Mako uvádí, že Omán měl druhému pilotovi dříve zakázat létání. Jde o jediný zdroj bez potvrzení od úřadů SAE, KSA ani Ománu a podrobnosti ani zdroj tvrzení neznáme. (Zdroj: Mako (N12))</description>
+    </item>
     <item>
       <title>[Neověřeno] Israel Hayom: druhý pilot FZ1073 se prý při výslechu přiznal, že chtěl letadlo zřítit</title>
       <link>https://israelhayom.co.il/news/world-news/article/21540378</link>

@@ -450,6 +450,15 @@
       "added_at": "2026-10-02T20:11:30Z",
       "active": true,
       "note": "Americký ekonomický magazín; rozbor prověřování posádek a zabezpečení kokpitu po FZ1073. Přímé čtení přes WebFetch uspělo."
+    },
+    {
+      "name": "Mako (N12)",
+      "url": "https://www.mako.co.il",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-10-03T01:11:06Z",
+      "active": true,
+      "note": "Izraelský zpravodajský web (Keshet 12); články k FZ1073 zatím jen přes výsledky vyhledávání, přímé čtení neověřeno."
     }
   ]
 }

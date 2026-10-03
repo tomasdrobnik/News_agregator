@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-02T23:11:30Z",
-    "next_check": "2026-10-03T00:11:30Z",
+    "last_check": "2026-10-03T01:11:06Z",
+    "next_check": "2026-10-03T02:11:06Z",
     "new_count": 1
   },
   "updates": [
@@ -1472,6 +1472,27 @@
         "en": {
           "title": "Israel Hayom: FZ1073 co-pilot reportedly confessed under questioning to planning to crash the aircraft",
           "text": "According to search results (page not read directly), Israel Hayom cites an unconfirmed report that the Omani co-pilot admitted during questioning in Saudi Arabia to intending to crash the aircraft in Israel. Hebrew search results (Mako) similarly mention preliminary findings of a nationalist motive and radicalisation; UAE and Saudi authorities have not confirmed this and it rests on a single source."
+        }
+      }
+    },
+    {
+      "id": "u059",
+      "found_at": "2026-10-03T01:11:06Z",
+      "published_at": null,
+      "source": "Mako (N12)",
+      "url": "https://www.mako.co.il/news-world/2026_q4/Article-10600d05dfdf0a1027.htm",
+      "title": "Mako: Omán prý druhému pilotovi FZ1073 dříve zakázal létat",
+      "text": "Podle titulku ve výsledcích vyhledávání (stránka nebyla přímo přečtena) izraelský web Mako uvádí, že Omán měl druhému pilotovi dříve zakázat létání. Jde o jediný zdroj bez potvrzení od úřadů SAE, KSA ani Ománu a podrobnosti ani zdroj tvrzení neznáme.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Mako: Omán mal druhému pilotovi FZ1073 predtým zakázať lietať",
+          "text": "Podľa titulku vo výsledkoch vyhľadávania (stránka nebola priamo prečítaná) izraelský web Mako uvádza, že Omán mal druhému pilotovi skôr zakázať lietanie. Ide o jediný zdroj bez potvrdenia od úradov SAE, KSA ani Ománu a podrobnosti ani zdroj tvrdenia nepoznáme."
+        },
+        "en": {
+          "title": "Mako: Oman reportedly previously barred FZ1073 first officer from flying",
+          "text": "According to a headline in search results (page not read directly), Israeli site Mako reports that Oman had earlier barred the first officer from flying. This is a single source with no confirmation from UAE, KSA or Omani authorities, and the details and the claim's origin are unknown."
         }
       }
     }
