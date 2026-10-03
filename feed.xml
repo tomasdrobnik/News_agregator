@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sat, 03 Oct 2026 06:11:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 07:11:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] The National: generální prokurátor SAE uvádí, že druhý pilot FZ1073 se pokusil o teroristický čin</title>
+      <link>https://www.thenationalnews.com/news/uae/2026/10/03/co-pilot-on-flydubai-flight-attempted-to-carry-out-terrorist-act-uaes-attorney-general-says/</link>
+      <guid isPermaLink="false">fz1073-u062</guid>
+      <pubDate>Sat, 03 Oct 2026 07:11:00 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle The National (článek přímo přečten) generální prokurátor SAE Hamad Al Shamsi prohlásil, že druhý pilot se pokusil spáchat teroristický čin; kapitána měl napadnout nouzovou sekerou a snažit se převzít řízení letadla. Šetření motivu, okolností a možných vazeb pokračuje. Prohlášení nebylo čteno na oficiálním webu prokuratury, proto status reported; jde o tvrzení úřadu zprostředkované médiem. (Zdroj: The National (UAE))</description>
+    </item>
     <item>
       <title>[Média] Gulf News: GCAA chválí kapitána, posádku a cestující FZ1073, šetření vede státní zastupitelství</title>
       <link>https://gulfnews.com/business/aviation/gcaa-commends-flydubai-captain-machchhar-smit-crew-and-passengers-after-fz1073-incident-1.500696490</link>

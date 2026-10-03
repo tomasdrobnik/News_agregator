@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 06:11:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 07:11:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] The National: UAE attorney general says FZ1073 co-pilot attempted a terrorist act</title>
+      <link>https://www.thenationalnews.com/news/uae/2026/10/03/co-pilot-on-flydubai-flight-attempted-to-carry-out-terrorist-act-uaes-attorney-general-says/</link>
+      <guid isPermaLink="false">fz1073-u062</guid>
+      <pubDate>Sat, 03 Oct 2026 07:11:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to The National (article read directly), UAE Attorney General Hamad Al Shamsi said the co-pilot attempted to carry out a terrorist act, allegedly attacking the captain with a crash axe and trying to take control of the aircraft. The investigation into motive, circumstances and possible links continues. The statement was not read on the prosecution's official site, hence status reported; it is an authority's claim relayed by media. (Source: The National (UAE))</description>
+    </item>
     <item>
       <title>[Media] Gulf News: GCAA praises FZ1073 captain, crew and passengers; Public Prosecution leads the investigation</title>
       <link>https://gulfnews.com/business/aviation/gcaa-commends-flydubai-captain-machchhar-smit-crew-and-passengers-after-fz1073-incident-1.500696490</link>

@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-03T06:11:28Z",
-    "next_check": "2026-10-03T07:11:28Z",
+    "last_check": "2026-10-03T07:11:00Z",
+    "next_check": "2026-10-03T08:11:00Z",
     "new_count": 1
   },
   "updates": [
@@ -1534,6 +1534,27 @@
         "en": {
           "title": "Gulf News: GCAA praises FZ1073 captain, crew and passengers; Public Prosecution leads the investigation",
           "text": "According to Gulf News (article read directly), the GCAA praised the courage and quick response of the captain, crew and passengers who helped bring the situation under control. The captain has returned to the UAE, is in good condition and receiving care. A Public Prosecution team leads the investigation; the GCAA declines to comment on details or claims and urges reliance on official sources only. The statement was not read on the GCAA site, hence status reported."
+        }
+      }
+    },
+    {
+      "id": "u062",
+      "found_at": "2026-10-03T07:11:00Z",
+      "published_at": "2026-10-03T00:00:00Z",
+      "source": "The National (UAE)",
+      "url": "https://www.thenationalnews.com/news/uae/2026/10/03/co-pilot-on-flydubai-flight-attempted-to-carry-out-terrorist-act-uaes-attorney-general-says/",
+      "title": "The National: generální prokurátor SAE uvádí, že druhý pilot FZ1073 se pokusil o teroristický čin",
+      "text": "Podle The National (článek přímo přečten) generální prokurátor SAE Hamad Al Shamsi prohlásil, že druhý pilot se pokusil spáchat teroristický čin; kapitána měl napadnout nouzovou sekerou a snažit se převzít řízení letadla. Šetření motivu, okolností a možných vazeb pokračuje. Prohlášení nebylo čteno na oficiálním webu prokuratury, proto status reported; jde o tvrzení úřadu zprostředkované médiem.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "The National: generálny prokurátor SAE uvádza, že druhý pilot FZ1073 sa pokúsil o teroristický čin",
+          "text": "Podľa The National (článok priamo prečítaný) generálny prokurátor SAE Hamad Al Shamsi vyhlásil, že druhý pilot sa pokúsil spáchať teroristický čin; kapitána mal napadnúť núdzovou sekerou a snažiť sa prevziať riadenie lietadla. Vyšetrovanie motívu, okolností a možných väzieb pokračuje. Vyhlásenie nebolo čítané na oficiálnom webe prokuratúry, preto status reported; ide o tvrdenie úradu sprostredkované médiom."
+        },
+        "en": {
+          "title": "The National: UAE attorney general says FZ1073 co-pilot attempted a terrorist act",
+          "text": "According to The National (article read directly), UAE Attorney General Hamad Al Shamsi said the co-pilot attempted to carry out a terrorist act, allegedly attacking the captain with a crash axe and trying to take control of the aircraft. The investigation into motive, circumstances and possible links continues. The statement was not read on the prosecution's official site, hence status reported; it is an authority's claim relayed by media."
         }
       }
     }
