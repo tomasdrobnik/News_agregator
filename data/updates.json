@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-03T12:11:57Z",
-    "next_check": "2026-10-03T13:11:00Z",
+    "last_check": "2026-10-03T15:10:35Z",
+    "next_check": "2026-10-03T16:10:26Z",
     "new_count": 1
   },
   "updates": [
@@ -1638,6 +1638,42 @@
         "en": {
           "title": "ABC News: FZ1073 second pilot reportedly previously flagged as a security risk",
           "text": "ABC News (article read directly), citing unnamed intelligence and law-enforcement officials, reports that the suspected second pilot was taken off flying in 2024 as an Oman Air trainee after extremist materials were found on him, and continued there in an administrative role. The claims come from anonymous sources and are not confirmed by any official body; per search results other outlets repeat them. How he later came to fly for flydubai remains an open question."
+        }
+      }
+    },
+    {
+      "id": "u067",
+      "found_at": "2026-10-03T15:10:35Z",
+      "published_at": "2026-10-02T00:00:00Z",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/is-there-a-doctor-or-pilot-new-video-shows-chaos-on-flydubai-flight-after-attack-thwarted/",
+      "title": "Times of Israel: nové video z kabiny FZ1073 po zvládnutí útoku (Channel 12)",
+      "text": "Times of Israel (článek přímo přečten) přináší nové video izraelské Channel 12 z kabiny po zvládnutí útoku: zraněný kapitán popisuje, že byl opakovaně udeřen, a posádka s cestujícími drží útočníka. Záběry jsou z druhé ruky, nezávisle neověřené; některá videa mohou být drastická.",
+      "status": "reported",
+      "media": [
+        {
+          "type": "video",
+          "caption": "Video z kabiny po zvládnutí útoku (Channel 12, přes Times of Israel); může být drastické",
+          "url": "https://www.timesofisrael.com/is-there-a-doctor-or-pilot-new-video-shows-chaos-on-flydubai-flight-after-attack-thwarted/",
+          "credit": "Channel 12 News / Times of Israel",
+          "i18n": {
+            "sk": {
+              "caption": "Video z kabíny po zvládnutí útoku (Channel 12, cez Times of Israel); môže byť drastické"
+            },
+            "en": {
+              "caption": "Video from the cabin after the attack was thwarted (Channel 12, via Times of Israel); may be graphic"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "sk": {
+          "title": "Times of Israel: nové video z kabíny FZ1073 po zvládnutí útoku (Channel 12)",
+          "text": "Times of Israel (článok priamo prečítaný) prináša nové video izraelskej Channel 12 z kabíny po zvládnutí útoku: zranený kapitán popisuje, že ho opakovane udreli, a posádka s cestujúcimi drží útočníka. Zábery sú z druhej ruky, nezávisle neoverené; niektoré videá môžu byť drastické."
+        },
+        "en": {
+          "title": "Times of Israel: new cabin video from FZ1073 after the attack was thwarted (Channel 12)",
+          "text": "Times of Israel (article read directly) carries new Channel 12 video from the cabin after the attack was thwarted: the wounded captain says he was struck repeatedly, while crew and passengers restrain the attacker. The footage is second-hand and not independently verified; some videos may be graphic."
         }
       }
     }

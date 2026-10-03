@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 12:11:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 15:10:35 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Times of Israel: new cabin video from FZ1073 after the attack was thwarted (Channel 12)</title>
+      <link>https://www.timesofisrael.com/is-there-a-doctor-or-pilot-new-video-shows-chaos-on-flydubai-flight-after-attack-thwarted/</link>
+      <guid isPermaLink="false">fz1073-u067</guid>
+      <pubDate>Sat, 03 Oct 2026 15:10:35 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Times of Israel (article read directly) carries new Channel 12 video from the cabin after the attack was thwarted: the wounded captain says he was struck repeatedly, while crew and passengers restrain the attacker. The footage is second-hand and not independently verified; some videos may be graphic. (Source: Times of Israel)&lt;br&gt;&lt;a href="https://www.timesofisrael.com/is-there-a-doctor-or-pilot-new-video-shows-chaos-on-flydubai-flight-after-attack-thwarted/"&gt;Video: Video from the cabin after the attack was thwarted (Channel 12, via Times of Israel); may be graphic&lt;/a&gt; (Channel 12 News / Times of Israel, via Times of Israel)</description>
+    </item>
     <item>
       <title>[Media] ABC News: FZ1073 second pilot reportedly previously flagged as a security risk</title>
       <link>https://abcnews.com/US/suspect-flydubai-incident-previously-identified-security-risk-officials/story?id=136960488</link>

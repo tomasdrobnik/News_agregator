@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sat, 03 Oct 2026 12:11:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 15:10:35 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Times of Israel: nové video z kabiny FZ1073 po zvládnutí útoku (Channel 12)</title>
+      <link>https://www.timesofisrael.com/is-there-a-doctor-or-pilot-new-video-shows-chaos-on-flydubai-flight-after-attack-thwarted/</link>
+      <guid isPermaLink="false">fz1073-u067</guid>
+      <pubDate>Sat, 03 Oct 2026 15:10:35 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Times of Israel (článek přímo přečten) přináší nové video izraelské Channel 12 z kabiny po zvládnutí útoku: zraněný kapitán popisuje, že byl opakovaně udeřen, a posádka s cestujícími drží útočníka. Záběry jsou z druhé ruky, nezávisle neověřené; některá videa mohou být drastická. (Zdroj: Times of Israel)&lt;br&gt;&lt;a href="https://www.timesofisrael.com/is-there-a-doctor-or-pilot-new-video-shows-chaos-on-flydubai-flight-after-attack-thwarted/"&gt;Video: Video z kabiny po zvládnutí útoku (Channel 12, přes Times of Israel); může být drastické&lt;/a&gt; (Channel 12 News / Times of Israel, via Times of Israel)</description>
+    </item>
     <item>
       <title>[Média] ABC News: druhý pilot FZ1073 měl být dříve veden jako bezpečnostní riziko</title>
       <link>https://abcnews.com/US/suspect-flydubai-incident-previously-identified-security-risk-officials/story?id=136960488</link>
