@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-04T13:11:25Z",
-    "next_check": "2026-10-04T14:11:25Z",
+    "last_check": "2026-10-04T15:10:58Z",
+    "next_check": "2026-10-04T16:10:58Z",
     "new_count": 1
   },
   "updates": [
@@ -1773,6 +1773,27 @@
         "en": {
           "title": "CNN: Israeli sources say FZ1073 first officer probably acted alone",
           "text": "According to the CNN article of 4 Oct, read directly, Israeli sources say the first officer suspected of attacking the captain probably acted alone. An Israeli official reportedly knows of no link to a group or state for now; investigators are still working on a motive. These are claims by anonymous Israeli sources relayed by the media, not an investigation finding; the full text was only available in abridged form on the page. This conflicts with earlier Israel Hayom reports of possible further involvement."
+        }
+      }
+    },
+    {
+      "id": "u072",
+      "found_at": "2026-10-04T15:10:58Z",
+      "published_at": null,
+      "source": "The Week (India)",
+      "url": "https://www.theweek.in/news/middle-east/2026/10/04/flydubai-attack-did-israel-know-about-terrorist-omani-co-pilot-officials-say-uae-sent-flight-info-before-but.html",
+      "title": "The Week: SAE prý poslaly Izraeli seznam cestujících a posádky FZ1073 předem; Šin Bet a ministerstvo dopravy se přou o odpovědnost",
+      "text": "The Week (článek přímo přečten; odvolává se na nejmenované izraelské představitele a údajně i Haaretz) uvádí, že SAE měla před letem předat Izraeli seznam cestujících a posádky a že spor mezi Šin Betem a ministerstvem dopravy se týká toho, kdo měl seznamy prověřit. Ministryně dopravy Regevová podle článku tvrdí, že ministerstvo seznam nedostalo; nejde o ověřené informace ani o prohlášení úřadů SAE.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "The Week: SAE údajne poslali Izraelu zoznam cestujúcich a posádky FZ1073 vopred; Šin Bet a ministerstvo dopravy sa sporia o zodpovednosť",
+          "text": "The Week (článok priamo prečítaný; odvoláva sa na nemenovaných izraelských predstaviteľov a údajne aj Haaretz) uvádza, že SAE mali pred letom odovzdať Izraelu zoznam cestujúcich a posádky a že spor medzi Šin Betom a ministerstvom dopravy sa týka toho, kto mal zoznamy preveriť. Ministerka dopravy Regevová podľa článku tvrdí, že ministerstvo zoznam nedostalo; nejde o overené informácie ani o vyhlásenie úradov SAE."
+        },
+        "en": {
+          "title": "The Week: UAE reportedly sent Israel the FZ1073 passenger and crew list in advance; Shin Bet and Transport Ministry dispute responsibility",
+          "text": "The Week (article read directly; cites unnamed Israeli officials and reportedly Haaretz) says the UAE allegedly passed Israel a passenger and crew list before the flight, and that the Shin Bet and the Transport Ministry are disputing who was supposed to vet it. Transport Minister Regev is quoted as saying her ministry received no list; these are unverified claims, not statements by UAE authorities."
         }
       }
     }

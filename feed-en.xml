@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 13:11:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 15:10:58 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] The Week: UAE reportedly sent Israel the FZ1073 passenger and crew list in advance; Shin Bet and Transport Ministry dispute responsibility</title>
+      <link>https://www.theweek.in/news/middle-east/2026/10/04/flydubai-attack-did-israel-know-about-terrorist-omani-co-pilot-officials-say-uae-sent-flight-info-before-but.html</link>
+      <guid isPermaLink="false">fz1073-u072</guid>
+      <pubDate>Sun, 04 Oct 2026 15:10:58 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] The Week (article read directly; cites unnamed Israeli officials and reportedly Haaretz) says the UAE allegedly passed Israel a passenger and crew list before the flight, and that the Shin Bet and the Transport Ministry are disputing who was supposed to vet it. Transport Minister Regev is quoted as saying her ministry received no list; these are unverified claims, not statements by UAE authorities. (Source: The Week (India))</description>
+    </item>
     <item>
       <title>[Media] CNN: Israeli sources say FZ1073 first officer probably acted alone</title>
       <link>https://edition.cnn.com/2026/10/04/europe/flydubai-israel-suspect-acted-alone-intl</link>

@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sun, 04 Oct 2026 13:11:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 15:10:58 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] The Week: SAE prý poslaly Izraeli seznam cestujících a posádky FZ1073 předem; Šin Bet a ministerstvo dopravy se přou o odpovědnost</title>
+      <link>https://www.theweek.in/news/middle-east/2026/10/04/flydubai-attack-did-israel-know-about-terrorist-omani-co-pilot-officials-say-uae-sent-flight-info-before-but.html</link>
+      <guid isPermaLink="false">fz1073-u072</guid>
+      <pubDate>Sun, 04 Oct 2026 15:10:58 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] The Week (článek přímo přečten; odvolává se na nejmenované izraelské představitele a údajně i Haaretz) uvádí, že SAE měla před letem předat Izraeli seznam cestujících a posádky a že spor mezi Šin Betem a ministerstvem dopravy se týká toho, kdo měl seznamy prověřit. Ministryně dopravy Regevová podle článku tvrdí, že ministerstvo seznam nedostalo; nejde o ověřené informace ani o prohlášení úřadů SAE. (Zdroj: The Week (India))</description>
+    </item>
     <item>
       <title>[Média] CNN: izraelské zdroje – druhý pilot FZ1073 pravděpodobně jednal sám</title>
       <link>https://edition.cnn.com/2026/10/04/europe/flydubai-israel-suspect-acted-alone-intl</link>
