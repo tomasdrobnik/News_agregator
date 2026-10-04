@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:10:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 21:11:11 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Euronews: Royal Air Maroc denies the FZ1073 co-pilot ever worked for it</title>
+      <link>https://arabic.euronews.com/2026/10/04/royal-air-maroc-denies-flydubai-co-pilot-worked-for-it</link>
+      <guid isPermaLink="false">fz1073-u076</guid>
+      <pubDate>Sun, 04 Oct 2026 21:11:11 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Euronews Arabic (read directly), Royal Air Maroc says the co-pilot never worked for it; in 2025 he reportedly did three months of theory training as part of pre-selection and his application was rejected. Buckinghamshire New University reportedly confirmed only a distance aviation-management course with no flight training. Claims that Oman earlier barred him from flying over extremist views are relayed from press reports and not officially confirmed by Omani authorities; likewise the reports (via Indian Express) of social media posts allegedly linked to him are second-hand. (Source: Euronews)</description>
+    </item>
     <item>
       <title>[Media] Al Jazeera: Australian police examine FZ1073 co-pilot's ties to Australia</title>
       <link>https://www.aljazeera.com/news/2026/10/4/police-investigating-flydubai-co-pilots-australia-ties</link>

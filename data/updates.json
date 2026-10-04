@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-04T19:10:50Z",
-    "next_check": "2026-10-04T20:10:50Z",
+    "last_check": "2026-10-04T21:11:11Z",
+    "next_check": "2026-10-04T22:11:11Z",
     "new_count": 1
   },
   "updates": [
@@ -1856,6 +1856,26 @@
         "en": {
           "title": "Al Jazeera: Australian police examine FZ1073 co-pilot's ties to Australia",
           "text": "According to the article read directly on Al Jazeera, a spokesperson for the Victorian Joint Counter Terrorism Team confirmed that Australian police and intelligence agencies are examining the suspected co-pilot's links to the country. Media say he studied in Melbourne; claims about visits to extremist places are unverified. The UAE attorney general called the act an attempted terrorist act; UAE authorities have not publicly confirmed his identity. Follows u070."
+        }
+      }
+    },
+    {
+      "id": "u076",
+      "found_at": "2026-10-04T21:11:11Z",
+      "published_at": "2026-10-04T12:00:00Z",
+      "source": "Euronews",
+      "url": "https://arabic.euronews.com/2026/10/04/royal-air-maroc-denies-flydubai-co-pilot-worked-for-it",
+      "title": "Euronews: Royal Air Maroc popřela, že druhý pilot FZ1073 u ní pracoval",
+      "text": "Podle arabského Euronews (přímo přečteno) uvedla Royal Air Maroc, že druhý pilot u ní nikdy nepracoval; v roce 2025 prý absolvoval tříměsíční teoretický výcvik v rámci předvýběru a jeho žádost byla zamítnuta. Britská Buckinghamshire New University podle článku potvrdila jen jeho dálkový kurz řízení letectví bez pilotního výcviku. Tvrzení o dřívějším zákazu létání v Ománu z důvodu extremistických postojů článek přebírá z tisku a omanské úřady je oficiálně nepotvrdily; stejně tak jde o převzaté zprávy (Indian Express) o příspěvcích na sociálních sítích, které mají být s pilotem spojeny.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Euronews: Royal Air Maroc poprela, že druhý pilot FZ1073 u nej pracoval",
+          "text": "Podľa arabského Euronews (priamo prečítané) uviedla Royal Air Maroc, že druhý pilot u nej nikdy nepracoval; v roku 2025 mal absolvovať trojmesačný teoretický výcvik v rámci predvýberu a jeho žiadosť bola zamietnutá. Britská Buckinghamshire New University podľa článku potvrdila iba jeho diaľkový kurz riadenia letectva bez pilotného výcviku. Tvrdenia o skoršom zákaze lietania v Ománe pre extrémistické postoje článok preberá z tlače a ománske úrady ich oficiálne nepotvrdili; rovnako ide o prevzaté správy (Indian Express) o príspevkoch na sociálnych sieťach, ktoré majú byť s pilotom spojené."
+        },
+        "en": {
+          "title": "Euronews: Royal Air Maroc denies the FZ1073 co-pilot ever worked for it",
+          "text": "According to Euronews Arabic (read directly), Royal Air Maroc says the co-pilot never worked for it; in 2025 he reportedly did three months of theory training as part of pre-selection and his application was rejected. Buckinghamshire New University reportedly confirmed only a distance aviation-management course with no flight training. Claims that Oman earlier barred him from flying over extremist views are relayed from press reports and not officially confirmed by Omani authorities; likewise the reports (via Indian Express) of social media posts allegedly linked to him are second-hand."
         }
       }
     }

@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:10:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 21:11:11 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Euronews: Royal Air Maroc popřela, že druhý pilot FZ1073 u ní pracoval</title>
+      <link>https://arabic.euronews.com/2026/10/04/royal-air-maroc-denies-flydubai-co-pilot-worked-for-it</link>
+      <guid isPermaLink="false">fz1073-u076</guid>
+      <pubDate>Sun, 04 Oct 2026 21:11:11 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle arabského Euronews (přímo přečteno) uvedla Royal Air Maroc, že druhý pilot u ní nikdy nepracoval; v roce 2025 prý absolvoval tříměsíční teoretický výcvik v rámci předvýběru a jeho žádost byla zamítnuta. Britská Buckinghamshire New University podle článku potvrdila jen jeho dálkový kurz řízení letectví bez pilotního výcviku. Tvrzení o dřívějším zákazu létání v Ománu z důvodu extremistických postojů článek přebírá z tisku a omanské úřady je oficiálně nepotvrdily; stejně tak jde o převzaté zprávy (Indian Express) o příspěvcích na sociálních sítích, které mají být s pilotem spojeny. (Zdroj: Euronews)</description>
+    </item>
     <item>
       <title>[Média] Al Jazeera: australská policie prověřuje vazby druhého pilota FZ1073 na Austrálii</title>
       <link>https://www.aljazeera.com/news/2026/10/4/police-investigating-flydubai-co-pilots-australia-ties</link>
