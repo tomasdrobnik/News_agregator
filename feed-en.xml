@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 21:11:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 23:11:17 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Al Jazeera: how the FZ1073 co-pilot was hired despite an earlier security flag</title>
+      <link>https://www.aljazeera.com/news/2026/10/4/how-was-flydubai-co-pilot-cleared-despite-being-deemed-a-security-risk</link>
+      <guid isPermaLink="false">fz1073-u077</guid>
+      <pubDate>Sun, 04 Oct 2026 23:11:17 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Al Jazeera (article read directly), the co-pilot had earlier been taken off flying duties in Oman over concerns about "extremist" views, yet flydubai hired him after standard security checks. Israel reportedly received crew and passenger lists 48 hours before departure; responsibility lies on paper with the Transport Ministry, which lacks its own intelligence capacity, and PM Netanyahu called it a "loophole". These are claims by media and Israeli sources (partly relayed from Haaretz), not verified by UAE/KSA; partly related to u066 and u072. (Source: Al Jazeera)</description>
+    </item>
     <item>
       <title>[Media] Euronews: Royal Air Maroc denies the FZ1073 co-pilot ever worked for it</title>
       <link>https://arabic.euronews.com/2026/10/04/royal-air-maroc-denies-flydubai-co-pilot-worked-for-it</link>

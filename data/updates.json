@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-04T21:11:11Z",
-    "next_check": "2026-10-04T22:11:11Z",
+    "last_check": "2026-10-04T23:11:17Z",
+    "next_check": "2026-10-05T00:11:17Z",
     "new_count": 1
   },
   "updates": [
@@ -1876,6 +1876,27 @@
         "en": {
           "title": "Euronews: Royal Air Maroc denies the FZ1073 co-pilot ever worked for it",
           "text": "According to Euronews Arabic (read directly), Royal Air Maroc says the co-pilot never worked for it; in 2025 he reportedly did three months of theory training as part of pre-selection and his application was rejected. Buckinghamshire New University reportedly confirmed only a distance aviation-management course with no flight training. Claims that Oman earlier barred him from flying over extremist views are relayed from press reports and not officially confirmed by Omani authorities; likewise the reports (via Indian Express) of social media posts allegedly linked to him are second-hand."
+        }
+      }
+    },
+    {
+      "id": "u077",
+      "found_at": "2026-10-04T23:11:17Z",
+      "published_at": "2026-10-04T00:00:00Z",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/how-was-flydubai-co-pilot-cleared-despite-being-deemed-a-security-risk",
+      "title": "Al Jazeera: jak mohl být druhý pilot FZ1073 přijat, ač byl dříve označen za bezpečnostní riziko",
+      "text": "Podle Al Jazeery (článek přímo přečten) měl být druhý pilot dříve vyřazen z létání v Ománu kvůli obavám z „extremistických“ názorů, ale flydubai ho po standardních prověrkách přijalo. Izrael prý dostal seznamy posádky a cestujících 48 hodin před odletem; odpovědnost nese na papíře ministerstvo dopravy, které nemá vlastní zpravodajské kapacity, a premiér Netanjahu označil situaci za „mezeru“. Jde o tvrzení médií a izraelských zdrojů (mj. přebíraných z Haaretz), oficiálně neověřená UAE/KSA; částečně souvisí s u066 a u072.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Al Jazeera: ako mohol byť druhý pilot FZ1073 prijatý, hoci bol predtým označený za bezpečnostné riziko",
+          "text": "Podľa Al Jazeery (článok priamo prečítaný) mal byť druhý pilot predtým vyradený z lietania v Ománe pre obavy z „extrémistických“ názorov, no flydubai ho po štandardných previerkach prijalo. Izrael mal dostať zoznamy posádky a cestujúcich 48 hodín pred odletom; zodpovednosť nesie na papieri ministerstvo dopravy, ktoré nemá vlastné spravodajské kapacity, a premiér Netanjahu označil situáciu za „medzeru“. Ide o tvrdenia médií a izraelských zdrojov (m. i. preberané z Haaretz), oficiálne neoverené UAE/KSA; čiastočne súvisí s u066 a u072."
+        },
+        "en": {
+          "title": "Al Jazeera: how the FZ1073 co-pilot was hired despite an earlier security flag",
+          "text": "According to Al Jazeera (article read directly), the co-pilot had earlier been taken off flying duties in Oman over concerns about \"extremist\" views, yet flydubai hired him after standard security checks. Israel reportedly received crew and passenger lists 48 hours before departure; responsibility lies on paper with the Transport Ministry, which lacks its own intelligence capacity, and PM Netanyahu called it a \"loophole\". These are claims by media and Israeli sources (partly relayed from Haaretz), not verified by UAE/KSA; partly related to u066 and u072."
         }
       }
     }

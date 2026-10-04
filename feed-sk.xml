@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sun, 04 Oct 2026 21:11:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 23:11:17 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Al Jazeera: ako mohol byť druhý pilot FZ1073 prijatý, hoci bol predtým označený za bezpečnostné riziko</title>
+      <link>https://www.aljazeera.com/news/2026/10/4/how-was-flydubai-co-pilot-cleared-despite-being-deemed-a-security-risk</link>
+      <guid isPermaLink="false">fz1073-u077</guid>
+      <pubDate>Sun, 04 Oct 2026 23:11:17 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa Al Jazeery (článok priamo prečítaný) mal byť druhý pilot predtým vyradený z lietania v Ománe pre obavy z „extrémistických“ názorov, no flydubai ho po štandardných previerkach prijalo. Izrael mal dostať zoznamy posádky a cestujúcich 48 hodín pred odletom; zodpovednosť nesie na papieri ministerstvo dopravy, ktoré nemá vlastné spravodajské kapacity, a premiér Netanjahu označil situáciu za „medzeru“. Ide o tvrdenia médií a izraelských zdrojov (m. i. preberané z Haaretz), oficiálne neoverené UAE/KSA; čiastočne súvisí s u066 a u072. (Zdroj: Al Jazeera)</description>
+    </item>
     <item>
       <title>[Médiá] Euronews: Royal Air Maroc poprela, že druhý pilot FZ1073 u nej pracoval</title>
       <link>https://arabic.euronews.com/2026/10/04/royal-air-maroc-denies-flydubai-co-pilot-worked-for-it</link>
