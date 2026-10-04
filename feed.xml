@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sun, 04 Oct 2026 12:11:07 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 13:11:25 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] CNN: izraelské zdroje – druhý pilot FZ1073 pravděpodobně jednal sám</title>
+      <link>https://edition.cnn.com/2026/10/04/europe/flydubai-israel-suspect-acted-alone-intl</link>
+      <guid isPermaLink="false">fz1073-u071</guid>
+      <pubDate>Sun, 04 Oct 2026 13:11:25 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle přímo přečteného článku CNN z 4. 10. izraelské zdroje uvádějí, že druhý pilot podezřelý z útoku na kapitána pravděpodobně jednal sám. Izraelský představitel prý o vazbě na skupinu či stát zatím neví; motiv vyšetřovatelé stále zjišťují. Jde o tvrzení anonymních izraelských zdrojů zprostředkované médiem, nikoli o závěr šetření; úplný text byl na stránce přístupný jen ve zkrácené podobě. Rozpor s dřívějšími zprávami Israel Hayom o možném dalším zapojení. (Zdroj: CNN)</description>
+    </item>
     <item>
       <title>[Neověřeno] Times of Israel (AAP): Austrálie šetří vazby druhého pilota FZ1073 na zemi</title>
       <link>https://www.timesofisrael.com/liveblog_entry/australia-launches-terror-probe-into-flydubai-co-pilot-after-revelation-he-studied-in-country</link>
