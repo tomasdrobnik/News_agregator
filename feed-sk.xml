@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sun, 04 Oct 2026 18:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:10:50 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Al Jazeera: austrálska polícia preveruje väzby druhého pilota FZ1073 na Austráliu</title>
+      <link>https://www.aljazeera.com/news/2026/10/4/police-investigating-flydubai-co-pilots-australia-ties</link>
+      <guid isPermaLink="false">fz1073-u075</guid>
+      <pubDate>Sun, 04 Oct 2026 19:10:50 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa článku priamo prečítaného na webe Al Jazeera potvrdil hovorca Victorian Joint Counter Terrorism Team, že austrálska polícia a spravodajské služby skúmajú väzby podozrivého druhého pilota na krajinu. Médiá uvádzajú, že študoval v Melbourne; tvrdenia o jeho návštevách extrémistických miest nie sú overené. Generálny prokurátor SAE označil čin za pokus o teroristický akt; úrady SAE totožnosť verejne nepotvrdili. Nadväzuje na u070. (Zdroj: Al Jazeera)</description>
+    </item>
     <item>
       <title>[Médiá] Ynetnews: overenie konšpiračných teórií o FZ1073 – tvrdenia o „zinscenovaní“ nemajú oporu</title>
       <link>https://www.ynetnews.com/article/sjhvkrjozl</link>

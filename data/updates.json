@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-04T18:11:30Z",
-    "next_check": "2026-10-04T19:11:30Z",
-    "new_count": 2
+    "last_check": "2026-10-04T19:10:50Z",
+    "next_check": "2026-10-04T20:10:50Z",
+    "new_count": 1
   },
   "updates": [
     {
@@ -1836,6 +1836,26 @@
         "en": {
           "title": "Ynetnews: fact-check of FZ1073 conspiracy theories – 'staged incident' claims lack support",
           "text": "Ynetnews (article read directly) examines viral theories that Israel staged the incident (oxygen masks, flight number, a fake 'BBC' video). It says available information, including the UAE prosecutor's statement, does not support them; the first officer's motive and possible links remain unexplained."
+        }
+      }
+    },
+    {
+      "id": "u075",
+      "found_at": "2026-10-04T19:10:50Z",
+      "published_at": "2026-10-04T00:00:00Z",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/police-investigating-flydubai-co-pilots-australia-ties",
+      "title": "Al Jazeera: australská policie prověřuje vazby druhého pilota FZ1073 na Austrálii",
+      "text": "Podle článku přímo přečteného na webu Al Jazeera potvrdil mluvčí Victorian Joint Counter Terrorism Team, že australská policie a zpravodajské služby zkoumají vazby podezřelého druhého pilota na zemi. Média uvádějí, že studoval v Melbourne; tvrzení o jeho návštěvách extremistických míst nejsou ověřena. Generální prokurátor SAE označil čin za pokus o teroristický akt; úřady SAE totožnost veřejně nepotvrdily. Navazuje na u070.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Al Jazeera: austrálska polícia preveruje väzby druhého pilota FZ1073 na Austráliu",
+          "text": "Podľa článku priamo prečítaného na webe Al Jazeera potvrdil hovorca Victorian Joint Counter Terrorism Team, že austrálska polícia a spravodajské služby skúmajú väzby podozrivého druhého pilota na krajinu. Médiá uvádzajú, že študoval v Melbourne; tvrdenia o jeho návštevách extrémistických miest nie sú overené. Generálny prokurátor SAE označil čin za pokus o teroristický akt; úrady SAE totožnosť verejne nepotvrdili. Nadväzuje na u070."
+        },
+        "en": {
+          "title": "Al Jazeera: Australian police examine FZ1073 co-pilot's ties to Australia",
+          "text": "According to the article read directly on Al Jazeera, a spokesperson for the Victorian Joint Counter Terrorism Team confirmed that Australian police and intelligence agencies are examining the suspected co-pilot's links to the country. Media say he studied in Melbourne; claims about visits to extremist places are unverified. The UAE attorney general called the act an attempted terrorist act; UAE authorities have not publicly confirmed his identity. Follows u070."
         }
       }
     }

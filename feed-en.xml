@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 18:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:10:50 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Al Jazeera: Australian police examine FZ1073 co-pilot's ties to Australia</title>
+      <link>https://www.aljazeera.com/news/2026/10/4/police-investigating-flydubai-co-pilots-australia-ties</link>
+      <guid isPermaLink="false">fz1073-u075</guid>
+      <pubDate>Sun, 04 Oct 2026 19:10:50 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the article read directly on Al Jazeera, a spokesperson for the Victorian Joint Counter Terrorism Team confirmed that Australian police and intelligence agencies are examining the suspected co-pilot's links to the country. Media say he studied in Melbourne; claims about visits to extremist places are unverified. The UAE attorney general called the act an attempted terrorist act; UAE authorities have not publicly confirmed his identity. Follows u070. (Source: Al Jazeera)</description>
+    </item>
     <item>
       <title>[Media] Ynetnews: fact-check of FZ1073 conspiracy theories – 'staged incident' claims lack support</title>
       <link>https://www.ynetnews.com/article/sjhvkrjozl</link>
