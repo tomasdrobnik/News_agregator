@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-04T07:11:13Z",
-    "next_check": "2026-10-04T08:11:13Z",
+    "last_check": "2026-10-04T12:11:07Z",
+    "next_check": "2026-10-04T13:11:07Z",
     "new_count": 1
   },
   "updates": [
@@ -1732,6 +1732,26 @@
         "en": {
           "title": "JPost/Reuters: photo of FZ1073 passengers arriving at Ben Gurion (addendum to u062)",
           "text": "According to the directly read JPost (Reuters) article, the UAE prosecutor general called the incident an attempted terrorist act; this matches u062. Newly recorded medium: a Reuters photo of the plane carrying FZ1073 passengers arriving at Ben Gurion airport on 30 Sep. The article also carries a photo of a damaged rudder credited 'COURTESY'; its origin is unknown."
+        }
+      }
+    },
+    {
+      "id": "u070",
+      "found_at": "2026-10-04T12:11:07Z",
+      "published_at": null,
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/liveblog_entry/australia-launches-terror-probe-into-flydubai-co-pilot-after-revelation-he-studied-in-country",
+      "title": "Times of Israel (AAP): Austrálie šetří vazby druhého pilota FZ1073 na zemi",
+      "text": "Podle výsledků vyhledávání (Times of Israel, AAP, The Nightly; stránky nebyly přímo čteny) zahájil australský Victorian Joint Counter Terrorism Team šetření vazeb podezřelého druhého pilota na Austrálii, kde měl podle médií studovat v letech 2015–2017. Zjištění ani důkazy o širší síti zatím nezveřejněny; totožnost podezřelého úřady SAE veřejně nepotvrdily.",
+      "status": "unconfirmed",
+      "i18n": {
+        "sk": {
+          "title": "Times of Israel (AAP): Austrália vyšetruje väzby druhého pilota FZ1073 na krajinu",
+          "text": "Podľa výsledkov vyhľadávania (Times of Israel, AAP, The Nightly; stránky neboli priamo čítané) začal austrálsky Victorian Joint Counter Terrorism Team vyšetrovať väzby podozrivého druhého pilota na Austráliu, kde mal podľa médií študovať v rokoch 2015–2017. Zistenia ani dôkazy o širšej sieti zatiaľ nezverejnené; totožnosť podozrivého úrady SAE verejne nepotvrdili."
+        },
+        "en": {
+          "title": "Times of Israel (AAP): Australia probes FZ1073 co-pilot's links to the country",
+          "text": "According to search results (Times of Israel, AAP, The Nightly; pages not read directly), Australia's Victorian Joint Counter Terrorism Team has opened an inquiry into the suspected co-pilot's links to Australia, where media say he studied in 2015–2017. No findings or evidence of a wider network have been published; UAE authorities have not publicly confirmed his identity."
         }
       }
     }

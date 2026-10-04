@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sun, 04 Oct 2026 07:11:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 12:11:07 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] Times of Israel (AAP): Austrália vyšetruje väzby druhého pilota FZ1073 na krajinu</title>
+      <link>https://www.timesofisrael.com/liveblog_entry/australia-launches-terror-probe-into-flydubai-co-pilot-after-revelation-he-studied-in-country</link>
+      <guid isPermaLink="false">fz1073-u070</guid>
+      <pubDate>Sun, 04 Oct 2026 12:11:07 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Podľa výsledkov vyhľadávania (Times of Israel, AAP, The Nightly; stránky neboli priamo čítané) začal austrálsky Victorian Joint Counter Terrorism Team vyšetrovať väzby podozrivého druhého pilota na Austráliu, kde mal podľa médií študovať v rokoch 2015–2017. Zistenia ani dôkazy o širšej sieti zatiaľ nezverejnené; totožnosť podozrivého úrady SAE verejne nepotvrdili. (Zdroj: Times of Israel)</description>
+    </item>
     <item>
       <title>[Médiá] JPost/Reuters: fotografia cestujúcich z FZ1073 po prílete na Ben Gurion (doplnenie k u062)</title>
       <link>https://www.jpost.com/middle-east/article-910446</link>

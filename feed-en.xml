@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 07:11:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 12:11:07 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Times of Israel (AAP): Australia probes FZ1073 co-pilot's links to the country</title>
+      <link>https://www.timesofisrael.com/liveblog_entry/australia-launches-terror-probe-into-flydubai-co-pilot-after-revelation-he-studied-in-country</link>
+      <guid isPermaLink="false">fz1073-u070</guid>
+      <pubDate>Sun, 04 Oct 2026 12:11:07 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (Times of Israel, AAP, The Nightly; pages not read directly), Australia's Victorian Joint Counter Terrorism Team has opened an inquiry into the suspected co-pilot's links to Australia, where media say he studied in 2015–2017. No findings or evidence of a wider network have been published; UAE authorities have not publicly confirmed his identity. (Source: Times of Israel)</description>
+    </item>
     <item>
       <title>[Media] JPost/Reuters: photo of FZ1073 passengers arriving at Ben Gurion (addendum to u062)</title>
       <link>https://www.jpost.com/middle-east/article-910446</link>
