@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sat, 03 Oct 2026 21:10:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 07:11:13 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] JPost/Reuters: fotografia cestujúcich z FZ1073 po prílete na Ben Gurion (doplnenie k u062)</title>
+      <link>https://www.jpost.com/middle-east/article-910446</link>
+      <guid isPermaLink="false">fz1073-u069</guid>
+      <pubDate>Sun, 04 Oct 2026 07:11:13 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa priamo prečítaného článku JPost (Reuters) generálny prokurátor SAE označil incident za pokus o teroristický čin; obsah zodpovedá u062. Novo zaznamenané médium: fotografia Reuters z príletu náhradného lietadla s cestujúcimi z FZ1073 na letisko Ben Gurion 30. 9. Článok obsahuje aj snímku poškodenej smerovky s kreditom „COURTESY“, jej pôvod nie je známy. (Zdroj: Jerusalem Post (Reuters))&lt;br&gt;&lt;a href="https://www.jpost.com/middle-east/article-910446"&gt;Foto: Lietadlo s cestujúcimi z odkloneného FZ1073 priletá na letisko Ben Gurion, 30. 9. 2026&lt;/a&gt; (REUTERS/AMMAR AWAD, via Jerusalem Post (Reuters))</description>
+    </item>
     <item>
       <title>[Dáta] FlightAware: let FDB1073 z 2. 10. zrušený, na 4. a 5. 10. je zatiaľ vedený ako plánovaný</title>
       <link>https://www.flightaware.com/live/flight/FDB1073/history</link>

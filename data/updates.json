@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-03T21:10:34Z",
-    "next_check": "2026-10-03T22:10:34Z",
+    "last_check": "2026-10-04T07:11:13Z",
+    "next_check": "2026-10-04T08:11:13Z",
     "new_count": 1
   },
   "updates": [
@@ -1695,6 +1695,43 @@
         "en": {
           "title": "FlightAware: FDB1073 cancelled on 2 Oct, still listed as scheduled for 4 and 5 Oct",
           "text": "According to the directly read FlightAware flight history, the Dubai–Tel Aviv service FDB1073 was cancelled on 2 Oct and is listed as scheduled (B39M) for 4 and 5 Oct. These are schedule data only, not confirmation the flights will operate; earlier sources say flydubai suspended Israel flights."
+        }
+      }
+    },
+    {
+      "id": "u069",
+      "found_at": "2026-10-04T07:11:13Z",
+      "published_at": "2026-10-03T09:20:00Z",
+      "source": "Jerusalem Post (Reuters)",
+      "url": "https://www.jpost.com/middle-east/article-910446",
+      "title": "JPost/Reuters: fotografie cestujících z FZ1073 po příletu na Ben Gurion (doplnění k u062)",
+      "text": "Podle přímo přečteného článku JPost (Reuters) generální prokurátor SAE označil incident za pokus o teroristický čin; obsah odpovídá u062. Nově zaznamenáno médium: fotografie Reuters z příletu náhradního letadla s cestujícími z FZ1073 na letiště Ben Gurion 30. 9. Článek obsahuje i snímek poškozené směrovky s kreditem „COURTESY“, jeho původ není znám.",
+      "status": "reported",
+      "media": [
+        {
+          "type": "photo",
+          "caption": "Letadlo s cestujícími z odkloněného FZ1073 přilétá na letiště Ben Gurion, 30. 9. 2026",
+          "url": "https://www.jpost.com/middle-east/article-910446",
+          "thumb": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/740033",
+          "credit": "REUTERS/AMMAR AWAD",
+          "i18n": {
+            "sk": {
+              "caption": "Lietadlo s cestujúcimi z odkloneného FZ1073 priletá na letisko Ben Gurion, 30. 9. 2026"
+            },
+            "en": {
+              "caption": "Plane carrying passengers from the diverted FZ1073 arrives at Ben Gurion airport, 30 Sep 2026"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "sk": {
+          "title": "JPost/Reuters: fotografia cestujúcich z FZ1073 po prílete na Ben Gurion (doplnenie k u062)",
+          "text": "Podľa priamo prečítaného článku JPost (Reuters) generálny prokurátor SAE označil incident za pokus o teroristický čin; obsah zodpovedá u062. Novo zaznamenané médium: fotografia Reuters z príletu náhradného lietadla s cestujúcimi z FZ1073 na letisko Ben Gurion 30. 9. Článok obsahuje aj snímku poškodenej smerovky s kreditom „COURTESY“, jej pôvod nie je známy."
+        },
+        "en": {
+          "title": "JPost/Reuters: photo of FZ1073 passengers arriving at Ben Gurion (addendum to u062)",
+          "text": "According to the directly read JPost (Reuters) article, the UAE prosecutor general called the incident an attempted terrorist act; this matches u062. Newly recorded medium: a Reuters photo of the plane carrying FZ1073 passengers arriving at Ben Gurion airport on 30 Sep. The article also carries a photo of a damaged rudder credited 'COURTESY'; its origin is unknown."
         }
       }
     }

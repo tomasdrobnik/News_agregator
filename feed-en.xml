@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 21:10:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 07:11:13 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] JPost/Reuters: photo of FZ1073 passengers arriving at Ben Gurion (addendum to u062)</title>
+      <link>https://www.jpost.com/middle-east/article-910446</link>
+      <guid isPermaLink="false">fz1073-u069</guid>
+      <pubDate>Sun, 04 Oct 2026 07:11:13 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read JPost (Reuters) article, the UAE prosecutor general called the incident an attempted terrorist act; this matches u062. Newly recorded medium: a Reuters photo of the plane carrying FZ1073 passengers arriving at Ben Gurion airport on 30 Sep. The article also carries a photo of a damaged rudder credited 'COURTESY'; its origin is unknown. (Source: Jerusalem Post (Reuters))&lt;br&gt;&lt;a href="https://www.jpost.com/middle-east/article-910446"&gt;Photo: Plane carrying passengers from the diverted FZ1073 arrives at Ben Gurion airport, 30 Sep 2026&lt;/a&gt; (REUTERS/AMMAR AWAD, via Jerusalem Post (Reuters))</description>
+    </item>
     <item>
       <title>[Data] FlightAware: FDB1073 cancelled on 2 Oct, still listed as scheduled for 4 and 5 Oct</title>
       <link>https://www.flightaware.com/live/flight/FDB1073/history</link>
