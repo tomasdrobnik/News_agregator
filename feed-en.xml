@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 15:10:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 18:11:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Ynetnews: fact-check of FZ1073 conspiracy theories – 'staged incident' claims lack support</title>
+      <link>https://www.ynetnews.com/article/sjhvkrjozl</link>
+      <guid isPermaLink="false">fz1073-u074</guid>
+      <pubDate>Sun, 04 Oct 2026 18:11:30 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Ynetnews (article read directly) examines viral theories that Israel staged the incident (oxygen masks, flight number, a fake 'BBC' video). It says available information, including the UAE prosecutor's statement, does not support them; the first officer's motive and possible links remain unexplained. (Source: Ynetnews)</description>
+    </item>
+    <item>
+      <title>[Media] Al Jazeera: UAE attorney general says the first officer attacked the captain with an emergency axe (follow-up to u062)</title>
+      <link>https://www.aljazeera.com/news/2026/10/3/flydubai-co-pilot-stabbed-pilot-with-crash-axe-in-terrorist-attack-uae</link>
+      <guid isPermaLink="false">fz1073-u073</guid>
+      <pubDate>Sun, 04 Oct 2026 18:11:30 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Al Jazeera (article read directly) reports that the UAE attorney general called the FZ1073 first officer's actions an attempted terrorist act and said the captain was wounded with a cockpit emergency axe. Motive and possible links are still being investigated; the details come from the prosecutor's statement as relayed by the outlet, not from reading the statement itself. (Source: Al Jazeera)</description>
+    </item>
     <item>
       <title>[Media] The Week: UAE reportedly sent Israel the FZ1073 passenger and crew list in advance; Shin Bet and Transport Ministry dispute responsibility</title>
       <link>https://www.theweek.in/news/middle-east/2026/10/04/flydubai-attack-did-israel-know-about-terrorist-omani-co-pilot-officials-say-uae-sent-flight-info-before-but.html</link>

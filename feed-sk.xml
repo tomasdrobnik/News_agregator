@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sun, 04 Oct 2026 15:10:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 18:11:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Ynetnews: overenie konšpiračných teórií o FZ1073 – tvrdenia o „zinscenovaní“ nemajú oporu</title>
+      <link>https://www.ynetnews.com/article/sjhvkrjozl</link>
+      <guid isPermaLink="false">fz1073-u074</guid>
+      <pubDate>Sun, 04 Oct 2026 18:11:30 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Ynetnews (článok priamo prečítaný) rozoberá virálne teórie, že incident zinscenoval Izrael (kyslíkové masky, číslo letu, falošné video „BBC“). Uvádza, že doterajšie informácie vrátane vyhlásenia prokurátora SAE tieto tvrdenia nepodporujú; motív a prípadné väzby druhého pilota zostávajú neobjasnené. (Zdroj: Ynetnews)</description>
+    </item>
+    <item>
+      <title>[Médiá] Al Jazeera: podľa generálneho prokurátora SAE napadol druhý pilot kapitána núdzovou sekerou (doplnenie k u062)</title>
+      <link>https://www.aljazeera.com/news/2026/10/3/flydubai-co-pilot-stabbed-pilot-with-crash-axe-in-terrorist-attack-uae</link>
+      <guid isPermaLink="false">fz1073-u073</guid>
+      <pubDate>Sun, 04 Oct 2026 18:11:30 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Al Jazeera (článok priamo prečítaný) uvádza, že generálny prokurátor SAE označil konanie druhého pilota FZ1073 za pokus o teroristický čin a že kapitána zranil núdzovou sekerou z kokpitu. Motív a prípadné väzby vyšetrovanie ešte zisťuje; podrobnosti vychádzajú z vyhlásenia prokurátora sprostredkovaného médiom, nie z priameho čítania jeho textu. (Zdroj: Al Jazeera)</description>
+    </item>
     <item>
       <title>[Médiá] The Week: SAE údajne poslali Izraelu zoznam cestujúcich a posádky FZ1073 vopred; Šin Bet a ministerstvo dopravy sa sporia o zodpovednosť</title>
       <link>https://www.theweek.in/news/middle-east/2026/10/04/flydubai-attack-did-israel-know-about-terrorist-omani-co-pilot-officials-say-uae-sent-flight-info-before-but.html</link>

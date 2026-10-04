@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-04T15:10:58Z",
-    "next_check": "2026-10-04T16:10:58Z",
-    "new_count": 1
+    "last_check": "2026-10-04T18:11:30Z",
+    "next_check": "2026-10-04T19:11:30Z",
+    "new_count": 2
   },
   "updates": [
     {
@@ -1794,6 +1794,48 @@
         "en": {
           "title": "The Week: UAE reportedly sent Israel the FZ1073 passenger and crew list in advance; Shin Bet and Transport Ministry dispute responsibility",
           "text": "The Week (article read directly; cites unnamed Israeli officials and reportedly Haaretz) says the UAE allegedly passed Israel a passenger and crew list before the flight, and that the Shin Bet and the Transport Ministry are disputing who was supposed to vet it. Transport Minister Regev is quoted as saying her ministry received no list; these are unverified claims, not statements by UAE authorities."
+        }
+      }
+    },
+    {
+      "id": "u073",
+      "found_at": "2026-10-04T18:11:30Z",
+      "published_at": "2026-10-03T00:00:00Z",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/3/flydubai-co-pilot-stabbed-pilot-with-crash-axe-in-terrorist-attack-uae",
+      "title": "Al Jazeera: podle generálního prokurátora SAE napadl druhý pilot kapitána nouzovou sekerou (doplnění k u062)",
+      "text": "Al Jazeera (článek přímo přečten) uvádí, že generální prokurátor SAE označil jednání druhého pilota FZ1073 za pokus o teroristický čin a že kapitána zranil nouzovou sekerou z kokpitu. Motiv a případné vazby šetření teprve zjišťuje; podrobnosti vycházejí z prohlášení prokurátora zprostředkovaného médiem, ne z přímého čtení jeho textu.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Al Jazeera: podľa generálneho prokurátora SAE napadol druhý pilot kapitána núdzovou sekerou (doplnenie k u062)",
+          "text": "Al Jazeera (článok priamo prečítaný) uvádza, že generálny prokurátor SAE označil konanie druhého pilota FZ1073 za pokus o teroristický čin a že kapitána zranil núdzovou sekerou z kokpitu. Motív a prípadné väzby vyšetrovanie ešte zisťuje; podrobnosti vychádzajú z vyhlásenia prokurátora sprostredkovaného médiom, nie z priameho čítania jeho textu."
+        },
+        "en": {
+          "title": "Al Jazeera: UAE attorney general says the first officer attacked the captain with an emergency axe (follow-up to u062)",
+          "text": "Al Jazeera (article read directly) reports that the UAE attorney general called the FZ1073 first officer's actions an attempted terrorist act and said the captain was wounded with a cockpit emergency axe. Motive and possible links are still being investigated; the details come from the prosecutor's statement as relayed by the outlet, not from reading the statement itself."
+        }
+      }
+    },
+    {
+      "id": "u074",
+      "found_at": "2026-10-04T18:11:30Z",
+      "published_at": "2026-10-04T14:09:47Z",
+      "source": "Ynetnews",
+      "url": "https://www.ynetnews.com/article/sjhvkrjozl",
+      "title": "Ynetnews: ověření konspiračních teorií o FZ1073 – tvrzení o „zinscenování“ nemají podložení",
+      "text": "Ynetnews (článek přímo přečten) rozebírá virální teorie, že incident zinscenoval Izrael (kyslíkové masky, číslo letu, falešné video „BBC“). Uvádí, že dosavadní informace včetně prohlášení prokurátora SAE tato tvrzení nepodporují; motiv a případné vazby druhého pilota zůstávají neobjasněny.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Ynetnews: overenie konšpiračných teórií o FZ1073 – tvrdenia o „zinscenovaní“ nemajú oporu",
+          "text": "Ynetnews (článok priamo prečítaný) rozoberá virálne teórie, že incident zinscenoval Izrael (kyslíkové masky, číslo letu, falošné video „BBC“). Uvádza, že doterajšie informácie vrátane vyhlásenia prokurátora SAE tieto tvrdenia nepodporujú; motív a prípadné väzby druhého pilota zostávajú neobjasnené."
+        },
+        "en": {
+          "title": "Ynetnews: fact-check of FZ1073 conspiracy theories – 'staged incident' claims lack support",
+          "text": "Ynetnews (article read directly) examines viral theories that Israel staged the incident (oxygen masks, flight number, a fake 'BBC' video). It says available information, including the UAE prosecutor's statement, does not support them; the first officer's motive and possible links remain unexplained."
         }
       }
     }
