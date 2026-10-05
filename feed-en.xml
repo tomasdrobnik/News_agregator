@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 05:11:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 07:11:08 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] The Week: FZ1073 co-pilot reportedly tried to shut off the engines after the plot was foiled (unverified)</title>
+      <link>https://www.theweek.in/news/middle-east/2026/10/05/flydubai-co-pilot-terror-plot-engine-switch-off.html</link>
+      <guid isPermaLink="false">fz1073-u080</guid>
+      <pubDate>Mon, 05 Oct 2026 07:11:08 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] The Week (page read directly) relays Italian daily Corriere della Sera, citing Israeli intelligence sources: after the plan was thwarted, the second pilot may have tried to shut down the engines; the supposed indication is emergency cabin lights seen in video of the cockpit struggle. This is an unsupported second-hand claim not confirmed by any authority, hence unverified. (Source: The Week (India))</description>
+    </item>
     <item>
       <title>[Media] Gulf News: Dubai Crown Prince visits injured FZ1073 captain</title>
       <link>https://gulfnews.com/uae/dubai/sheikh-hamdan-visits-flydubai-pilot-smit-machchhar-praises-his-courage-1.500697077</link>

@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-05T05:11:03Z",
-    "next_check": "2026-10-05T06:11:03Z",
+    "last_check": "2026-10-05T07:11:08Z",
+    "next_check": "2026-10-05T08:11:08Z",
     "new_count": 1
   },
   "updates": [
@@ -1938,6 +1938,27 @@
         "en": {
           "title": "Gulf News: Dubai Crown Prince visits injured FZ1073 captain",
           "text": "According to Gulf News (article read directly), Dubai Crown Prince Sheikh Hamdan visited the injured captain of FZ1073 on Saturday 3 Oct and praised his courage and sense of responsibility. This is official recognition by the UAE; it adds no new information on the cause or the investigation."
+        }
+      }
+    },
+    {
+      "id": "u080",
+      "found_at": "2026-10-05T07:11:08Z",
+      "published_at": "2026-10-05T00:00:00Z",
+      "source": "The Week (India)",
+      "url": "https://www.theweek.in/news/middle-east/2026/10/05/flydubai-co-pilot-terror-plot-engine-switch-off.html",
+      "title": "The Week: druhý pilot FZ1073 se prý po zmaření útoku pokusil vypnout motory (neověřeno)",
+      "text": "The Week (stránka přímo přečtena) přebírá italský deník Corriere della Sera, který se odvolává na izraelské zpravodajské zdroje: po zmaření plánu se druhý pilot mohl pokusit vypnout motory; indicií mají být nouzová světla v kabině na videu ze zápasu v kokpitu. Jde o nepodložené tvrzení z druhé ruky bez potvrzení úřady, proto jen neověřeno.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "The Week: druhý pilot FZ1073 sa po zmarení útoku údajne pokúsil vypnúť motory (neoverené)",
+          "text": "The Week (stránka priamo prečítaná) preberá taliansky denník Corriere della Sera, ktorý sa odvoláva na izraelské spravodajské zdroje: po zmarení plánu sa druhý pilot mohol pokúsiť vypnúť motory; indíciou majú byť núdzové svetlá v kabíne na videu zo zápasu v kokpite. Ide o nepodložené tvrdenie z druhej ruky bez potvrdenia úradmi, preto iba neoverené."
+        },
+        "en": {
+          "title": "The Week: FZ1073 co-pilot reportedly tried to shut off the engines after the plot was foiled (unverified)",
+          "text": "The Week (page read directly) relays Italian daily Corriere della Sera, citing Israeli intelligence sources: after the plan was thwarted, the second pilot may have tried to shut down the engines; the supposed indication is emergency cabin lights seen in video of the cockpit struggle. This is an unsupported second-hand claim not confirmed by any authority, hence unverified."
         }
       }
     }

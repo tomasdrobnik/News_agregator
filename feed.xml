@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Mon, 05 Oct 2026 05:11:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 07:11:08 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] The Week: druhý pilot FZ1073 se prý po zmaření útoku pokusil vypnout motory (neověřeno)</title>
+      <link>https://www.theweek.in/news/middle-east/2026/10/05/flydubai-co-pilot-terror-plot-engine-switch-off.html</link>
+      <guid isPermaLink="false">fz1073-u080</guid>
+      <pubDate>Mon, 05 Oct 2026 07:11:08 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] The Week (stránka přímo přečtena) přebírá italský deník Corriere della Sera, který se odvolává na izraelské zpravodajské zdroje: po zmaření plánu se druhý pilot mohl pokusit vypnout motory; indicií mají být nouzová světla v kabině na videu ze zápasu v kokpitu. Jde o nepodložené tvrzení z druhé ruky bez potvrzení úřady, proto jen neověřeno. (Zdroj: The Week (India))</description>
+    </item>
     <item>
       <title>[Média] Gulf News: korunní princ Dubaje navštívil zraněného kapitána FZ1073</title>
       <link>https://gulfnews.com/uae/dubai/sheikh-hamdan-visits-flydubai-pilot-smit-machchhar-praises-his-courage-1.500697077</link>
