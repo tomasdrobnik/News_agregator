@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 03:13:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 05:11:03 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Gulf News: Dubai Crown Prince visits injured FZ1073 captain</title>
+      <link>https://gulfnews.com/uae/dubai/sheikh-hamdan-visits-flydubai-pilot-smit-machchhar-praises-his-courage-1.500697077</link>
+      <guid isPermaLink="false">fz1073-u079</guid>
+      <pubDate>Mon, 05 Oct 2026 05:11:03 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Gulf News (article read directly), Dubai Crown Prince Sheikh Hamdan visited the injured captain of FZ1073 on Saturday 3 Oct and praised his courage and sense of responsibility. This is official recognition by the UAE; it adds no new information on the cause or the investigation. (Source: Gulf News)</description>
+    </item>
     <item>
       <title>[Media] ABC (Australia): Israeli media – FZ1073 first officer reportedly planned to crash the plane into Ben Gurion Airport</title>
       <link>https://www.abc.net.au/news/2026-10-05/flydubai-pilot-planned-to-crash-plane-into-ben-gurion-airport/107228592</link>

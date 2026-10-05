@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Mon, 05 Oct 2026 03:13:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 05:11:03 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Gulf News: korunný princ Dubaja navštívil zraneného kapitána FZ1073</title>
+      <link>https://gulfnews.com/uae/dubai/sheikh-hamdan-visits-flydubai-pilot-smit-machchhar-praises-his-courage-1.500697077</link>
+      <guid isPermaLink="false">fz1073-u079</guid>
+      <pubDate>Mon, 05 Oct 2026 05:11:03 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa Gulf News (článok priamo prečítaný) navštívil dubajský korunný princ šejk Hamdán v sobotu 3. 10. zraneného kapitána letu FZ1073 a ocenil jeho odvahu a zodpovednosť. Ide o oficiálne uznanie zo strany SAE, neprináša nové informácie o príčine ani o vyšetrovaní. (Zdroj: Gulf News)</description>
+    </item>
     <item>
       <title>[Médiá] ABC (Austrália): izraelské médiá – druhý pilot FZ1073 mal údajne plánovať zrútiť lietadlo na letisko Ben Gurion</title>
       <link>https://www.abc.net.au/news/2026-10-05/flydubai-pilot-planned-to-crash-plane-into-ben-gurion-airport/107228592</link>
