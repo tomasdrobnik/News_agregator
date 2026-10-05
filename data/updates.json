@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-05T11:11:08Z",
-    "next_check": "2026-10-05T12:11:08Z",
+    "last_check": "2026-10-05T16:13:00Z",
+    "next_check": "2026-10-05T17:13:00Z",
     "new_count": 1
   },
   "updates": [
@@ -1999,6 +1999,27 @@
         "en": {
           "title": "Al Jazeera (Arabic): doubts over security gaps and the account of the FZ1073 rescue",
           "text": "An analysis piece, read directly, sums up open questions: Israeli authorities reportedly received the passenger and crew manifest in advance and raised no objection to the Omani co-pilot. It also questions one Israeli passenger's claim that he stabilised the aircraft by pulling the control yokes, and notes that no serious passenger injuries were officially reported despite the described steep descent. These are the outlet's opinions and questions, not verified findings of investigators."
+        }
+      }
+    },
+    {
+      "id": "u083",
+      "found_at": "2026-10-05T16:13:00Z",
+      "published_at": "2026-10-05T00:00:00Z",
+      "source": "Khaleej Times",
+      "url": "https://www.khaleejtimes.com/business/aviation/what-really-happened-flydubai-fz1073-terror-attack",
+      "title": "Khaleej Times: shrnutí průběhu FZ1073 – útočníka údajně spoutali šňůrou od sluchátek a stahovacími páskami",
+      "text": "Khaleej Times (přímo přečteno 5. 10.) shrnuje, že druhý pilot napadl kapitána nouzovou sekerou a chtěl převzít řízení; cestující a posádka ho podle deníku spoutali šňůrou od sluchátek a stahovacími páskami a letadlo přistálo v Tabúku. Zmiňuje také závěr generálního prokurátora SAE z 3. 10., že šlo o teroristický čin. Jde o redakční shrnutí převzatých tvrzení, nikoli o nový oficiální zdroj.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Khaleej Times: zhrnutie priebehu FZ1073 – útočníka údajne spútali šnúrou od slúchadiel a sťahovacími páskami",
+          "text": "Khaleej Times (priamo prečítané 5. 10.) zhŕňa, že druhý pilot napadol kapitána núdzovou sekerou a chcel prevziať riadenie; cestujúci a posádka ho podľa denníka spútali šnúrou od slúchadiel a sťahovacími páskami a lietadlo pristálo v Tabúku. Spomína aj záver generálneho prokurátora SAE z 3. 10., že išlo o teroristický čin. Ide o redakčné zhrnutie prevzatých tvrdení, nie o nový oficiálny zdroj."
+        },
+        "en": {
+          "title": "Khaleej Times: FZ1073 recap – attacker reportedly restrained with a headphone cord and zip ties",
+          "text": "Khaleej Times (read directly on 5 Oct) summarises that the second pilot attacked the captain with a crash axe and tried to take over the controls; passengers and crew reportedly restrained him with a headphone cord and zip ties, and the aircraft landed at Tabuk. It also mentions the UAE Attorney-General's 3 Oct conclusion that it was a terrorist act. This is an editorial recap of already-reported claims, not a new official source."
         }
       }
     }

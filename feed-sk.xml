@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Mon, 05 Oct 2026 11:11:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 16:13:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Khaleej Times: zhrnutie priebehu FZ1073 – útočníka údajne spútali šnúrou od slúchadiel a sťahovacími páskami</title>
+      <link>https://www.khaleejtimes.com/business/aviation/what-really-happened-flydubai-fz1073-terror-attack</link>
+      <guid isPermaLink="false">fz1073-u083</guid>
+      <pubDate>Mon, 05 Oct 2026 16:13:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Khaleej Times (priamo prečítané 5. 10.) zhŕňa, že druhý pilot napadol kapitána núdzovou sekerou a chcel prevziať riadenie; cestujúci a posádka ho podľa denníka spútali šnúrou od slúchadiel a sťahovacími páskami a lietadlo pristálo v Tabúku. Spomína aj záver generálneho prokurátora SAE z 3. 10., že išlo o teroristický čin. Ide o redakčné zhrnutie prevzatých tvrdení, nie o nový oficiálny zdroj. (Zdroj: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Médiá] Al Jazeera (arabsky): pochybnosti o bezpečnostných medzerách a o líčení záchrany FZ1073</title>
       <link>https://www.aljazeera.net/news/2026/10/5/%D8%AB%D8%BA%D8%B1%D8%A7%D8%AA-%D8%A3%D9%85%D9%86%D9%8A%D8%A9-%D9%88%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%BA%D8%B1%D9%8A%D8%A8%D8%A9-5-%D8%A3%D8%B3%D8%A6%D9%84%D8%A9-%D8%B9%D9%86</link>

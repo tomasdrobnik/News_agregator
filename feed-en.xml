@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 11:11:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 16:13:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Khaleej Times: FZ1073 recap – attacker reportedly restrained with a headphone cord and zip ties</title>
+      <link>https://www.khaleejtimes.com/business/aviation/what-really-happened-flydubai-fz1073-terror-attack</link>
+      <guid isPermaLink="false">fz1073-u083</guid>
+      <pubDate>Mon, 05 Oct 2026 16:13:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Khaleej Times (read directly on 5 Oct) summarises that the second pilot attacked the captain with a crash axe and tried to take over the controls; passengers and crew reportedly restrained him with a headphone cord and zip ties, and the aircraft landed at Tabuk. It also mentions the UAE Attorney-General's 3 Oct conclusion that it was a terrorist act. This is an editorial recap of already-reported claims, not a new official source. (Source: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Media] Al Jazeera (Arabic): doubts over security gaps and the account of the FZ1073 rescue</title>
       <link>https://www.aljazeera.net/news/2026/10/5/%D8%AB%D8%BA%D8%B1%D8%A7%D8%AA-%D8%A3%D9%85%D9%86%D9%8A%D8%A9-%D9%88%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%BA%D8%B1%D9%8A%D8%A8%D8%A9-5-%D8%A3%D8%B3%D8%A6%D9%84%D8%A9-%D8%B9%D9%86</link>
