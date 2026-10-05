@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 08:11:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 11:11:08 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Al Jazeera (Arabic): doubts over security gaps and the account of the FZ1073 rescue</title>
+      <link>https://www.aljazeera.net/news/2026/10/5/%D8%AB%D8%BA%D8%B1%D8%A7%D8%AA-%D8%A3%D9%85%D9%86%D9%8A%D8%A9-%D9%88%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%BA%D8%B1%D9%8A%D8%A8%D8%A9-5-%D8%A3%D8%B3%D8%A6%D9%84%D8%A9-%D8%B9%D9%86</link>
+      <guid isPermaLink="false">fz1073-u082</guid>
+      <pubDate>Mon, 05 Oct 2026 11:11:08 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] An analysis piece, read directly, sums up open questions: Israeli authorities reportedly received the passenger and crew manifest in advance and raised no objection to the Omani co-pilot. It also questions one Israeli passenger's claim that he stabilised the aircraft by pulling the control yokes, and notes that no serious passenger injuries were officially reported despite the described steep descent. These are the outlet's opinions and questions, not verified findings of investigators. (Source: Al Jazeera (arabsky))</description>
+    </item>
     <item>
       <title>[Media] Reuters: co-pilot reportedly planned the attack before being hired by flydubai</title>
       <link>https://www.arabnews.com/middle-east/co-pilot-planned-flydubai-attack-before-hired-by-airline-two-israeli-officials-say-3004679</link>

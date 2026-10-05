@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-05T08:11:10Z",
-    "next_check": "2026-10-05T09:11:10Z",
+    "last_check": "2026-10-05T11:11:08Z",
+    "next_check": "2026-10-05T12:11:08Z",
     "new_count": 1
   },
   "updates": [
@@ -1979,6 +1979,26 @@
         "en": {
           "title": "Reuters: co-pilot reportedly planned the attack before being hired by flydubai",
           "text": "According to a Reuters report, found consistently in search results across several outlets (Arab News, US News, Business Recorder; the page was not read directly), two Israeli officials say the co-pilot told investigators he planned the attack before being hired by flydubai and applied after looking for airlines flying to Tel Aviv. A third source briefed on the UAE probe reportedly says the target was Ben Gurion airport and that he had a similar plan on an earlier Tel Aviv flight but backed out. These are claims by anonymous sources, not officially confirmed by UAE or KSA authorities; follows up on u078."
+        }
+      }
+    },
+    {
+      "id": "u082",
+      "found_at": "2026-10-05T11:11:08Z",
+      "published_at": "2026-10-05T00:00:00Z",
+      "source": "Al Jazeera (arabsky)",
+      "url": "https://www.aljazeera.net/news/2026/10/5/%D8%AB%D8%BA%D8%B1%D8%A7%D8%AA-%D8%A3%D9%85%D9%86%D9%8A%D8%A9-%D9%88%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%BA%D8%B1%D9%8A%D8%A8%D8%A9-5-%D8%A3%D8%B3%D8%A6%D9%84%D8%A9-%D8%B9%D9%86",
+      "title": "Al Jazeera (arabsky): pochybnosti o bezpečnostních mezerách a o líčení záchrany FZ1073",
+      "text": "Analytický článek, přímo přečtený, shrnuje otázky kolem incidentu: izraelské úřady prý předem dostaly seznam cestujících a posádky a proti druhému pilotovi z Ománu nic nenamítaly. Zpochybňuje také tvrzení jednoho izraelského cestujícího, že letadlo stabilizoval stažením řídicích pák, a upozorňuje, že nebyla oficiálně hlášena žádná vážnější zranění cestujících, ač se popisuje prudký pokles. Jde o názory a otázky redakce, ne o ověřená zjištění vyšetřovatelů.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Al Jazeera (arabsky): pochybnosti o bezpečnostných medzerách a o líčení záchrany FZ1073",
+          "text": "Analytický článok, priamo prečítaný, zhŕňa otázky okolo incidentu: izraelské úrady mali vraj vopred dostať zoznam cestujúcich a posádky a voči druhému pilotovi z Ománu nič nenamietali. Spochybňuje aj tvrdenie jedného izraelského cestujúceho, že lietadlo stabilizoval stiahnutím riadiacich pák, a upozorňuje, že neboli oficiálne hlásené žiadne vážnejšie zranenia cestujúcich, hoci sa opisuje prudký pokles. Ide o názory a otázky redakcie, nie o overené zistenia vyšetrovateľov."
+        },
+        "en": {
+          "title": "Al Jazeera (Arabic): doubts over security gaps and the account of the FZ1073 rescue",
+          "text": "An analysis piece, read directly, sums up open questions: Israeli authorities reportedly received the passenger and crew manifest in advance and raised no objection to the Omani co-pilot. It also questions one Israeli passenger's claim that he stabilised the aircraft by pulling the control yokes, and notes that no serious passenger injuries were officially reported despite the described steep descent. These are the outlet's opinions and questions, not verified findings of investigators."
         }
       }
     }

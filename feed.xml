@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Mon, 05 Oct 2026 08:11:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 11:11:08 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Al Jazeera (arabsky): pochybnosti o bezpečnostních mezerách a o líčení záchrany FZ1073</title>
+      <link>https://www.aljazeera.net/news/2026/10/5/%D8%AB%D8%BA%D8%B1%D8%A7%D8%AA-%D8%A3%D9%85%D9%86%D9%8A%D8%A9-%D9%88%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%BA%D8%B1%D9%8A%D8%A8%D8%A9-5-%D8%A3%D8%B3%D8%A6%D9%84%D8%A9-%D8%B9%D9%86</link>
+      <guid isPermaLink="false">fz1073-u082</guid>
+      <pubDate>Mon, 05 Oct 2026 11:11:08 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Analytický článek, přímo přečtený, shrnuje otázky kolem incidentu: izraelské úřady prý předem dostaly seznam cestujících a posádky a proti druhému pilotovi z Ománu nic nenamítaly. Zpochybňuje také tvrzení jednoho izraelského cestujícího, že letadlo stabilizoval stažením řídicích pák, a upozorňuje, že nebyla oficiálně hlášena žádná vážnější zranění cestujících, ač se popisuje prudký pokles. Jde o názory a otázky redakce, ne o ověřená zjištění vyšetřovatelů. (Zdroj: Al Jazeera (arabsky))</description>
+    </item>
     <item>
       <title>[Média] Reuters: druhý pilot prý plánoval útok už před přijetím do flydubai</title>
       <link>https://www.arabnews.com/middle-east/co-pilot-planned-flydubai-attack-before-hired-by-airline-two-israeli-officials-say-3004679</link>

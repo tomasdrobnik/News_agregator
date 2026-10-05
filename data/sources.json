@@ -468,6 +468,15 @@
       "added_at": "2026-10-03T03:10:39Z",
       "active": true,
       "note": "Emirátský zpravodajský web; článek s prohlášením CEO flydubai k FZ1073 přečten přímo přes WebFetch."
+    },
+    {
+      "name": "Al Jazeera (arabsky)",
+      "url": "https://www.aljazeera.net",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-05T11:11:08Z",
+      "active": true,
+      "note": "Arabská redakce Al Jazeery; článek o bezpečnostních mezerách kolem FZ1073 přečten přímo přes WebFetch."
     }
   ]
 }
