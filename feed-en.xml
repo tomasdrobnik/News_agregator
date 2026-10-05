@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 07:11:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 08:11:10 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Reuters: co-pilot reportedly planned the attack before being hired by flydubai</title>
+      <link>https://www.arabnews.com/middle-east/co-pilot-planned-flydubai-attack-before-hired-by-airline-two-israeli-officials-say-3004679</link>
+      <guid isPermaLink="false">fz1073-u081</guid>
+      <pubDate>Mon, 05 Oct 2026 08:11:10 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to a Reuters report, found consistently in search results across several outlets (Arab News, US News, Business Recorder; the page was not read directly), two Israeli officials say the co-pilot told investigators he planned the attack before being hired by flydubai and applied after looking for airlines flying to Tel Aviv. A third source briefed on the UAE probe reportedly says the target was Ben Gurion airport and that he had a similar plan on an earlier Tel Aviv flight but backed out. These are claims by anonymous sources, not officially confirmed by UAE or KSA authorities; follows up on u078. (Source: Arab News (Reuters))</description>
+    </item>
     <item>
       <title>[Unconfirmed] The Week: FZ1073 co-pilot reportedly tried to shut off the engines after the plot was foiled (unverified)</title>
       <link>https://www.theweek.in/news/middle-east/2026/10/05/flydubai-co-pilot-terror-plot-engine-switch-off.html</link>

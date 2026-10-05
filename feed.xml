@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Mon, 05 Oct 2026 07:11:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 08:11:10 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Reuters: druhý pilot prý plánoval útok už před přijetím do flydubai</title>
+      <link>https://www.arabnews.com/middle-east/co-pilot-planned-flydubai-attack-before-hired-by-airline-two-israeli-officials-say-3004679</link>
+      <guid isPermaLink="false">fz1073-u081</guid>
+      <pubDate>Mon, 05 Oct 2026 08:11:10 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle depeše Reuters, shodně nalezené ve výsledcích vyhledávání u více médií (Arab News, US News, Business Recorder; stránka nebyla přímo přečtena), dva izraelští představitelé uvádějí, že druhý pilot měl vyšetřovatelům sdělit, že útok plánoval před přijetím do flydubai a o práci se ucházel po výběru aerolinek létajících do Tel Avivu. Třetí zdroj seznámený s vyšetřováním v SAE prý tvrdí, že cílem bylo letiště Ben Gurion a že podobný plán měl už dříve na jiném letu do Tel Avivu, ale upustil od něj. Jde o tvrzení anonymních zdrojů, oficiálně nepotvrzené úřady SAE ani KSA; navazuje na u078. (Zdroj: Arab News (Reuters))</description>
+    </item>
     <item>
       <title>[Neověřeno] The Week: druhý pilot FZ1073 se prý po zmaření útoku pokusil vypnout motory (neověřeno)</title>
       <link>https://www.theweek.in/news/middle-east/2026/10/05/flydubai-co-pilot-terror-plot-engine-switch-off.html</link>
