@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Mon, 05 Oct 2026 16:13:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 19:12:28 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Jerusalem Post: cestující FZ1073 popisují hodinu a půl nejistoty po zneškodnění pilota</title>
+      <link>https://www.jpost.com/israel-news/article-910682</link>
+      <guid isPermaLink="false">fz1073-u085</guid>
+      <pubDate>Mon, 05 Oct 2026 19:12:28 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] JPost (přímo přečteno) přináší svědectví cestujících: po zneškodnění druhého pilota nevěděli, kam letí, a nedůvěřovali posádce včetně záložních pilotů v kokpitu; zprávu o Saúdské Arábii dostali až krátce před přistáním. Jde o subjektivní výpovědi, ne o ověřená fakta o průběhu letu; údaj o 182 osobách na palubě se liší od jiných zdrojů. (Zdroj: Jerusalem Post)</description>
+    </item>
+    <item>
+      <title>[Média] Jerusalem Post: Shin Bet se podle zdrojů účastní výslechu druhého pilota v SAE</title>
+      <link>https://www.jpost.com/israel-news/article-910702</link>
+      <guid isPermaLink="false">fz1073-u084</guid>
+      <pubDate>Mon, 05 Oct 2026 19:12:28 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle JPost (přímo přečteno; odvoláva se na nejmenované zdroje) se izraelská Shin Bet účastní výslechu druhého pilota FZ1073 v SAE. Zdroje z výslechu uvádějí motiv pomsty za Gazu a záložní plán srazit letadlo na americkou základnu v Jordánsku; Izrael stále zjišťuje, zda jednal sám, nebo byl napojen na organizaci či Írán. Nezávisle neověřeno úřady SAE. (Zdroj: Jerusalem Post)</description>
+    </item>
     <item>
       <title>[Média] Khaleej Times: shrnutí průběhu FZ1073 – útočníka údajně spoutali šňůrou od sluchátek a stahovacími páskami</title>
       <link>https://www.khaleejtimes.com/business/aviation/what-really-happened-flydubai-fz1073-terror-attack</link>

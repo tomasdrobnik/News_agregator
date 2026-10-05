@@ -6,8 +6,24 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 16:13:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 19:12:28 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Jerusalem Post: FZ1073 passengers describe an hour and a half of uncertainty after the pilot was subdued</title>
+      <link>https://www.jpost.com/israel-news/article-910682</link>
+      <guid isPermaLink="false">fz1073-u085</guid>
+      <pubDate>Mon, 05 Oct 2026 19:12:28 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] JPost (read directly) carries passenger accounts: after the co-pilot was subdued they did not know where they were heading and distrusted the crew, including the reserve pilots in the cockpit; they learned of Saudi Arabia only shortly before landing. These are subjective accounts, not verified facts about the flight; the figure of 182 people on board differs from other sources. (Source: Jerusalem Post)</description>
+    </item>
+    <item>
+      <title>[Media] Jerusalem Post: Shin Bet reportedly takes part in UAE interrogation of the co-pilot</title>
+      <link>https://www.jpost.com/israel-news/article-910702</link>
+      <guid isPermaLink="false">fz1073-u084</guid>
+      <pubDate>Mon, 05 Oct 2026 19:12:28 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to JPost (read directly; citing unnamed sources), Israel's Shin Bet is taking part in the UAE interrogation of the FZ1073 co-pilot. Sources from the interrogation cite revenge for Gaza as the motive and a backup plan to crash the plane into a US base in Jordan; Israel is still trying to establish whether he acted alone or was linked to an organisation or Iran. Not independently verified by UAE authorities. (Source: Jerusalem Post)</description>
+    </item>
     <item>
       <title>[Media] Khaleej Times: FZ1073 recap – attacker reportedly restrained with a headphone cord and zip ties</title>
       <link>https://www.khaleejtimes.com/business/aviation/what-really-happened-flydubai-fz1073-terror-attack</link>

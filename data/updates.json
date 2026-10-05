@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-05T16:13:00Z",
-    "next_check": "2026-10-05T17:13:00Z",
-    "new_count": 1
+    "last_check": "2026-10-05T19:12:28Z",
+    "next_check": "2026-10-05T20:12:28Z",
+    "new_count": 2
   },
   "updates": [
     {
@@ -2020,6 +2020,48 @@
         "en": {
           "title": "Khaleej Times: FZ1073 recap – attacker reportedly restrained with a headphone cord and zip ties",
           "text": "Khaleej Times (read directly on 5 Oct) summarises that the second pilot attacked the captain with a crash axe and tried to take over the controls; passengers and crew reportedly restrained him with a headphone cord and zip ties, and the aircraft landed at Tabuk. It also mentions the UAE Attorney-General's 3 Oct conclusion that it was a terrorist act. This is an editorial recap of already-reported claims, not a new official source."
+        }
+      }
+    },
+    {
+      "id": "u084",
+      "found_at": "2026-10-05T19:12:28Z",
+      "published_at": "2026-10-05T18:05:00Z",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-910702",
+      "title": "Jerusalem Post: Shin Bet se podle zdrojů účastní výslechu druhého pilota v SAE",
+      "text": "Podle JPost (přímo přečteno; odvoláva se na nejmenované zdroje) se izraelská Shin Bet účastní výslechu druhého pilota FZ1073 v SAE. Zdroje z výslechu uvádějí motiv pomsty za Gazu a záložní plán srazit letadlo na americkou základnu v Jordánsku; Izrael stále zjišťuje, zda jednal sám, nebo byl napojen na organizaci či Írán. Nezávisle neověřeno úřady SAE.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Jerusalem Post: Shin Bet sa podľa zdrojov zúčastňuje na výsluchu druhého pilota v SAE",
+          "text": "Podľa JPost (priamo prečítané; odvoláva sa na nemenované zdroje) sa izraelská Shin Bet zúčastňuje na výsluchu druhého pilota FZ1073 v SAE. Zdroje z výsluchu uvádzajú motív pomsty za Gazu a záložný plán zrútiť lietadlo na americkú základňu v Jordánsku; Izrael stále zisťuje, či konal sám, alebo bol napojený na organizáciu či Irán. Nezávisle neoverené úradmi SAE."
+        },
+        "en": {
+          "title": "Jerusalem Post: Shin Bet reportedly takes part in UAE interrogation of the co-pilot",
+          "text": "According to JPost (read directly; citing unnamed sources), Israel's Shin Bet is taking part in the UAE interrogation of the FZ1073 co-pilot. Sources from the interrogation cite revenge for Gaza as the motive and a backup plan to crash the plane into a US base in Jordan; Israel is still trying to establish whether he acted alone or was linked to an organisation or Iran. Not independently verified by UAE authorities."
+        }
+      }
+    },
+    {
+      "id": "u085",
+      "found_at": "2026-10-05T19:12:28Z",
+      "published_at": "2026-10-05T15:03:00Z",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-910682",
+      "title": "Jerusalem Post: cestující FZ1073 popisují hodinu a půl nejistoty po zneškodnění pilota",
+      "text": "JPost (přímo přečteno) přináší svědectví cestujících: po zneškodnění druhého pilota nevěděli, kam letí, a nedůvěřovali posádce včetně záložních pilotů v kokpitu; zprávu o Saúdské Arábii dostali až krátce před přistáním. Jde o subjektivní výpovědi, ne o ověřená fakta o průběhu letu; údaj o 182 osobách na palubě se liší od jiných zdrojů.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Jerusalem Post: cestujúci FZ1073 opisujú hodinu a pol neistoty po zneškodnení pilota",
+          "text": "JPost (priamo prečítané) prináša svedectvá cestujúcich: po zneškodnení druhého pilota nevedeli, kam letia, a neverili posádke vrátane záložných pilotov v kokpite; správu o Saudskej Arábii dostali až krátko pred pristátím. Ide o subjektívne výpovede, nie o overené fakty o priebehu letu; údaj o 182 osobách na palube sa líši od iných zdrojov."
+        },
+        "en": {
+          "title": "Jerusalem Post: FZ1073 passengers describe an hour and a half of uncertainty after the pilot was subdued",
+          "text": "JPost (read directly) carries passenger accounts: after the co-pilot was subdued they did not know where they were heading and distrusted the crew, including the reserve pilots in the cockpit; they learned of Saudi Arabia only shortly before landing. These are subjective accounts, not verified facts about the flight; the figure of 182 people on board differs from other sources."
         }
       }
     }
