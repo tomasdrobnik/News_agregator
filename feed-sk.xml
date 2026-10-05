@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:11:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 03:13:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] ABC (Austrália): izraelské médiá – druhý pilot FZ1073 mal údajne plánovať zrútiť lietadlo na letisko Ben Gurion</title>
+      <link>https://www.abc.net.au/news/2026-10-05/flydubai-pilot-planned-to-crash-plane-into-ben-gurion-airport/107228592</link>
+      <guid isPermaLink="false">fz1073-u078</guid>
+      <pubDate>Mon, 05 Oct 2026 03:13:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa ABC News (článok priamo prečítaný), ktoré sa odvoláva na izraelské médiá, mal druhý pilot útok plánovať mesiace a cieľom bolo letisko Ben Gurion, záložným cieľom údajne americká základňa v Jordánsku. Ide o tvrdenia izraelských médií, oficiálne neoverené úradmi SAE ani KSA; vyšetrovanie vedie SAE a austrálska polícia preveruje pilotove väzby na Austráliu. Súvisí s u073 a u075. (Zdroj: ABC News (Australia))</description>
+    </item>
     <item>
       <title>[Médiá] Al Jazeera: ako mohol byť druhý pilot FZ1073 prijatý, hoci bol predtým označený za bezpečnostné riziko</title>
       <link>https://www.aljazeera.com/news/2026/10/4/how-was-flydubai-co-pilot-cleared-despite-being-deemed-a-security-risk</link>

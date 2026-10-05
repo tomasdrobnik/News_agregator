@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:11:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 03:13:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] ABC (Australia): Israeli media – FZ1073 first officer reportedly planned to crash the plane into Ben Gurion Airport</title>
+      <link>https://www.abc.net.au/news/2026-10-05/flydubai-pilot-planned-to-crash-plane-into-ben-gurion-airport/107228592</link>
+      <guid isPermaLink="false">fz1073-u078</guid>
+      <pubDate>Mon, 05 Oct 2026 03:13:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to ABC News (article read directly), citing Israeli media, the first officer allegedly planned the attack for months, targeting Ben Gurion Airport, with a US base in Jordan reportedly the fallback target. These are Israeli media claims, not officially confirmed by UAE or KSA authorities; the UAE leads the investigation and Australian police are examining his links to Australia. Related to u073 and u075. (Source: ABC News (Australia))</description>
+    </item>
     <item>
       <title>[Media] Al Jazeera: how the FZ1073 co-pilot was hired despite an earlier security flag</title>
       <link>https://www.aljazeera.com/news/2026/10/4/how-was-flydubai-co-pilot-cleared-despite-being-deemed-a-security-risk</link>
