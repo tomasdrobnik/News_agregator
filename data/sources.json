@@ -477,6 +477,15 @@
       "added_at": "2026-10-05T11:11:08Z",
       "active": true,
       "note": "Arabská redakce Al Jazeery; článek o bezpečnostních mezerách kolem FZ1073 přečten přímo přes WebFetch."
+    },
+    {
+      "name": "PBS NewsHour (AP)",
+      "url": "https://www.pbs.org/newshour",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-06T22:11:15Z",
+      "active": true,
+      "note": "Přebírá zprávy agentury AP a NPR; přímé čtení přes WebFetch OK (test 2026-10-06T22:11:15Z)"
     }
   ]
 }

@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 03:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 22:11:15 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] AP (via PBS): UAE shared FZ1073 crew and passenger details with Israel in advance</title>
+      <link>https://www.pbs.org/newshour/world/ap-report-uae-had-shared-details-about-flydubai-flight-with-israel-including-pilots-names-and-nationalities</link>
+      <guid isPermaLink="false">fz1073-u088</guid>
+      <pubDate>Tue, 06 Oct 2026 22:11:15 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to an AP report read directly on PBS, the UAE gave Israeli authorities passenger and crew details, including nationalities, in advance, and Israel raised no security concerns about them. AP also says Oman had earlier barred the co-pilot from flying over extremism concerns; security lapses are being investigated. This is a media report; no official confirmation from authorities was read; it supplements entries u084 and u086. (Source: PBS NewsHour (AP))</description>
+    </item>
     <item>
       <title>[Unconfirmed] Euronews: onboard FZ1073 video filmed by an Israeli passenger</title>
       <link>https://www.euronews.com/video/2026/10/01/onboard-videos-show-chaotic-scenes-on-flydubai-flight</link>

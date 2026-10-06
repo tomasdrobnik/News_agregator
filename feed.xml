@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Tue, 06 Oct 2026 03:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 22:11:15 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] AP (přes PBS): SAE sdílely s Izraelem údaje o posádce a cestujících FZ1073 předem</title>
+      <link>https://www.pbs.org/newshour/world/ap-report-uae-had-shared-details-about-flydubai-flight-with-israel-including-pilots-names-and-nationalities</link>
+      <guid isPermaLink="false">fz1073-u088</guid>
+      <pubDate>Tue, 06 Oct 2026 22:11:15 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle zprávy agentury AP, přímo přečtené na webu PBS, poskytly SAE izraelským úřadům předem údaje o cestujících a posádce včetně národností a Izrael k nim nevznesl bezpečnostní výhrady. AP dále uvádí, že Omán druhému pilotovi dříve zakázal létat kvůli obavám z extremismu; vyšetřovány jsou bezpečnostní mezery. Jde o zprávu médií, oficiální potvrzení úřadů nebylo čteno; doplňuje záznamy u084 a u086. (Zdroj: PBS NewsHour (AP))</description>
+    </item>
     <item>
       <title>[Neověřeno] Euronews: video z paluby FZ1073 natočené izraelským cestujícím</title>
       <link>https://www.euronews.com/video/2026/10/01/onboard-videos-show-chaotic-scenes-on-flydubai-flight</link>

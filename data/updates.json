@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-06T03:11:00Z",
-    "next_check": "2026-10-06T04:11:00Z",
+    "last_check": "2026-10-06T22:11:15Z",
+    "next_check": "2026-10-06T23:11:15Z",
     "new_count": 1
   },
   "updates": [
@@ -2120,6 +2120,27 @@
         "en": {
           "title": "Euronews: onboard FZ1073 video filmed by an Israeli passenger",
           "text": "According to the Euronews page (read directly), the outlet published a video in which an Israeli passenger filmed panic on board after the alleged cockpit attack, before the emergency landing in Tabuk. It is amateur footage; neither Euronews nor the maintainer has verified its authenticity or circumstances, hence status unconfirmed. The scene may be disturbing."
+        }
+      }
+    },
+    {
+      "id": "u088",
+      "found_at": "2026-10-06T22:11:15Z",
+      "published_at": "2026-10-04T00:00:00Z",
+      "source": "PBS NewsHour (AP)",
+      "url": "https://www.pbs.org/newshour/world/ap-report-uae-had-shared-details-about-flydubai-flight-with-israel-including-pilots-names-and-nationalities",
+      "title": "AP (přes PBS): SAE sdílely s Izraelem údaje o posádce a cestujících FZ1073 předem",
+      "text": "Podle zprávy agentury AP, přímo přečtené na webu PBS, poskytly SAE izraelským úřadům předem údaje o cestujících a posádce včetně národností a Izrael k nim nevznesl bezpečnostní výhrady. AP dále uvádí, že Omán druhému pilotovi dříve zakázal létat kvůli obavám z extremismu; vyšetřovány jsou bezpečnostní mezery. Jde o zprávu médií, oficiální potvrzení úřadů nebylo čteno; doplňuje záznamy u084 a u086.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "AP (cez PBS): SAE zdieľali s Izraelom údaje o posádke a cestujúcich FZ1073 vopred",
+          "text": "Podľa správy agentúry AP, priamo prečítanej na webe PBS, poskytli SAE izraelským úradom vopred údaje o cestujúcich a posádke vrátane národností a Izrael k nim nevzniesol bezpečnostné výhrady. AP ďalej uvádza, že Omán druhému pilotovi predtým zakázal lietať kvôli obavám z extrémizmu; vyšetrujú sa bezpečnostné medzery. Ide o správu médií, oficiálne potvrdenie úradov nebolo čítané; dopĺňa záznamy u084 a u086."
+        },
+        "en": {
+          "title": "AP (via PBS): UAE shared FZ1073 crew and passenger details with Israel in advance",
+          "text": "According to an AP report read directly on PBS, the UAE gave Israeli authorities passenger and crew details, including nationalities, in advance, and Israel raised no security concerns about them. AP also says Oman had earlier barred the co-pilot from flying over extremism concerns; security lapses are being investigated. This is a media report; no official confirmation from authorities was read; it supplements entries u084 and u086."
         }
       }
     }
