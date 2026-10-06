@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-05T19:12:28Z",
-    "next_check": "2026-10-05T20:12:28Z",
-    "new_count": 2
+    "last_check": "2026-10-06T00:12:30Z",
+    "next_check": "2026-10-06T01:12:30Z",
+    "new_count": 1
   },
   "updates": [
     {
@@ -2062,6 +2062,27 @@
         "en": {
           "title": "Jerusalem Post: FZ1073 passengers describe an hour and a half of uncertainty after the pilot was subdued",
           "text": "JPost (read directly) carries passenger accounts: after the co-pilot was subdued they did not know where they were heading and distrusted the crew, including the reserve pilots in the cockpit; they learned of Saudi Arabia only shortly before landing. These are subjective accounts, not verified facts about the flight; the figure of 182 people on board differs from other sources."
+        }
+      }
+    },
+    {
+      "id": "u086",
+      "found_at": "2026-10-06T00:12:30Z",
+      "published_at": "2026-10-02T22:19:08Z",
+      "source": "Ynetnews",
+      "url": "https://www.ynetnews.com/article/hyah2op9fe",
+      "title": "Ynetnews (cituje WSJ): Omán druhého pilota dříve uzemnil kvůli obavám z radikalizace",
+      "text": "Ynetnews (přímo přečteno) s odkazem na deník Wall Street Journal a nejmenované zdroje uvádí, že ománské úřady druhému pilotovi dříve zakázaly létat kvůli obavám z radikalizace, přesto ho flydubai najal. Jde o zprostředkované tvrzení anonymních zdrojů, které úřady SAE ani Ománu nepotvrdily; upřesňuje a doplňuje dřívější záznam u059 (Mako, jen titulek).",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Ynetnews (cituje WSJ): Omán druhého pilota predtým uzemnil kvôli obavám z radikalizácie",
+          "text": "Ynetnews (priamo prečítané) s odkazom na denník Wall Street Journal a nemenované zdroje uvádza, že ománske úrady druhému pilotovi predtým zakázali lietať kvôli obavám z radikalizácie, napriek tomu ho flydubai najal. Ide o sprostredkované tvrdenie anonymných zdrojov, ktoré úrady SAE ani Ománu nepotvrdili; spresňuje a dopĺňa skorší záznam u059 (Mako, len titulok)."
+        },
+        "en": {
+          "title": "Ynetnews (citing WSJ): Oman earlier grounded the co-pilot over radicalization concerns",
+          "text": "Ynetnews (read directly), citing the Wall Street Journal and unnamed sources, reports that Omani authorities had earlier barred the co-pilot from flying over radicalization concerns, yet flydubai hired him. This is a secondhand claim from anonymous sources, not confirmed by UAE or Omani authorities; it refines and supplements the earlier entry u059 (Mako, headline only)."
         }
       }
     }

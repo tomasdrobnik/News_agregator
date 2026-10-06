@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Mon, 05 Oct 2026 19:12:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 00:12:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Ynetnews (cituje WSJ): Omán druhého pilota predtým uzemnil kvôli obavám z radikalizácie</title>
+      <link>https://www.ynetnews.com/article/hyah2op9fe</link>
+      <guid isPermaLink="false">fz1073-u086</guid>
+      <pubDate>Tue, 06 Oct 2026 00:12:30 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Ynetnews (priamo prečítané) s odkazom na denník Wall Street Journal a nemenované zdroje uvádza, že ománske úrady druhému pilotovi predtým zakázali lietať kvôli obavám z radikalizácie, napriek tomu ho flydubai najal. Ide o sprostredkované tvrdenie anonymných zdrojov, ktoré úrady SAE ani Ománu nepotvrdili; spresňuje a dopĺňa skorší záznam u059 (Mako, len titulok). (Zdroj: Ynetnews)</description>
+    </item>
     <item>
       <title>[Médiá] Jerusalem Post: cestujúci FZ1073 opisujú hodinu a pol neistoty po zneškodnení pilota</title>
       <link>https://www.jpost.com/israel-news/article-910682</link>

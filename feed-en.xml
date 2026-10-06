@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 19:12:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 00:12:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Ynetnews (citing WSJ): Oman earlier grounded the co-pilot over radicalization concerns</title>
+      <link>https://www.ynetnews.com/article/hyah2op9fe</link>
+      <guid isPermaLink="false">fz1073-u086</guid>
+      <pubDate>Tue, 06 Oct 2026 00:12:30 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Ynetnews (read directly), citing the Wall Street Journal and unnamed sources, reports that Omani authorities had earlier barred the co-pilot from flying over radicalization concerns, yet flydubai hired him. This is a secondhand claim from anonymous sources, not confirmed by UAE or Omani authorities; it refines and supplements the earlier entry u059 (Mako, headline only). (Source: Ynetnews)</description>
+    </item>
     <item>
       <title>[Media] Jerusalem Post: FZ1073 passengers describe an hour and a half of uncertainty after the pilot was subdued</title>
       <link>https://www.jpost.com/israel-news/article-910682</link>
