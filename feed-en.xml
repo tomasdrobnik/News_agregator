@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:12:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 03:11:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Euronews: onboard FZ1073 video filmed by an Israeli passenger</title>
+      <link>https://www.euronews.com/video/2026/10/01/onboard-videos-show-chaotic-scenes-on-flydubai-flight</link>
+      <guid isPermaLink="false">fz1073-u087</guid>
+      <pubDate>Tue, 06 Oct 2026 03:11:00 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to the Euronews page (read directly), the outlet published a video in which an Israeli passenger filmed panic on board after the alleged cockpit attack, before the emergency landing in Tabuk. It is amateur footage; neither Euronews nor the maintainer has verified its authenticity or circumstances, hence status unconfirmed. The scene may be disturbing. (Source: Euronews)&lt;br&gt;&lt;a href="https://www.euronews.com/video/2026/10/01/onboard-videos-show-chaotic-scenes-on-flydubai-flight"&gt;Video: Onboard FZ1073 video filmed by a passenger, published by Euronews on 1 Oct 2026&lt;/a&gt; (Euronews / izraelský cestující (jméno ve zdroji neuvedeno), via Euronews)</description>
+    </item>
     <item>
       <title>[Media] Ynetnews (citing WSJ): Oman earlier grounded the co-pilot over radicalization concerns</title>
       <link>https://www.ynetnews.com/article/hyah2op9fe</link>

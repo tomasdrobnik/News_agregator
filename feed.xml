@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:12:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 03:11:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Euronews: video z paluby FZ1073 natočené izraelským cestujícím</title>
+      <link>https://www.euronews.com/video/2026/10/01/onboard-videos-show-chaotic-scenes-on-flydubai-flight</link>
+      <guid isPermaLink="false">fz1073-u087</guid>
+      <pubDate>Tue, 06 Oct 2026 03:11:00 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle přímo přečtené stránky Euronews zveřejnil server video, na kterém izraelský cestující natočil paniku na palubě po údajném útoku v kokpitu před nouzovým přistáním v Tabuku. Jde o amatérský záběr; jeho autenticitu ani okolnosti natáčení Euronews ani správce neověřil, proto status unconfirmed. Zobrazená scéna může být rušivá. (Zdroj: Euronews)&lt;br&gt;&lt;a href="https://www.euronews.com/video/2026/10/01/onboard-videos-show-chaotic-scenes-on-flydubai-flight"&gt;Video: Video z paluby FZ1073 natočené cestujícím, zveřejněné Euronews 1. 10. 2026&lt;/a&gt; (Euronews / izraelský cestující (jméno ve zdroji neuvedeno), via Euronews)</description>
+    </item>
     <item>
       <title>[Média] Ynetnews (cituje WSJ): Omán druhého pilota dříve uzemnil kvůli obavám z radikalizace</title>
       <link>https://www.ynetnews.com/article/hyah2op9fe</link>
