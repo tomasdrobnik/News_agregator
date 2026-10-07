@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 05:11:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 07:11:37 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Data] FlightAware: FDB1073 – Oct 1 and 2 flights cancelled, next one now listed as scheduled only for Oct 8</title>
+      <link>https://www.flightaware.com/live/flight/FDB1073/history</link>
+      <guid isPermaLink="false">fz1073-u090</guid>
+      <pubDate>Wed, 07 Oct 2026 07:11:37 +0000</pubDate>
+      <category>Data</category>
+      <description>[Data] According to the directly read FlightAware flight history, the FDB1073 Dubai–Tel Aviv flights of Oct 1 and 2 are shown as cancelled and the next one is now listed as scheduled only for Oct 8 (B39M); the Oct 4 and 5 dates mentioned in u068 no longer appear. This is schedule data only, not confirmation that the flight will operate; according to earlier sources flydubai suspended flights to Israel. (Source: FlightAware)</description>
+    </item>
     <item>
       <title>[Media] Israeli airlines seek to resume Dubai flights after the FZ1073 incident</title>
       <link>https://www.al-monitor.com/originals/2026/10/israeli-airlines-plan-resume-dubai-flights-after-flydubai-incident</link>

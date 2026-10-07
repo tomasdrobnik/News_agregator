@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-07T05:11:23Z",
-    "next_check": "2026-10-07T06:11:23Z",
+    "last_check": "2026-10-07T07:11:37Z",
+    "next_check": "2026-10-07T08:11:37Z",
     "new_count": 1
   },
   "updates": [
@@ -2161,6 +2161,26 @@
         "en": {
           "title": "Israeli airlines seek to resume Dubai flights after the FZ1073 incident",
           "text": "According to the directly read Al-Monitor article (wire text, by Steven Scheer, Oct 1), El Al, Israir and Arkia asked for permission to resume service to Dubai; El Al is aiming for at least two daily flights from November. This concerns the airlines' operations and brings no new information on the cause of the incident."
+        }
+      }
+    },
+    {
+      "id": "u090",
+      "found_at": "2026-10-07T07:11:37Z",
+      "published_at": null,
+      "source": "FlightAware",
+      "url": "https://www.flightaware.com/live/flight/FDB1073/history",
+      "title": "FlightAware: FDB1073 – zrušeny lety 1. a 2. 10., nyní je jako plánovaný uveden až 8. 10.",
+      "text": "Podle přímo přečtené historie letu na FlightAware jsou spoje FDB1073 Dubaj–Tel Aviv z 1. a 2. 10. vedeny jako zrušené a jako plánovaný je nově uveden až 8. 10. (B39M); termíny 4. a 5. 10. zmíněné v u068 už v přehledu nejsou. Jde jen o rozvrhová data, ne o potvrzení, že let proběhne; flydubai podle dřívějších zdrojů lety do Izraele pozastavilo.",
+      "status": "data",
+      "i18n": {
+        "sk": {
+          "title": "FlightAware: FDB1073 – zrušené lety 1. a 2. 10., teraz je ako plánovaný uvedený až 8. 10.",
+          "text": "Podľa priamo prečítanej histórie letu na FlightAware sú spoje FDB1073 Dubaj–Tel Aviv z 1. a 2. 10. vedené ako zrušené a ako plánovaný je novo uvedený až 8. 10. (B39M); termíny 4. a 5. 10. spomenuté v u068 už v prehľade nie sú. Ide len o rozvrhové údaje, nie o potvrdenie, že let prebehne; flydubai podľa skorších zdrojov lety do Izraela pozastavilo."
+        },
+        "en": {
+          "title": "FlightAware: FDB1073 – Oct 1 and 2 flights cancelled, next one now listed as scheduled only for Oct 8",
+          "text": "According to the directly read FlightAware flight history, the FDB1073 Dubai–Tel Aviv flights of Oct 1 and 2 are shown as cancelled and the next one is now listed as scheduled only for Oct 8 (B39M); the Oct 4 and 5 dates mentioned in u068 no longer appear. This is schedule data only, not confirmation that the flight will operate; according to earlier sources flydubai suspended flights to Israel."
         }
       }
     }

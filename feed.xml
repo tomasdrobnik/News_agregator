@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 07 Oct 2026 05:11:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 07:11:37 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Data] FlightAware: FDB1073 – zrušeny lety 1. a 2. 10., nyní je jako plánovaný uveden až 8. 10.</title>
+      <link>https://www.flightaware.com/live/flight/FDB1073/history</link>
+      <guid isPermaLink="false">fz1073-u090</guid>
+      <pubDate>Wed, 07 Oct 2026 07:11:37 +0000</pubDate>
+      <category>Data</category>
+      <description>[Data] Podle přímo přečtené historie letu na FlightAware jsou spoje FDB1073 Dubaj–Tel Aviv z 1. a 2. 10. vedeny jako zrušené a jako plánovaný je nově uveden až 8. 10. (B39M); termíny 4. a 5. 10. zmíněné v u068 už v přehledu nejsou. Jde jen o rozvrhová data, ne o potvrzení, že let proběhne; flydubai podle dřívějších zdrojů lety do Izraele pozastavilo. (Zdroj: FlightAware)</description>
+    </item>
     <item>
       <title>[Média] Izraelské aerolinky žádají o obnovení letů do Dubaje po incidentu FZ1073</title>
       <link>https://www.al-monitor.com/originals/2026/10/israeli-airlines-plan-resume-dubai-flights-after-flydubai-incident</link>
