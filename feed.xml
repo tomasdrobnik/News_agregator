@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 07 Oct 2026 11:11:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 22:11:14 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Khaleej Times: GCAA uvádí 37 náhradních letů do Tel Avivu se 7 479 cestujícími</title>
+      <link>https://www.khaleejtimes.com/uae/uae-transfers-passengers-tel-aviv-flydubai-flight-suspension-gcaa</link>
+      <guid isPermaLink="false">fz1073-u092</guid>
+      <pubDate>Wed, 07 Oct 2026 22:11:14 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle článku (přímo přečten) GCAA v prohlášení z 5. 10. uvedla, že od 2. 10. odletělo z Dubaje do Tel Avivu 37 letů s 7 479 cestujícími a uvízlí cestující se vrátili domů. Jde o převoz cestujících po pozastavení linek flydubai; k příčině incidentu článek nic nového neuvádí. Prohlášení GCAA jsme přímo na jejím webu nečetli. (Zdroj: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Neověřeno] Sunday Guardian: Izrael údajně odmítl žádost flydubai o obnovení letů do Tel Avivu</title>
       <link>https://sundayguardianlive.com/world/flydubai-fz1073-latest-news-israel-rejects-request-to-resume-dubai-tel-aviv-flights-after-co-pilot-attack-heres-why-300709</link>

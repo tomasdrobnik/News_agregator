@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 11:11:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 22:11:14 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Khaleej Times: GCAA says 37 replacement flights carried 7,479 passengers to Tel Aviv</title>
+      <link>https://www.khaleejtimes.com/uae/uae-transfers-passengers-tel-aviv-flydubai-flight-suspension-gcaa</link>
+      <guid isPermaLink="false">fz1073-u092</guid>
+      <pubDate>Wed, 07 Oct 2026 22:11:14 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the article (read directly), the GCAA said in a 5 Oct statement that 37 flights flew from Dubai to Tel Aviv since 2 Oct carrying 7,479 passengers, and stranded travellers had returned home. This concerns moving passengers after flydubai's suspension of the route; the article adds nothing new on the cause. We did not read the GCAA statement directly on its own site. (Source: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Unconfirmed] Sunday Guardian: Israel reportedly rejects flydubai request to resume Tel Aviv flights</title>
       <link>https://sundayguardianlive.com/world/flydubai-fz1073-latest-news-israel-rejects-request-to-resume-dubai-tel-aviv-flights-after-co-pilot-attack-heres-why-300709</link>

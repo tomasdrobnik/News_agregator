@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-07T11:11:57Z",
-    "next_check": "2026-10-07T12:11:57Z",
+    "last_check": "2026-10-07T22:11:14Z",
+    "next_check": "2026-10-07T23:11:14Z",
     "new_count": 1
   },
   "updates": [
@@ -2201,6 +2201,27 @@
         "en": {
           "title": "Sunday Guardian: Israel reportedly rejects flydubai request to resume Tel Aviv flights",
           "text": "According to the directly read article, Transport Minister Regev rejected flydubai's request to restart the Dubai–Tel Aviv route; flydubai reportedly told Israeli officials it had completed its own investigation and dismissed some employees. This is a single source; no other outlet or official statement has confirmed it yet. The article also mentions stricter screening of foreign crews under consideration."
+        }
+      }
+    },
+    {
+      "id": "u092",
+      "found_at": "2026-10-07T22:11:14Z",
+      "published_at": "2026-10-05T17:53:00Z",
+      "source": "Khaleej Times",
+      "url": "https://www.khaleejtimes.com/uae/uae-transfers-passengers-tel-aviv-flydubai-flight-suspension-gcaa",
+      "title": "Khaleej Times: GCAA uvádí 37 náhradních letů do Tel Avivu se 7 479 cestujícími",
+      "text": "Podle článku (přímo přečten) GCAA v prohlášení z 5. 10. uvedla, že od 2. 10. odletělo z Dubaje do Tel Avivu 37 letů s 7 479 cestujícími a uvízlí cestující se vrátili domů. Jde o převoz cestujících po pozastavení linek flydubai; k příčině incidentu článek nic nového neuvádí. Prohlášení GCAA jsme přímo na jejím webu nečetli.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Khaleej Times: GCAA uvádza 37 náhradných letov do Tel Avivu so 7 479 cestujúcimi",
+          "text": "Podľa článku (priamo prečítaný) GCAA v vyhlásení z 5. 10. uviedla, že od 2. 10. odletelo z Dubaja do Tel Avivu 37 letov so 7 479 cestujúcimi a uviaznutí cestujúci sa vrátili domov. Ide o prevoz cestujúcich po pozastavení liniek flydubai; k príčine incidentu článok nič nové neuvádza. Vyhlásenie GCAA sme priamo na jej webe nečítali."
+        },
+        "en": {
+          "title": "Khaleej Times: GCAA says 37 replacement flights carried 7,479 passengers to Tel Aviv",
+          "text": "According to the article (read directly), the GCAA said in a 5 Oct statement that 37 flights flew from Dubai to Tel Aviv since 2 Oct carrying 7,479 passengers, and stranded travellers had returned home. This concerns moving passengers after flydubai's suspension of the route; the article adds nothing new on the cause. We did not read the GCAA statement directly on its own site."
         }
       }
     }
