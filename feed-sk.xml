@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Tue, 06 Oct 2026 22:11:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 05:11:23 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Izraelské aerolínie žiadajú o obnovenie letov do Dubaja po incidente FZ1073</title>
+      <link>https://www.al-monitor.com/originals/2026/10/israeli-airlines-plan-resume-dubai-flights-after-flydubai-incident</link>
+      <guid isPermaLink="false">fz1073-u089</guid>
+      <pubDate>Wed, 07 Oct 2026 05:11:23 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa priamo prečítaného článku Al-Monitor (agentúrny text, autor Steven Scheer, 1. 10.) El Al, Israir a Arkia požiadali o povolenie obnoviť prevádzku do Dubaja; El Al mieri na najmenej dva denné lety od novembra. Ide o záležitosť aerolínií a neprináša nové informácie o príčine incidentu. (Zdroj: Al-Monitor (agenturní zpráva))</description>
+    </item>
     <item>
       <title>[Médiá] AP (cez PBS): SAE zdieľali s Izraelom údaje o posádke a cestujúcich FZ1073 vopred</title>
       <link>https://www.pbs.org/newshour/world/ap-report-uae-had-shared-details-about-flydubai-flight-with-israel-including-pilots-names-and-nationalities</link>

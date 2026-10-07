@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-06T22:11:15Z",
-    "next_check": "2026-10-06T23:11:15Z",
+    "last_check": "2026-10-07T05:11:23Z",
+    "next_check": "2026-10-07T06:11:23Z",
     "new_count": 1
   },
   "updates": [
@@ -2141,6 +2141,26 @@
         "en": {
           "title": "AP (via PBS): UAE shared FZ1073 crew and passenger details with Israel in advance",
           "text": "According to an AP report read directly on PBS, the UAE gave Israeli authorities passenger and crew details, including nationalities, in advance, and Israel raised no security concerns about them. AP also says Oman had earlier barred the co-pilot from flying over extremism concerns; security lapses are being investigated. This is a media report; no official confirmation from authorities was read; it supplements entries u084 and u086."
+        }
+      }
+    },
+    {
+      "id": "u089",
+      "found_at": "2026-10-07T05:11:23Z",
+      "published_at": "2026-10-01T00:00:00Z",
+      "source": "Al-Monitor (agenturní zpráva)",
+      "url": "https://www.al-monitor.com/originals/2026/10/israeli-airlines-plan-resume-dubai-flights-after-flydubai-incident",
+      "title": "Izraelské aerolinky žádají o obnovení letů do Dubaje po incidentu FZ1073",
+      "text": "Podle přímo přečteného článku Al-Monitor (agenturní text, autor Steven Scheer, 1. 10.) El Al, Israir a Arkia požádaly o povolení obnovit provoz do Dubaje; El Al míří na nejméně dva denní lety od listopadu. Jde o záležitost aerolinek a nepřináší nové informace o příčině incidentu.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Izraelské aerolínie žiadajú o obnovenie letov do Dubaja po incidente FZ1073",
+          "text": "Podľa priamo prečítaného článku Al-Monitor (agentúrny text, autor Steven Scheer, 1. 10.) El Al, Israir a Arkia požiadali o povolenie obnoviť prevádzku do Dubaja; El Al mieri na najmenej dva denné lety od novembra. Ide o záležitosť aerolínií a neprináša nové informácie o príčine incidentu."
+        },
+        "en": {
+          "title": "Israeli airlines seek to resume Dubai flights after the FZ1073 incident",
+          "text": "According to the directly read Al-Monitor article (wire text, by Steven Scheer, Oct 1), El Al, Israir and Arkia asked for permission to resume service to Dubai; El Al is aiming for at least two daily flights from November. This concerns the airlines' operations and brings no new information on the cause of the incident."
         }
       }
     }

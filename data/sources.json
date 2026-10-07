@@ -486,6 +486,15 @@
       "added_at": "2026-10-06T22:11:15Z",
       "active": true,
       "note": "Přebírá zprávy agentury AP a NPR; přímé čtení přes WebFetch OK (test 2026-10-06T22:11:15Z)"
+    },
+    {
+      "name": "Al-Monitor",
+      "url": "https://www.al-monitor.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-07T05:11:23Z",
+      "active": true,
+      "note": "Zpravodajský web publikující agenturní zprávy (např. Reuters) o dopadech incidentu na letecké spojení Izrael–Perský záliv."
     }
   ]
 }

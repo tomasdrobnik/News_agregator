@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 22:11:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 05:11:23 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Israeli airlines seek to resume Dubai flights after the FZ1073 incident</title>
+      <link>https://www.al-monitor.com/originals/2026/10/israeli-airlines-plan-resume-dubai-flights-after-flydubai-incident</link>
+      <guid isPermaLink="false">fz1073-u089</guid>
+      <pubDate>Wed, 07 Oct 2026 05:11:23 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Al-Monitor article (wire text, by Steven Scheer, Oct 1), El Al, Israir and Arkia asked for permission to resume service to Dubai; El Al is aiming for at least two daily flights from November. This concerns the airlines' operations and brings no new information on the cause of the incident. (Source: Al-Monitor (agenturní zpráva))</description>
+    </item>
     <item>
       <title>[Media] AP (via PBS): UAE shared FZ1073 crew and passenger details with Israel in advance</title>
       <link>https://www.pbs.org/newshour/world/ap-report-uae-had-shared-details-about-flydubai-flight-with-israel-including-pilots-names-and-nationalities</link>
