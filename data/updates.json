@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-07T07:11:37Z",
-    "next_check": "2026-10-07T08:11:37Z",
+    "last_check": "2026-10-07T11:11:57Z",
+    "next_check": "2026-10-07T12:11:57Z",
     "new_count": 1
   },
   "updates": [
@@ -2181,6 +2181,26 @@
         "en": {
           "title": "FlightAware: FDB1073 – Oct 1 and 2 flights cancelled, next one now listed as scheduled only for Oct 8",
           "text": "According to the directly read FlightAware flight history, the FDB1073 Dubai–Tel Aviv flights of Oct 1 and 2 are shown as cancelled and the next one is now listed as scheduled only for Oct 8 (B39M); the Oct 4 and 5 dates mentioned in u068 no longer appear. This is schedule data only, not confirmation that the flight will operate; according to earlier sources flydubai suspended flights to Israel."
+        }
+      }
+    },
+    {
+      "id": "u091",
+      "found_at": "2026-10-07T11:11:57Z",
+      "published_at": "2026-10-07T00:00:00Z",
+      "source": "The Sunday Guardian",
+      "url": "https://sundayguardianlive.com/world/flydubai-fz1073-latest-news-israel-rejects-request-to-resume-dubai-tel-aviv-flights-after-co-pilot-attack-heres-why-300709",
+      "title": "Sunday Guardian: Izrael údajně odmítl žádost flydubai o obnovení letů do Tel Avivu",
+      "text": "Podle přímo přečteného článku ministryně dopravy Regevová zamítla žádost flydubai o obnovení linky Dubaj–Tel Aviv; flydubai prý izraelské úřady informovalo o ukončení vlastního šetření a propuštění některých zaměstnanců. Jde o jediný zdroj, jiná média ani oficiální prohlášení to zatím nepotvrdila; článek zmiňuje i zvažované přísnější prověřování zahraničních posádek.",
+      "status": "unconfirmed",
+      "i18n": {
+        "sk": {
+          "title": "Sunday Guardian: Izrael údajne odmietol žiadosť flydubai o obnovenie letov do Tel Avivu",
+          "text": "Podľa priamo prečítaného článku ministerka dopravy Regevová zamietla žiadosť flydubai o obnovenie linky Dubaj–Tel Aviv; flydubai mal izraelské úrady informovať o ukončení vlastného vyšetrovania a prepustení niektorých zamestnancov. Ide o jediný zdroj, iné médiá ani oficiálne vyhlásenie to zatiaľ nepotvrdili; článok spomína aj zvažované prísnejšie preverovanie zahraničných posádok."
+        },
+        "en": {
+          "title": "Sunday Guardian: Israel reportedly rejects flydubai request to resume Tel Aviv flights",
+          "text": "According to the directly read article, Transport Minister Regev rejected flydubai's request to restart the Dubai–Tel Aviv route; flydubai reportedly told Israeli officials it had completed its own investigation and dismissed some employees. This is a single source; no other outlet or official statement has confirmed it yet. The article also mentions stricter screening of foreign crews under consideration."
         }
       }
     }

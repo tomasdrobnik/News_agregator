@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 07 Oct 2026 07:11:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 11:11:57 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Sunday Guardian: Izrael údajně odmítl žádost flydubai o obnovení letů do Tel Avivu</title>
+      <link>https://sundayguardianlive.com/world/flydubai-fz1073-latest-news-israel-rejects-request-to-resume-dubai-tel-aviv-flights-after-co-pilot-attack-heres-why-300709</link>
+      <guid isPermaLink="false">fz1073-u091</guid>
+      <pubDate>Wed, 07 Oct 2026 11:11:57 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle přímo přečteného článku ministryně dopravy Regevová zamítla žádost flydubai o obnovení linky Dubaj–Tel Aviv; flydubai prý izraelské úřady informovalo o ukončení vlastního šetření a propuštění některých zaměstnanců. Jde o jediný zdroj, jiná média ani oficiální prohlášení to zatím nepotvrdila; článek zmiňuje i zvažované přísnější prověřování zahraničních posádek. (Zdroj: The Sunday Guardian)</description>
+    </item>
     <item>
       <title>[Data] FlightAware: FDB1073 – zrušeny lety 1. a 2. 10., nyní je jako plánovaný uveden až 8. 10.</title>
       <link>https://www.flightaware.com/live/flight/FDB1073/history</link>

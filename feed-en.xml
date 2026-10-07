@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 07:11:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 11:11:57 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Sunday Guardian: Israel reportedly rejects flydubai request to resume Tel Aviv flights</title>
+      <link>https://sundayguardianlive.com/world/flydubai-fz1073-latest-news-israel-rejects-request-to-resume-dubai-tel-aviv-flights-after-co-pilot-attack-heres-why-300709</link>
+      <guid isPermaLink="false">fz1073-u091</guid>
+      <pubDate>Wed, 07 Oct 2026 11:11:57 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to the directly read article, Transport Minister Regev rejected flydubai's request to restart the Dubai–Tel Aviv route; flydubai reportedly told Israeli officials it had completed its own investigation and dismissed some employees. This is a single source; no other outlet or official statement has confirmed it yet. The article also mentions stricter screening of foreign crews under consideration. (Source: The Sunday Guardian)</description>
+    </item>
     <item>
       <title>[Data] FlightAware: FDB1073 – Oct 1 and 2 flights cancelled, next one now listed as scheduled only for Oct 8</title>
       <link>https://www.flightaware.com/live/flight/FDB1073/history</link>
