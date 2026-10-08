@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Thu, 08 Oct 2026 09:11:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 10:12:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Full Fact: virálne video „z okna lietadla FZ1073“ je zavádzajúce</title>
+      <link>https://fullfact.org/world/video-footage-flydubai-flight-misleading/</link>
+      <guid isPermaLink="false">fz1073-u094</guid>
+      <pubDate>Thu, 08 Oct 2026 10:12:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa priamo prečítaného článku Full Fact (2. 10. 2026) video šírené ako zábery z okna lietadla smerujúceho do Izraela ukazuje iný let flydubai nad Dubajom a zvuk pochádza z turbulencie z roku 2022. Klip teda s incidentom FZ1073 nesúvisí a nemožno ho brať ako dokumentáciu udalosti. (Zdroj: Full Fact)</description>
+    </item>
     <item>
       <title>[Médiá] Khaleej Times: zranený kapitán FZ1073 opísal v hovore s indickým premiérom boj o život</title>
       <link>https://www.khaleejtimes.com/asia/india-pm-narendra-modi-speak-injured-flydubai-pilot-smit-machchhar</link>

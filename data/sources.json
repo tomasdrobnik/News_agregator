@@ -504,6 +504,15 @@
       "added_at": "2026-10-07T11:11:57Z",
       "active": true,
       "note": "Indický týdeník; přímo čten, ale jde o jediný zdroj bez potvrzení u dalších médií – záznamy z něj zůstávají unconfirmed."
+    },
+    {
+      "name": "Full Fact",
+      "url": "https://fullfact.org",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-08T10:12:00Z",
+      "active": true,
+      "note": "Britská nezávislá organizace pro ověřování faktů; vyvrací zavádějící videa k FZ1073. Přímo čtena přes WebFetch."
     }
   ]
 }

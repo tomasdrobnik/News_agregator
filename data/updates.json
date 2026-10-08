@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-08T09:11:43Z",
-    "next_check": "2026-10-08T10:11:43Z",
+    "last_check": "2026-10-08T10:12:00Z",
+    "next_check": "2026-10-08T11:12:00Z",
     "new_count": 1
   },
   "updates": [
@@ -2242,6 +2242,26 @@
         "en": {
           "title": "Khaleej Times: injured FZ1073 captain describes fight for his life in call with Indian PM",
           "text": "According to the directly read Khaleej Times article (2 Oct 2026), the captain told the Indian prime minister in a phone call that he fought for his life after the incident and opened the cockpit door despite his wounds. The article embeds a video of the call; this is one person's account, not independently verified, and says nothing on the cause or motive of the incident."
+        }
+      }
+    },
+    {
+      "id": "u094",
+      "found_at": "2026-10-08T10:12:00Z",
+      "published_at": "2026-10-02T00:00:00Z",
+      "source": "Full Fact",
+      "url": "https://fullfact.org/world/video-footage-flydubai-flight-misleading/",
+      "title": "Full Fact: virální video „z okna letadla FZ1073“ je zavádějící",
+      "text": "Podle přímo přečteného článku Full Fact (2. 10. 2026) video šířené jako záběry z okna letadla směřujícího do Izraele ukazuje jiný let flydubai nad Dubají a zvuk pochází z turbulence z roku 2022. Klip tedy s incidentem FZ1073 nesouvisí a nelze ho brát jako dokumentaci události.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Full Fact: virálne video „z okna lietadla FZ1073“ je zavádzajúce",
+          "text": "Podľa priamo prečítaného článku Full Fact (2. 10. 2026) video šírené ako zábery z okna lietadla smerujúceho do Izraela ukazuje iný let flydubai nad Dubajom a zvuk pochádza z turbulencie z roku 2022. Klip teda s incidentom FZ1073 nesúvisí a nemožno ho brať ako dokumentáciu udalosti."
+        },
+        "en": {
+          "title": "Full Fact: viral video 'from the FZ1073 window' is misleading",
+          "text": "According to the directly read Full Fact article (2 Oct 2026), the video shared as footage from the window of the Israel-bound plane shows a different flydubai flight over Dubai, with audio from a 2022 turbulence video. The clip is unrelated to the FZ1073 incident and cannot be treated as documentation of the event."
         }
       }
     }

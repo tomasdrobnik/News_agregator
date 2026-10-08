@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 09:11:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 10:12:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Full Fact: viral video 'from the FZ1073 window' is misleading</title>
+      <link>https://fullfact.org/world/video-footage-flydubai-flight-misleading/</link>
+      <guid isPermaLink="false">fz1073-u094</guid>
+      <pubDate>Thu, 08 Oct 2026 10:12:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Full Fact article (2 Oct 2026), the video shared as footage from the window of the Israel-bound plane shows a different flydubai flight over Dubai, with audio from a 2022 turbulence video. The clip is unrelated to the FZ1073 incident and cannot be treated as documentation of the event. (Source: Full Fact)</description>
+    </item>
     <item>
       <title>[Media] Khaleej Times: injured FZ1073 captain describes fight for his life in call with Indian PM</title>
       <link>https://www.khaleejtimes.com/asia/india-pm-narendra-modi-speak-injured-flydubai-pilot-smit-machchhar</link>
