@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 08 Oct 2026 10:12:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 12:11:17 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Data] FlightAware: další plánovaný let FDB1073 posunut z 8. na 9. 10.</title>
+      <link>https://www.flightaware.com/live/flight/FDB1073/history</link>
+      <guid isPermaLink="false">fz1073-u095</guid>
+      <pubDate>Thu, 08 Oct 2026 12:11:17 +0000</pubDate>
+      <category>Data</category>
+      <description>[Data] Podle přímo přečtené historie na FlightAware jsou lety FDB1073 z 1. a 2. 10. vedeny jako zrušené a nejbližší plánovaný termín DXB→TLV je nově 9. 10. (dříve 8. 10., viz u090). Jde o údaj z plánu; flydubai zároveň podle médií lety do Izraele pozastavila a datum obnovení neoznámila, takže skutečné obnovení nelze z tohoto údaje usuzovat. (Zdroj: FlightAware)</description>
+    </item>
     <item>
       <title>[Média] Full Fact: virální video „z okna letadla FZ1073“ je zavádějící</title>
       <link>https://fullfact.org/world/video-footage-flydubai-flight-misleading/</link>

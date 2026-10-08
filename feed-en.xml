@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 10:12:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 12:11:17 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Data] FlightAware: next scheduled FDB1073 moved from 8 to 9 Oct</title>
+      <link>https://www.flightaware.com/live/flight/FDB1073/history</link>
+      <guid isPermaLink="false">fz1073-u095</guid>
+      <pubDate>Thu, 08 Oct 2026 12:11:17 +0000</pubDate>
+      <category>Data</category>
+      <description>[Data] According to the directly read FlightAware history, FDB1073 flights of 1 and 2 Oct are shown as cancelled and the nearest scheduled DXB→TLV date is now 9 Oct (previously 8 Oct, see u090). This is schedule data; per media, flydubai has also suspended flights to Israel without announcing a resumption date, so no actual resumption can be inferred from this. (Source: FlightAware)</description>
+    </item>
     <item>
       <title>[Media] Full Fact: viral video 'from the FZ1073 window' is misleading</title>
       <link>https://fullfact.org/world/video-footage-flydubai-flight-misleading/</link>

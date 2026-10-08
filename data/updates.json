@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-08T10:12:00Z",
-    "next_check": "2026-10-08T11:12:00Z",
+    "last_check": "2026-10-08T12:11:17Z",
+    "next_check": "2026-10-08T13:11:17Z",
     "new_count": 1
   },
   "updates": [
@@ -2262,6 +2262,27 @@
         "en": {
           "title": "Full Fact: viral video 'from the FZ1073 window' is misleading",
           "text": "According to the directly read Full Fact article (2 Oct 2026), the video shared as footage from the window of the Israel-bound plane shows a different flydubai flight over Dubai, with audio from a 2022 turbulence video. The clip is unrelated to the FZ1073 incident and cannot be treated as documentation of the event."
+        }
+      }
+    },
+    {
+      "id": "u095",
+      "found_at": "2026-10-08T12:11:17Z",
+      "published_at": null,
+      "source": "FlightAware",
+      "url": "https://www.flightaware.com/live/flight/FDB1073/history",
+      "title": "FlightAware: další plánovaný let FDB1073 posunut z 8. na 9. 10.",
+      "text": "Podle přímo přečtené historie na FlightAware jsou lety FDB1073 z 1. a 2. 10. vedeny jako zrušené a nejbližší plánovaný termín DXB→TLV je nově 9. 10. (dříve 8. 10., viz u090). Jde o údaj z plánu; flydubai zároveň podle médií lety do Izraele pozastavila a datum obnovení neoznámila, takže skutečné obnovení nelze z tohoto údaje usuzovat.",
+      "status": "data",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "FlightAware: ďalší plánovaný let FDB1073 posunutý z 8. na 9. 10.",
+          "text": "Podľa priamo prečítanej histórie na FlightAware sú lety FDB1073 z 1. a 2. 10. vedené ako zrušené a najbližší plánovaný termín DXB→TLV je novo 9. 10. (predtým 8. 10., pozri u090). Ide o údaj z plánu; flydubai zároveň podľa médií lety do Izraela pozastavila a dátum obnovenia neoznámila, takže skutočné obnovenie nemožno z tohto údaja usudzovať."
+        },
+        "en": {
+          "title": "FlightAware: next scheduled FDB1073 moved from 8 to 9 Oct",
+          "text": "According to the directly read FlightAware history, FDB1073 flights of 1 and 2 Oct are shown as cancelled and the nearest scheduled DXB→TLV date is now 9 Oct (previously 8 Oct, see u090). This is schedule data; per media, flydubai has also suspended flights to Israel without announcing a resumption date, so no actual resumption can be inferred from this."
         }
       }
     }
