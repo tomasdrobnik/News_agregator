@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-07T22:11:14Z",
-    "next_check": "2026-10-07T23:11:14Z",
+    "last_check": "2026-10-08T09:11:43Z",
+    "next_check": "2026-10-08T10:11:43Z",
     "new_count": 1
   },
   "updates": [
@@ -2222,6 +2222,26 @@
         "en": {
           "title": "Khaleej Times: GCAA says 37 replacement flights carried 7,479 passengers to Tel Aviv",
           "text": "According to the article (read directly), the GCAA said in a 5 Oct statement that 37 flights flew from Dubai to Tel Aviv since 2 Oct carrying 7,479 passengers, and stranded travellers had returned home. This concerns moving passengers after flydubai's suspension of the route; the article adds nothing new on the cause. We did not read the GCAA statement directly on its own site."
+        }
+      }
+    },
+    {
+      "id": "u093",
+      "found_at": "2026-10-08T09:11:43Z",
+      "published_at": "2026-10-02T00:00:00Z",
+      "source": "Khaleej Times",
+      "url": "https://www.khaleejtimes.com/asia/india-pm-narendra-modi-speak-injured-flydubai-pilot-smit-machchhar",
+      "title": "Khaleej Times: zraněný kapitán FZ1073 popsal v hovoru s indickým premiérem boj o život",
+      "text": "Podle přímo přečteného článku Khaleej Times (2. 10. 2026) kapitán v telefonátu s indickým premiérem uvedl, že po incidentu bojoval o život a navzdory zraněním otevřel dveře kokpitu. Článek obsahuje video hovoru; jde o líčení jedné osoby, které nebylo nezávisle ověřeno a nevyjadřuje se k příčině ani motivu incidentu.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Khaleej Times: zranený kapitán FZ1073 opísal v hovore s indickým premiérom boj o život",
+          "text": "Podľa priamo prečítaného článku Khaleej Times (2. 10. 2026) kapitán v telefonáte s indickým premiérom uviedol, že po incidente bojoval o život a napriek zraneniam otvoril dvere kokpitu. Článok obsahuje video hovoru; ide o líčenie jednej osoby, ktoré nebolo nezávisle overené a nevyjadruje sa k príčine ani motívu incidentu."
+        },
+        "en": {
+          "title": "Khaleej Times: injured FZ1073 captain describes fight for his life in call with Indian PM",
+          "text": "According to the directly read Khaleej Times article (2 Oct 2026), the captain told the Indian prime minister in a phone call that he fought for his life after the incident and opened the cockpit door despite his wounds. The article embeds a video of the call; this is one person's account, not independently verified, and says nothing on the cause or motive of the incident."
         }
       }
     }

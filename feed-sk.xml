@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Wed, 07 Oct 2026 22:11:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 09:11:43 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Khaleej Times: zranený kapitán FZ1073 opísal v hovore s indickým premiérom boj o život</title>
+      <link>https://www.khaleejtimes.com/asia/india-pm-narendra-modi-speak-injured-flydubai-pilot-smit-machchhar</link>
+      <guid isPermaLink="false">fz1073-u093</guid>
+      <pubDate>Thu, 08 Oct 2026 09:11:43 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa priamo prečítaného článku Khaleej Times (2. 10. 2026) kapitán v telefonáte s indickým premiérom uviedol, že po incidente bojoval o život a napriek zraneniam otvoril dvere kokpitu. Článok obsahuje video hovoru; ide o líčenie jednej osoby, ktoré nebolo nezávisle overené a nevyjadruje sa k príčine ani motívu incidentu. (Zdroj: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Médiá] Khaleej Times: GCAA uvádza 37 náhradných letov do Tel Avivu so 7 479 cestujúcimi</title>
       <link>https://www.khaleejtimes.com/uae/uae-transfers-passengers-tel-aviv-flydubai-flight-suspension-gcaa</link>

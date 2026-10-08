@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 22:11:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 09:11:43 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Khaleej Times: injured FZ1073 captain describes fight for his life in call with Indian PM</title>
+      <link>https://www.khaleejtimes.com/asia/india-pm-narendra-modi-speak-injured-flydubai-pilot-smit-machchhar</link>
+      <guid isPermaLink="false">fz1073-u093</guid>
+      <pubDate>Thu, 08 Oct 2026 09:11:43 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Khaleej Times article (2 Oct 2026), the captain told the Indian prime minister in a phone call that he fought for his life after the incident and opened the cockpit door despite his wounds. The article embeds a video of the call; this is one person's account, not independently verified, and says nothing on the cause or motive of the incident. (Source: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Media] Khaleej Times: GCAA says 37 replacement flights carried 7,479 passengers to Tel Aviv</title>
       <link>https://www.khaleejtimes.com/uae/uae-transfers-passengers-tel-aviv-flydubai-flight-suspension-gcaa</link>
