@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-08T12:11:17Z",
-    "next_check": "2026-10-08T13:11:17Z",
+    "last_check": "2026-10-09T18:11:52Z",
+    "next_check": "2026-10-09T19:11:52Z",
     "new_count": 1
   },
   "updates": [
@@ -2283,6 +2283,27 @@
         "en": {
           "title": "FlightAware: next scheduled FDB1073 moved from 8 to 9 Oct",
           "text": "According to the directly read FlightAware history, FDB1073 flights of 1 and 2 Oct are shown as cancelled and the nearest scheduled DXB→TLV date is now 9 Oct (previously 8 Oct, see u090). This is schedule data; per media, flydubai has also suspended flights to Israel without announcing a resumption date, so no actual resumption can be inferred from this."
+        }
+      }
+    },
+    {
+      "id": "u096",
+      "found_at": "2026-10-09T18:11:52Z",
+      "published_at": "2026-10-05T05:16:00Z",
+      "source": "ORF.at (s odkazem na Jerusalem Post)",
+      "url": "https://orf.at/stories/3444110/",
+      "title": "ORF: svědek (izraelský podnikatel) tvrdí, že kokpit byl během incidentu čas od času bez pilota – neověřeno",
+      "text": "Rakouská ORF (přímo přečteno, 5. 10.) cituje podle Jerusalem Post izraelského podnikatele z paluby: v kokpitu prý chvílemi nikdo nebyl, jeden pilot byl zraněn a druhý zápasil s útočníkem, a proto do kokpitu přivedl dva cestující piloty, kteří pomohli stroj dosadit. Jde o výpověď jediného svědka přebíranou z jiného média; SAE ani flydubai ji nepotvrdily a souvisí s otevřenou otázkou režimu dvou osob v kokpitu.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "ORF: svedok (izraelský podnikateľ) tvrdí, že kokpit bol počas incidentu chvíľami bez pilota – neoverené",
+          "text": "Rakúska ORF (priamo prečítané, 5. 10.) cituje podľa Jerusalem Post izraelského podnikateľa z paluby: v kokpite vraj chvíľami nikto nebol, jeden pilot bol zranený a druhý zápasil s útočníkom, a preto do kokpitu priviedol dvoch cestujúcich pilotov, ktorí pomohli stroj dosadnúť. Ide o výpoveď jediného svedka preberanú z iného média; SAE ani flydubai ju nepotvrdili a súvisí s otvorenou otázkou režimu dvoch osôb v kokpite."
+        },
+        "en": {
+          "title": "ORF: witness (Israeli businessman) says the cockpit was at times unattended during the incident – unverified",
+          "text": "Austria's ORF (read directly, 5 Oct) relays, citing the Jerusalem Post, an Israeli businessman aboard who says there was at times no one in the cockpit; one pilot was injured and the other fighting the attacker, so he brought two passenger pilots into the cockpit who helped land the aircraft. This is a single witness account taken from another outlet; neither the UAE nor flydubai has confirmed it, and it bears on the open question of the two-person cockpit rule."
         }
       }
     }

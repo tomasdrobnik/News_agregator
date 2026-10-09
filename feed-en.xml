@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 12:11:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 18:11:52 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] ORF: witness (Israeli businessman) says the cockpit was at times unattended during the incident – unverified</title>
+      <link>https://orf.at/stories/3444110/</link>
+      <guid isPermaLink="false">fz1073-u096</guid>
+      <pubDate>Fri, 09 Oct 2026 18:11:52 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] Austria's ORF (read directly, 5 Oct) relays, citing the Jerusalem Post, an Israeli businessman aboard who says there was at times no one in the cockpit; one pilot was injured and the other fighting the attacker, so he brought two passenger pilots into the cockpit who helped land the aircraft. This is a single witness account taken from another outlet; neither the UAE nor flydubai has confirmed it, and it bears on the open question of the two-person cockpit rule. (Source: ORF.at (s odkazem na Jerusalem Post))</description>
+    </item>
     <item>
       <title>[Data] FlightAware: next scheduled FDB1073 moved from 8 to 9 Oct</title>
       <link>https://www.flightaware.com/live/flight/FDB1073/history</link>

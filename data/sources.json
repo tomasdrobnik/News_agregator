@@ -522,6 +522,15 @@
       "added_at": "2026-10-09T17:11:17Z",
       "active": true,
       "note": "Letecký web shrnující incidenty (jejich souhrn k FZ1073 je kompilace zpráv, vždy ověřit u primárních zdrojů); čten přes WebFetch."
+    },
+    {
+      "name": "ORF.at",
+      "url": "https://orf.at/",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-09T18:11:52Z",
+      "active": true,
+      "note": "Rakouský veřejnoprávní zpravodajský web; přenáší zprávy o FZ1073 (svědecká výpověď, 5. 10.)."
     }
   ]
 }

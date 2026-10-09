@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 08 Oct 2026 12:11:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 18:11:52 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] ORF: svědek (izraelský podnikatel) tvrdí, že kokpit byl během incidentu čas od času bez pilota – neověřeno</title>
+      <link>https://orf.at/stories/3444110/</link>
+      <guid isPermaLink="false">fz1073-u096</guid>
+      <pubDate>Fri, 09 Oct 2026 18:11:52 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Rakouská ORF (přímo přečteno, 5. 10.) cituje podle Jerusalem Post izraelského podnikatele z paluby: v kokpitu prý chvílemi nikdo nebyl, jeden pilot byl zraněn a druhý zápasil s útočníkem, a proto do kokpitu přivedl dva cestující piloty, kteří pomohli stroj dosadit. Jde o výpověď jediného svědka přebíranou z jiného média; SAE ani flydubai ji nepotvrdily a souvisí s otevřenou otázkou režimu dvou osob v kokpitu. (Zdroj: ORF.at (s odkazem na Jerusalem Post))</description>
+    </item>
     <item>
       <title>[Data] FlightAware: další plánovaný let FDB1073 posunut z 8. na 9. 10.</title>
       <link>https://www.flightaware.com/live/flight/FDB1073/history</link>
