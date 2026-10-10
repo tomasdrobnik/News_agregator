@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-10T02:11:30Z",
-    "next_check": "2026-10-10T03:11:30Z",
+    "last_check": "2026-10-10T08:10:48Z",
+    "next_check": "2026-10-10T09:10:48Z",
     "new_count": 1
   },
   "updates": [
@@ -2325,6 +2325,27 @@
         "en": {
           "title": "The National: UAE prosecutors say FZ1073 co-pilot planned a suicide attack on Ben Gurion Airport",
           "text": "According to the directly read National article, the UAE attorney general said the 29-year-old Omani co-pilot intended to seize the aircraft and cause mass casualties at Ben Gurion Airport. Investigators say he was radicalised from 2017, flew to Tel Aviv twice beforehand to scout, and attacked the captain with an emergency axe in the cockpit; he says he acted alone, which prosecutors are still checking (including possible accomplices). His hiring checks at flydubai reportedly revealed no extremism. These are prosecutors' claims relayed by the outlet; according to search results, Al Jazeera, Khaleej Times, Gulf News and Times of Israel report the same. Supplements u062 and u078."
+        }
+      }
+    },
+    {
+      "id": "u098",
+      "found_at": "2026-10-10T08:10:48Z",
+      "published_at": "2026-10-08T14:34:38Z",
+      "source": "Ynetnews",
+      "url": "https://www.ynetnews.com/article/b1r5iqbszg",
+      "title": "Ynetnews: prezident Herzog ocenil šest Izraelců, kteří pomohli zvládnout incident FZ1073",
+      "text": "Podle přímo přečteného článku Ynetnews udělil izraelský prezident 8. 10. civilní vyznamenání za statečnost šesti lidem: cestujícím, kteří zasáhli proti útočícímu pilotovi nebo vyvolali poplach, a lékaři, který ošetřil zraněného kapitána. Prezident podle článku uvedl, že zabránili velké letecké katastrofě. Jde o izraelské hodnocení; shodně o ceremoniálu podle výsledků vyhledávání píší i Times of Israel a JNS. Jména oceněných neuvádíme.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Ynetnews: prezident Herzog ocenil šiestich Izraelčanov, ktorí pomohli zvládnuť incident FZ1073",
+          "text": "Podľa priamo prečítaného článku Ynetnews udelil izraelský prezident 8. 10. civilné vyznamenanie za statočnosť šiestim ľuďom: cestujúcim, ktorí zasiahli proti útočiacemu pilotovi alebo vyvolali poplach, a lekárovi, ktorý ošetril zraneného kapitána. Prezident podľa článku uviedol, že zabránili veľkej leteckej katastrofe. Ide o izraelské hodnotenie; zhodne o ceremoniáli podľa výsledkov vyhľadávania píšu aj Times of Israel a JNS. Mená ocenených neuvádzame."
+        },
+        "en": {
+          "title": "Ynetnews: President Herzog honors six Israelis who helped handle the FZ1073 incident",
+          "text": "According to the directly read Ynetnews article, Israel's president awarded a civilian bravery honor on 8 Oct to six people: passengers who intervened against the attacking pilot or raised the alarm, and a doctor who treated the wounded captain. The president reportedly said they prevented a major aviation disaster. This is the Israeli assessment; per search results, Times of Israel and JNS report the ceremony consistently. Names of the honorees are not given here."
         }
       }
     }

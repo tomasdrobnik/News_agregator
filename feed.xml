@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sat, 10 Oct 2026 02:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 08:10:48 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Ynetnews: prezident Herzog ocenil šest Izraelců, kteří pomohli zvládnout incident FZ1073</title>
+      <link>https://www.ynetnews.com/article/b1r5iqbszg</link>
+      <guid isPermaLink="false">fz1073-u098</guid>
+      <pubDate>Sat, 10 Oct 2026 08:10:48 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle přímo přečteného článku Ynetnews udělil izraelský prezident 8. 10. civilní vyznamenání za statečnost šesti lidem: cestujícím, kteří zasáhli proti útočícímu pilotovi nebo vyvolali poplach, a lékaři, který ošetřil zraněného kapitána. Prezident podle článku uvedl, že zabránili velké letecké katastrofě. Jde o izraelské hodnocení; shodně o ceremoniálu podle výsledků vyhledávání píší i Times of Israel a JNS. Jména oceněných neuvádíme. (Zdroj: Ynetnews)</description>
+    </item>
     <item>
       <title>[Média] The National: prokuratura SAE – druhý pilot FZ1073 plánoval sebevražedný útok na letiště Ben Gurion</title>
       <link>https://www.thenationalnews.com/news/uae/2026/10/09/flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airport-uae-prosecutors-say/</link>

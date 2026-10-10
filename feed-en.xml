@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 02:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 08:10:48 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Ynetnews: President Herzog honors six Israelis who helped handle the FZ1073 incident</title>
+      <link>https://www.ynetnews.com/article/b1r5iqbszg</link>
+      <guid isPermaLink="false">fz1073-u098</guid>
+      <pubDate>Sat, 10 Oct 2026 08:10:48 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Ynetnews article, Israel's president awarded a civilian bravery honor on 8 Oct to six people: passengers who intervened against the attacking pilot or raised the alarm, and a doctor who treated the wounded captain. The president reportedly said they prevented a major aviation disaster. This is the Israeli assessment; per search results, Times of Israel and JNS report the ceremony consistently. Names of the honorees are not given here. (Source: Ynetnews)</description>
+    </item>
     <item>
       <title>[Media] The National: UAE prosecutors say FZ1073 co-pilot planned a suicide attack on Ben Gurion Airport</title>
       <link>https://www.thenationalnews.com/news/uae/2026/10/09/flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airport-uae-prosecutors-say/</link>
