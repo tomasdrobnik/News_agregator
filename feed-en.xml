@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 18:11:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 02:11:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] The National: UAE prosecutors say FZ1073 co-pilot planned a suicide attack on Ben Gurion Airport</title>
+      <link>https://www.thenationalnews.com/news/uae/2026/10/09/flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airport-uae-prosecutors-say/</link>
+      <guid isPermaLink="false">fz1073-u097</guid>
+      <pubDate>Sat, 10 Oct 2026 02:11:30 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read National article, the UAE attorney general said the 29-year-old Omani co-pilot intended to seize the aircraft and cause mass casualties at Ben Gurion Airport. Investigators say he was radicalised from 2017, flew to Tel Aviv twice beforehand to scout, and attacked the captain with an emergency axe in the cockpit; he says he acted alone, which prosecutors are still checking (including possible accomplices). His hiring checks at flydubai reportedly revealed no extremism. These are prosecutors' claims relayed by the outlet; according to search results, Al Jazeera, Khaleej Times, Gulf News and Times of Israel report the same. Supplements u062 and u078. (Source: The National (UAE))</description>
+    </item>
     <item>
       <title>[Unconfirmed] ORF: witness (Israeli businessman) says the cockpit was at times unattended during the incident – unverified</title>
       <link>https://orf.at/stories/3444110/</link>

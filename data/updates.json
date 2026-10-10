@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-09T18:11:52Z",
-    "next_check": "2026-10-09T19:11:52Z",
+    "last_check": "2026-10-10T02:11:30Z",
+    "next_check": "2026-10-10T03:11:30Z",
     "new_count": 1
   },
   "updates": [
@@ -2304,6 +2304,27 @@
         "en": {
           "title": "ORF: witness (Israeli businessman) says the cockpit was at times unattended during the incident – unverified",
           "text": "Austria's ORF (read directly, 5 Oct) relays, citing the Jerusalem Post, an Israeli businessman aboard who says there was at times no one in the cockpit; one pilot was injured and the other fighting the attacker, so he brought two passenger pilots into the cockpit who helped land the aircraft. This is a single witness account taken from another outlet; neither the UAE nor flydubai has confirmed it, and it bears on the open question of the two-person cockpit rule."
+        }
+      }
+    },
+    {
+      "id": "u097",
+      "found_at": "2026-10-10T02:11:30Z",
+      "published_at": "2026-10-09T00:00:00Z",
+      "source": "The National (UAE)",
+      "url": "https://www.thenationalnews.com/news/uae/2026/10/09/flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airport-uae-prosecutors-say/",
+      "title": "The National: prokuratura SAE – druhý pilot FZ1073 plánoval sebevražedný útok na letiště Ben Gurion",
+      "text": "Podle přímo přečteného článku The National generální prokurátor SAE uvedl, že 29letý ománský druhý pilot chtěl letadlo ovládnout a způsobit hromadné ztráty na životech na letišti Ben Gurion. Vyšetřovatelé tvrdí, že se radikalizoval od roku 2017, před incidentem dvakrát letěl do Tel Avivu na průzkum a v kokpitu napadl kapitána nouzovou sekerou; tvrdí, že jednal sám, což prokuratura dál prověřuje (včetně možných spolupachatelů). Prověrka při přijetí k flydubai prý extremismus neodhalila. Jde o tvrzení prokuratury přebírané médiem; shodně o něm podle výsledků vyhledávání píší i Al Jazeera, Khaleej Times, Gulf News a Times of Israel. Doplňuje u062 a u078.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "The National: prokuratúra SAE – druhý pilot FZ1073 plánoval samovražedný útok na letisko Ben Gurion",
+          "text": "Podľa priamo prečítaného článku The National generálny prokurátor SAE uviedol, že 29-ročný ománsky druhý pilot chcel lietadlo ovládnuť a spôsobiť hromadné straty na životoch na letisku Ben Gurion. Vyšetrovatelia tvrdia, že sa radikalizoval od roku 2017, pred incidentom dvakrát letel do Tel Avivu na prieskum a v kokpite napadol kapitána núdzovou sekerou; tvrdí, že konal sám, čo prokuratúra naďalej preveruje (vrátane možných spolupáchateľov). Preverenie pri prijatí do flydubai extrémizmus podľa nej neodhalilo. Ide o tvrdenia prokuratúry preberané médiom; zhodne o nich podľa výsledkov vyhľadávania píšu aj Al Jazeera, Khaleej Times, Gulf News a Times of Israel. Dopĺňa u062 a u078."
+        },
+        "en": {
+          "title": "The National: UAE prosecutors say FZ1073 co-pilot planned a suicide attack on Ben Gurion Airport",
+          "text": "According to the directly read National article, the UAE attorney general said the 29-year-old Omani co-pilot intended to seize the aircraft and cause mass casualties at Ben Gurion Airport. Investigators say he was radicalised from 2017, flew to Tel Aviv twice beforehand to scout, and attacked the captain with an emergency axe in the cockpit; he says he acted alone, which prosecutors are still checking (including possible accomplices). His hiring checks at flydubai reportedly revealed no extremism. These are prosecutors' claims relayed by the outlet; according to search results, Al Jazeera, Khaleej Times, Gulf News and Times of Israel report the same. Supplements u062 and u078."
         }
       }
     }

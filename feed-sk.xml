@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Fri, 09 Oct 2026 18:11:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 02:11:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] The National: prokuratúra SAE – druhý pilot FZ1073 plánoval samovražedný útok na letisko Ben Gurion</title>
+      <link>https://www.thenationalnews.com/news/uae/2026/10/09/flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airport-uae-prosecutors-say/</link>
+      <guid isPermaLink="false">fz1073-u097</guid>
+      <pubDate>Sat, 10 Oct 2026 02:11:30 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa priamo prečítaného článku The National generálny prokurátor SAE uviedol, že 29-ročný ománsky druhý pilot chcel lietadlo ovládnuť a spôsobiť hromadné straty na životoch na letisku Ben Gurion. Vyšetrovatelia tvrdia, že sa radikalizoval od roku 2017, pred incidentom dvakrát letel do Tel Avivu na prieskum a v kokpite napadol kapitána núdzovou sekerou; tvrdí, že konal sám, čo prokuratúra naďalej preveruje (vrátane možných spolupáchateľov). Preverenie pri prijatí do flydubai extrémizmus podľa nej neodhalilo. Ide o tvrdenia prokuratúry preberané médiom; zhodne o nich podľa výsledkov vyhľadávania píšu aj Al Jazeera, Khaleej Times, Gulf News a Times of Israel. Dopĺňa u062 a u078. (Zdroj: The National (UAE))</description>
+    </item>
     <item>
       <title>[Neoverené] ORF: svedok (izraelský podnikateľ) tvrdí, že kokpit bol počas incidentu chvíľami bez pilota – neoverené</title>
       <link>https://orf.at/stories/3444110/</link>
