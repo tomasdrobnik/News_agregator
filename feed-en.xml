@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 08:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 19:11:04 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Gulf News: details of the FZ1073 co-pilot's confession per UAE prosecutors</title>
+      <link>https://gulfnews.com/business/aviation/flydubai-fz1073-probe-inside-omani-co-pilots-past-and-startling-confession-to-uae-investigators-1.500706066</link>
+      <guid isPermaLink="false">fz1073-u099</guid>
+      <pubDate>Sun, 11 Oct 2026 19:11:04 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Gulf News article (updated 11 Oct), UAE prosecutors say the 29-year-old Omani co-pilot confessed with his lawyer present, says he acted alone, and that his views began forming in Australia from 2017. The Australia details come from his own statement and are not independently verified; the article also lists his previous employers and says recruitment checks did not flag extremism. All are prosecution claims, unproven in court; supplements u097. (Source: Gulf News)</description>
+    </item>
     <item>
       <title>[Media] Ynetnews: President Herzog honors six Israelis who helped handle the FZ1073 incident</title>
       <link>https://www.ynetnews.com/article/b1r5iqbszg</link>

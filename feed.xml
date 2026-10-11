@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sat, 10 Oct 2026 08:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 19:11:04 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Gulf News: podrobnosti doznání druhého pilota FZ1073 podle prokuratury SAE</title>
+      <link>https://gulfnews.com/business/aviation/flydubai-fz1073-probe-inside-omani-co-pilots-past-and-startling-confession-to-uae-investigators-1.500706066</link>
+      <guid isPermaLink="false">fz1073-u099</guid>
+      <pubDate>Sun, 11 Oct 2026 19:11:04 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle přímo přečteného článku Gulf News (aktualizován 11. 10.) prokuratura SAE uvádí, že 29letý ománský druhý pilot se k plánu přiznal za přítomnosti právníka, tvrdí, že jednal sám, a že jeho názory se podle něj začaly formovat v Austrálii od roku 2017. Údaje o Austrálii pocházejí z jeho vlastní výpovědi a nejsou nezávisle ověřeny; článek také uvádí jeho předchozí zaměstnavatele a že prověrka při přijetí extremismus neodhalila. Vše jsou tvrzení prokuratury, před soudem neprokázaná; doplňuje u097. (Zdroj: Gulf News)</description>
+    </item>
     <item>
       <title>[Média] Ynetnews: prezident Herzog ocenil šest Izraelců, kteří pomohli zvládnout incident FZ1073</title>
       <link>https://www.ynetnews.com/article/b1r5iqbszg</link>

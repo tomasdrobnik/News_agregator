@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-10T08:10:48Z",
-    "next_check": "2026-10-10T09:10:48Z",
+    "last_check": "2026-10-11T19:11:04Z",
+    "next_check": "2026-10-11T20:11:04Z",
     "new_count": 1
   },
   "updates": [
@@ -2346,6 +2346,27 @@
         "en": {
           "title": "Ynetnews: President Herzog honors six Israelis who helped handle the FZ1073 incident",
           "text": "According to the directly read Ynetnews article, Israel's president awarded a civilian bravery honor on 8 Oct to six people: passengers who intervened against the attacking pilot or raised the alarm, and a doctor who treated the wounded captain. The president reportedly said they prevented a major aviation disaster. This is the Israeli assessment; per search results, Times of Israel and JNS report the ceremony consistently. Names of the honorees are not given here."
+        }
+      }
+    },
+    {
+      "id": "u099",
+      "found_at": "2026-10-11T19:11:04Z",
+      "published_at": "2026-10-11T00:00:00Z",
+      "source": "Gulf News",
+      "url": "https://gulfnews.com/business/aviation/flydubai-fz1073-probe-inside-omani-co-pilots-past-and-startling-confession-to-uae-investigators-1.500706066",
+      "title": "Gulf News: podrobnosti doznání druhého pilota FZ1073 podle prokuratury SAE",
+      "text": "Podle přímo přečteného článku Gulf News (aktualizován 11. 10.) prokuratura SAE uvádí, že 29letý ománský druhý pilot se k plánu přiznal za přítomnosti právníka, tvrdí, že jednal sám, a že jeho názory se podle něj začaly formovat v Austrálii od roku 2017. Údaje o Austrálii pocházejí z jeho vlastní výpovědi a nejsou nezávisle ověřeny; článek také uvádí jeho předchozí zaměstnavatele a že prověrka při přijetí extremismus neodhalila. Vše jsou tvrzení prokuratury, před soudem neprokázaná; doplňuje u097.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Gulf News: podrobnosti priznania druhého pilota FZ1073 podľa prokuratúry SAE",
+          "text": "Podľa priamo prečítaného článku Gulf News (aktualizovaný 11. 10.) prokuratúra SAE uvádza, že 29-ročný ománsky druhý pilot sa k plánu priznal za prítomnosti právnika, tvrdí, že konal sám, a že jeho názory sa podľa neho začali formovať v Austrálii od roku 2017. Údaje o Austrálii pochádzajú z jeho vlastnej výpovede a nie sú nezávisle overené; článok uvádza aj jeho predchádzajúcich zamestnávateľov a že previerka pri prijatí extrémizmus neodhalila. Všetko sú tvrdenia prokuratúry, pred súdom nepreukázané; dopĺňa u097."
+        },
+        "en": {
+          "title": "Gulf News: details of the FZ1073 co-pilot's confession per UAE prosecutors",
+          "text": "According to the directly read Gulf News article (updated 11 Oct), UAE prosecutors say the 29-year-old Omani co-pilot confessed with his lawyer present, says he acted alone, and that his views began forming in Australia from 2017. The Australia details come from his own statement and are not independently verified; the article also lists his previous employers and says recruitment checks did not flag extremism. All are prosecution claims, unproven in court; supplements u097."
         }
       }
     }
