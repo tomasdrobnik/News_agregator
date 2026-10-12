@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sun, 11 Oct 2026 19:11:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 10:11:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Gulf News: forenzní zpráva uvádí poranění hlavy kapitána odpovídající útoku</title>
+      <link>https://gulfnews.com/business/aviation/flydubai-incident-mystery-behind-pilot-who-landed-flight-in-saudi-arabia-unravelled-1.500705077</link>
+      <guid isPermaLink="false">fz1073-u100</guid>
+      <pubDate>Mon, 12 Oct 2026 10:11:30 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle přímo přečteného článku Gulf News (aktualizován 9. 10.) uvádí úřady SAE, že forenzní zpráva zjistila u zraněného kapitána poranění hlavy shodná s tvrzeným útokem nouzovou sekerou. Jde o tvrzení úřadů v podání jednoho média, které není nezávisle ověřeno; obvinění zatím podléhají soudnímu procesu. (Zdroj: Gulf News)</description>
+    </item>
     <item>
       <title>[Média] Gulf News: podrobnosti doznání druhého pilota FZ1073 podle prokuratury SAE</title>
       <link>https://gulfnews.com/business/aviation/flydubai-fz1073-probe-inside-omani-co-pilots-past-and-startling-confession-to-uae-investigators-1.500706066</link>

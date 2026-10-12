@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 19:11:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 10:11:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Gulf News: forensic report says captain's head injuries are consistent with an assault</title>
+      <link>https://gulfnews.com/business/aviation/flydubai-incident-mystery-behind-pilot-who-landed-flight-in-saudi-arabia-unravelled-1.500705077</link>
+      <guid isPermaLink="false">fz1073-u100</guid>
+      <pubDate>Mon, 12 Oct 2026 10:11:30 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Gulf News article (updated 9 Oct), UAE authorities say a forensic report found head injuries on the injured captain consistent with the alleged attack with an emergency axe. This is an authorities' claim relayed by a single outlet and is not independently verified; the allegations remain subject to legal process. (Source: Gulf News)</description>
+    </item>
     <item>
       <title>[Media] Gulf News: details of the FZ1073 co-pilot's confession per UAE prosecutors</title>
       <link>https://gulfnews.com/business/aviation/flydubai-fz1073-probe-inside-omani-co-pilots-past-and-startling-confession-to-uae-investigators-1.500706066</link>

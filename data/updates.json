@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-11T19:11:04Z",
-    "next_check": "2026-10-11T20:11:04Z",
+    "last_check": "2026-10-12T10:11:30Z",
+    "next_check": "2026-10-12T11:11:30Z",
     "new_count": 1
   },
   "updates": [
@@ -2367,6 +2367,27 @@
         "en": {
           "title": "Gulf News: details of the FZ1073 co-pilot's confession per UAE prosecutors",
           "text": "According to the directly read Gulf News article (updated 11 Oct), UAE prosecutors say the 29-year-old Omani co-pilot confessed with his lawyer present, says he acted alone, and that his views began forming in Australia from 2017. The Australia details come from his own statement and are not independently verified; the article also lists his previous employers and says recruitment checks did not flag extremism. All are prosecution claims, unproven in court; supplements u097."
+        }
+      }
+    },
+    {
+      "id": "u100",
+      "found_at": "2026-10-12T10:11:30Z",
+      "published_at": "2026-10-09T00:00:00Z",
+      "source": "Gulf News",
+      "url": "https://gulfnews.com/business/aviation/flydubai-incident-mystery-behind-pilot-who-landed-flight-in-saudi-arabia-unravelled-1.500705077",
+      "title": "Gulf News: forenzní zpráva uvádí poranění hlavy kapitána odpovídající útoku",
+      "text": "Podle přímo přečteného článku Gulf News (aktualizován 9. 10.) uvádí úřady SAE, že forenzní zpráva zjistila u zraněného kapitána poranění hlavy shodná s tvrzeným útokem nouzovou sekerou. Jde o tvrzení úřadů v podání jednoho média, které není nezávisle ověřeno; obvinění zatím podléhají soudnímu procesu.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Gulf News: forenzná správa uvádza poranenia hlavy kapitána zodpovedajúce útoku",
+          "text": "Podľa priamo prečítaného článku Gulf News (aktualizovaný 9. 10.) úrady SAE uvádzajú, že forenzná správa zistila u zraneného kapitána poranenia hlavy zodpovedajúce tvrdenému útoku núdzovou sekerou. Ide o tvrdenie úradov v podaní jedného média, ktoré nie je nezávisle overené; obvinenia zatiaľ podliehajú súdnemu procesu."
+        },
+        "en": {
+          "title": "Gulf News: forensic report says captain's head injuries are consistent with an assault",
+          "text": "According to the directly read Gulf News article (updated 9 Oct), UAE authorities say a forensic report found head injuries on the injured captain consistent with the alleged attack with an emergency axe. This is an authorities' claim relayed by a single outlet and is not independently verified; the allegations remain subject to legal process."
         }
       }
     }
