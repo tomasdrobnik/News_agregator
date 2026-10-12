@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Mon, 12 Oct 2026 10:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 15:11:47 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Gulf News: Herzog nazval kapitána FZ1073 hrdinom a ponúkol mu izraelské ocenenie za občiansku statočnosť</title>
+      <link>https://gulfnews.com/world/mena/israeli-president-calls-flydubai-pilot-captain-smit-machchhar-a-hero-promises-highest-civilian-bravery-award-1.500706397</link>
+      <guid isPermaLink="false">fz1073-u101</guid>
+      <pubDate>Mon, 12 Oct 2026 15:11:47 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa Gulf News (článok priamo prečítaný) izraelský prezident Herzog v liste a na X označil kapitána za hrdinu a ponúkol mu po zotavení Prezidentskú cenu za občiansku odvahu a pozvanie do Jeruzalema. Ocenenie sa vzťahuje na zásah, ktorý podľa článku pomohol zachrániť 174 osôb. Ide o politické uznanie, neprináša nové informácie o príčine ani o vyšetrovaní. (Zdroj: Gulf News)</description>
+    </item>
     <item>
       <title>[Médiá] Gulf News: forenzná správa uvádza poranenia hlavy kapitána zodpovedajúce útoku</title>
       <link>https://gulfnews.com/business/aviation/flydubai-incident-mystery-behind-pilot-who-landed-flight-in-saudi-arabia-unravelled-1.500705077</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Dáta</category>
       <description>[Dáta] Vzlet 03:05Z, FL340, posledné ADS-B 06:58Z po pristátí v Tabuku. Blog ponúka CSV s barometrickou výškou, GS a vertikálnou rýchlosťou – vhodné na vlastnú analýzu profilu klesania. (Zdroj: Flightradar24 blog)&lt;br&gt;&lt;a href="https://x.com/flightradar24/status/2105219645229645874"&gt;Foto: rozšírená časová os FR24 (X)&lt;/a&gt; (Flightradar24 (@flightradar24), via Flightradar24 blog)&lt;br&gt;&lt;a href="https://www.flightradar24.com/data/flights/fz1073"&gt;Video: prehrávka letu FR24&lt;/a&gt; (Flightradar24, via Flightradar24 blog)</description>
-    </item>
-    <item>
-      <title>[Oficiálne] flydubai potvrdzuje incident a bezpečné pristátie v Tabuku</title>
-      <link>https://www.aerotime.aero/articles/flydubai-fz1073-diverts-saudi-arabia-7500-code</link>
-      <guid isPermaLink="false">fz1073-u001</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Oficiálne</category>
-      <description>[Oficiálne] Hovorca flydubai potvrdil incident na FZ1073 DXB–TLV, bezpečné pristátie v TUU a že všetci cestujúci sú v poriadku. Príčinu neuvádza. Článok cituje KAN o „bitke medzi pilotmi“ – podľa AeroTime nezávisle nepotvrdené. (Zdroj: AeroTime)&lt;br&gt;&lt;a href="https://www.aerotime.aero/images/2026/09/Flydubai-Boeing-737-MAX-8-at-Dubai-airport-DXB.jpg"&gt;Foto: ilustračný B38M flydubai (nie A6-FKF)&lt;/a&gt; (Markus Mainka / Shutterstock.com, via AeroTime)&lt;br&gt;&lt;a href="https://x.com/flightradar24/status/2105192495529279734"&gt;Foto: časová os FR24 (X)&lt;/a&gt; (Flightradar24 (@flightradar24), via AeroTime)</description>
     </item>
   </channel>
 </rss>

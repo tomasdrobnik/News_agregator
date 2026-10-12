@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-12T10:11:30Z",
-    "next_check": "2026-10-12T11:11:30Z",
+    "last_check": "2026-10-12T15:11:47Z",
+    "next_check": "2026-10-12T16:11:47Z",
     "new_count": 1
   },
   "updates": [
@@ -2388,6 +2388,26 @@
         "en": {
           "title": "Gulf News: forensic report says captain's head injuries are consistent with an assault",
           "text": "According to the directly read Gulf News article (updated 9 Oct), UAE authorities say a forensic report found head injuries on the injured captain consistent with the alleged attack with an emergency axe. This is an authorities' claim relayed by a single outlet and is not independently verified; the allegations remain subject to legal process."
+        }
+      }
+    },
+    {
+      "id": "u101",
+      "found_at": "2026-10-12T15:11:47Z",
+      "published_at": null,
+      "source": "Gulf News",
+      "url": "https://gulfnews.com/world/mena/israeli-president-calls-flydubai-pilot-captain-smit-machchhar-a-hero-promises-highest-civilian-bravery-award-1.500706397",
+      "title": "Gulf News: Herzog nazval kapitána FZ1073 hrdinou a nabídl mu izraelské ocenění za občanskou statečnost",
+      "text": "Podle Gulf News (článek přímo přečten) izraelský prezident Herzog v dopise a na X označil kapitána za hrdinu a nabídl mu po zotavení Prezidentskou cenu za občanskou odvahu a pozvání do Jeruzaléma. Ocenění se vztahuje k zásahu, který podle článku pomohl zachránit 174 osob. Jde o politické uznání, nepřináší nové informace o příčině ani o šetření.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Gulf News: Herzog nazval kapitána FZ1073 hrdinom a ponúkol mu izraelské ocenenie za občiansku statočnosť",
+          "text": "Podľa Gulf News (článok priamo prečítaný) izraelský prezident Herzog v liste a na X označil kapitána za hrdinu a ponúkol mu po zotavení Prezidentskú cenu za občiansku odvahu a pozvanie do Jeruzalema. Ocenenie sa vzťahuje na zásah, ktorý podľa článku pomohol zachrániť 174 osôb. Ide o politické uznanie, neprináša nové informácie o príčine ani o vyšetrovaní."
+        },
+        "en": {
+          "title": "Gulf News: Herzog calls FZ1073 captain a hero, offers Israeli civilian bravery award",
+          "text": "According to Gulf News (article read directly), Israeli President Herzog called the captain a hero in a letter and on X, and offered him the Presidential Award for Civilian Heroism after recovery, plus an invitation to Jerusalem. The award relates to actions that, per the article, helped save 174 people. It is a political recognition and brings no new information on the cause or the investigation."
         }
       }
     }
