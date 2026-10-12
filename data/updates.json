@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-12T15:11:47Z",
-    "next_check": "2026-10-12T16:11:47Z",
+    "last_check": "2026-10-12T16:11:15Z",
+    "next_check": "2026-10-12T17:11:15Z",
     "new_count": 1
   },
   "updates": [
@@ -2408,6 +2408,27 @@
         "en": {
           "title": "Gulf News: Herzog calls FZ1073 captain a hero, offers Israeli civilian bravery award",
           "text": "According to Gulf News (article read directly), Israeli President Herzog called the captain a hero in a letter and on X, and offered him the Presidential Award for Civilian Heroism after recovery, plus an invitation to Jerusalem. The award relates to actions that, per the article, helped save 174 people. It is a political recognition and brings no new information on the cause or the investigation."
+        }
+      }
+    },
+    {
+      "id": "u102",
+      "found_at": "2026-10-12T16:11:15Z",
+      "published_at": "2026-10-07T00:00:00Z",
+      "source": "ICE (ice.co.il)",
+      "url": "https://www.ice.co.il/law/news/article/1132663",
+      "title": "ICE: v Izraeli se vyšetřují úředníci ministerstva dopravy kvůli dohledu nad bezpečností flydubai – neověřeno",
+      "text": "Podle přímo přečteného článku izraelského webu ICE (7. 10., s odkazem na N12) se vyšetřuje, jak mohl let projít bezpečnostní kontrolou. Jeden vysoký úředník ministerstva dopravy je podezřelý ze střetu zájmů (údajně poskytoval flydubai placené služby a školení), ministerstvo to odmítá s tím, že šlo o povolené činnosti mimo pracovní dobu. Jde o převzatá tvrzení médií, nezávisle neověřená; status proto nelze zvýšit.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "ICE: v Izraeli sa vyšetrujú úradníci ministerstva dopravy kvôli dohľadu nad bezpečnosťou flydubai – neoverené",
+          "text": "Podľa priamo prečítaného článku izraelského webu ICE (7. 10., s odkazom na N12) sa vyšetruje, ako mohol let prejsť bezpečnostnou kontrolou. Jeden vysoký úradník ministerstva dopravy je podozrivý zo stretu záujmov (údajne poskytoval flydubai platené služby a školenia), ministerstvo to odmieta s tým, že išlo o povolené činnosti mimo pracovného času. Ide o prevzaté tvrdenia médií, nezávisle neoverené; status preto nemožno zvýšiť."
+        },
+        "en": {
+          "title": "ICE: Israeli Transport Ministry officials under investigation over flydubai security oversight – unverified",
+          "text": "According to the directly read ICE article (7 Oct, citing N12), authorities are examining how the flight passed security screening. A senior Transport Ministry official is suspected of a conflict of interest (allegedly providing paid services and training to flydubai); the ministry denies this, saying the activity was permitted and done outside working hours. These are relayed media claims, not independently verified, so the status cannot be raised."
         }
       }
     }

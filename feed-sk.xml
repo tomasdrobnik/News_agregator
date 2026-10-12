@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Mon, 12 Oct 2026 15:11:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 16:11:15 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] ICE: v Izraeli sa vyšetrujú úradníci ministerstva dopravy kvôli dohľadu nad bezpečnosťou flydubai – neoverené</title>
+      <link>https://www.ice.co.il/law/news/article/1132663</link>
+      <guid isPermaLink="false">fz1073-u102</guid>
+      <pubDate>Mon, 12 Oct 2026 16:11:15 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Podľa priamo prečítaného článku izraelského webu ICE (7. 10., s odkazom na N12) sa vyšetruje, ako mohol let prejsť bezpečnostnou kontrolou. Jeden vysoký úradník ministerstva dopravy je podozrivý zo stretu záujmov (údajne poskytoval flydubai platené služby a školenia), ministerstvo to odmieta s tým, že išlo o povolené činnosti mimo pracovného času. Ide o prevzaté tvrdenia médií, nezávisle neoverené; status preto nemožno zvýšiť. (Zdroj: ICE (ice.co.il))</description>
+    </item>
     <item>
       <title>[Médiá] Gulf News: Herzog nazval kapitána FZ1073 hrdinom a ponúkol mu izraelské ocenenie za občiansku statočnosť</title>
       <link>https://gulfnews.com/world/mena/israeli-president-calls-flydubai-pilot-captain-smit-machchhar-a-hero-promises-highest-civilian-bravery-award-1.500706397</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Médiá</category>
       <description>[Médiá] Skoré izraelské správy vylúčili únos, vysvetlením mala byť zrážka v kokpite. V tom čase bez vyhlásenia v newsroome flydubai. Ynet: 174 PAX vrátane 27 detí; lietadlo krátko vletelo do jordánskeho priestoru a otočilo sa. (Zdroj: AeroCorner)</description>
-    </item>
-    <item>
-      <title>[Dáta] FR24: ADS-B dáta letu, squawk 7700 → 7500 → 7700</title>
-      <link>https://www.flightradar24.com/blog/flight-tracking-news/major-incident/flydubai-flight-to-tel-aviv-diverts-to-tabuk-amid-onboard-incident/</link>
-      <guid isPermaLink="false">fz1073-u002</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Dáta</category>
-      <description>[Dáta] Vzlet 03:05Z, FL340, posledné ADS-B 06:58Z po pristátí v Tabuku. Blog ponúka CSV s barometrickou výškou, GS a vertikálnou rýchlosťou – vhodné na vlastnú analýzu profilu klesania. (Zdroj: Flightradar24 blog)&lt;br&gt;&lt;a href="https://x.com/flightradar24/status/2105219645229645874"&gt;Foto: rozšírená časová os FR24 (X)&lt;/a&gt; (Flightradar24 (@flightradar24), via Flightradar24 blog)&lt;br&gt;&lt;a href="https://www.flightradar24.com/data/flights/fz1073"&gt;Video: prehrávka letu FR24&lt;/a&gt; (Flightradar24, via Flightradar24 blog)</description>
     </item>
   </channel>
 </rss>

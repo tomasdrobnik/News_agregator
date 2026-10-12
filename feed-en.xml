@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 15:11:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 16:11:15 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] ICE: Israeli Transport Ministry officials under investigation over flydubai security oversight – unverified</title>
+      <link>https://www.ice.co.il/law/news/article/1132663</link>
+      <guid isPermaLink="false">fz1073-u102</guid>
+      <pubDate>Mon, 12 Oct 2026 16:11:15 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to the directly read ICE article (7 Oct, citing N12), authorities are examining how the flight passed security screening. A senior Transport Ministry official is suspected of a conflict of interest (allegedly providing paid services and training to flydubai); the ministry denies this, saying the activity was permitted and done outside working hours. These are relayed media claims, not independently verified, so the status cannot be raised. (Source: ICE (ice.co.il))</description>
+    </item>
     <item>
       <title>[Media] Gulf News: Herzog calls FZ1073 captain a hero, offers Israeli civilian bravery award</title>
       <link>https://gulfnews.com/world/mena/israeli-president-calls-flydubai-pilot-captain-smit-machchhar-a-hero-promises-highest-civilian-bravery-award-1.500706397</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Media</category>
       <description>[Media] Early Israeli reports ruled out a hijacking; the explanation was said to be a cockpit altercation. No statement in the flydubai newsroom at that time. Ynet: 174 PAX incl. 27 children; the aircraft briefly entered Jordanian airspace and turned back. (Source: AeroCorner)</description>
-    </item>
-    <item>
-      <title>[Data] FR24: flight ADS-B data, squawk 7700 → 7500 → 7700</title>
-      <link>https://www.flightradar24.com/blog/flight-tracking-news/major-incident/flydubai-flight-to-tel-aviv-diverts-to-tabuk-amid-onboard-incident/</link>
-      <guid isPermaLink="false">fz1073-u002</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Data</category>
-      <description>[Data] Departure 03:05Z, FL340, last ADS-B 06:58Z after landing in Tabuk. The blog offers a CSV with barometric altitude, GS and vertical speed – useful for your own analysis of the descent profile. (Source: Flightradar24 blog)&lt;br&gt;&lt;a href="https://x.com/flightradar24/status/2105219645229645874"&gt;Photo: FR24 extended timeline (X)&lt;/a&gt; (Flightradar24 (@flightradar24), via Flightradar24 blog)&lt;br&gt;&lt;a href="https://www.flightradar24.com/data/flights/fz1073"&gt;Video: FR24 flight playback&lt;/a&gt; (Flightradar24, via Flightradar24 blog)</description>
     </item>
   </channel>
 </rss>

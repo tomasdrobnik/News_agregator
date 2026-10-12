@@ -531,6 +531,15 @@
       "added_at": "2026-10-09T18:11:52Z",
       "active": true,
       "note": "Rakouský veřejnoprávní zpravodajský web; přenáší zprávy o FZ1073 (svědecká výpověď, 5. 10.)."
+    },
+    {
+      "name": "ICE (ice.co.il)",
+      "url": "https://www.ice.co.il",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-12T16:11:15Z",
+      "active": true,
+      "note": "Izraelský zpravodajský web; pokrývá izraelské vyšetřování kolem dohledu nad bezpečností flydubai (čte se přes WebFetch)."
     }
   ]
 }
