@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Tue, 13 Oct 2026 06:12:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 17:11:51 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] World Israel News: v SAE údajne zadržaní dvaja ďalší piloti flydubai (Maldivčania) – neoverené</title>
+      <link>https://worldisraelnews.com/more-flydubai-pilots-arrested-in-connection-with-attempted-tel-aviv-flight-hijacking/</link>
+      <guid isPermaLink="false">fz1073-u104</guid>
+      <pubDate>Tue, 13 Oct 2026 17:11:51 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] World Israel News (článok priamo prečítaný) preberá správu maldivského webu Adhadhu, že boli v SAE okolo 3. 10. zadržaní dvaja ďalší piloti flydubai z Maldív; hovorca maldivskej vlády údajne potvrdil ich predvolanie na výsluch. Úrady SAE ich verejne neoznačili za podozrivých ani neuviedli obvinenie; ide o sekundárne prebratie jediného zdroja, preto neoverené. (Zdroj: World Israel News (podle maledivského Adhadhu))</description>
+    </item>
     <item>
       <title>[Médiá] Ynetnews: prvý e-mail flydubai cestujúcim FZ1073 po 12 dňoch nespomína útok pilota ani kompenzáciu</title>
       <link>https://www.ynetnews.com/article/syduznqjze</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Médiá</category>
       <description>[Médiá] Cestujúci (CEO Barak Capital Underwriting) uvádza, že s ďalšími mužmi a záložným pilotom vstúpil do kokpitu a útočníka premohol. Ide o výpoveď svedka, nie o zistenie vyšetrovania. (Zdroj: Ctech (Calcalist))</description>
-    </item>
-    <item>
-      <title>[Médiá] Izrael: podozrenie, že F/O sa pokúsil lietadlo zrútiť</title>
-      <link>https://www.ynetnews.com/article/ryjhud95fe</link>
-      <guid isPermaLink="false">fz1073-u004</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Médiá</category>
-      <description>[Médiá] Podľa izraelského hodnotenia je podozrivý F/O (údajne z Ománu). Kontakt so Saudskou Arábiou rieši Mossad. Ynet uvádza, že flydubai incident opísal ako potýčku medzi pilotmi a začal vlastné vyšetrovanie – toto vyhlásenie v iných zdrojoch zatiaľ nevidno. (Zdroj: Ynetnews)&lt;br&gt;&lt;a href="https://www.ynetnews.com/article/s1lpsm95ge"&gt;Foto: ilustračné foto flydubai (2024), nie z incidentu&lt;/a&gt; (Photofex_AUT / Shutterstock.com, via Ynetnews)</description>
     </item>
   </channel>
 </rss>

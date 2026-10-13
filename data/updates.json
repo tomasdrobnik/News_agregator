@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-13T06:12:00Z",
-    "next_check": "2026-10-13T07:12:00Z",
+    "last_check": "2026-10-13T17:11:51Z",
+    "next_check": "2026-10-13T18:11:51Z",
     "new_count": 1
   },
   "updates": [
@@ -2449,6 +2449,26 @@
         "en": {
           "title": "Ynetnews: flydubai's first email to FZ1073 passengers, after 12 days, omits the pilot's attack and compensation",
           "text": "According to Ynetnews (article intro read directly), nearly two weeks after the incident flydubai emailed FZ1073 passengers describing the events as \"distressing\", mentioning the replacement flight and support contacts. It does not mention the attack or compensation, and one passenger called the response a disgrace. This is one outlet's account of an email we have not seen ourselves."
+        }
+      }
+    },
+    {
+      "id": "u104",
+      "found_at": "2026-10-13T17:11:51Z",
+      "published_at": "2026-10-12T00:00:00Z",
+      "source": "World Israel News (podle maledivského Adhadhu)",
+      "url": "https://worldisraelnews.com/more-flydubai-pilots-arrested-in-connection-with-attempted-tel-aviv-flight-hijacking/",
+      "title": "World Israel News: v SAE prý zadrženi dva další piloti flydubai (Maledivčané) – neověřeno",
+      "text": "World Israel News (článek přímo přečten) přebírá zprávu maledivského webu Adhadhu, že byli v SAE kolem 3. 10. zadrženi dva další piloti flydubai z Malediv; mluvčí maledivské vlády prý potvrdil jejich předvolání k výslechu. Úřady SAE je veřejně neoznačily za podezřelé ani neuvedly obvinění; jde o sekundární přebrání jediného zdroje, a proto neověřeno.",
+      "status": "unconfirmed",
+      "i18n": {
+        "sk": {
+          "title": "World Israel News: v SAE údajne zadržaní dvaja ďalší piloti flydubai (Maldivčania) – neoverené",
+          "text": "World Israel News (článok priamo prečítaný) preberá správu maldivského webu Adhadhu, že boli v SAE okolo 3. 10. zadržaní dvaja ďalší piloti flydubai z Maldív; hovorca maldivskej vlády údajne potvrdil ich predvolanie na výsluch. Úrady SAE ich verejne neoznačili za podozrivých ani neuviedli obvinenie; ide o sekundárne prebratie jediného zdroja, preto neoverené."
+        },
+        "en": {
+          "title": "World Israel News: two more flydubai pilots (Maldivian) reportedly detained in the UAE – unverified",
+          "text": "World Israel News (article read directly) relays a report by the Maldivian outlet Adhadhu that two more flydubai pilots from the Maldives were detained in the UAE around 3 Oct; a Maldivian government spokesman reportedly confirmed they were summoned for questioning. UAE authorities have not publicly named them as suspects or announced charges; this is a secondary relay of a single source, hence unverified."
         }
       }
     }

@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 06:12:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 17:11:51 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] World Israel News: two more flydubai pilots (Maldivian) reportedly detained in the UAE – unverified</title>
+      <link>https://worldisraelnews.com/more-flydubai-pilots-arrested-in-connection-with-attempted-tel-aviv-flight-hijacking/</link>
+      <guid isPermaLink="false">fz1073-u104</guid>
+      <pubDate>Tue, 13 Oct 2026 17:11:51 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] World Israel News (article read directly) relays a report by the Maldivian outlet Adhadhu that two more flydubai pilots from the Maldives were detained in the UAE around 3 Oct; a Maldivian government spokesman reportedly confirmed they were summoned for questioning. UAE authorities have not publicly named them as suspects or announced charges; this is a secondary relay of a single source, hence unverified. (Source: World Israel News (podle maledivského Adhadhu))</description>
+    </item>
     <item>
       <title>[Media] Ynetnews: flydubai's first email to FZ1073 passengers, after 12 days, omits the pilot's attack and compensation</title>
       <link>https://www.ynetnews.com/article/syduznqjze</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Media</category>
       <description>[Media] A passenger (CEO of Barak Capital Underwriting) says he entered the cockpit with other men and a relief pilot and overpowered the attacker. This is a witness account, not an investigation finding. (Source: Ctech (Calcalist))</description>
-    </item>
-    <item>
-      <title>[Media] Israel: suspicion the F/O tried to crash the aircraft</title>
-      <link>https://www.ynetnews.com/article/ryjhud95fe</link>
-      <guid isPermaLink="false">fz1073-u004</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Media</category>
-      <description>[Media] According to the Israeli assessment the F/O (reportedly from Oman) is the suspect. Contact with Saudi Arabia is handled by Mossad. Ynet says flydubai described the incident as a scuffle between pilots and opened its own investigation – that statement is not yet visible in other sources. (Source: Ynetnews)&lt;br&gt;&lt;a href="https://www.ynetnews.com/article/s1lpsm95ge"&gt;Photo: illustrative flydubai photo (2024), not from the incident&lt;/a&gt; (Photofex_AUT / Shutterstock.com, via Ynetnews)</description>
     </item>
   </channel>
 </rss>

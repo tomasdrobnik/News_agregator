@@ -540,6 +540,15 @@
       "added_at": "2026-10-12T16:11:15Z",
       "active": true,
       "note": "Izraelský zpravodajský web; pokrývá izraelské vyšetřování kolem dohledu nad bezpečností flydubai (čte se přes WebFetch)."
+    },
+    {
+      "name": "World Israel News",
+      "url": "https://worldisraelnews.com",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-13T17:11:51Z",
+      "active": true,
+      "note": "Izraelský zpravodajský web; v tomto případě přebírá zprávu maledivského Adhadhu – sekundární zdroj, brát opatrně."
     }
   ]
 }
