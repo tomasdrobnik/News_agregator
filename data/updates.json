@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-12T16:11:15Z",
-    "next_check": "2026-10-12T17:11:15Z",
+    "last_check": "2026-10-13T06:12:00Z",
+    "next_check": "2026-10-13T07:12:00Z",
     "new_count": 1
   },
   "updates": [
@@ -2429,6 +2429,26 @@
         "en": {
           "title": "ICE: Israeli Transport Ministry officials under investigation over flydubai security oversight – unverified",
           "text": "According to the directly read ICE article (7 Oct, citing N12), authorities are examining how the flight passed security screening. A senior Transport Ministry official is suspected of a conflict of interest (allegedly providing paid services and training to flydubai); the ministry denies this, saying the activity was permitted and done outside working hours. These are relayed media claims, not independently verified, so the status cannot be raised."
+        }
+      }
+    },
+    {
+      "id": "u103",
+      "found_at": "2026-10-13T06:12:00Z",
+      "published_at": "2026-10-12T19:21:43Z",
+      "source": "Ynetnews",
+      "url": "https://www.ynetnews.com/article/syduznqjze",
+      "title": "Ynetnews: první e-mail flydubai cestujícím FZ1073 po 12 dnech nezmiňuje útok pilota ani kompenzaci",
+      "text": "Podle Ynetnews (úvod článku přímo přečten) poslala flydubai cestujícím FZ1073 skoro dva týdny po incidentu e-mail, který událost popisuje jako „tíživou“, zmiňuje náhradní let a kontakty na podporu. Nezmiňuje útok ani kompenzaci a jeden z cestujících reakci označil za ostudu. Jde o tvrzení jednoho média o obsahu e-mailu, který jsme sami neviděli.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Ynetnews: prvý e-mail flydubai cestujúcim FZ1073 po 12 dňoch nespomína útok pilota ani kompenzáciu",
+          "text": "Podľa Ynetnews (úvod článku priamo prečítaný) poslala flydubai cestujúcim FZ1073 takmer dva týždne po incidente e-mail, ktorý udalosť opisuje ako „ťaživú“, spomína náhradný let a kontakty na podporu. Nespomína útok ani kompenzáciu a jeden z cestujúcich reakciu označil za hanbu. Ide o tvrdenie jedného média o obsahu e-mailu, ktorý sme sami nevideli."
+        },
+        "en": {
+          "title": "Ynetnews: flydubai's first email to FZ1073 passengers, after 12 days, omits the pilot's attack and compensation",
+          "text": "According to Ynetnews (article intro read directly), nearly two weeks after the incident flydubai emailed FZ1073 passengers describing the events as \"distressing\", mentioning the replacement flight and support contacts. It does not mention the attack or compensation, and one passenger called the response a disgrace. This is one outlet's account of an email we have not seen ourselves."
         }
       }
     }

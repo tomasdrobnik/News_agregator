@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 16:11:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 06:12:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Ynetnews: flydubai's first email to FZ1073 passengers, after 12 days, omits the pilot's attack and compensation</title>
+      <link>https://www.ynetnews.com/article/syduznqjze</link>
+      <guid isPermaLink="false">fz1073-u103</guid>
+      <pubDate>Tue, 13 Oct 2026 06:12:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Ynetnews (article intro read directly), nearly two weeks after the incident flydubai emailed FZ1073 passengers describing the events as "distressing", mentioning the replacement flight and support contacts. It does not mention the attack or compensation, and one passenger called the response a disgrace. This is one outlet's account of an email we have not seen ourselves. (Source: Ynetnews)</description>
+    </item>
     <item>
       <title>[Unconfirmed] ICE: Israeli Transport Ministry officials under investigation over flydubai security oversight – unverified</title>
       <link>https://www.ice.co.il/law/news/article/1132663</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Media</category>
       <description>[Media] According to the Israeli assessment the F/O (reportedly from Oman) is the suspect. Contact with Saudi Arabia is handled by Mossad. Ynet says flydubai described the incident as a scuffle between pilots and opened its own investigation – that statement is not yet visible in other sources. (Source: Ynetnews)&lt;br&gt;&lt;a href="https://www.ynetnews.com/article/s1lpsm95ge"&gt;Photo: illustrative flydubai photo (2024), not from the incident&lt;/a&gt; (Photofex_AUT / Shutterstock.com, via Ynetnews)</description>
-    </item>
-    <item>
-      <title>[Media] Israeli sources: not a hijacking</title>
-      <link>https://aerocorner.com/news/flydubai-fz1073-tel-aviv-tabuk-diversion-7500/</link>
-      <guid isPermaLink="false">fz1073-u003</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Media</category>
-      <description>[Media] Early Israeli reports ruled out a hijacking; the explanation was said to be a cockpit altercation. No statement in the flydubai newsroom at that time. Ynet: 174 PAX incl. 27 children; the aircraft briefly entered Jordanian airspace and turned back. (Source: AeroCorner)</description>
     </item>
   </channel>
 </rss>

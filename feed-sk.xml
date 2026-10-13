@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Mon, 12 Oct 2026 16:11:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 06:12:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Ynetnews: prvý e-mail flydubai cestujúcim FZ1073 po 12 dňoch nespomína útok pilota ani kompenzáciu</title>
+      <link>https://www.ynetnews.com/article/syduznqjze</link>
+      <guid isPermaLink="false">fz1073-u103</guid>
+      <pubDate>Tue, 13 Oct 2026 06:12:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa Ynetnews (úvod článku priamo prečítaný) poslala flydubai cestujúcim FZ1073 takmer dva týždne po incidente e-mail, ktorý udalosť opisuje ako „ťaživú“, spomína náhradný let a kontakty na podporu. Nespomína útok ani kompenzáciu a jeden z cestujúcich reakciu označil za hanbu. Ide o tvrdenie jedného média o obsahu e-mailu, ktorý sme sami nevideli. (Zdroj: Ynetnews)</description>
+    </item>
     <item>
       <title>[Neoverené] ICE: v Izraeli sa vyšetrujú úradníci ministerstva dopravy kvôli dohľadu nad bezpečnosťou flydubai – neoverené</title>
       <link>https://www.ice.co.il/law/news/article/1132663</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Médiá</category>
       <description>[Médiá] Podľa izraelského hodnotenia je podozrivý F/O (údajne z Ománu). Kontakt so Saudskou Arábiou rieši Mossad. Ynet uvádza, že flydubai incident opísal ako potýčku medzi pilotmi a začal vlastné vyšetrovanie – toto vyhlásenie v iných zdrojoch zatiaľ nevidno. (Zdroj: Ynetnews)&lt;br&gt;&lt;a href="https://www.ynetnews.com/article/s1lpsm95ge"&gt;Foto: ilustračné foto flydubai (2024), nie z incidentu&lt;/a&gt; (Photofex_AUT / Shutterstock.com, via Ynetnews)</description>
-    </item>
-    <item>
-      <title>[Médiá] Izraelské zdroje: nešlo o únos</title>
-      <link>https://aerocorner.com/news/flydubai-fz1073-tel-aviv-tabuk-diversion-7500/</link>
-      <guid isPermaLink="false">fz1073-u003</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Médiá</category>
-      <description>[Médiá] Skoré izraelské správy vylúčili únos, vysvetlením mala byť zrážka v kokpite. V tom čase bez vyhlásenia v newsroome flydubai. Ynet: 174 PAX vrátane 27 detí; lietadlo krátko vletelo do jordánskeho priestoru a otočilo sa. (Zdroj: AeroCorner)</description>
     </item>
   </channel>
 </rss>
