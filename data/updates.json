@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-15T15:11:21Z",
-    "next_check": "2026-10-15T16:11:21Z",
+    "last_check": "2026-10-15T16:11:46Z",
+    "next_check": "2026-10-15T17:11:46Z",
     "new_count": 1
   },
   "updates": [
@@ -2489,6 +2489,43 @@
         "en": {
           "title": "ICE: FZ1073 passengers organising lawsuits worth hundreds of millions of dollars – unverified",
           "text": "ICE (article read directly, citing Calcalist) reports that passengers set up an administration group for legal action against flydubai and Israel's Transport Ministry; about a hundred of the 174 passengers reportedly signed powers of attorney. The 'hundreds of millions of dollars' figure is only a media claim from a single source; no suit has been filed yet."
+        }
+      }
+    },
+    {
+      "id": "u106",
+      "found_at": "2026-10-15T16:11:46Z",
+      "published_at": "2026-10-15T14:05:00Z",
+      "source": "Jerusalem Post (The Media Line)",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-911809",
+      "title": "JPost: izraelští experti upozorňují na mezery v bezpečnosti letectví po incidentu FZ1073",
+      "text": "Článek (přímo přečten) cituje izraelské bezpečnostní experty, kteří po incidentu navrhují prověřování celé posádky i pozemního personálu a dálkově aktivované kamery v kokpitu. Opakuje tvrzení prokuratury SAE o útoku na kapitána a zmiňuje, že podle WSJ se dřívější zaměstnavatelé F/O s flydubai o obavách nespojili; jde o tvrzení médií, ne ověřená fakta. Zmiňuje také poplach na letu Delta v Ben Gurionu, kde nebyly nalezeny výbušniny.",
+      "status": "reported",
+      "media": [
+        {
+          "type": "photo",
+          "caption": "Cestující letu FZ1073 po příletu na letiště Ben Gurion po nouzovém přistání v Tabuku (podle popisku JPost).",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-911809",
+          "thumb": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/740012",
+          "credit": "FLASH90 / Jerusalem Post",
+          "i18n": {
+            "sk": {
+              "caption": "Cestujúci letu FZ1073 po prílete na letisko Ben Gurion po núdzovom pristátí v Tabuku (podľa popisku JPost)."
+            },
+            "en": {
+              "caption": "Passengers from flight FZ1073 arriving at Ben Gurion airport after the emergency landing in Tabuk (per JPost caption)."
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "sk": {
+          "title": "JPost: izraelskí experti upozorňujú na medzery v bezpečnosti letectva po incidente FZ1073",
+          "text": "Článok (priamo prečítaný) cituje izraelských bezpečnostných expertov, ktorí po incidente navrhujú preverovanie celej posádky aj pozemného personálu a diaľkovo aktivované kamery v kokpite. Opakuje tvrdenia prokuratúry SAE o útoku na kapitána a spomína, že podľa WSJ sa skorší zamestnávatelia F/O s flydubai o obavách nespojili; ide o tvrdenia médií, nie overené fakty. Spomína aj poplach na lete Delta na Ben Gurione, kde sa nenašli výbušniny."
+        },
+        "en": {
+          "title": "JPost: Israeli experts warn of aviation security gaps after FZ1073 incident",
+          "text": "The article (read directly) quotes Israeli security experts who propose screening all crew and ground staff and remotely activated cockpit cameras. It repeats UAE prosecutors' claims about the attack on the captain and says, per WSJ, the F/O's former employers were not contacted by flydubai about concerns; these are media claims, not verified facts. It also mentions a Delta flight bomb scare at Ben Gurion where no explosives were found."
         }
       }
     }

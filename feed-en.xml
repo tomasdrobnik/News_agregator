@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 15:11:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 16:11:46 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] JPost: Israeli experts warn of aviation security gaps after FZ1073 incident</title>
+      <link>https://www.jpost.com/israel-news/defense-news/article-911809</link>
+      <guid isPermaLink="false">fz1073-u106</guid>
+      <pubDate>Thu, 15 Oct 2026 16:11:46 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] The article (read directly) quotes Israeli security experts who propose screening all crew and ground staff and remotely activated cockpit cameras. It repeats UAE prosecutors' claims about the attack on the captain and says, per WSJ, the F/O's former employers were not contacted by flydubai about concerns; these are media claims, not verified facts. It also mentions a Delta flight bomb scare at Ben Gurion where no explosives were found. (Source: Jerusalem Post (The Media Line))&lt;br&gt;&lt;a href="https://www.jpost.com/israel-news/defense-news/article-911809"&gt;Photo: Passengers from flight FZ1073 arriving at Ben Gurion airport after the emergency landing in Tabuk (per JPost caption).&lt;/a&gt; (FLASH90 / Jerusalem Post, via Jerusalem Post (The Media Line))</description>
+    </item>
     <item>
       <title>[Unconfirmed] ICE: FZ1073 passengers organising lawsuits worth hundreds of millions of dollars – unverified</title>
       <link>https://www.ice.co.il/law/news/article/1133047</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Media</category>
       <description>[Media] Video of a passenger describing the attack in the cockpit. The video content has not been verified; the source is an aggregator. (Source: Cedar News)&lt;br&gt;&lt;a href="https://cedarnews.net/newstasks/1017589/video-bloodied-flydubai-fz1073-passenger-recounts-cockpit-attack-we-thought-we-wouldnt-make-it-out-alive/"&gt;Video: passenger's account&lt;/a&gt; (via Cedar News)</description>
-    </item>
-    <item>
-      <title>[Media] Tabuk airport: both pilots injured; Israel asks to halt flydubai flights</title>
-      <link>https://www.jpost.com/international/article-910155</link>
-      <guid isPermaLink="false">fz1073-u006</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Media</category>
-      <description>[Media] JPost cites a Tabuk airport statement that both pilots were injured and taken to hospital. Transport Minister M. Regev asked Shin Bet to suspend flydubai flights. It also mentions a photo of a damaged rudder – not technically verified, unconfirmed. (Source: Jerusalem Post)&lt;br&gt;&lt;a href="https://www.jpost.com/international/article-910155"&gt;Photo: damaged rudder per JPost (unconfirmed)&lt;/a&gt; (autor ve zdroji neuveden, via Jerusalem Post)</description>
     </item>
   </channel>
 </rss>

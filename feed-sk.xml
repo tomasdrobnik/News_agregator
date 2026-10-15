@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Thu, 15 Oct 2026 15:11:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 16:11:46 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] JPost: izraelskí experti upozorňujú na medzery v bezpečnosti letectva po incidente FZ1073</title>
+      <link>https://www.jpost.com/israel-news/defense-news/article-911809</link>
+      <guid isPermaLink="false">fz1073-u106</guid>
+      <pubDate>Thu, 15 Oct 2026 16:11:46 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Článok (priamo prečítaný) cituje izraelských bezpečnostných expertov, ktorí po incidente navrhujú preverovanie celej posádky aj pozemného personálu a diaľkovo aktivované kamery v kokpite. Opakuje tvrdenia prokuratúry SAE o útoku na kapitána a spomína, že podľa WSJ sa skorší zamestnávatelia F/O s flydubai o obavách nespojili; ide o tvrdenia médií, nie overené fakty. Spomína aj poplach na lete Delta na Ben Gurione, kde sa nenašli výbušniny. (Zdroj: Jerusalem Post (The Media Line))&lt;br&gt;&lt;a href="https://www.jpost.com/israel-news/defense-news/article-911809"&gt;Foto: Cestujúci letu FZ1073 po prílete na letisko Ben Gurion po núdzovom pristátí v Tabuku (podľa popisku JPost).&lt;/a&gt; (FLASH90 / Jerusalem Post, via Jerusalem Post (The Media Line))</description>
+    </item>
     <item>
       <title>[Neoverené] ICE: cestujúci FZ1073 sa organizujú k žalobám v rádoch stoviek miliónov dolárov – neoverené</title>
       <link>https://www.ice.co.il/law/news/article/1133047</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Médiá</category>
       <description>[Médiá] Video s cestujúcim, ktorý opisuje útok v kokpite. Obsah videa nebol overený; zdrojom je agregátor. (Zdroj: Cedar News)&lt;br&gt;&lt;a href="https://cedarnews.net/newstasks/1017589/video-bloodied-flydubai-fz1073-passenger-recounts-cockpit-attack-we-thought-we-wouldnt-make-it-out-alive/"&gt;Video: výpoveď cestujúceho&lt;/a&gt; (via Cedar News)</description>
-    </item>
-    <item>
-      <title>[Médiá] Letisko Tabuk: obaja piloti zranení; Izrael žiada zastavenie letov flydubai</title>
-      <link>https://www.jpost.com/international/article-910155</link>
-      <guid isPermaLink="false">fz1073-u006</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Médiá</category>
-      <description>[Médiá] JPost cituje vyhlásenie letiska Tabuk o zranení oboch pilotov a prevoze do nemocnice. Min. dopravy M. Regev požiadala Šin Bet o pozastavenie letov flydubai. Spomína aj fotografiu poškodeného smerového kormidla – bez technického overenia, neoverené. (Zdroj: Jerusalem Post)&lt;br&gt;&lt;a href="https://www.jpost.com/international/article-910155"&gt;Foto: poškodené smerové kormidlo podľa JPost (neoverené)&lt;/a&gt; (autor ve zdroji neuveden, via Jerusalem Post)</description>
     </item>
   </channel>
 </rss>
