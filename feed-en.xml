@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 17:11:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 15:11:21 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] ICE: FZ1073 passengers organising lawsuits worth hundreds of millions of dollars – unverified</title>
+      <link>https://www.ice.co.il/law/news/article/1133047</link>
+      <guid isPermaLink="false">fz1073-u105</guid>
+      <pubDate>Thu, 15 Oct 2026 15:11:21 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] ICE (article read directly, citing Calcalist) reports that passengers set up an administration group for legal action against flydubai and Israel's Transport Ministry; about a hundred of the 174 passengers reportedly signed powers of attorney. The 'hundreds of millions of dollars' figure is only a media claim from a single source; no suit has been filed yet. (Source: ICE (podle Calcalist))</description>
+    </item>
     <item>
       <title>[Unconfirmed] World Israel News: two more flydubai pilots (Maldivian) reportedly detained in the UAE – unverified</title>
       <link>https://worldisraelnews.com/more-flydubai-pilots-arrested-in-connection-with-attempted-tel-aviv-flight-hijacking/</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Media</category>
       <description>[Media] JPost cites a Tabuk airport statement that both pilots were injured and taken to hospital. Transport Minister M. Regev asked Shin Bet to suspend flydubai flights. It also mentions a photo of a damaged rudder – not technically verified, unconfirmed. (Source: Jerusalem Post)&lt;br&gt;&lt;a href="https://www.jpost.com/international/article-910155"&gt;Photo: damaged rudder per JPost (unconfirmed)&lt;/a&gt; (autor ve zdroji neuveden, via Jerusalem Post)</description>
-    </item>
-    <item>
-      <title>[Media] Passenger describes subduing the attacker in the cockpit</title>
-      <link>https://www.calcalistech.com/ctechnews/article/zs72882xh</link>
-      <guid isPermaLink="false">fz1073-u005</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Media</category>
-      <description>[Media] A passenger (CEO of Barak Capital Underwriting) says he entered the cockpit with other men and a relief pilot and overpowered the attacker. This is a witness account, not an investigation finding. (Source: Ctech (Calcalist))</description>
     </item>
   </channel>
 </rss>

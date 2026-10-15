@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Tue, 13 Oct 2026 17:11:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 15:11:21 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] ICE: cestující FZ1073 se organizují k žalobám v řádu stovek milionů dolarů – neověřeno</title>
+      <link>https://www.ice.co.il/law/news/article/1133047</link>
+      <guid isPermaLink="false">fz1073-u105</guid>
+      <pubDate>Thu, 15 Oct 2026 15:11:21 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] ICE (článek přímo přečten, odvolává se na Calcalist) uvádí, že cestující zřídili správní skupinu pro soudní kroky proti flydubai a izraelskému ministerstvu dopravy; pověření prý podepsala zhruba stovka ze 174 cestujících. Částka „stovky milionů dolarů“ je jen mediální údaj z jediného zdroje, žaloba zatím nebyla podána. (Zdroj: ICE (podle Calcalist))</description>
+    </item>
     <item>
       <title>[Neověřeno] World Israel News: v SAE prý zadrženi dva další piloti flydubai (Maledivčané) – neověřeno</title>
       <link>https://worldisraelnews.com/more-flydubai-pilots-arrested-in-connection-with-attempted-tel-aviv-flight-hijacking/</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Média</category>
       <description>[Média] JPost cituje prohlášení letiště Tabuk o zranění obou pilotů a převozu do nemocnice. Min. dopravy M. Regev požádala Šin Bet o pozastavení letů flydubai. Zmiňuje i fotografii poškozené směrovky – bez technického ověření, považuji za neověřené. (Zdroj: Jerusalem Post)&lt;br&gt;&lt;a href="https://www.jpost.com/international/article-910155"&gt;Foto: poškozená směrovka dle JPost (neověřeno)&lt;/a&gt; (autor ve zdroji neuveden, via Jerusalem Post)</description>
-    </item>
-    <item>
-      <title>[Média] Cestující popisuje zpacifikování útočníka v kokpitu</title>
-      <link>https://www.calcalistech.com/ctechnews/article/zs72882xh</link>
-      <guid isPermaLink="false">fz1073-u005</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Média</category>
-      <description>[Média] Cestující (CEO Barak Capital Underwriting) uvádí, že s dalšími muži a záložním pilotem vstoupil do kokpitu a útočníka přemohl. Jde o výpověď svědka, nikoli o zjištění vyšetřování. (Zdroj: Ctech (Calcalist))</description>
     </item>
   </channel>
 </rss>

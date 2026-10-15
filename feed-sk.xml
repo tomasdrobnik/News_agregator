@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Tue, 13 Oct 2026 17:11:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 15:11:21 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] ICE: cestujúci FZ1073 sa organizujú k žalobám v rádoch stoviek miliónov dolárov – neoverené</title>
+      <link>https://www.ice.co.il/law/news/article/1133047</link>
+      <guid isPermaLink="false">fz1073-u105</guid>
+      <pubDate>Thu, 15 Oct 2026 15:11:21 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] ICE (článok priamo prečítaný, odvoláva sa na Calcalist) uvádza, že cestujúci zriadili správnu skupinu pre súdne kroky proti flydubai a izraelskému ministerstvu dopravy; plnomocenstvo údajne podpísala zhruba stovka zo 174 cestujúcich. Suma „stovky miliónov dolárov“ je len mediálny údaj z jediného zdroja, žaloba zatiaľ nebola podaná. (Zdroj: ICE (podle Calcalist))</description>
+    </item>
     <item>
       <title>[Neoverené] World Israel News: v SAE údajne zadržaní dvaja ďalší piloti flydubai (Maldivčania) – neoverené</title>
       <link>https://worldisraelnews.com/more-flydubai-pilots-arrested-in-connection-with-attempted-tel-aviv-flight-hijacking/</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Médiá</category>
       <description>[Médiá] JPost cituje vyhlásenie letiska Tabuk o zranení oboch pilotov a prevoze do nemocnice. Min. dopravy M. Regev požiadala Šin Bet o pozastavenie letov flydubai. Spomína aj fotografiu poškodeného smerového kormidla – bez technického overenia, neoverené. (Zdroj: Jerusalem Post)&lt;br&gt;&lt;a href="https://www.jpost.com/international/article-910155"&gt;Foto: poškodené smerové kormidlo podľa JPost (neoverené)&lt;/a&gt; (autor ve zdroji neuveden, via Jerusalem Post)</description>
-    </item>
-    <item>
-      <title>[Médiá] Cestujúci opisuje zneškodnenie útočníka v kokpite</title>
-      <link>https://www.calcalistech.com/ctechnews/article/zs72882xh</link>
-      <guid isPermaLink="false">fz1073-u005</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Médiá</category>
-      <description>[Médiá] Cestujúci (CEO Barak Capital Underwriting) uvádza, že s ďalšími mužmi a záložným pilotom vstúpil do kokpitu a útočníka premohol. Ide o výpoveď svedka, nie o zistenie vyšetrovania. (Zdroj: Ctech (Calcalist))</description>
     </item>
   </channel>
 </rss>

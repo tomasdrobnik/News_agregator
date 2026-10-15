@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-13T17:11:51Z",
-    "next_check": "2026-10-13T18:11:51Z",
+    "last_check": "2026-10-15T15:11:21Z",
+    "next_check": "2026-10-15T16:11:21Z",
     "new_count": 1
   },
   "updates": [
@@ -2469,6 +2469,26 @@
         "en": {
           "title": "World Israel News: two more flydubai pilots (Maldivian) reportedly detained in the UAE – unverified",
           "text": "World Israel News (article read directly) relays a report by the Maldivian outlet Adhadhu that two more flydubai pilots from the Maldives were detained in the UAE around 3 Oct; a Maldivian government spokesman reportedly confirmed they were summoned for questioning. UAE authorities have not publicly named them as suspects or announced charges; this is a secondary relay of a single source, hence unverified."
+        }
+      }
+    },
+    {
+      "id": "u105",
+      "found_at": "2026-10-15T15:11:21Z",
+      "published_at": "2026-10-11T00:00:00Z",
+      "source": "ICE (podle Calcalist)",
+      "url": "https://www.ice.co.il/law/news/article/1133047",
+      "title": "ICE: cestující FZ1073 se organizují k žalobám v řádu stovek milionů dolarů – neověřeno",
+      "text": "ICE (článek přímo přečten, odvolává se na Calcalist) uvádí, že cestující zřídili správní skupinu pro soudní kroky proti flydubai a izraelskému ministerstvu dopravy; pověření prý podepsala zhruba stovka ze 174 cestujících. Částka „stovky milionů dolarů“ je jen mediální údaj z jediného zdroje, žaloba zatím nebyla podána.",
+      "status": "unconfirmed",
+      "i18n": {
+        "sk": {
+          "title": "ICE: cestujúci FZ1073 sa organizujú k žalobám v rádoch stoviek miliónov dolárov – neoverené",
+          "text": "ICE (článok priamo prečítaný, odvoláva sa na Calcalist) uvádza, že cestujúci zriadili správnu skupinu pre súdne kroky proti flydubai a izraelskému ministerstvu dopravy; plnomocenstvo údajne podpísala zhruba stovka zo 174 cestujúcich. Suma „stovky miliónov dolárov“ je len mediálny údaj z jediného zdroja, žaloba zatiaľ nebola podaná."
+        },
+        "en": {
+          "title": "ICE: FZ1073 passengers organising lawsuits worth hundreds of millions of dollars – unverified",
+          "text": "ICE (article read directly, citing Calcalist) reports that passengers set up an administration group for legal action against flydubai and Israel's Transport Ministry; about a hundred of the 174 passengers reportedly signed powers of attorney. The 'hundreds of millions of dollars' figure is only a media claim from a single source; no suit has been filed yet."
         }
       }
     }
