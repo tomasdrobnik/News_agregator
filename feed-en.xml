@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 16:11:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 04:11:27 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Khaleej Times: summary of UAE prosecutors' findings – FZ1073 co-pilot allegedly flew two reconnaissance flights to Tel Aviv</title>
+      <link>https://www.khaleejtimes.com/uae/flydubai-investigation-7-findings-that-change-what-we-know-about-attempted-terror-attack</link>
+      <guid isPermaLink="false">fz1073-u107</guid>
+      <pubDate>Fri, 16 Oct 2026 04:11:27 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Khaleej Times (read directly) summarises what UAE prosecutors announced on 9 Oct: the co-pilot allegedly planned to seize the aircraft and crash it into the Ben Gurion airport terminal, reportedly flew to Tel Aviv twice beforehand to learn the route and airport, and forensic evidence is said to support that he attacked the captain with an emergency axe. Recruitment checks at flydubai reportedly did not reveal his views; per his confession he acted alone, but investigators are still examining possible accomplices. These are prosecutors' claims relayed by the outlet, not independently verified; follows up u097. (Source: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Media] JPost: Israeli experts warn of aviation security gaps after FZ1073 incident</title>
       <link>https://www.jpost.com/israel-news/defense-news/article-911809</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Media</category>
       <description>[Media] Summary of witness accounts of one pilot being stabbed and the Israeli suspicion of a terrorist act. (Source: Euronews)</description>
-    </item>
-    <item>
-      <title>[Media] Video: injured passenger's account</title>
-      <link>https://cedarnews.net/newstasks/1017589/video-bloodied-flydubai-fz1073-passenger-recounts-cockpit-attack-we-thought-we-wouldnt-make-it-out-alive/</link>
-      <guid isPermaLink="false">fz1073-u007</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Media</category>
-      <description>[Media] Video of a passenger describing the attack in the cockpit. The video content has not been verified; the source is an aggregator. (Source: Cedar News)&lt;br&gt;&lt;a href="https://cedarnews.net/newstasks/1017589/video-bloodied-flydubai-fz1073-passenger-recounts-cockpit-attack-we-thought-we-wouldnt-make-it-out-alive/"&gt;Video: passenger's account&lt;/a&gt; (via Cedar News)</description>
     </item>
   </channel>
 </rss>

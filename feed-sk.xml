@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Thu, 15 Oct 2026 16:11:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 04:11:27 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Khaleej Times: zhrnutie zistení prokuratúry SAE – druhý pilot FZ1073 mal absolvovať dva prieskumné lety do Tel Avivu</title>
+      <link>https://www.khaleejtimes.com/uae/flydubai-investigation-7-findings-that-change-what-we-know-about-attempted-terror-attack</link>
+      <guid isPermaLink="false">fz1073-u107</guid>
+      <pubDate>Fri, 16 Oct 2026 04:11:27 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Khaleej Times (priamo prečítané) zhrňuje, čo 9. 10. oznámila prokuratúra SAE: druhý pilot mal plánovať prevzatie lietadla a zrútenie na terminál letiska Ben Gurion, predtým mal letieť dvakrát do Tel Avivu kvôli oboznámeniu sa s trasou a letiskom a podľa forenzných dôkazov napadol kapitána núdzovou sekerou. Kontroly pri prijatí do flydubai jeho názory podľa všetkého neodhalili; podľa priznania konal sám, vyšetrovatelia však možných spolupáchateľov stále skúmajú. Ide o tvrdenia prokuratúry sprostredkované médiom, nezávisle neoverené; nadväzuje na u097. (Zdroj: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Médiá] JPost: izraelskí experti upozorňujú na medzery v bezpečnosti letectva po incidente FZ1073</title>
       <link>https://www.jpost.com/israel-news/defense-news/article-911809</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Médiá</category>
       <description>[Médiá] Zhrnutie svedectiev o bodnutí jedného z pilotov a izraelského podozrenia na teroristický čin. (Zdroj: Euronews)</description>
-    </item>
-    <item>
-      <title>[Médiá] Video: výpoveď zraneného cestujúceho</title>
-      <link>https://cedarnews.net/newstasks/1017589/video-bloodied-flydubai-fz1073-passenger-recounts-cockpit-attack-we-thought-we-wouldnt-make-it-out-alive/</link>
-      <guid isPermaLink="false">fz1073-u007</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Médiá</category>
-      <description>[Médiá] Video s cestujúcim, ktorý opisuje útok v kokpite. Obsah videa nebol overený; zdrojom je agregátor. (Zdroj: Cedar News)&lt;br&gt;&lt;a href="https://cedarnews.net/newstasks/1017589/video-bloodied-flydubai-fz1073-passenger-recounts-cockpit-attack-we-thought-we-wouldnt-make-it-out-alive/"&gt;Video: výpoveď cestujúceho&lt;/a&gt; (via Cedar News)</description>
     </item>
   </channel>
 </rss>

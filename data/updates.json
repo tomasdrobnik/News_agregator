@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-15T16:11:46Z",
-    "next_check": "2026-10-15T17:11:46Z",
+    "last_check": "2026-10-16T04:11:27Z",
+    "next_check": "2026-10-16T05:11:27Z",
     "new_count": 1
   },
   "updates": [
@@ -2526,6 +2526,26 @@
         "en": {
           "title": "JPost: Israeli experts warn of aviation security gaps after FZ1073 incident",
           "text": "The article (read directly) quotes Israeli security experts who propose screening all crew and ground staff and remotely activated cockpit cameras. It repeats UAE prosecutors' claims about the attack on the captain and says, per WSJ, the F/O's former employers were not contacted by flydubai about concerns; these are media claims, not verified facts. It also mentions a Delta flight bomb scare at Ben Gurion where no explosives were found."
+        }
+      }
+    },
+    {
+      "id": "u107",
+      "found_at": "2026-10-16T04:11:27Z",
+      "published_at": "2026-10-10T00:00:00Z",
+      "source": "Khaleej Times",
+      "url": "https://www.khaleejtimes.com/uae/flydubai-investigation-7-findings-that-change-what-we-know-about-attempted-terror-attack",
+      "title": "Khaleej Times: shrnutí zjištění prokuratury SAE – druhý pilot FZ1073 prý absolvoval dva průzkumné lety do Tel Avivu",
+      "text": "Khaleej Times (přímo přečteno) shrnuje, co 9. 10. oznámila prokuratura SAE: druhý pilot měl plánovat převzetí letadla a zřícení na terminál letiště Ben Gurion, předtím prý letěl dvakrát do Tel Avivu kvůli seznámení s trasou a letištěm, a podle forenzních důkazů napadl kapitána nouzovou sekerou. Kontroly při přijetí do flydubai prý jeho názory neodhalily; podle přiznání jednal sám, vyšetřovatelé ale možné spolupachatele stále zkoumají. Jde o tvrzení prokuratury zprostředkovaná médiem, nezávisle neověřená; navazuje na u097.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Khaleej Times: zhrnutie zistení prokuratúry SAE – druhý pilot FZ1073 mal absolvovať dva prieskumné lety do Tel Avivu",
+          "text": "Khaleej Times (priamo prečítané) zhrňuje, čo 9. 10. oznámila prokuratúra SAE: druhý pilot mal plánovať prevzatie lietadla a zrútenie na terminál letiska Ben Gurion, predtým mal letieť dvakrát do Tel Avivu kvôli oboznámeniu sa s trasou a letiskom a podľa forenzných dôkazov napadol kapitána núdzovou sekerou. Kontroly pri prijatí do flydubai jeho názory podľa všetkého neodhalili; podľa priznania konal sám, vyšetrovatelia však možných spolupáchateľov stále skúmajú. Ide o tvrdenia prokuratúry sprostredkované médiom, nezávisle neoverené; nadväzuje na u097."
+        },
+        "en": {
+          "title": "Khaleej Times: summary of UAE prosecutors' findings – FZ1073 co-pilot allegedly flew two reconnaissance flights to Tel Aviv",
+          "text": "Khaleej Times (read directly) summarises what UAE prosecutors announced on 9 Oct: the co-pilot allegedly planned to seize the aircraft and crash it into the Ben Gurion airport terminal, reportedly flew to Tel Aviv twice beforehand to learn the route and airport, and forensic evidence is said to support that he attacked the captain with an emergency axe. Recruitment checks at flydubai reportedly did not reveal his views; per his confession he acted alone, but investigators are still examining possible accomplices. These are prosecutors' claims relayed by the outlet, not independently verified; follows up u097."
         }
       }
     }
