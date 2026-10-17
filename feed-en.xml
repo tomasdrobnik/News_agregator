@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 15:10:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 22:10:56 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] The National: FZ1073 captain describes cockpit attack from hospital and the intervention of two off-duty pilots</title>
+      <link>https://thenationalnews.com/news/uae/2026/10/17/blows-kept-coming-i-felt-the-aircraft-going-down-flydubai-captain-on-the-cockpit-battle-to-save-his-plane</link>
+      <guid isPermaLink="false">fz1073-u111</guid>
+      <pubDate>Sat, 17 Oct 2026 22:10:56 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to The National (article read directly; Gulf News similar), the captain, speaking from hospital in Abu Dhabi, describes being struck repeatedly on the head, losing consciousness, forcing the cockpit door open himself and collapsing between cockpit and galley. He says two flydubai pilots travelling as passengers took over flying and passengers with crew restrained the attacker. He cites a drop of about 17,000 ft in under a minute from ~34,000 ft – another variant in conflicting descent data (FR24: &amp;gt;14,000 ft in &amp;lt;30 s). This is one party's account, not independently verified. (Source: The National (UAE))</description>
+    </item>
     <item>
       <title>[Unconfirmed] Maariv: passenger describes how he says he helped restrain the attacker in the cockpit – unconfirmed</title>
       <link>https://www.maariv.co.il/culture/tv/article-1372376</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 13:30:00 +0000</pubDate>
       <category>Unconfirmed</category>
       <description>[Unconfirmed] Indian media, according to search results (pages not read directly) and citing Israeli sources, say the captain is Indian. This contradicts entry u011, where an Israeli official (via CNN) described the captain as a UAE citizen. Neither claim has been officially confirmed. (Source: The Week / India TV (přes vyhledávání))</description>
-    </item>
-    <item>
-      <title>[Unconfirmed] Israeli official: captain from the UAE, second pilot from Oman; media describe stab wound</title>
-      <link>https://edition.cnn.com/2026/09/30/world/live-news/dubai-israel-plane-flydubai-intl</link>
-      <guid isPermaLink="false">fz1073-u011</guid>
-      <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
-      <category>Unconfirmed</category>
-      <description>[Unconfirmed] Media citing an Israeli official say the captain is a UAE national and the second pilot an Omani national, and that it is suspected the second pilot tried to crash the aircraft. Some reports mention a stab wound to the captain and two off-duty pilots among the passengers who helped; none of this is officially confirmed and details differ from earlier reports. Content was not read directly. (Source: CNN / Reuters (přes vyhledávání))</description>
     </item>
   </channel>
 </rss>
