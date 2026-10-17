@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Fri, 16 Oct 2026 04:11:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 04:10:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] Edition.mv: dvaja maldivskí piloti zadržaní v SAE vrátení na Maldivy, neboli zatknutí – neoverené</title>
+      <link>https://edition.mv/news/54959</link>
+      <guid isPermaLink="false">fz1073-u108</guid>
+      <pubDate>Sat, 17 Oct 2026 04:10:30 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Maldivský web Edition.mv (článok priamo prečítaný) uvádza, že dvaja maldivskí druhí piloti flydubai, zadržaní v SAE v súvislosti s FZ1073, boli 16. 10. poslaní späť na Maldivy a tamojšia polícia ich nezatkla, ale vec skúma. Podľa článku bývali v tom istom komplexe ako obvinený F/O; ich možná rola je nejasná. Ide o jediný (regionálny) zdroj, ktorý neuvádza oficiálne potvrdenie; nadväzuje na u104. (Zdroj: Edition.mv (Mihaaru))</description>
+    </item>
     <item>
       <title>[Médiá] Khaleej Times: zhrnutie zistení prokuratúry SAE – druhý pilot FZ1073 mal absolvovať dva prieskumné lety do Tel Avivu</title>
       <link>https://www.khaleejtimes.com/uae/flydubai-investigation-7-findings-that-change-what-we-know-about-attempted-terror-attack</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Neoverené</category>
       <description>[Neoverené] Oba weby blokujú automatizovaný prístup. Zmeny v týchto záznamoch preto monitoring zachytí len nepriamo (cez vyhľadávanie). (Zdroj: The Aviation Herald / ASN)</description>
-    </item>
-    <item>
-      <title>[Médiá] Euronews: izraelskí predstavitelia hovoria o odvrátenom nešťastí</title>
-      <link>https://www.euronews.com/2026/09/30/flydubai-plane-traveling-to-israel-diverted-to-saudi-arabia-after-alleged-dispute-between-</link>
-      <guid isPermaLink="false">fz1073-u008</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Médiá</category>
-      <description>[Médiá] Zhrnutie svedectiev o bodnutí jedného z pilotov a izraelského podozrenia na teroristický čin. (Zdroj: Euronews)</description>
     </item>
   </channel>
 </rss>

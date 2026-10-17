@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 04:11:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 04:10:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Edition.mv: two Maldivian pilots detained in UAE sent back to Maldives, not arrested – unverified</title>
+      <link>https://edition.mv/news/54959</link>
+      <guid isPermaLink="false">fz1073-u108</guid>
+      <pubDate>Sat, 17 Oct 2026 04:10:30 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] Maldivian outlet Edition.mv (article read directly) reports that two Maldivian flydubai co-pilots detained in the UAE in connection with FZ1073 were sent back to the Maldives on 16 Oct and were not arrested by local police, who are looking into the matter. Per the article they lived in the same complex as the accused F/O; their possible role is unclear. This is a single regional source without official confirmation; follows up u104. (Source: Edition.mv (Mihaaru))</description>
+    </item>
     <item>
       <title>[Media] Khaleej Times: summary of UAE prosecutors' findings – FZ1073 co-pilot allegedly flew two reconnaissance flights to Tel Aviv</title>
       <link>https://www.khaleejtimes.com/uae/flydubai-investigation-7-findings-that-change-what-we-know-about-attempted-terror-attack</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
       <category>Unconfirmed</category>
       <description>[Unconfirmed] Both sites block automated access, so the monitor only picks up changes to these entries indirectly (via search). (Source: The Aviation Herald / ASN)</description>
-    </item>
-    <item>
-      <title>[Media] Euronews: Israeli officials speak of an averted disaster</title>
-      <link>https://www.euronews.com/2026/09/30/flydubai-plane-traveling-to-israel-diverted-to-saudi-arabia-after-alleged-dispute-between-</link>
-      <guid isPermaLink="false">fz1073-u008</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Media</category>
-      <description>[Media] Summary of witness accounts of one pilot being stabbed and the Israeli suspicion of a terrorist act. (Source: Euronews)</description>
     </item>
   </channel>
 </rss>

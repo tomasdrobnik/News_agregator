@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-16T04:11:27Z",
-    "next_check": "2026-10-16T05:11:27Z",
+    "last_check": "2026-10-17T04:10:30Z",
+    "next_check": "2026-10-17T05:10:30Z",
     "new_count": 1
   },
   "updates": [
@@ -2546,6 +2546,27 @@
         "en": {
           "title": "Khaleej Times: summary of UAE prosecutors' findings – FZ1073 co-pilot allegedly flew two reconnaissance flights to Tel Aviv",
           "text": "Khaleej Times (read directly) summarises what UAE prosecutors announced on 9 Oct: the co-pilot allegedly planned to seize the aircraft and crash it into the Ben Gurion airport terminal, reportedly flew to Tel Aviv twice beforehand to learn the route and airport, and forensic evidence is said to support that he attacked the captain with an emergency axe. Recruitment checks at flydubai reportedly did not reveal his views; per his confession he acted alone, but investigators are still examining possible accomplices. These are prosecutors' claims relayed by the outlet, not independently verified; follows up u097."
+        }
+      }
+    },
+    {
+      "id": "u108",
+      "found_at": "2026-10-17T04:10:30Z",
+      "published_at": "2026-10-16T17:53:31Z",
+      "source": "Edition.mv (Mihaaru)",
+      "url": "https://edition.mv/news/54959",
+      "title": "Edition.mv: dva maledivští piloti zadržení v SAE vráceni na Maledivy, nebyli zatčeni – neověřeno",
+      "text": "Maledivský web Edition.mv (článek přímo přečten) uvádí, že dva maledivští druhí piloti flydubai, zadržení v SAE v souvislosti s FZ1073, byli 16. 10. posláni zpět na Maledivy a tamní policie je nezatkla, ale věc zkoumá. Podle článku bydleli ve stejném komplexu jako obviněný F/O; jejich možná role je nejasná. Jde o jediný (regionální) zdroj, který neuvádí oficiální potvrzení; navazuje na u104.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Edition.mv: dvaja maldivskí piloti zadržaní v SAE vrátení na Maldivy, neboli zatknutí – neoverené",
+          "text": "Maldivský web Edition.mv (článok priamo prečítaný) uvádza, že dvaja maldivskí druhí piloti flydubai, zadržaní v SAE v súvislosti s FZ1073, boli 16. 10. poslaní späť na Maldivy a tamojšia polícia ich nezatkla, ale vec skúma. Podľa článku bývali v tom istom komplexe ako obvinený F/O; ich možná rola je nejasná. Ide o jediný (regionálny) zdroj, ktorý neuvádza oficiálne potvrdenie; nadväzuje na u104."
+        },
+        "en": {
+          "title": "Edition.mv: two Maldivian pilots detained in UAE sent back to Maldives, not arrested – unverified",
+          "text": "Maldivian outlet Edition.mv (article read directly) reports that two Maldivian flydubai co-pilots detained in the UAE in connection with FZ1073 were sent back to the Maldives on 16 Oct and were not arrested by local police, who are looking into the matter. Per the article they lived in the same complex as the accused F/O; their possible role is unclear. This is a single regional source without official confirmation; follows up u104."
         }
       }
     }

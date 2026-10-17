@@ -549,6 +549,15 @@
       "added_at": "2026-10-13T17:11:51Z",
       "active": true,
       "note": "Izraelský zpravodajský web; v tomto případě přebírá zprávu maledivského Adhadhu – sekundární zdroj, brát opatrně."
+    },
+    {
+      "name": "Edition.mv (Mihaaru)",
+      "url": "https://edition.mv",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-17T04:10:30Z",
+      "active": true,
+      "note": "Maledivské zpravodajství (Mihaaru); sleduje osud dvou maledivských pilotů flydubai zadržených v SAE. WebFetch článku OK."
     }
   ]
 }
