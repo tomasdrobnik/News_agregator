@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 13:11:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 15:10:33 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Maariv: passenger describes how he says he helped restrain the attacker in the cockpit – unconfirmed</title>
+      <link>https://www.maariv.co.il/culture/tv/article-1372376</link>
+      <guid isPermaLink="false">fz1073-u110</guid>
+      <pubDate>Sat, 17 Oct 2026 15:10:33 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] Israeli daily Maariv (page read directly) carries one passenger's account: he says he grabbed the attacker and pulled him out of the cockpit area, called other Israeli passengers to help, then pulled back the throttles. This is the personal testimony of a single passenger, not confirmed by any authority; the article gives no flight number and UAE investigators credit professional pilots, so the accounts conflict. The photo in the article is a screenshot from X. (Source: Maariv)</description>
+    </item>
     <item>
       <title>[Media] Khaleej Times: head of UAE National Media Authority explains why authorities release FZ1073 information in stages</title>
       <link>https://www.khaleejtimes.com/uae/flydubai-fz1073-incident-uae-combats-misinformation-unverified-reports-accuracy</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
       <category>Unconfirmed</category>
       <description>[Unconfirmed] Media citing an Israeli official say the captain is a UAE national and the second pilot an Omani national, and that it is suspected the second pilot tried to crash the aircraft. Some reports mention a stab wound to the captain and two off-duty pilots among the passengers who helped; none of this is officially confirmed and details differ from earlier reports. Content was not read directly. (Source: CNN / Reuters (přes vyhledávání))</description>
-    </item>
-    <item>
-      <title>[Unconfirmed] flydubai: emergency caused by altercation between pilots, investigation opened</title>
-      <link>https://news.flydubai.com/updates-on-fz-1073-dxb-tlv-on-30-september-2026</link>
-      <guid isPermaLink="false">fz1073-u010</guid>
-      <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
-      <category>Unconfirmed</category>
-      <description>[Unconfirmed] According to search results (the carrier's page was not read directly) flydubai says the emergency signal was triggered by a violent altercation between the pilots, the aircraft landed safely in Tabuk and passengers are fine. The carrier reportedly opened its own investigation and sent a replacement aircraft to Tabuk. (Source: flydubai (news.flydubai.com))</description>
     </item>
   </channel>
 </rss>

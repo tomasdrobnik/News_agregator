@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sat, 17 Oct 2026 13:11:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 15:10:33 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] Maariv: cestujúci opisuje, ako podľa svojich slov pomohol zadržať útočníka v kokpite – neoverené</title>
+      <link>https://www.maariv.co.il/culture/tv/article-1372376</link>
+      <guid isPermaLink="false">fz1073-u110</guid>
+      <pubDate>Sat, 17 Oct 2026 15:10:33 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Izraelský denník Maariv (stránka priamo prečítaná) prináša líčenie jedného cestujúceho, ktorý tvrdí, že útočníka zovrel a vytiahol z priestoru kokpitu, zavolal na pomoc ďalších izraelských cestujúcich a potom sťahoval páky ťahu. Ide o osobné svedectvo jediného cestujúceho, ktoré nepotvrdil žiadny úrad; článok nespomína číslo letu a vyšetrovatelia v SAE uvádzajú zásah profesionálnych pilotov, takže ide o rozpor. Foto v článku je snímka obrazovky zo siete X. (Zdroj: Maariv)</description>
+    </item>
     <item>
       <title>[Médiá] Khaleej Times: šéf národného mediálneho úradu SAE vysvetľuje, prečo úrady zverejňujú informácie k FZ1073 postupne</title>
       <link>https://www.khaleejtimes.com/uae/flydubai-fz1073-incident-uae-combats-misinformation-unverified-reports-accuracy</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
       <category>Neoverené</category>
       <description>[Neoverené] Médiá s odkazom na izraelského predstaviteľa uvádzajú, že kapitán je občanom SAE a druhý pilot občanom Ománu a že sa zvažuje podozrenie, že sa druhý pilot pokúsil lietadlo zrútiť. Niektoré správy hovoria o bodnom zranení kapitána a o dvoch pilotoch mimo služby medzi cestujúcimi; oficiálne nič z toho potvrdené nie je a údaje sa líšia od skorších správ. Obsah nebol priamo čítaný. (Zdroj: CNN / Reuters (přes vyhledávání))</description>
-    </item>
-    <item>
-      <title>[Neoverené] flydubai: núdzový stav vyvolala roztržka medzi pilotmi, začaté vyšetrovanie</title>
-      <link>https://news.flydubai.com/updates-on-fz-1073-dxb-tlv-on-30-september-2026</link>
-      <guid isPermaLink="false">fz1073-u010</guid>
-      <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
-      <category>Neoverené</category>
-      <description>[Neoverené] Podľa výsledkov vyhľadávania (stránka dopravcu nebola priamo prečítaná) flydubai uvádza, že signál núdze vyvolala násilná roztržka medzi pilotmi, lietadlo bezpečne pristálo v Tabuku a cestujúci sú v poriadku. Dopravca vraj začal vlastné vyšetrovanie a do Tabuku poslal náhradné lietadlo. (Zdroj: flydubai (news.flydubai.com))</description>
     </item>
   </channel>
 </rss>

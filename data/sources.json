@@ -558,6 +558,15 @@
       "added_at": "2026-10-17T04:10:30Z",
       "active": true,
       "note": "Maledivské zpravodajství (Mihaaru); sleduje osud dvou maledivských pilotů flydubai zadržených v SAE. WebFetch článku OK."
+    },
+    {
+      "name": "Maariv",
+      "url": "https://www.maariv.co.il",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-17T15:10:33Z",
+      "active": true,
+      "note": "Izraelský deník; článek o svědectví cestujícího přímo přečten přes WebFetch."
     }
   ]
 }
