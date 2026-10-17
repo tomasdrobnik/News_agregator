@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Sat, 17 Oct 2026 04:10:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 13:11:31 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Khaleej Times: šéf národného mediálneho úradu SAE vysvetľuje, prečo úrady zverejňujú informácie k FZ1073 postupne</title>
+      <link>https://www.khaleejtimes.com/uae/flydubai-fz1073-incident-uae-combats-misinformation-unverified-reports-accuracy</link>
+      <guid isPermaLink="false">fz1073-u109</guid>
+      <pubDate>Sat, 17 Oct 2026 13:11:31 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Khaleej Times (článok priamo prečítaný; publikovaný 15. 10., aktualizovaný 17. 10.) uvádza, že predseda Národného mediálneho úradu SAE na stretnutí s novinármi povedal, že SAE nezverejní informácie, kým si nie je úplne isté ich správnosťou. Článok pripomína, že podľa zistení zverejnených 9. 10. mal druhý pilot plánovať samovražedný útok na letisko Ben Gurion. Nejde o nové skutkové zistenie, ale o vysvetlenie komunikácie úradov; tvrdenie o pláne útoku tu preberá zo skorších oficiálnych oznámení, ktoré tento záznam sám neoveruje. (Zdroj: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Neoverené] Edition.mv: dvaja maldivskí piloti zadržaní v SAE vrátení na Maldivy, neboli zatknutí – neoverené</title>
       <link>https://edition.mv/news/54959</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
       <category>Neoverené</category>
       <description>[Neoverené] Podľa výsledkov vyhľadávania (stránka dopravcu nebola priamo prečítaná) flydubai uvádza, že signál núdze vyvolala násilná roztržka medzi pilotmi, lietadlo bezpečne pristálo v Tabuku a cestujúci sú v poriadku. Dopravca vraj začal vlastné vyšetrovanie a do Tabuku poslal náhradné lietadlo. (Zdroj: flydubai (news.flydubai.com))</description>
-    </item>
-    <item>
-      <title>[Neoverené] AvHerald a ASN majú záznam – obsah nedostupný na automatické čítanie</title>
-      <link>https://avherald.com/h?article=5423fa17&amp;opt=0</link>
-      <guid isPermaLink="false">fz1073-u009</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Neoverené</category>
-      <description>[Neoverené] Oba weby blokujú automatizovaný prístup. Zmeny v týchto záznamoch preto monitoring zachytí len nepriamo (cez vyhľadávanie). (Zdroj: The Aviation Herald / ASN)</description>
     </item>
   </channel>
 </rss>

@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-17T04:10:30Z",
-    "next_check": "2026-10-17T05:10:30Z",
+    "last_check": "2026-10-17T13:11:31Z",
+    "next_check": "2026-10-17T14:11:31Z",
     "new_count": 1
   },
   "updates": [
@@ -2567,6 +2567,27 @@
         "en": {
           "title": "Edition.mv: two Maldivian pilots detained in UAE sent back to Maldives, not arrested – unverified",
           "text": "Maldivian outlet Edition.mv (article read directly) reports that two Maldivian flydubai co-pilots detained in the UAE in connection with FZ1073 were sent back to the Maldives on 16 Oct and were not arrested by local police, who are looking into the matter. Per the article they lived in the same complex as the accused F/O; their possible role is unclear. This is a single regional source without official confirmation; follows up u104."
+        }
+      }
+    },
+    {
+      "id": "u109",
+      "found_at": "2026-10-17T13:11:31Z",
+      "published_at": "2026-10-15T00:00:00Z",
+      "source": "Khaleej Times",
+      "url": "https://www.khaleejtimes.com/uae/flydubai-fz1073-incident-uae-combats-misinformation-unverified-reports-accuracy",
+      "title": "Khaleej Times: šéf národního mediálního úřadu SAE vysvětluje, proč úřady zveřejňují informace k FZ1073 postupně",
+      "text": "Khaleej Times (článek přímo přečten; publikován 15. 10., aktualizován 17. 10.) uvádí, že předseda Národního mediálního úřadu SAE na setkání s novináři řekl, že SAE nezveřejní informace, dokud si není zcela jisté jejich správností. Článek připomíná, že podle zjištění zveřejněných 9. 10. měl druhý pilot plánovat sebevražedný útok na letiště Ben Gurion. Nejde o nové skutkové zjištění, ale o vysvětlení komunikace úřadů; tvrzení o plánu útoku zde přebírá z dřívějších oficiálních sdělení, která tento záznam sám neověřuje.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Khaleej Times: šéf národného mediálneho úradu SAE vysvetľuje, prečo úrady zverejňujú informácie k FZ1073 postupne",
+          "text": "Khaleej Times (článok priamo prečítaný; publikovaný 15. 10., aktualizovaný 17. 10.) uvádza, že predseda Národného mediálneho úradu SAE na stretnutí s novinármi povedal, že SAE nezverejní informácie, kým si nie je úplne isté ich správnosťou. Článok pripomína, že podľa zistení zverejnených 9. 10. mal druhý pilot plánovať samovražedný útok na letisko Ben Gurion. Nejde o nové skutkové zistenie, ale o vysvetlenie komunikácie úradov; tvrdenie o pláne útoku tu preberá zo skorších oficiálnych oznámení, ktoré tento záznam sám neoveruje."
+        },
+        "en": {
+          "title": "Khaleej Times: head of UAE National Media Authority explains why authorities release FZ1073 information in stages",
+          "text": "Khaleej Times (article read directly; published 15 Oct, updated 17 Oct) reports that the chairman of the UAE National Media Authority told journalists the UAE will not release information until fully certain of its accuracy. The article recalls that, per findings disclosed on 9 Oct, the co-pilot allegedly planned a suicide attack on Ben Gurion Airport. This is not a new factual finding but an explanation of how authorities communicate; the attack-plan claim is taken from earlier official statements that this entry does not itself verify."
         }
       }
     }

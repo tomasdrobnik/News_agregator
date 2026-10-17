@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 04:10:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 13:11:31 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Khaleej Times: head of UAE National Media Authority explains why authorities release FZ1073 information in stages</title>
+      <link>https://www.khaleejtimes.com/uae/flydubai-fz1073-incident-uae-combats-misinformation-unverified-reports-accuracy</link>
+      <guid isPermaLink="false">fz1073-u109</guid>
+      <pubDate>Sat, 17 Oct 2026 13:11:31 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Khaleej Times (article read directly; published 15 Oct, updated 17 Oct) reports that the chairman of the UAE National Media Authority told journalists the UAE will not release information until fully certain of its accuracy. The article recalls that, per findings disclosed on 9 Oct, the co-pilot allegedly planned a suicide attack on Ben Gurion Airport. This is not a new factual finding but an explanation of how authorities communicate; the attack-plan claim is taken from earlier official statements that this entry does not itself verify. (Source: Khaleej Times)</description>
+    </item>
     <item>
       <title>[Unconfirmed] Edition.mv: two Maldivian pilots detained in UAE sent back to Maldives, not arrested – unverified</title>
       <link>https://edition.mv/news/54959</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 13:10:36 +0000</pubDate>
       <category>Unconfirmed</category>
       <description>[Unconfirmed] According to search results (the carrier's page was not read directly) flydubai says the emergency signal was triggered by a violent altercation between the pilots, the aircraft landed safely in Tabuk and passengers are fine. The carrier reportedly opened its own investigation and sent a replacement aircraft to Tabuk. (Source: flydubai (news.flydubai.com))</description>
-    </item>
-    <item>
-      <title>[Unconfirmed] AvHerald and ASN have an entry – content not available for automated reading</title>
-      <link>https://avherald.com/h?article=5423fa17&amp;opt=0</link>
-      <guid isPermaLink="false">fz1073-u009</guid>
-      <pubDate>Wed, 30 Sep 2026 12:25:00 +0000</pubDate>
-      <category>Unconfirmed</category>
-      <description>[Unconfirmed] Both sites block automated access, so the monitor only picks up changes to these entries indirectly (via search). (Source: The Aviation Herald / ASN)</description>
     </item>
   </channel>
 </rss>
