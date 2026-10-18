@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sat, 17 Oct 2026 22:10:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:11:20 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Ctech: flydubai prodloužil pozastavení letů do Izraele do konce října, izraelské ministerstvo dopravy odmítlo obnovení</title>
+      <link>https://www.calcalistech.com/ctechnews/article/xxnces05w</link>
+      <guid isPermaLink="false">fz1073-u112</guid>
+      <pubDate>Sun, 18 Oct 2026 19:11:20 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle přímo přečteného článku Ctech (publikován 11. 10.) flydubai prodloužil pozastavení letů do Izraele do konce října poté, co mu ministerstvo dopravy odmítlo povolit obnovení provozu. Ministerstvo prý nejdřív požaduje úplné informace o incidentu. Jde o zprávu média, nikoli o přímo čtené prohlášení dopravce či úřadu. (Zdroj: Ctech (Calcalist))</description>
+    </item>
     <item>
       <title>[Média] The National: kapitán FZ1073 z nemocnice popisuje útok v kokpitu a zásah dvou pilotů-cestujících</title>
       <link>https://thenationalnews.com/news/uae/2026/10/17/blows-kept-coming-i-felt-the-aircraft-going-down-flydubai-captain-on-the-cockpit-battle-to-save-his-plane</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 13:30:00 +0000</pubDate>
       <category>Neověřeno</category>
       <description>[Neověřeno] Podle výsledků vyhledávání (stránky nebyly přímo čteny) se do šetření v Izraeli zapojily Mossad, Šin Bet, armáda i ministerstvo dopravy a incident hodnotí jako možný teroristický útok. Izraelská média uvádějí, že F/O pracoval u flydubai asi devět měsíců a ministr dopravy žádá prověřit dodržování dohod o pilotech s pasy států s diplomatickými vztahy k Izraeli; nic z toho není oficiálně potvrzeno. (Zdroj: Israel Hayom / Kan / Reuters (přes vyhledávání))</description>
-    </item>
-    <item>
-      <title>[Neověřeno] Rozpor: národnost kapitána – indická vs. emirátská</title>
-      <link>https://www.theweek.in/news/middle-east/2026/09/30/stabbed-flydubai-pilot-is-indian-say-reports-terror-angle-not-ruled-out-in-violent-mid-air-clash-as-mossad-joins-probe.html</link>
-      <guid isPermaLink="false">fz1073-u012</guid>
-      <pubDate>Wed, 30 Sep 2026 13:30:00 +0000</pubDate>
-      <category>Neověřeno</category>
-      <description>[Neověřeno] Indická média podle výsledků vyhledávání (stránky nebyly přímo čteny) s odkazem na izraelské zdroje uvádějí, že kapitán je Ind. To odporuje záznamu u011, kde izraelský činitel (přes CNN) označil kapitána za občana SAE. Ani jedno tvrzení není oficiálně potvrzeno. (Zdroj: The Week / India TV (přes vyhledávání))</description>
     </item>
   </channel>
 </rss>

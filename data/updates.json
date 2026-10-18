@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-17T22:10:56Z",
-    "next_check": "2026-10-17T23:10:56Z",
+    "last_check": "2026-10-18T19:11:20Z",
+    "next_check": "2026-10-18T20:11:20Z",
     "new_count": 1
   },
   "updates": [
@@ -2629,6 +2629,27 @@
         "en": {
           "title": "The National: FZ1073 captain describes cockpit attack from hospital and the intervention of two off-duty pilots",
           "text": "According to The National (article read directly; Gulf News similar), the captain, speaking from hospital in Abu Dhabi, describes being struck repeatedly on the head, losing consciousness, forcing the cockpit door open himself and collapsing between cockpit and galley. He says two flydubai pilots travelling as passengers took over flying and passengers with crew restrained the attacker. He cites a drop of about 17,000 ft in under a minute from ~34,000 ft – another variant in conflicting descent data (FR24: >14,000 ft in <30 s). This is one party's account, not independently verified."
+        }
+      }
+    },
+    {
+      "id": "u112",
+      "found_at": "2026-10-18T19:11:20Z",
+      "published_at": "2026-10-11T17:43:54Z",
+      "source": "Ctech (Calcalist)",
+      "url": "https://www.calcalistech.com/ctechnews/article/xxnces05w",
+      "title": "Ctech: flydubai prodloužil pozastavení letů do Izraele do konce října, izraelské ministerstvo dopravy odmítlo obnovení",
+      "text": "Podle přímo přečteného článku Ctech (publikován 11. 10.) flydubai prodloužil pozastavení letů do Izraele do konce října poté, co mu ministerstvo dopravy odmítlo povolit obnovení provozu. Ministerstvo prý nejdřív požaduje úplné informace o incidentu. Jde o zprávu média, nikoli o přímo čtené prohlášení dopravce či úřadu.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Ctech: flydubai predĺžil pozastavenie letov do Izraela do konca októbra, izraelské ministerstvo dopravy odmietlo obnovenie",
+          "text": "Podľa priamo prečítaného článku Ctech (publikovaný 11. 10.) flydubai predĺžil pozastavenie letov do Izraela do konca októbra potom, čo mu ministerstvo dopravy odmietlo povoliť obnovenie prevádzky. Ministerstvo údajne najprv požaduje úplné informácie o incidente. Ide o správu média, nie o priamo čítané vyhlásenie dopravcu či úradu."
+        },
+        "en": {
+          "title": "Ctech: flydubai extends suspension of Israel flights through end of October; Israeli Transport Ministry refused resumption",
+          "text": "According to the directly read Ctech article (published 11 Oct), flydubai extended its suspension of flights to Israel through the end of October after the Transport Ministry refused to let it resume operations. The ministry reportedly wants full details of the incident first. This is a media report, not a directly read statement from the carrier or an authority."
         }
       }
     }

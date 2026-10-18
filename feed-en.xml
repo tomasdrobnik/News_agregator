@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 22:10:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:11:20 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Ctech: flydubai extends suspension of Israel flights through end of October; Israeli Transport Ministry refused resumption</title>
+      <link>https://www.calcalistech.com/ctechnews/article/xxnces05w</link>
+      <guid isPermaLink="false">fz1073-u112</guid>
+      <pubDate>Sun, 18 Oct 2026 19:11:20 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Ctech article (published 11 Oct), flydubai extended its suspension of flights to Israel through the end of October after the Transport Ministry refused to let it resume operations. The ministry reportedly wants full details of the incident first. This is a media report, not a directly read statement from the carrier or an authority. (Source: Ctech (Calcalist))</description>
+    </item>
     <item>
       <title>[Media] The National: FZ1073 captain describes cockpit attack from hospital and the intervention of two off-duty pilots</title>
       <link>https://thenationalnews.com/news/uae/2026/10/17/blows-kept-coming-i-felt-the-aircraft-going-down-flydubai-captain-on-the-cockpit-battle-to-save-his-plane</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 13:30:00 +0000</pubDate>
       <category>Unconfirmed</category>
       <description>[Unconfirmed] According to search results (pages not read directly), Mossad, Shin Bet, the military and the transport ministry are involved in the investigation in Israel, which assesses the incident as a possible terror attack. Israeli media say the first officer had worked at flydubai for about nine months, and the transport minister has asked for a check of compliance with agreements on pilots holding passports of states with diplomatic ties to Israel; none of this is officially confirmed. (Source: Israel Hayom / Kan / Reuters (přes vyhledávání))</description>
-    </item>
-    <item>
-      <title>[Unconfirmed] Conflict: captain's nationality – Indian vs. Emirati</title>
-      <link>https://www.theweek.in/news/middle-east/2026/09/30/stabbed-flydubai-pilot-is-indian-say-reports-terror-angle-not-ruled-out-in-violent-mid-air-clash-as-mossad-joins-probe.html</link>
-      <guid isPermaLink="false">fz1073-u012</guid>
-      <pubDate>Wed, 30 Sep 2026 13:30:00 +0000</pubDate>
-      <category>Unconfirmed</category>
-      <description>[Unconfirmed] Indian media, according to search results (pages not read directly) and citing Israeli sources, say the captain is Indian. This contradicts entry u011, where an Israeli official (via CNN) described the captain as a UAE citizen. Neither claim has been officially confirmed. (Source: The Week / India TV (přes vyhledávání))</description>
     </item>
   </channel>
 </rss>
