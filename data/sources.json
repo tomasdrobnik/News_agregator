@@ -567,6 +567,15 @@
       "added_at": "2026-10-17T15:10:33Z",
       "active": true,
       "note": "Izraelský deník; článek o svědectví cestujícího přímo přečten přes WebFetch."
+    },
+    {
+      "name": "IAS – Israel Aviation (ias.co.il)",
+      "url": "https://www.ias.co.il",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-19T22:10:51Z",
+      "active": true,
+      "note": "Izraelský letecký zpravodajský web (redakce, hebrejsky); sleduje obnovení linek flydubai do Izraele. Přímé čtení přes WebFetch uspělo."
     }
   ]
 }

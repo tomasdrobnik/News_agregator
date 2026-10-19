@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:11:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 22:10:51 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] IAS: flydubai zrušil lety Dubaj–Tel Aviv minimálně do 15. 11.</title>
+      <link>https://www.ias.co.il/?p=192206</link>
+      <guid isPermaLink="false">fz1073-u113</guid>
+      <pubDate>Mon, 19 Oct 2026 22:10:51 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle přímo přečteného článku izraelského leteckého webu IAS (16. 10.) flydubai sdělil cestovním agenturám, že ruší všechny lety mezi Tel Avivem a Dubajem minimálně do 15. listopadu 2026 a datum obnovení pravidelného provozu nestanovil. Článek uvádí, že izraelské úřady podmiňují obnovení úplným vyšetřením a zpřísněnými bezpečnostními opatřeními. Jde o zprávu jediného oborového webu, nikoli o přímo čtené prohlášení dopravce. (Zdroj: IAS – Israel Aviation (ias.co.il))</description>
+    </item>
     <item>
       <title>[Média] Ctech: flydubai prodloužil pozastavení letů do Izraele do konce října, izraelské ministerstvo dopravy odmítlo obnovení</title>
       <link>https://www.calcalistech.com/ctechnews/article/xxnces05w</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 14:10:00 +0000</pubDate>
       <category>Neověřeno</category>
       <description>[Neověřeno] AvHerald v 09:59Z změnil titulek svého článku na „first officer under investigation for suspected suicide attempt“ (předtím jen „fight in the cockpit“). Přímo přečten byl jen titulek na oficiálním Bluesky účtu AvHerald, samotný článek ne – kdo šetření vede a z čeho titulek vychází, není známo. Je to v rozporu s izraelským hodnocením jako možného teroristického činu; oficiálně nic z toho potvrzeno není. Doplňuje u009. (Zdroj: The Aviation Herald (titulek na Bluesky @avherald.com))</description>
-    </item>
-    <item>
-      <title>[Neověřeno] Izrael: společné šetření, zkoumá se i původ pilotních pasů</title>
-      <link>https://www.israelhayom.co.il/news/defense/article/21522045</link>
-      <guid isPermaLink="false">fz1073-u013</guid>
-      <pubDate>Wed, 30 Sep 2026 13:30:00 +0000</pubDate>
-      <category>Neověřeno</category>
-      <description>[Neověřeno] Podle výsledků vyhledávání (stránky nebyly přímo čteny) se do šetření v Izraeli zapojily Mossad, Šin Bet, armáda i ministerstvo dopravy a incident hodnotí jako možný teroristický útok. Izraelská média uvádějí, že F/O pracoval u flydubai asi devět měsíců a ministr dopravy žádá prověřit dodržování dohod o pilotech s pasy států s diplomatickými vztahy k Izraeli; nic z toho není oficiálně potvrzeno. (Zdroj: Israel Hayom / Kan / Reuters (přes vyhledávání))</description>
     </item>
   </channel>
 </rss>

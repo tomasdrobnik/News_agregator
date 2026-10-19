@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:11:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 22:10:51 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] IAS: flydubai cancels Dubai–Tel Aviv flights until at least 15 Nov</title>
+      <link>https://www.ias.co.il/?p=192206</link>
+      <guid isPermaLink="false">fz1073-u113</guid>
+      <pubDate>Mon, 19 Oct 2026 22:10:51 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to the directly read article on the Israeli aviation site IAS (16 Oct), flydubai told travel agents it is cancelling all flights between Tel Aviv and Dubai until at least 15 November 2026 and has set no date for resuming regular service. The article says Israeli authorities condition resumption on a full investigation and tighter security arrangements. This is a report from a single trade site, not a directly read statement from the carrier. (Source: IAS – Israel Aviation (ias.co.il))</description>
+    </item>
     <item>
       <title>[Media] Ctech: flydubai extends suspension of Israel flights through end of October; Israeli Transport Ministry refused resumption</title>
       <link>https://www.calcalistech.com/ctechnews/article/xxnces05w</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 14:10:00 +0000</pubDate>
       <category>Unconfirmed</category>
       <description>[Unconfirmed] At 09:59Z AvHerald changed its article headline to “first officer under investigation for suspected suicide attempt” (previously only “fight in the cockpit”). Only the headline on AvHerald's official Bluesky account was read directly, not the article itself – who is leading the investigation and what the headline is based on is unknown. This contradicts the Israeli assessment of a possible terrorist act; none of it is officially confirmed. Supplements u009. (Source: The Aviation Herald (titulek na Bluesky @avherald.com))</description>
-    </item>
-    <item>
-      <title>[Unconfirmed] Israel: joint investigation, origin of pilots' passports also examined</title>
-      <link>https://www.israelhayom.co.il/news/defense/article/21522045</link>
-      <guid isPermaLink="false">fz1073-u013</guid>
-      <pubDate>Wed, 30 Sep 2026 13:30:00 +0000</pubDate>
-      <category>Unconfirmed</category>
-      <description>[Unconfirmed] According to search results (pages not read directly), Mossad, Shin Bet, the military and the transport ministry are involved in the investigation in Israel, which assesses the incident as a possible terror attack. Israeli media say the first officer had worked at flydubai for about nine months, and the transport minister has asked for a check of compliance with agreements on pilots holding passports of states with diplomatic ties to Israel; none of this is officially confirmed. (Source: Israel Hayom / Kan / Reuters (přes vyhledávání))</description>
     </item>
   </channel>
 </rss>

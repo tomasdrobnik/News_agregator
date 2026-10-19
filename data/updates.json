@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-18T19:11:20Z",
-    "next_check": "2026-10-18T20:11:20Z",
+    "last_check": "2026-10-19T22:10:51Z",
+    "next_check": "2026-10-19T23:10:51Z",
     "new_count": 1
   },
   "updates": [
@@ -2650,6 +2650,27 @@
         "en": {
           "title": "Ctech: flydubai extends suspension of Israel flights through end of October; Israeli Transport Ministry refused resumption",
           "text": "According to the directly read Ctech article (published 11 Oct), flydubai extended its suspension of flights to Israel through the end of October after the Transport Ministry refused to let it resume operations. The ministry reportedly wants full details of the incident first. This is a media report, not a directly read statement from the carrier or an authority."
+        }
+      }
+    },
+    {
+      "id": "u113",
+      "found_at": "2026-10-19T22:10:51Z",
+      "published_at": "2026-10-16T20:58:00Z",
+      "source": "IAS – Israel Aviation (ias.co.il)",
+      "url": "https://www.ias.co.il/?p=192206",
+      "title": "IAS: flydubai zrušil lety Dubaj–Tel Aviv minimálně do 15. 11.",
+      "text": "Podle přímo přečteného článku izraelského leteckého webu IAS (16. 10.) flydubai sdělil cestovním agenturám, že ruší všechny lety mezi Tel Avivem a Dubajem minimálně do 15. listopadu 2026 a datum obnovení pravidelného provozu nestanovil. Článek uvádí, že izraelské úřady podmiňují obnovení úplným vyšetřením a zpřísněnými bezpečnostními opatřeními. Jde o zprávu jediného oborového webu, nikoli o přímo čtené prohlášení dopravce.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "IAS: flydubai zrušil lety Dubaj–Tel Aviv minimálne do 15. 11.",
+          "text": "Podľa priamo prečítaného článku izraelského leteckého webu IAS (16. 10.) flydubai oznámil cestovným agentúram, že ruší všetky lety medzi Tel Avivom a Dubajom minimálne do 15. novembra 2026 a dátum obnovenia pravidelnej prevádzky neurčil. Článok uvádza, že izraelské úrady podmieňujú obnovenie úplným vyšetrením a sprísnenými bezpečnostnými opatreniami. Ide o správu jediného odborného webu, nie o priamo čítané vyhlásenie dopravcu."
+        },
+        "en": {
+          "title": "IAS: flydubai cancels Dubai–Tel Aviv flights until at least 15 Nov",
+          "text": "According to the directly read article on the Israeli aviation site IAS (16 Oct), flydubai told travel agents it is cancelling all flights between Tel Aviv and Dubai until at least 15 November 2026 and has set no date for resuming regular service. The article says Israeli authorities condition resumption on a full investigation and tighter security arrangements. This is a report from a single trade site, not a directly read statement from the carrier."
         }
       }
     }
