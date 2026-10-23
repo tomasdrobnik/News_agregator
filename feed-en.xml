@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 22:10:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 08:12:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] JNS: Tel Aviv–Dubai flights remain suspended three weeks after the incident</title>
+      <link>https://www.jns.org/news/israel-news/flights-to-dubai-from-tel-aviv-remain-suspended-three-weeks-after-attack</link>
+      <guid isPermaLink="false">fz1073-u114</guid>
+      <pubDate>Fri, 23 Oct 2026 08:12:30 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read JNS article (21 Oct), flydubai has suspended the route until at least 15 Nov and bookings are unavailable until year-end; Etihad is the only carrier between the UAE and Israel. The article says the dispute between Israeli and Emirati authorities over security measures continues, and that unnamed Israeli security officials reportedly want their own personnel and X-ray baggage screening in Dubai. This is a media claim, not an official statement. (Source: JNS (Jewish News Syndicate))</description>
+    </item>
     <item>
       <title>[Unconfirmed] IAS: flydubai cancels Dubai–Tel Aviv flights until at least 15 Nov</title>
       <link>https://www.ias.co.il/?p=192206</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
       <category>Media</category>
       <description>[Media] According to search results (JPost, AFP and others; pages not read directly), Israeli PM Netanyahu said one pilot stabbed the other, apparently tried to crash the plane or sabotage its systems, and was arrested and is being questioned by Saudi authorities. This is a claim by the Israeli side; UAE/KSA and investigators have not officially confirmed it, and it conflicts with the AvHerald headline (u014) about a suspected suicide attempt. (Source: Jerusalem Post / AFP / další (přes vyhledávání))</description>
-    </item>
-    <item>
-      <title>[Unconfirmed] AvHerald updates headline: F/O under investigation for suspected suicide attempt</title>
-      <link>https://avherald.com/h?article=5423fa17&amp;opt=0</link>
-      <guid isPermaLink="false">fz1073-u014</guid>
-      <pubDate>Wed, 30 Sep 2026 14:10:00 +0000</pubDate>
-      <category>Unconfirmed</category>
-      <description>[Unconfirmed] At 09:59Z AvHerald changed its article headline to “first officer under investigation for suspected suicide attempt” (previously only “fight in the cockpit”). Only the headline on AvHerald's official Bluesky account was read directly, not the article itself – who is leading the investigation and what the headline is based on is unknown. This contradicts the Israeli assessment of a possible terrorist act; none of it is officially confirmed. Supplements u009. (Source: The Aviation Herald (titulek na Bluesky @avherald.com))</description>
     </item>
   </channel>
 </rss>

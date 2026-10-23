@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-19T22:10:51Z",
-    "next_check": "2026-10-19T23:10:51Z",
+    "last_check": "2026-10-23T08:12:30Z",
+    "next_check": "2026-10-23T09:12:30Z",
     "new_count": 1
   },
   "updates": [
@@ -2671,6 +2671,27 @@
         "en": {
           "title": "IAS: flydubai cancels Dubai–Tel Aviv flights until at least 15 Nov",
           "text": "According to the directly read article on the Israeli aviation site IAS (16 Oct), flydubai told travel agents it is cancelling all flights between Tel Aviv and Dubai until at least 15 November 2026 and has set no date for resuming regular service. The article says Israeli authorities condition resumption on a full investigation and tighter security arrangements. This is a report from a single trade site, not a directly read statement from the carrier."
+        }
+      }
+    },
+    {
+      "id": "u114",
+      "found_at": "2026-10-23T08:12:30Z",
+      "published_at": "2026-10-21T00:00:00Z",
+      "source": "JNS (Jewish News Syndicate)",
+      "url": "https://www.jns.org/news/israel-news/flights-to-dubai-from-tel-aviv-remain-suspended-three-weeks-after-attack",
+      "title": "JNS: lety Tel Aviv–Dubaj zůstávají tři týdny po incidentu pozastaveny",
+      "text": "Podle přímo přečteného článku JNS (21. 10.) flydubai pozastavil linku minimálně do 15. 11. a rezervace jsou do konce roku nedostupné; jediným dopravcem mezi SAE a Izraelem je Etihad. Článek uvádí, že spor izraelských a emirátských úřadů o bezpečnostní opatření trvá, a podle nepojmenovaných izraelských bezpečnostních představitelů Izrael požaduje vlastní personál a rentgenovou kontrolu zavazadel v Dubaji. Jde o tvrzení média, ne o oficiální prohlášení.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "JNS: lety Tel Aviv–Dubaj zostávajú tri týždne po incidente pozastavené",
+          "text": "Podľa priamo prečítaného článku JNS (21. 10.) flydubai pozastavil linku minimálne do 15. 11. a rezervácie sú do konca roka nedostupné; jediným dopravcom medzi SAE a Izraelom je Etihad. Článok uvádza, že spor izraelských a emirátskych úradov o bezpečnostné opatrenia trvá, a podľa nepomenovaných izraelských bezpečnostných predstaviteľov Izrael požaduje vlastný personál a röntgenovú kontrolu batožiny v Dubaji. Ide o tvrdenie média, nie o oficiálne vyhlásenie."
+        },
+        "en": {
+          "title": "JNS: Tel Aviv–Dubai flights remain suspended three weeks after the incident",
+          "text": "According to the directly read JNS article (21 Oct), flydubai has suspended the route until at least 15 Nov and bookings are unavailable until year-end; Etihad is the only carrier between the UAE and Israel. The article says the dispute between Israeli and Emirati authorities over security measures continues, and that unnamed Israeli security officials reportedly want their own personnel and X-ray baggage screening in Dubai. This is a media claim, not an official statement."
         }
       }
     }

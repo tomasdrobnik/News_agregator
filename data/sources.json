@@ -576,6 +576,15 @@
       "added_at": "2026-10-19T22:10:51Z",
       "active": true,
       "note": "Izraelský letecký zpravodajský web (redakce, hebrejsky); sleduje obnovení linek flydubai do Izraele. Přímé čtení přes WebFetch uspělo."
+    },
+    {
+      "name": "JNS (Jewish News Syndicate)",
+      "url": "https://www.jns.org",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-10-23T08:12:30Z",
+      "active": true,
+      "note": "Zpravodajská agentura/web s redakcí (autor Etgar Lefkovits); sleduje dopady incidentu na lety Tel Aviv–Dubaj. Přímé čtení přes WebFetch uspělo."
     }
   ]
 }

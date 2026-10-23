@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Mon, 19 Oct 2026 22:10:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 08:12:30 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] JNS: lety Tel Aviv–Dubaj zůstávají tři týdny po incidentu pozastaveny</title>
+      <link>https://www.jns.org/news/israel-news/flights-to-dubai-from-tel-aviv-remain-suspended-three-weeks-after-attack</link>
+      <guid isPermaLink="false">fz1073-u114</guid>
+      <pubDate>Fri, 23 Oct 2026 08:12:30 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle přímo přečteného článku JNS (21. 10.) flydubai pozastavil linku minimálně do 15. 11. a rezervace jsou do konce roku nedostupné; jediným dopravcem mezi SAE a Izraelem je Etihad. Článek uvádí, že spor izraelských a emirátských úřadů o bezpečnostní opatření trvá, a podle nepojmenovaných izraelských bezpečnostních představitelů Izrael požaduje vlastní personál a rentgenovou kontrolu zavazadel v Dubaji. Jde o tvrzení média, ne o oficiální prohlášení. (Zdroj: JNS (Jewish News Syndicate))</description>
+    </item>
     <item>
       <title>[Neověřeno] IAS: flydubai zrušil lety Dubaj–Tel Aviv minimálně do 15. 11.</title>
       <link>https://www.ias.co.il/?p=192206</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
       <category>Média</category>
       <description>[Média] Podle výsledků vyhledávání (JPost, AFP a další; stránky nebyly přímo čteny) izraelský premiér Netanjahu uvedl, že jeden pilot bodl druhého, zřejmě se pokusil letoun zřítit či sabotovat jeho systémy, a že byl zatčen a saúdské úřady ho vyslýchají. Jde o tvrzení izraelské strany; UAE/KSA ani vyšetřovací orgány to oficiálně nepotvrdily a rozporuje to titulek AvHerald (u014) o podezření ze sebevraždy. (Zdroj: Jerusalem Post / AFP / další (přes vyhledávání))</description>
-    </item>
-    <item>
-      <title>[Neověřeno] AvHerald upravil titulek: F/O prošetřován pro podezření z pokusu o sebevraždu</title>
-      <link>https://avherald.com/h?article=5423fa17&amp;opt=0</link>
-      <guid isPermaLink="false">fz1073-u014</guid>
-      <pubDate>Wed, 30 Sep 2026 14:10:00 +0000</pubDate>
-      <category>Neověřeno</category>
-      <description>[Neověřeno] AvHerald v 09:59Z změnil titulek svého článku na „first officer under investigation for suspected suicide attempt“ (předtím jen „fight in the cockpit“). Přímo přečten byl jen titulek na oficiálním Bluesky účtu AvHerald, samotný článek ne – kdo šetření vede a z čeho titulek vychází, není známo. Je to v rozporu s izraelským hodnocením jako možného teroristického činu; oficiálně nic z toho potvrzeno není. Doplňuje u009. (Zdroj: The Aviation Herald (titulek na Bluesky @avherald.com))</description>
     </item>
   </channel>
 </rss>
