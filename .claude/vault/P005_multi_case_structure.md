@@ -26,6 +26,8 @@
 - Ids `u001…` restart per case.
 - N722BD direct-read OK (curl): FAA statements, FR24 blog, FlightAware, NBC, NBC 6, ABC, FlightGlobal (paywall: intro only), Simple Flying, IBTimes. Not readable: AP (403), Reuters (robots), NTSB newsroom/CAROL (JS), PBSO (robots timeout).
 - FlightAware hides N722BD history at owner's request; owner LR60271 LLC.
+- N722BD cloud routine `trig_01VG8oLALZJEYX5Ubb1LZVmf` ("N722BD source check"), every 3 h at :23 (`23 */3 * * *`), same env/model/tools as FZ1073, no MCP connectors (server auto-attached some – cleared). Reduce to daily after NTSB preliminary report.
+- Decision 2026-11-02: no X/Reddit API search for N722BD (cost vs. value) – manual tips via inbox.json only.
 
 ---
 
@@ -47,4 +49,4 @@
 
 ---
 
-**Lines: ~50 / 100 max**
+**Lines: ~52 / 100 max**
