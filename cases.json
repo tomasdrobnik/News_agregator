@@ -1,0 +1,57 @@
+{
+  "note": "Registr sledovaných případů. Každý případ má vlastní data (updates/sources/inbox) a RSS. Stránka index.html z něj staví rozcestník, case.html?c=<id> zobrazí případ. Pořadí = pořadí na rozcestníku (nejnovější nahoře).",
+  "cases": [
+    {
+      "id": "n722bd",
+      "status": "active",
+      "date": "2026-11-01",
+      "data_dir": "cases/n722bd/data",
+      "feed_dir": "cases/n722bd",
+      "command": "check-n722bd",
+      "title": "N722BD · AUS → ELH · Palm Beach County",
+      "sub": "01.11.2026 · Learjet 60 N722BD · havárie, 9 obětí",
+      "i18n": {
+        "sk": {
+          "sub": "01.11.2026 · Learjet 60 N722BD · havária, 9 obetí"
+        },
+        "en": {
+          "sub": "01 Nov 2026 · Learjet 60 N722BD · accident, 9 fatalities"
+        }
+      },
+      "feed_title": "N722BD Accident Monitor",
+      "description": "Průběžný přehled veřejných informací o havárii Learjetu 60 N722BD v Palm Beach County, Florida (1. 11. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.",
+      "description_i18n": {
+        "sk": "Priebežný prehľad verejných informácií o havárii Learjetu 60 N722BD v Palm Beach County na Floride (1. 11. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.",
+        "en": "Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports."
+      }
+    },
+    {
+      "id": "fz1073",
+      "status": "active",
+      "date": "2026-09-30",
+      "data_dir": "data",
+      "feed_dir": "",
+      "command": "check-fz1073",
+      "title": "FZ1073 · DXB → TLV · div. TUU",
+      "sub": "30.09.2026 · B737-8 A6-FKF · squawk 7700 → 7500 → 7700",
+      "i18n": {
+        "sk": {
+          "sub": "30.09.2026 · B737-8 A6-FKF · squawk 7700 → 7500 → 7700"
+        },
+        "en": {
+          "sub": "30 Sep 2026 · B737-8 A6-FKF · squawk 7700 → 7500 → 7700"
+        }
+      },
+      "feed_title": "FZ1073 Incident Monitor",
+      "description": "Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.",
+      "description_i18n": {
+        "sk": "Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.",
+        "en": "Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports."
+      },
+      "social": {
+        "x_query": "(FZ1073 OR \"A6-FKF\" OR (flydubai (Tabuk OR hijack OR 7500 OR \"first officer\"))) -is:retweet",
+        "reddit_query": "FZ1073 OR \"A6-FKF\" OR (flydubai AND (Tabuk OR hijack OR 7500))"
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FZ1073 Incident Monitor (SK)</title>
-    <link>https://tomasdrobnik.github.io/News_agregator/?lang=sk</link>
+    <link>https://tomasdrobnik.github.io/News_agregator/case.html?c=fz1073&amp;lang=sk</link>
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>

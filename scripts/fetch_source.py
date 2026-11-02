@@ -4,7 +4,8 @@
 Usage: python3 scripts/fetch_source.py URL [--max-chars N]
 
 Rules enforced here (see CLAUDE.md, "Zdroje"):
-- URL host must belong to an active source with access "curl" in data/sources.json.
+- URL host must belong to an active source with access "curl" in the sources.json of any case
+  listed in cases.json (data_dir/sources.json).
 - robots.txt of the host must allow our user agent.
 - One plain GET with an honest user agent. No retries with another UA, no cookies,
   no mirrors or caches. A bot challenge / 4xx / 5xx = source unavailable.
@@ -42,8 +43,18 @@ def host(url):
     return h[4:] if h.startswith("www.") else h
 
 
+def all_sources():
+    cases = json.loads((ROOT / "cases.json").read_text(encoding="utf-8"))["cases"]
+    out = []
+    for c in cases:
+        f = ROOT / c["data_dir"] / "sources.json"
+        if f.exists():
+            out += json.loads(f.read_text(encoding="utf-8")).get("sources", [])
+    return out
+
+
 def allowed_source(url):
-    sources = json.loads((ROOT / "data" / "sources.json").read_text(encoding="utf-8"))["sources"]
+    sources = all_sources()
     h = host(url)
     for s in sources:
         sh = host(s["url"])
@@ -116,7 +127,7 @@ def main():
         fail("jen http(s) URL")
     src = allowed_source(url)
     if not src:
-        fail(f"{host(url)} není aktivní zdroj s access \"curl\" v data/sources.json")
+        fail(f"{host(url)} není aktivní zdroj s access \"curl\" v registru žádného případu (sources.json)")
     if not robots_ok(url):
         fail(f"robots.txt webu {host(url)} automatické čtení zakazuje")
     try:

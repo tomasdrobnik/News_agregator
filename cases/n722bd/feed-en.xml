@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>N722BD Accident Monitor (EN)</title>
+    <link>https://tomasdrobnik.github.io/News_agregator/case.html?c=n722bd&amp;lang=en</link>
+    <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-en.xml" rel="self" type="application/rss+xml"/>
+    <description>Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports.</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Nov 2026 10:06:16 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Operator and flight rules (Part 91 / 135) unclear</title>
+      <link>https://www.ibtimes.co.uk/florida-learjet-crash-charter-flight-investigation-1829485</link>
+      <guid isPermaLink="false">n722bd-u008</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] IBTimes UK reports that N722BD appears in charter listings under Aurora Aviation's Part 135 certificate, but officials have not confirmed whether the flight was a charter; Austin airport described the aircraft as private. Unconfirmed, single source. Discrepancy: serial number 60-271 (registry / IBTimes) vs 60-186 (charter site FlyUSA, per search results). (Source: International Business Times UK)</description>
+    </item>
+    <item>
+      <title>[Data] Registered owner of N722BD: LR60271 LLC (Wilmington, DE)</title>
+      <link>https://www.flightaware.com/live/flight/N722BD/history</link>
+      <guid isPermaLink="false">n722bd-u007</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Data</category>
+      <description>[Data] FlightAware (read directly) lists LR60271 LLC of Wilmington, Delaware, as owner of N722BD; flight history is hidden at the owner/operator's request. The registered owner does not show who operated the flight. (Source: FlightAware)</description>
+    </item>
+    <item>
+      <title>[Media] FlightGlobal: “high-energy” accident, photo of responders at scene</title>
+      <link>https://www.flightglobal.com/ops-safety/2026/11/emergency-services-attend-apparent-executive-jet-crash-near-west-palm-beach/</link>
+      <guid isPermaLink="false">n722bd-u006</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] FlightGlobal (only the intro read directly, rest behind paywall) calls it a high-energy accident after a high-speed dive; US investigators are starting a probe. The article carries a photo of emergency services at the scene. (Source: FlightGlobal)&lt;br&gt;&lt;a href="https://www.flightglobal.com/wp-content/uploads/2026/11/wpb-accident-c-pbcfr.jpeg"&gt;Photo: Emergency services at the accident site&lt;/a&gt; (Palm Beach County Fire Rescue, via FlightGlobal)</description>
+    </item>
+    <item>
+      <title>[Media] ABC: impact near Military Trail in Greenacres, descent about 350 ft/s</title>
+      <link>https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599</link>
+      <guid isPermaLink="false">n722bd-u005</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] Citing the FAA, ABC News reports a rapid descent of about 350 feet per second; the aircraft was 22 years old. According to local authorities it came down near Military Trail between Cresthaven Blvd and 10th Avenue in the Greenacres area, leaving a crater near a shopping centre. (Source: ABC News)&lt;br&gt;&lt;a href="https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599"&gt;Photo: Flames at the crash site, Palm Beach County, 1 Nov 2026&lt;/a&gt; (Eduin Cruz / Reuters, via ABC News)</description>
+    </item>
+    <item>
+      <title>[Media] NBC: all 9 on board killed; ATC audio with mayday call</title>
+      <link>https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874</link>
+      <guid isPermaLink="false">n722bd-u004</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to NBC News, Transportation Secretary Sean Duffy said all 9 people on board died; the victims have not been identified. NBC describes ATC audio in which the crew reports light ice and moderate turbulence, then a mayday and descent of 10,000 and later 20,000 ft/min. Governor DeSantis said, per NBC, there were no reports of injuries on the ground. (Source: NBC News)</description>
+    </item>
+    <item>
+      <title>[Unconfirmed] NTSB launching go-team, briefing Monday in West Palm Beach</title>
+      <link>https://x.com/NTSB_Newsroom/status/2117020051320836231</link>
+      <guid isPermaLink="false">n722bd-u003</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (the X post was not read directly), the NTSB announced a go-team; investigators were due on Sunday and Monday morning, with a media briefing on Monday in West Palm Beach. Location wording differs between sources: NTSB “Lake Worth Beach”, FAA “Cresthaven”, sheriff Military Trail between Cresthaven Blvd and 10th Ave N. (Source: NTSB Newsroom (X))</description>
+    </item>
+    <item>
+      <title>[Data] FR24: steep right-hand descent, last return 8,750 ft at 17:49:22Z</title>
+      <link>https://www.flightradar24.com/blog/flight-tracking-news/major-incident/learjet-60-crashes-near-west-palm-beach-florida/</link>
+      <guid isPermaLink="false">n722bd-u002</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Data</category>
+      <description>[Data] According to FR24 ADS-B data (read directly), N722BD (Learjet 60, built 2004) departed Austin at 15:37Z; at 17:48Z it briefly climbed, then entered a steep right-hand descent. The last altitude received was 8,750 ft at 17:49:22Z, with vertical rate above 32,000 ft/min. In ATC audio reviewed by FR24, the crew had earlier reported icing, moderate turbulence and precipitation and requested a climb to FL370. (Source: Flightradar24 Blog)</description>
+    </item>
+    <item>
+      <title>[Official] FAA: Learjet 60 crashed near Cresthaven, 9 people on board</title>
+      <link>https://www.faa.gov/newsroom/statements/accident_incidents</link>
+      <guid isPermaLink="false">n722bd-u001</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Official</category>
+      <description>[Official] According to the FAA statement (read directly), a Learjet 60 crashed into a residential area near Cresthaven, Florida, at about 12:50 local time on 1 Nov. It was flying from Austin-Bergstrom (Texas) to North Eleuthera (Bahamas) with 9 people on board. The NTSB leads the investigation with FAA involvement. (Source: FAA – Newsroom)</description>
+    </item>
+  </channel>
+</rss>

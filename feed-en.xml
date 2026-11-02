@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FZ1073 Incident Monitor (EN)</title>
-    <link>https://tomasdrobnik.github.io/News_agregator/?lang=en</link>
+    <link>https://tomasdrobnik.github.io/News_agregator/case.html?c=fz1073&amp;lang=en</link>
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>

@@ -1,9 +1,15 @@
-# FZ1073 Incident Monitor
+# Incident Monitor
 
-Statický dashboard pro GitHub Pages sledující incident flydubai FZ1073 (30. 9. 2026).
+Statický dashboard pro GitHub Pages sledující letecké incidenty a nehody. Úvodní stránka je rozcestník případů – uživatel si vybere, které chce sledovat (u nich vidí počet nových zpráv a dostává upozornění). Každý případ má vlastní stránku (`case.html?c=<id>`), data a RSS.
+
+Aktuální případy (registr `cases.json`):
+- **N722BD** – havárie Learjetu 60 v Palm Beach County, Florida (1. 11. 2026) – `cases/n722bd/`, rutina `/check-n722bd`
+- **FZ1073** – incident flydubai DXB→TLV, přistání v Tabuku (30. 9. 2026) – `data/`, `feed*.xml` v kořeni, rutina `/check-fz1073`
+
+Popis níže platí pro stránku každého případu.
 
 - **Pro uživatele:** stránka bez přihlášení, zvýraznění nepřečtených záznamů, stav „přečteno“ v prohlížeči, automatická kontrola nových dat každých 5 minut, přepínač jazyka CZ / SK / EN (volba se pamatuje v prohlížeči, odkaz lze sdílet s `?lang=sk|en|cs`), RSS odběr pro každý jazyk (`feed.xml`, `feed-sk.xml`, `feed-en.xml`), záložka **Foto & video** se všemi médii ze záznamů (duplicity sloučené, filtry typ / status / zdroj / jen nové, stav „zhlédnuto“ per uživatel) a záložka **Zdroje** se seznamem všech sledovaných zdrojů.
-- **Pro správce:** data v `data/updates.json`, aktualizace přes Claude Code příkazem `/check-fz1073`.
+- **Pro správce:** data v `<data_dir>/updates.json` případu, aktualizace přes Claude Code příkazem `/check-<id>`. Nový případ: viz CLAUDE.md, sekce „Případy“.
 
 ## 1. Zprovoznění (jednorázově)
 
@@ -49,13 +55,15 @@ Běží jako cloudová rutina v Claude (claude.ai/code/routines) – počítač 
 
 | Soubor | Účel |
 |---|---|
-| `index.html` | stránka dashboardu |
-| `data/updates.json` | data (jediný zdroj pravdy) |
-| `data/sources.json` | registr sledovaných zdrojů, kontrola ho sama rozšiřuje |
-| `feed.xml`, `feed-sk.xml`, `feed-en.xml` | RSS (CZ/SK/EN), generuje `scripts/build_feed.py`, needitovat |
-| `config.json` | adresa webu a popis feedu |
-| `CLAUDE.md` | kontext incidentu a pravidla obsahu pro Claude Code |
-| `.claude/commands/check-fz1073.md` | rutina kontroly zdrojů |
+| `cases.json` | registr případů (cesty, názvy, popisy RSS) |
+| `index.html` | rozcestník případů |
+| `case.html` | stránka případu (`?c=<id>`) |
+| `<data_dir>/updates.json` | data případu (jediný zdroj pravdy) |
+| `<data_dir>/sources.json` | registr sledovaných zdrojů případu, kontrola ho sama rozšiřuje |
+| `feed.xml`, `feed-sk.xml`, `feed-en.xml` (v `feed_dir`) | RSS případu (CZ/SK/EN), generuje `scripts/build_feed.py`, needitovat |
+| `config.json` | adresa webu |
+| `CLAUDE.md` | kontext případů a pravidla obsahu pro Claude Code |
+| `.claude/commands/check-<id>.md` | rutina kontroly zdrojů případu |
 
 ## Upozornění
 - Obsah je veřejný. Záznamy „Média“ a „Neověřeno“ nejsou oficiálně potvrzené a stránka to uvádí v záhlaví.

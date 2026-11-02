@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Search X and Reddit for new FZ1073 posts via their official APIs and queue them as tips.
+"""Search X and Reddit for new posts about a case via their official APIs and queue them as tips.
 
-Usage: python3 scripts/social_search.py [--dry-run]
+Usage: python3 scripts/social_search.py [--case ID] [--dry-run]     (default case: fz1073)
+Queries come from cases.json ("social": {"x_query", "reddit_query"}); a case without them is skipped.
 
 Keys come only from environment variables (cloud environment settings, never the repo):
   X_BEARER_TOKEN                                  – X API v2, app-only (pay-per-use, see X_MAX_RESULTS)
@@ -9,10 +10,10 @@ Keys come only from environment variables (cloud environment settings, never the
   REDDIT_USERNAME                                    app-only OAuth (client_credentials)
 A platform without keys is skipped.
 
-New posts are appended to data/inbox.json "tips" as {"url", "added_at", "via"}; the post text is
+New posts are appended to <data_dir>/inbox.json "tips" as {"url", "added_at", "via"}; the post text is
 printed to stdout only (not stored in the public repo) so the check routine can assess it.
 The routine then processes them like any other tip (CLAUDE.md: a post on its own = unconfirmed).
-Cursor state (X since_id) is kept in data/social_state.json.
+Cursor state (X since_id) is kept in <data_dir>/social_state.json.
 
 Exit codes: 0 = OK (also when all platforms are skipped), 1 = API/network error on some platform.
 """
@@ -27,15 +28,13 @@ from pathlib import Path
 from urllib.parse import urlencode
 
 ROOT = Path(__file__).resolve().parent.parent
-INBOX = ROOT / "data" / "inbox.json"
-STATE = ROOT / "data" / "social_state.json"
+INBOX = STATE = None  # nastaví main() podle případu
+X_QUERY = REDDIT_QUERY = None
 TIMEOUT = 25
 
 # One search request per platform per run. X bills each returned post ($0.005 per read, docs.x.com,
 # checked 2026-09-30): 10 posts x hourly checks = max ~7 200 reads ≈ 36 USD / month.
 X_MAX_RESULTS = 10  # API minimum is 10
-X_QUERY = '(FZ1073 OR "A6-FKF" OR (flydubai (Tabuk OR hijack OR 7500 OR "first officer"))) -is:retweet'
-REDDIT_QUERY = 'FZ1073 OR "A6-FKF" OR (flydubai AND (Tabuk OR hijack OR 7500))'
 REDDIT_LIMIT = 25
 
 
@@ -55,7 +54,7 @@ def http_json(url, headers, data=None):
 
 def search_x(state):
     token = os.environ.get("X_BEARER_TOKEN")
-    if not token:
+    if not token or not X_QUERY:
         return None
     params = {"query": X_QUERY, "max_results": X_MAX_RESULTS, "tweet.fields": "created_at,lang",
               "expansions": "author_id", "user.fields": "username"}
@@ -76,7 +75,7 @@ def search_x(state):
 
 def search_reddit(state):
     cid, secret, user = (os.environ.get(k) for k in ("REDDIT_CLIENT_ID", "REDDIT_CLIENT_SECRET", "REDDIT_USERNAME"))
-    if not (cid and secret and user):
+    if not (cid and secret and user and REDDIT_QUERY):
         return None
     ua = f"python:fz1073-monitor:1.0 (by /u/{user})"
     basic = base64.b64encode(f"{cid}:{secret}".encode()).decode()
@@ -99,7 +98,20 @@ def search_reddit(state):
 
 
 def main():
+    global INBOX, STATE, X_QUERY, REDDIT_QUERY
     dry = "--dry-run" in sys.argv
+    cid = sys.argv[sys.argv.index("--case") + 1] if "--case" in sys.argv else "fz1073"
+    case = next((c for c in json.loads((ROOT / "cases.json").read_text(encoding="utf-8"))["cases"] if c["id"] == cid), None)
+    if not case:
+        print(f"Případ '{cid}' není v cases.json")
+        sys.exit(1)
+    data = ROOT / case["data_dir"]
+    INBOX, STATE = data / "inbox.json", data / "social_state.json"
+    social = case.get("social") or {}
+    X_QUERY, REDDIT_QUERY = social.get("x_query"), social.get("reddit_query")
+    if not (X_QUERY or REDDIT_QUERY):
+        print(f"{cid}: hledání na sociálních sítích není pro tento případ zapnuté (cases.json → social) – přeskočeno")
+        sys.exit(0)
     state = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
     before = dict(state)
     inbox = json.loads(INBOX.read_text(encoding="utf-8"))
@@ -115,7 +127,7 @@ def main():
             failed = True
             continue
         if posts is None:
-            print(f"{name}: přeskočeno (chybí klíče v proměnných prostředí)")
+            print(f"{name}: přeskočeno (chybí klíče v proměnných prostředí nebo dotaz v cases.json)")
             continue
         new = [p for p in posts if norm(p["url"]) not in known]
         print(f"{name}: {len(posts)} nalezeno, {len(new)} nových")
@@ -136,7 +148,7 @@ def main():
         INBOX.write_text(json.dumps(inbox, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if not dry and state != before:
         STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"\nPřidáno do data/inbox.json: {0 if dry else len(added)} tipů" + (" (dry-run)" if dry else ""))
+    print(f"\nPřidáno do {INBOX.relative_to(ROOT)}: {0 if dry else len(added)} tipů" + (" (dry-run)" if dry else ""))
     sys.exit(1 if failed else 0)
 
 

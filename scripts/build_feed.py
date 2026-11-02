@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Validate data/updates.json (+ data/inbox.json) and regenerate feed.xml, feed-sk.xml, feed-en.xml (RSS 2.0).
+"""Validate each case's updates.json (+ inbox.json) and regenerate its feed.xml, feed-sk.xml, feed-en.xml (RSS 2.0).
 
-Usage:  python3 scripts/build_feed.py
-Reads site URL from config.json ("site_url"). Exits non-zero on invalid data,
-so a broken update never gets committed.
+Usage:  python3 scripts/build_feed.py            # all cases in cases.json
+        python3 scripts/build_feed.py --case ID  # one case
+Cases (data_dir, feed_dir, feed title/description) come from cases.json; site URL from config.json.
+Exits non-zero on invalid data, so a broken update never gets committed.
 """
 import json
 import re
@@ -15,10 +16,10 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data" / "updates.json"
-INBOX = ROOT / "data" / "inbox.json"
-FEEDS = {"cs": ROOT / "feed.xml", "sk": ROOT / "feed-sk.xml", "en": ROOT / "feed-en.xml"}
 CONFIG = ROOT / "config.json"
+CASES = ROOT / "cases.json"
+CASE_ID = re.compile(r"^[a-z0-9-]+$")
+INBOX = None  # nastaví build_case() pro aktuální případ
 
 STATUSES = {"official": "Oficiální", "data": "Data", "reported": "Média", "unconfirmed": "Neověřeno"}
 LABELS = {
@@ -179,10 +180,54 @@ def validate_inbox(ids):
     return errors, warnings
 
 
+def load_cases():
+    doc = json.loads(CASES.read_text(encoding="utf-8"))
+    cases, errors, seen = doc.get("cases", []), [], set()
+    for i, c in enumerate(cases):
+        for k in ("id", "title", "data_dir", "feed_title"):
+            if not c.get(k):
+                errors.append(f"cases[{i}]: chybí '{k}'")
+        if c.get("id") and not CASE_ID.match(c["id"]):
+            errors.append(f"cases[{i}]: id '{c['id']}' smí obsahovat jen a-z, 0-9, '-'")
+        if c.get("id") in seen:
+            errors.append(f"cases.json: duplicitní id '{c.get('id')}'")
+        seen.add(c.get("id"))
+        if c.get("status", "active") not in ("active", "closed"):
+            errors.append(f"cases[{i}]: status musí být 'active' nebo 'closed'")
+        if c.get("data_dir") and not (ROOT / c["data_dir"] / "updates.json").exists():
+            errors.append(f"cases[{i}] ({c.get('id')}): chybí {c['data_dir']}/updates.json")
+    if errors:
+        print("Neplatný cases.json:\n  " + "\n  ".join(errors), file=sys.stderr)
+        sys.exit(1)
+    return cases
+
+
 def main():
+    args = sys.argv[1:]
+    only = args[args.index("--case") + 1] if "--case" in args else None
     cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
     site = cfg["site_url"].rstrip("/") + "/"
-    doc = json.loads(DATA.read_text(encoding="utf-8"))
+    cases = load_cases()
+    if only:
+        cases = [c for c in cases if c["id"] == only]
+        if not cases:
+            print(f"Případ '{only}' není v cases.json", file=sys.stderr)
+            sys.exit(1)
+    failed = False
+    for case in cases:
+        print(f"== {case['id']}")
+        failed |= not build_case(case, site)
+    if failed:
+        sys.exit(1)
+
+
+def build_case(case, site):
+    global INBOX
+    data_dir = ROOT / case["data_dir"]
+    feed_dir = ROOT / case.get("feed_dir", "")
+    INBOX = data_dir / "inbox.json"
+    feeds = {"cs": feed_dir / "feed.xml", "sk": feed_dir / "feed-sk.xml", "en": feed_dir / "feed-en.xml"}
+    doc = json.loads((data_dir / "updates.json").read_text(encoding="utf-8"))
     errors = validate(doc)
     dup_err, dup_warn = duplicates(doc)
     errors += dup_err
@@ -192,15 +237,15 @@ def main():
         print("Upozornění: " + w, file=sys.stderr)
     if errors:
         print("Neplatná data:\n  " + "\n  ".join(errors), file=sys.stderr)
-        sys.exit(1)
+        return False
 
     updates = sorted(doc["updates"], key=lambda u: (u["found_at"], u["id"]), reverse=True)[:100]
-    last = doc.get("meta", {}).get("last_check") or updates[0]["found_at"]
+    last = doc.get("meta", {}).get("last_check") or (updates[0]["found_at"] if updates else datetime.now(timezone.utc).isoformat())
     missing = [u["id"] for u in doc["updates"] if not all(((u.get("i18n") or {}).get(l) or {}).get("title") for l in ("sk", "en"))]
     if missing:
         print("Upozornění: chybí překlad SK/EN u " + ", ".join(missing), file=sys.stderr)
 
-    for lang, path in FEEDS.items():
+    for lang, path in feeds.items():
         labels, w = LABELS[lang], WORDS[lang]
         items = []
         for u in updates:
@@ -215,21 +260,23 @@ def main():
                 "    <item>\n"
                 f"      <title>{escape('[' + label + '] ' + tr(u, lang, 'title'))}</title>\n"
                 f"      <link>{escape(u['url'])}</link>\n"
-                f"      <guid isPermaLink=\"false\">fz1073-{escape(u['id'])}</guid>\n"
+                f"      <guid isPermaLink=\"false\">{case['id']}-{escape(u['id'])}</guid>\n"
                 f"      <pubDate>{format_datetime(parse(u['found_at']))}</pubDate>\n"
                 f"      <category>{escape(label)}</category>\n"
                 f"      <description>{escape(desc)}</description>\n"
                 "    </item>"
             )
-        ctitle = cfg.get("title", "FZ1073 Incident Monitor") + w["suffix"]
-        cdesc = (cfg.get("description_i18n") or {}).get(lang) or cfg.get("description", "")
+        ctitle = case["feed_title"] + w["suffix"]
+        cdesc = (case.get("description_i18n") or {}).get(lang) or case.get("description", "")
+        page = f"{site}case.html?c={case['id']}&amp;lang={lang}"
+        rel = path.relative_to(ROOT).as_posix()
         xml = (
             '<?xml version="1.0" encoding="UTF-8"?>\n'
             '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
             "  <channel>\n"
             f"    <title>{escape(ctitle)}</title>\n"
-            f"    <link>{escape(site)}?lang={lang}</link>\n"
-            f'    <atom:link href="{escape(site)}{path.name}" rel="self" type="application/rss+xml"/>\n'
+            f"    <link>{page}</link>\n"
+            f'    <atom:link href="{escape(site)}{rel}" rel="self" type="application/rss+xml"/>\n'
             f"    <description>{escape(cdesc)}</description>\n"
             f"    <language>{lang}</language>\n"
             f"    <lastBuildDate>{format_datetime(parse(last))}</lastBuildDate>\n"
@@ -237,8 +284,10 @@ def main():
             + "\n".join(items)
             + "\n  </channel>\n</rss>\n"
         )
+        path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(xml, encoding="utf-8")
-    print(f"OK: {len(doc['updates'])} záznamů, feed.xml / feed-sk.xml / feed-en.xml ({len(updates)} položek)")
+    print(f"OK: {len(doc['updates'])} záznamů, {feeds['cs'].relative_to(ROOT).as_posix()} (+ SK/EN, {len(updates)} položek)")
+    return True
 
 
 if __name__ == "__main__":

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>N722BD Accident Monitor (SK)</title>
+    <link>https://tomasdrobnik.github.io/News_agregator/case.html?c=n722bd&amp;lang=sk</link>
+    <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-sk.xml" rel="self" type="application/rss+xml"/>
+    <description>Priebežný prehľad verejných informácií o havárii Learjetu 60 N722BD v Palm Beach County na Floride (1. 11. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
+    <language>sk</language>
+    <lastBuildDate>Mon, 02 Nov 2026 10:06:16 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] Prevádzkovateľ a režim letu (Part 91 / 135) nejasné</title>
+      <link>https://www.ibtimes.co.uk/florida-learjet-crash-charter-flight-investigation-1829485</link>
+      <guid isPermaLink="false">n722bd-u008</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] IBTimes UK píše, že N722BD figuruje v charterových ponukách pod osvedčením Part 135 spoločnosti Aurora Aviation; úrady však nepotvrdili, či išlo o charter, letisko Austin lietadlo označilo za súkromné. Neoverené, jediný zdroj. Rozpor: sériové číslo 60-271 (register / IBTimes) vs. 60-186 (charterový web FlyUSA podľa výsledkov vyhľadávania). (Zdroj: International Business Times UK)</description>
+    </item>
+    <item>
+      <title>[Dáta] Registrovaný vlastník N722BD: LR60271 LLC (Wilmington, DE)</title>
+      <link>https://www.flightaware.com/live/flight/N722BD/history</link>
+      <guid isPermaLink="false">n722bd-u007</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Dáta</category>
+      <description>[Dáta] FlightAware (priamo prečítané) uvádza pri N722BD vlastníka LR60271 LLC z Wilmingtonu (Delaware); história letov je na žiadosť vlastníka/prevádzkovateľa skrytá. Vlastník podľa registra neurčuje, kto let prevádzkoval. (Zdroj: FlightAware)</description>
+    </item>
+    <item>
+      <title>[Médiá] FlightGlobal: „high-energy“ nehoda, foto záchranárov z miesta</title>
+      <link>https://www.flightglobal.com/ops-safety/2026/11/emergency-services-attend-apparent-executive-jet-crash-near-west-palm-beach/</link>
+      <guid isPermaLink="false">n722bd-u006</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] FlightGlobal (priamo prečítaný len úvod, zvyšok za paywallom) označuje nehodu za vysokoenergetickú po vysokorýchlostnom zostupe; americkí vyšetrovatelia začínajú vyšetrovanie. Článok obsahuje snímku záchranných zložiek na mieste. (Zdroj: FlightGlobal)&lt;br&gt;&lt;a href="https://www.flightglobal.com/wp-content/uploads/2026/11/wpb-accident-c-pbcfr.jpeg"&gt;Foto: Záchranné zložky na mieste nehody&lt;/a&gt; (Palm Beach County Fire Rescue, via FlightGlobal)</description>
+    </item>
+    <item>
+      <title>[Médiá] ABC: dopad pri Military Trail v Greenacres, zostup cca 350 ft/s</title>
+      <link>https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599</link>
+      <guid isPermaLink="false">n722bd-u005</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] ABC News s odkazom na FAA uvádza rýchly zostup asi 350 stôp za sekundu; lietadlo bolo staré 22 rokov. Podľa miestnych úradov dopadlo pri Military Trail medzi Cresthaven Blvd a 10th Avenue v oblasti Greenacres, kráter je pri nákupnom centre. (Zdroj: ABC News)&lt;br&gt;&lt;a href="https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599"&gt;Foto: Plamene na mieste dopadu, Palm Beach County, 1. 11. 2026&lt;/a&gt; (Eduin Cruz / Reuters, via ABC News)</description>
+    </item>
+    <item>
+      <title>[Médiá] NBC: všetkých 9 osôb zahynulo; záznam ATC s hlásením mayday</title>
+      <link>https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874</link>
+      <guid isPermaLink="false">n722bd-u004</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa NBC News minister dopravy Sean Duffy uviedol, že zahynulo všetkých 9 ľudí na palube; totožnosť obetí nebola zverejnená. NBC opisuje záznam ATC, v ktorom posádka hlási ľahkú námrazu a miernu turbulenciu, potom mayday a zostup 10 000 a neskôr 20 000 ft/min. Guvernér DeSantis podľa NBC uviedol, že o zranených na zemi správy nie sú. (Zdroj: NBC News)</description>
+    </item>
+    <item>
+      <title>[Neoverené] NTSB vysiela go-team, briefing v pondelok vo West Palm Beach</title>
+      <link>https://x.com/NTSB_Newsroom/status/2117020051320836231</link>
+      <guid isPermaLink="false">n722bd-u003</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Podľa výsledkov vyhľadávania (príspevok na X nebol priamo prečítaný) NTSB oznámila vyslanie go-teamu; vyšetrovatelia majú doraziť v nedeľu a v pondelok ráno, briefing pre médiá bude v pondelok vo West Palm Beach. Miesto uvádza inak než ostatní: NTSB „Lake Worth Beach“, FAA „Cresthaven“, šerif Military Trail medzi Cresthaven Blvd a 10th Ave N. (Zdroj: NTSB Newsroom (X))</description>
+    </item>
+    <item>
+      <title>[Dáta] FR24: strmý pravotočivý zostup, posledný údaj 8 750 ft v 17:49:22Z</title>
+      <link>https://www.flightradar24.com/blog/flight-tracking-news/major-incident/learjet-60-crashes-near-west-palm-beach-florida/</link>
+      <guid isPermaLink="false">n722bd-u002</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Dáta</category>
+      <description>[Dáta] Podľa ADS-B dát FR24 (priamo prečítané) N722BD (Learjet 60, r. v. 2004) vzlietol z Austinu o 15:37Z; o 17:48Z krátko stúpal a potom prešiel do strmého zostupu vpravo. Posledná prijatá výška bola 8 750 ft o 17:49:22Z, vertikálna rýchlosť prekročila 32 000 ft/min. Podľa záznamu ATC, ktorý FR24 vypočul, posádka predtým hlásila námrazu, miernu turbulenciu a zrážky a žiadala o stúpanie na FL370. (Zdroj: Flightradar24 Blog)</description>
+    </item>
+    <item>
+      <title>[Oficiálne] FAA: Learjet 60 havaroval pri Cresthaven, na palube 9 osôb</title>
+      <link>https://www.faa.gov/newsroom/statements/accident_incidents</link>
+      <guid isPermaLink="false">n722bd-u001</guid>
+      <pubDate>Mon, 02 Nov 2026 10:06:16 +0000</pubDate>
+      <category>Oficiálne</category>
+      <description>[Oficiálne] Podľa vyhlásenia FAA (priamo prečítané) sa Learjet 60 zrútil 1. 11. okolo 12:50 miestneho času do obytnej oblasti pri Cresthaven na Floride. Letel z Austin-Bergstrom (Texas) na North Eleuthera (Bahamy), na palube bolo 9 osôb. Vyšetrovanie vedie NTSB, FAA sa podieľa. (Zdroj: FAA – Newsroom)</description>
+    </item>
+  </channel>
+</rss>

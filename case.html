@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Incident Monitor</title>
+<meta name="description" content="Průběžný přehled veřejných informací o leteckém incidentu s rozlišením ověřených a neověřených zpráv.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111827'/%3E%3Cpath d='M32 10 56 52H8z' fill='%23f59e0b'/%3E%3Crect x='29' y='24' width='6' height='16' rx='2' fill='%23111827'/%3E%3Ccircle cx='32' cy='46' r='3.5' fill='%23111827'/%3E%3C/svg%3E">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: ops-board — flight strip header, filter bar, single update feed; unread items carry an accent frame */
+:root{
+  --bg:#f3f4f2; --panel:#ffffff; --fg:#1b1f22; --muted:#5d666d; --line:#d9ddd9;
+  --accent:#1f5f8b; --accent-bg:#e4eef6; --strip:#e8ecea;
+  --ok:#2d7a4b; --ok-bg:#e3f1e8; --warn:#9a6a00; --warn-bg:#fbf1d9; --crit:#b3261e; --crit-bg:#fbe6e4;
+  --f-disp:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#121517; --panel:#1a1f22; --fg:#e4e8ea; --muted:#9aa4ab; --line:#2c3439; --accent:#6fb0dc; --accent-bg:#172a38; --strip:#20272b;
+  --ok:#6cc690; --ok-bg:#16301f; --warn:#e5b54a; --warn-bg:#342a12; --crit:#f08a82; --crit-bg:#3a1a18; color-scheme:dark}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:860px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;gap:16px}
+h1{font-family:var(--f-disp);font-size:1.7rem;font-weight:700;margin:0;text-wrap:balance}
+a{color:var(--accent)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.strip{background:var(--strip);border:1px solid var(--line);border-radius:6px;padding:12px 16px;display:grid;gap:6px}
+.sub{font-family:var(--f-mono);font-size:.85rem;color:var(--muted)}
+.check{font-size:.85rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.check button{font-size:.85rem;padding:2px 10px}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:4px;overflow:hidden;justify-self:start}
+.lang button{border:none;border-radius:0;padding:3px 10px;font-family:var(--f-mono);font-size:.78rem;background:var(--panel)}
+.lang button+button{border-left:1px solid var(--line)}
+.lang button[aria-pressed="true"]{background:var(--accent);color:var(--panel)}
+.back{font-size:.85rem;text-decoration:none}
+.back:hover{text-decoration:underline}
+.top{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;justify-content:space-between}
+.fallback{font-family:var(--f-mono);font-size:.68rem;color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:0 4px}
+.disclaimer{font-size:.82rem;color:var(--muted);margin:0}
+.bar{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding-block:8px;z-index:5}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+button{font:inherit;font-size:.82rem;padding:5px 11px;border-radius:4px;border:1px solid var(--line);background:var(--panel);color:var(--fg);cursor:pointer}
+button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.filters button[aria-pressed="true"]{background:var(--accent);color:var(--panel);border-color:var(--accent)}
+.count{font-family:var(--f-mono);margin-left:4px}
+.banner{background:var(--accent);color:var(--panel);border-radius:4px;padding:8px 12px;display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.banner button{background:var(--panel);color:var(--accent);border-color:var(--panel)}
+.feed{display:grid;gap:12px}
+.item{position:relative;background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:4px;padding:12px 14px;display:grid;gap:6px;min-width:0;transition:background .15s}
+.item:hover{background:var(--strip)}
+.item.official{border-left-color:var(--ok)} .item.reported{border-left-color:var(--warn)} .item.unconfirmed{border-left-color:var(--crit)} .item.data{border-left-color:var(--accent)}
+.item.unread{box-shadow:0 0 0 2px var(--accent) inset;background:var(--accent-bg)}
+.item.read{opacity:.78}
+.item-head{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:.8rem;color:var(--muted)}
+.item h3{margin:0;font-size:1.02rem;font-weight:600}
+.item h3 a{color:var(--fg);text-decoration:none}
+.item h3 a::after{content:"";position:absolute;inset:0}
+.item p{margin:0;overflow-wrap:anywhere}
+.tag{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:2px 6px;border-radius:3px;white-space:nowrap}
+.c-ok{background:var(--ok-bg);color:var(--ok)} .c-warn{background:var(--warn-bg);color:var(--warn)} .c-crit{background:var(--crit-bg);color:var(--crit)} .c-info{background:var(--accent-bg);color:var(--accent)}
+.new{background:var(--accent);color:var(--panel)}
+.foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+.media{display:flex;flex-wrap:wrap;gap:8px;font-size:.82rem}
+.media a,.foot button{position:relative;z-index:2}
+.media a{padding:2px 8px;border:1px solid var(--line);border-radius:3px;text-decoration:none;background:var(--panel)}
+.ack[aria-pressed="true"]{color:var(--ok);border-color:var(--ok)}
+.empty{padding:24px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:6px}
+.note{font-size:.82rem;color:var(--muted);margin:0}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line)}
+.tabs button{border:none;border-bottom:3px solid transparent;border-radius:0;background:none;font-family:var(--f-disp);font-size:1rem;font-weight:600;padding:8px 14px;color:var(--muted)}
+.tabs button[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--accent)}
+.panel-sec{display:grid;gap:12px;min-width:0}
+.selects{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:.82rem;color:var(--muted)}
+select{font:inherit;font-size:.82rem;padding:4px 6px;border:1px solid var(--line);border-radius:4px;background:var(--panel);color:var(--fg);max-width:12rem}
+.chk{display:flex;gap:4px;align-items:center;color:var(--fg)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.mcard{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:12px 14px;display:grid;gap:6px;align-content:start;min-width:0}
+.mcard:hover{background:var(--strip)}
+.mcard.unread{box-shadow:0 0 0 2px var(--accent) inset;background:var(--accent-bg)}
+.mcard.viewed{opacity:.78}
+.srcs{display:grid;gap:8px}
+.src{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:4px;padding:10px 14px;display:grid;gap:4px;min-width:0}
+.src.t-official{border-left-color:var(--ok)} .src.t-data{border-left-color:var(--accent)} .src.t-media{border-left-color:var(--warn)} .src.t-database{border-left-color:var(--muted)} .src.t-social{border-left-color:var(--crit)}
+.src.off{opacity:.6}
+.src h3{margin:0;font-size:1rem;font-weight:600;overflow-wrap:anywhere}
+.src-meta{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;font-size:.8rem;color:var(--muted)}
+.src p{margin:0;font-size:.85rem;color:var(--muted);overflow-wrap:anywhere}
+.mfoot{display:flex;justify-content:flex-end}
+.mfoot button{position:relative;z-index:2}
+.seen[aria-pressed="true"]{color:var(--ok);border-color:var(--ok)}
+.mhead{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.mtype{font-family:var(--f-disp);font-weight:700;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:3px;border:1px solid var(--line)}
+.mtype.video{background:var(--fg);color:var(--panel);border-color:var(--fg)}
+.mcard h3{margin:0;font-size:.98rem;font-weight:600;overflow-wrap:anywhere}
+.mcard h3 a{color:var(--fg);text-decoration:none}
+.mcard h3 a::after{content:"";position:absolute;inset:0}
+.mmeta{font-size:.78rem;color:var(--muted);display:grid;gap:2px;overflow-wrap:anywhere}
+.dup{font-size:.72rem;color:var(--accent)}
+.fig{margin:0;display:grid;gap:6px}
+.thumb{position:relative;aspect-ratio:16/9;max-width:100%;border-radius:3px;overflow:hidden;background:var(--strip);border:1px solid var(--line)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb.is-video img{filter:brightness(.8)}
+.play{position:absolute;inset:0;margin:auto;width:52px;height:52px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;display:grid;place-items:center;font-size:1.3rem;pointer-events:none}
+.ph{width:100%;height:100%;display:grid;place-content:center;justify-items:center;gap:2px;color:var(--muted);font-size:.8rem;text-align:center;padding:8px}
+.ph span:first-child{font-size:1.6rem;line-height:1}
+.ph-note{font-size:.72rem}
+.cite{font-size:.74rem;color:var(--muted);line-height:1.4}
+.cite a{position:relative;z-index:2}
+@media (prefers-reduced-motion:reduce){.item{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="strip">
+    <a href="./" class="back" id="back" data-i18n="back">← Všechny případy</a>
+    <div class="top"><h1 id="case-title">…</h1><div class="lang" role="group" aria-label="Jazyk / Language"><button type="button" data-lang="cs" aria-pressed="false">CZ</button><button type="button" data-lang="sk" aria-pressed="false">SK</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div></div>
+    <div class="sub" id="case-sub"></div>
+    <div class="check"><span id="check">Načítám…</span><a href="feed.xml" id="rss" data-i18n="rss">RSS odběr</a><button type="button" id="notify" hidden>Zapnout upozornění</button></div>
+    <p class="disclaimer" data-i18n="disclaimer">Souhrn veřejných zdrojů. Záznamy označené „Média“ a „Neověřeno“ nejsou oficiálně potvrzené. Nejde o oficiální informace dopravce ani úřadů.</p>
+  </header>
+
+  <div class="banner" id="banner" hidden><span id="banner-text"></span><button type="button" id="banner-show" data-i18n="showNew">Zobrazit nové</button></div>
+
+  <nav class="tabs" role="tablist" aria-label="Sekce" data-i18n-aria="sections">
+    <button type="button" role="tab" id="tab-u" data-tab="aktualizace" aria-selected="true" aria-controls="p-u"><span data-i18n="tabUpdates">Aktualizace</span><span class="count" id="t-u"></span></button>
+    <button type="button" role="tab" id="tab-m" data-tab="media" aria-selected="false" aria-controls="p-m"><span data-i18n="tabMedia">Foto &amp; video</span><span class="count" id="t-m"></span></button>
+    <button type="button" role="tab" id="tab-s" data-tab="zdroje" aria-selected="false" aria-controls="p-s"><span data-i18n="tabSources">Zdroje</span><span class="count" id="t-s"></span></button>
+  </nav>
+
+  <section id="p-u" role="tabpanel" aria-labelledby="tab-u" class="panel-sec">
+    <div class="bar">
+      <div class="filters" role="group" aria-label="Filtr aktualizací" data-i18n-aria="filterUpdates">
+        <button type="button" id="f-new" data-f="new" aria-pressed="true"><span data-i18n="fNew">Nové</span><span class="count" id="n-new"></span></button>
+        <button type="button" id="f-all" data-f="all" aria-pressed="false"><span data-i18n="all">Vše</span><span class="count" id="n-all"></span></button>
+        <button type="button" id="f-off" data-f="official" aria-pressed="false" data-i18n="official">Oficiální</button>
+        <button type="button" id="f-dat" data-f="data" aria-pressed="false" data-i18n="data">Data</button>
+        <button type="button" id="f-rep" data-f="reported" aria-pressed="false" data-i18n="reported">Média</button>
+        <button type="button" id="f-unc" data-f="unconfirmed" aria-pressed="false" data-i18n="unconfirmed">Neověřené</button>
+      </div>
+      <button type="button" id="ack-all" hidden data-i18n="ackAll">Označit vše jako přečtené</button>
+    </div>
+    <div class="feed" id="feed"><div class="empty" data-i18n="loadingUpdates">Načítám aktualizace…</div></div>
+    <p class="note" data-i18n="note">Kliknutím na záznam otevřete zdroj. Stav „přečteno“ / „zhlédnuto“ se ukládá jen v tomto prohlížeči. Stránka se sama kontroluje každých 5 minut.</p>
+  </section>
+
+  <section id="p-m" role="tabpanel" aria-labelledby="tab-m" class="panel-sec" hidden>
+    <div class="bar">
+      <div class="filters" role="group" aria-label="Typ média" data-i18n-aria="mediaType">
+        <button type="button" id="m-all" data-m="all" aria-pressed="true"><span data-i18n="all">Vše</span><span class="count" id="m-n-all"></span></button>
+        <button type="button" id="m-photo" data-m="photo" aria-pressed="false"><span data-i18n="photo">Foto</span><span class="count" id="m-n-photo"></span></button>
+        <button type="button" id="m-video" data-m="video" aria-pressed="false">Video<span class="count" id="m-n-video"></span></button>
+      </div>
+      <div class="selects">
+        <label for="m-status" data-i18n="status">Status</label>
+        <select id="m-status"><option value="all" data-i18n="all">Vše</option><option value="official" data-i18n="official">Oficiální</option><option value="data" data-i18n="data">Data</option><option value="reported" data-i18n="reported">Média</option><option value="unconfirmed" data-i18n="unconfirmed">Neověřeno</option></select>
+        <label for="m-source" data-i18n="source">Zdroj</label>
+        <select id="m-source"><option value="all">Vše</option></select>
+        <label class="chk" for="m-new"><input type="checkbox" id="m-new"> <span data-i18n="onlyNew">jen nové</span></label>
+        <button type="button" id="seen-all" hidden data-i18n="seenAll">Označit vše jako zhlédnuté</button>
+      </div>
+    </div>
+    <div class="gallery" id="gallery"><div class="empty" data-i18n="loading">Načítám…</div></div>
+    <p class="note" id="m-note">Náhledy se načítají přímo ze zdrojů. Stejné médium uvedené ve více záznamech se zobrazí jednou.</p>
+  </section>
+
+  <section id="p-s" role="tabpanel" aria-labelledby="tab-s" class="panel-sec" hidden>
+    <div class="bar">
+      <div class="filters" role="group" aria-label="Typ zdroje" data-i18n-aria="srcType">
+        <button type="button" data-s="all" aria-pressed="true"><span data-i18n="all">Vše</span><span class="count" id="s-n-all"></span></button>
+        <button type="button" data-s="official" aria-pressed="false"><span data-i18n="sOfficial">Oficiální</span><span class="count" id="s-n-official"></span></button>
+        <button type="button" data-s="data" aria-pressed="false"><span data-i18n="data">Data</span><span class="count" id="s-n-data"></span></button>
+        <button type="button" data-s="media" aria-pressed="false"><span data-i18n="sMedia">Média</span><span class="count" id="s-n-media"></span></button>
+        <button type="button" data-s="database" aria-pressed="false"><span data-i18n="sDatabase">Databáze</span><span class="count" id="s-n-database"></span></button>
+        <button type="button" data-s="social" aria-pressed="false"><span data-i18n="sSocial">Sociální sítě</span><span class="count" id="s-n-social"></span></button>
+      </div>
+    </div>
+    <div class="srcs" id="srcs"><div class="empty" data-i18n="loading">Načítám…</div></div>
+    <p class="note" data-i18n="srcNote">Seznam zdrojů, které monitoring pravidelně kontroluje. Nově nalezené důvěryhodné zdroje se přidávají automaticky.</p>
+  </section>
+</div>
+
+<script>
+const TZ="Europe/Bratislava", LKEY="monitor.lang", POLL=5*60*1000;
+/* Případ z ?c=<id>; konfigurace v cases.json. Bez parametru = FZ1073 (původní odkazy). */
+const CID=(new URLSearchParams(location.search).get("c")||"fz1073").toLowerCase().replace(/[^a-z0-9-]/g,"");
+const KEY=CID+".read", MKEY=CID+".mviewed";
+let CASE=null, DATA="", FEED="";
+const I18N={
+ cs:{back:"← Všechny případy",unknownCase:"Případ nenalezen.",tabSources:"Zdroje",srcType:"Typ zdroje",sOfficial:"Oficiální",sMedia:"Média",sDatabase:"Databáze",sSocial:"Sociální sítě",tipOnly:"jen tipy správce",viaApi:"přes API + tipy",direct:"přímé čtení",searchOnly:"jen přes vyhledávání",inactive:"neaktivní",addedAt:"přidáno",entriesN:n=>`${n} ${n===1?"záznam":n>1&&n<5?"záznamy":"záznamů"}`,noSrc:"Pro tento filtr žádné zdroje.",srcNote:"Seznam zdrojů, které monitoring pravidelně kontroluje. Nově nalezené důvěryhodné zdroje se přidávají automaticky. Poznámky ke zdrojům jsou česky.",markSeen:"Označit jako zhlédnuté",seen:"✓ Zhlédnuto",seenAll:"Označit vše jako zhlédnuté",loc:"cs-CZ",loading:"Načítám…",loadingUpdates:"Načítám aktualizace…",rss:"RSS odběr",disclaimer:"Souhrn veřejných zdrojů. Záznamy označené „Média“ a „Neověřeno“ nejsou oficiálně potvrzené. Nejde o oficiální informace dopravce ani úřadů.",
+  showNew:"Zobrazit nové",sections:"Sekce",tabUpdates:"Aktualizace",tabMedia:"Foto & video",filterUpdates:"Filtr aktualizací",fNew:"Nové",all:"Vše",official:"Oficiální",data:"Data",reported:"Média",unconfirmed:"Neověřeno",
+  ackAll:"Označit vše jako přečtené",note:"Kliknutím na záznam otevřete zdroj. Stav „přečteno“ / „zhlédnuto“ se ukládá jen v tomto prohlížeči. Stránka se sama kontroluje každých 5 minut.",mediaType:"Typ média",photo:"Foto",video:"Video",status:"Status",source:"Zdroj",onlyNew:"jen nové",
+  noDate:"datum neuvedeno",link:"odkaz",noThumb:"náhled není k dispozici",thumbFail:"zdroj náhled neposkytl",noAuthor:"autor ve zdroji neuveden",src:"Zdroj",newTag:"Nové",timesIn:n=>`${n}× v záznamech`,first:"poprvé",also:"Též",toEntry:"K záznamu",
+  mNote:n=>`Náhledy se načítají přímo ze zdrojů, stránka je neukládá. Autorská práva náleží uvedeným autorům a zdrojům. Sloučené duplicity: ${n}.`,noMedia:"Pro zvolený filtr žádné foto ani video.",
+  noUnread:"Žádné nepřečtené aktualizace.",noFilter:"Pro tento filtr zatím nic.",found:"zjištěno",publ:"publ.",read:"✓ Přečteno",ack:"Potvrdit přečtení",
+  added:n=>`Přibylo ${n} ${n===1?"nová aktualizace":n<5?"nové aktualizace":"nových aktualizací"}.`,lastCheck:"Poslední kontrola zdrojů",loadFail:"Data se nepodařilo načíst. Zkusím to znovu za 5 minut.",noData:"Data nejsou dostupná.",
+  notifTitle:n=>`${CASE?.short||CID.toUpperCase()}: ${n===1?"nová aktualizace":n+" nové aktualizace"}`,notifOn:"🔔 Upozornění zapnuta",notifBlocked:"Upozornění zablokována v prohlížeči",notifEnable:"Zapnout upozornění",fallback:"CZ",fallbackTitle:"Překlad zatím není k dispozici"},
+ sk:{back:"← Všetky prípady",unknownCase:"Prípad nenájdený.",tabSources:"Zdroje",srcType:"Typ zdroja",sOfficial:"Oficiálne",sMedia:"Médiá",sDatabase:"Databázy",sSocial:"Sociálne siete",tipOnly:"len tipy správcu",viaApi:"cez API + tipy",direct:"priame čítanie",searchOnly:"len cez vyhľadávanie",inactive:"neaktívny",addedAt:"pridané",entriesN:n=>`${n} ${n===1?"záznam":n>1&&n<5?"záznamy":"záznamov"}`,noSrc:"Pre tento filter žiadne zdroje.",srcNote:"Zoznam zdrojov, ktoré monitoring pravidelne kontroluje. Novo nájdené dôveryhodné zdroje sa pridávajú automaticky. Poznámky k zdrojom sú v češtine.",markSeen:"Označiť ako videné",seen:"✓ Videné",seenAll:"Označiť všetko ako videné",loc:"sk-SK",loading:"Načítavam…",loadingUpdates:"Načítavam aktualizácie…",rss:"RSS odber",disclaimer:"Súhrn verejných zdrojov. Záznamy označené „Médiá“ a „Neoverené“ nie sú oficiálne potvrdené. Nejde o oficiálne informácie dopravcu ani úradov.",
+  showNew:"Zobraziť nové",sections:"Sekcie",tabUpdates:"Aktualizácie",tabMedia:"Foto a video",filterUpdates:"Filter aktualizácií",fNew:"Nové",all:"Všetko",official:"Oficiálne",data:"Dáta",reported:"Médiá",unconfirmed:"Neoverené",
+  ackAll:"Označiť všetko ako prečítané",note:"Kliknutím na záznam otvoríte zdroj. Stav „prečítané“ / „videné“ sa ukladá len v tomto prehliadači. Stránka sa sama kontroluje každých 5 minút.",mediaType:"Typ média",photo:"Foto",video:"Video",status:"Status",source:"Zdroj",onlyNew:"len nové",
+  noDate:"dátum neuvedený",link:"odkaz",noThumb:"náhľad nie je k dispozícii",thumbFail:"zdroj náhľad neposkytol",noAuthor:"autor v zdroji neuvedený",src:"Zdroj",newTag:"Nové",timesIn:n=>`${n}× v záznamoch`,first:"prvýkrát",also:"Aj",toEntry:"K záznamu",
+  mNote:n=>`Náhľady sa načítavajú priamo zo zdrojov, stránka ich neukladá. Autorské práva patria uvedeným autorom a zdrojom. Zlúčené duplicity: ${n}.`,noMedia:"Pre zvolený filter žiadne foto ani video.",
+  noUnread:"Žiadne neprečítané aktualizácie.",noFilter:"Pre tento filter zatiaľ nič.",found:"zistené",publ:"publ.",read:"✓ Prečítané",ack:"Potvrdiť prečítanie",
+  added:n=>`Pribudl${n===1?"a":"o"} ${n} ${n===1?"nová aktualizácia":n<5?"nové aktualizácie":"nových aktualizácií"}.`,lastCheck:"Posledná kontrola zdrojov",loadFail:"Dáta sa nepodarilo načítať. Skúsim to znova o 5 minút.",noData:"Dáta nie sú dostupné.",
+  notifTitle:n=>`${CASE?.short||CID.toUpperCase()}: ${n===1?"nová aktualizácia":n+" nové aktualizácie"}`,notifOn:"🔔 Upozornenia zapnuté",notifBlocked:"Upozornenia zablokované v prehliadači",notifEnable:"Zapnúť upozornenia",fallback:"CZ",fallbackTitle:"Preklad zatiaľ nie je k dispozícii"},
+ en:{back:"← All cases",unknownCase:"Case not found.",tabSources:"Sources",srcType:"Source type",sOfficial:"Official",sMedia:"Media",sDatabase:"Databases",sSocial:"Social media",tipOnly:"maintainer tips only",viaApi:"via API + tips",direct:"read directly",searchOnly:"search only",inactive:"inactive",addedAt:"added",entriesN:n=>`${n} entr${n===1?"y":"ies"}`,noSrc:"No sources for this filter.",srcNote:"Sources the monitor checks regularly. Newly found credible sources are added automatically. Source notes are in Czech.",markSeen:"Mark as viewed",seen:"✓ Viewed",seenAll:"Mark all as viewed",loc:"en-GB",loading:"Loading…",loadingUpdates:"Loading updates…",rss:"RSS feed",disclaimer:"Summary of public sources. Entries labelled “Media” and “Unconfirmed” are not officially confirmed. This is not official information from the airline or authorities.",
+  showNew:"Show new",sections:"Sections",tabUpdates:"Updates",tabMedia:"Photo & video",filterUpdates:"Update filter",fNew:"New",all:"All",official:"Official",data:"Data",reported:"Media",unconfirmed:"Unconfirmed",
+  ackAll:"Mark all as read",note:"Click an entry to open its source. Read and viewed status is stored only in this browser. The page checks for updates every 5 minutes.",mediaType:"Media type",photo:"Photo",video:"Video",status:"Status",source:"Source",onlyNew:"new only",
+  noDate:"date not given",link:"link",noThumb:"no preview available",thumbFail:"source provides no preview",noAuthor:"author not named in source",src:"Source",newTag:"New",timesIn:n=>`in ${n} entries`,first:"first seen",also:"Also",toEntry:"Entry",
+  mNote:n=>`Previews load directly from the sources; this page does not store them. Copyright belongs to the credited authors and sources. Merged duplicates: ${n}.`,noMedia:"No photos or videos for this filter.",
+  noUnread:"No unread updates.",noFilter:"Nothing for this filter yet.",found:"found",publ:"publ.",read:"✓ Read",ack:"Mark as read",
+  added:n=>`${n} new update${n===1?"":"s"}.`,lastCheck:"Last source check",loadFail:"Could not load data. Retrying in 5 minutes.",noData:"Data not available.",
+  notifTitle:n=>`${CASE?.short||CID.toUpperCase()}: ${n===1?"new update":n+" new updates"}`,notifOn:"🔔 Notifications on",notifBlocked:"Notifications blocked in browser",notifEnable:"Enable notifications",fallback:"CZ",fallbackTitle:"Translation not available yet"}
+};
+const pickLang=()=>{const q=new URLSearchParams(location.search).get("lang");if(I18N[q])return q;
+  try{const s=localStorage.getItem(LKEY)||localStorage.getItem("fz1073.lang");if(I18N[s])return s}catch(e){}
+  const n=(navigator.language||"").toLowerCase();return n.startsWith("sk")?"sk":n.startsWith("cs")?"cs":"en";};
+let lang=pickLang();
+const t=(k,...a)=>{const v=I18N[lang][k]??I18N.cs[k];return typeof v==="function"?v(...a):v;};
+/* Překlad obsahu: i18n[lang][key], jinak čeština (s označením) */
+const tx=(o,k)=>{if(lang!=="cs"){const v=o?.i18n?.[lang]?.[k];if(v)return{v,fb:false};}return{v:o?.[k]??"",fb:lang!=="cs"&&!!o?.[k]};};
+const fbTag=()=>`<span class="fallback" title="${esc(t("fallbackTitle"))}">${t("fallback")}</span>`;
+const fmt=(iso)=>{if(!iso)return"—";const d=new Date(iso);if(isNaN(d))return iso;
+  return d.toLocaleString(t("loc"),{timeZone:TZ,day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})+" LT · "+d.toISOString().slice(11,16)+"Z";};
+const fmtDate=(iso)=>{if(!iso)return t("noDate");const d=new Date(iso);return isNaN(d)?iso:d.toLocaleDateString(t("loc"),{timeZone:TZ,day:"numeric",month:"numeric",year:"numeric"})};
+const esc=(s)=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const CLS={official:"c-ok",reported:"c-warn",unconfirmed:"c-crit",data:"c-info"};
+const lbl=s=>[t(CLS[s]?s:"reported"),CLS[s]||CLS.reported];
+const load=()=>{try{return new Set(JSON.parse(localStorage.getItem(KEY)||"[]"))}catch(e){return new Set()}};
+const loadM=()=>{try{return new Set(JSON.parse(localStorage.getItem(MKEY)||"[]"))}catch(e){return new Set()}};
+const storeM=()=>{try{localStorage.setItem(MKEY,JSON.stringify([...viewedSet]))}catch(e){}};
+const store=()=>{try{localStorage.setItem(KEY,JSON.stringify([...readSet]))}catch(e){}};
+let viewedSet=loadM(), sources=[], sType="all";
+let items=[],filter="new",readSet=load(),known=null,lastCheck=null,loadErr=false;
+let mType="all",mStatus="all",mSource="all",mNew=false,media=[];
+const RANK={official:4,data:3,reported:2,unconfirmed:1};
+
+/* Normalizace URL pro detekci duplicit: stejné médium z různých odkazů = jeden klíč */
+function mediaKey(raw){
+  let u;try{u=new URL(raw)}catch(e){return String(raw).trim().toLowerCase()}
+  let host=u.hostname.toLowerCase().replace(/^(www|m|mobile)\./,"");
+  if(host==="twitter.com")host="x.com";
+  const tw=host==="x.com"&&u.pathname.match(/\/status(?:es)?\/(\d+)/);if(tw)return"x:"+tw[1];
+  if(host==="youtu.be")return"yt:"+u.pathname.slice(1).split("/")[0];
+  if(host.endsWith("youtube.com")){const v=u.searchParams.get("v")||(u.pathname.match(/\/(?:shorts|embed|live)\/([\w-]+)/)||[])[1];if(v)return"yt:"+v;}
+  [...u.searchParams.keys()].forEach(k=>{if(/^(utm_|fbclid|gclid|ref_src|ref|s|t|si|igsh)$/i.test(k)||k.startsWith("utm_"))u.searchParams.delete(k);});
+  let path=u.pathname.replace(/\/+$/,"");
+  path=path.replace(/(-\d{2,5}x\d{2,5})(?=\.(jpe?g|png|gif|webp)(\.webp)?$)/i,"").replace(/\.(jpe?g|png)\.webp$/i,".$1");
+  const q=u.searchParams.toString();
+  return host+path+(q?"?"+q:"");
+}
+/* Náhled: explicitní m.thumb (og:image zdroje), přímý odkaz na obrázek, nebo oficiální náhled YouTube */
+function thumbFor(m){
+  if(m.thumb&&/^https:\/\//.test(m.thumb))return m.thumb;
+  const k=mediaKey(m.url);
+  if(k.startsWith("yt:"))return"https://i.ytimg.com/vi/"+encodeURIComponent(k.slice(3))+"/hqdefault.jpg";
+  if(/^https:\/\/[^?#]+\.(jpe?g|png|gif|webp)(\?.*)?$/i.test(m.url))return m.url;
+  return null;
+}
+function aggregateMedia(){
+  const map=new Map();let raw=0;
+  const chrono=items.slice().sort((a,b)=>String(a.found_at).localeCompare(String(b.found_at))||String(a.id).localeCompare(String(b.id)));
+  for(const i of chrono)for(const m of (i.media||[])){
+    if(!m||!m.url)continue;raw++;
+    const k=mediaKey(m.url);let e=map.get(k);
+    if(!e){e={key:k,url:m.url,type:m.type==="video"?"video":"photo",captions:[],sources:new Set(),refs:[],status:i.status,first:i.found_at,
+      thumb:null,credit:null,citeName:i.source,citeUrl:i.url,citeDate:i.published_at||i.found_at};map.set(k,e);}
+    if(m.type==="video")e.type="video";
+    if(!e.thumb)e.thumb=thumbFor(m);
+    if(!e.credit&&m.credit)e.credit=m.credit;
+    const cp=tx(m,"caption").v;if(cp&&!e.captions.includes(cp))e.captions.push(cp);
+    e.sources.add(i.source);
+    if(!e.refs.some(r=>r.id===i.id))e.refs.push({id:i.id,title:tx(i,"title").v,status:i.status});
+    if((RANK[i.status]||0)>(RANK[e.status]||0))e.status=i.status;
+    if(String(i.found_at)<String(e.first))e.first=i.found_at;
+  }
+  media=[...map.values()].sort((a,b)=>String(b.first).localeCompare(String(a.first)));
+  return raw-media.length;
+}
+function renderMedia(){
+  const dups=aggregateMedia();
+  const isNew=e=>!viewedSet.has(e.key);
+  const srcSel=document.getElementById("m-source"), cur=srcSel.value;
+  const srcs=[...new Set(media.flatMap(e=>[...e.sources]))].sort((a,b)=>a.localeCompare(b,lang));
+  srcSel.innerHTML=`<option value="all">${esc(t("all"))}</option>`+srcs.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join("");
+  srcSel.value=srcs.includes(cur)?cur:"all";mSource=srcSel.value;
+  const base=media.filter(e=>(mStatus==="all"||e.refs.some(r=>r.status===mStatus))&&(mSource==="all"||e.sources.has(mSource))&&(!mNew||isNew(e)));
+  document.getElementById("m-n-all").textContent=base.length;
+  document.getElementById("m-n-photo").textContent=base.filter(e=>e.type==="photo").length;
+  document.getElementById("m-n-video").textContent=base.filter(e=>e.type==="video").length;
+  const unseen=media.filter(isNew).length;
+  document.getElementById("t-m").textContent=unseen||"";
+  document.getElementById("seen-all").hidden=!unseen;
+  document.getElementById("m-note").textContent=t("mNote",dups);
+  const list=base.filter(e=>mType==="all"||e.type===mType);
+  const g=document.getElementById("gallery");
+  if(!list.length){g.innerHTML=`<div class="empty">${esc(t("noMedia"))}</div>`;return;}
+  g.innerHTML=list.map(e=>{
+    const [l,c]=lbl(e.status), fresh=isNew(e);
+    let host="";try{host=new URL(e.url).hostname.replace(/^www\./,"")}catch(x){}
+    const cap=e.captions[0]||host||t("link");
+    const ph=`<div class="ph"><span>${e.type==="video"?"▶":"◻"}</span><span>${esc(host)}</span><span class="ph-note">${esc(t("noThumb"))}</span></div>`;
+    const cite=`<figcaption class="cite">${e.type==="video"?t("video"):t("photo")}: ${esc(e.credit||t("noAuthor"))}<br>${esc(t("src"))}: <a href="${esc(e.citeUrl)}" target="_blank" rel="noopener">${esc(e.citeName)}</a>, <span class="mono">${fmtDate(e.citeDate)}</span></figcaption>`;
+    return `<article class="mcard ${fresh?"unread":"viewed"}">
+      <figure class="fig"><div class="thumb${e.type==="video"?" is-video":""}">${e.thumb?`<img src="${esc(e.thumb)}" alt="${esc(cap)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:ph}${e.type==="video"&&e.thumb?'<span class="play" aria-hidden="true">▶</span>':""}</div>${cite}</figure>
+      <div class="mhead"><span class="mtype ${e.type}">${e.type==="video"?"▶ "+t("video"):t("photo")}</span><span class="tag ${c}">${l}</span>${fresh?`<span class="tag new">${t("newTag")}</span>`:""}${e.refs.length>1?`<span class="dup">${t("timesIn",e.refs.length)}</span>`:""}</div>
+      <h3><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(cap)}</a></h3>
+      <div class="mmeta"><span>${esc(host)} · ${esc([...e.sources].join(", "))}</span><span class="mono">${t("first")} ${fmt(e.first)}</span>${e.captions.length>1?`<span>${t("also")}: ${esc(e.captions.slice(1).join("; "))}</span>`:""}<span>${t("toEntry")}: ${esc(e.refs.map(r=>r.title).join(" | "))}</span></div>
+      <div class="mfoot"><button type="button" class="seen" data-key="${esc(e.key)}" aria-pressed="${!fresh}">${fresh?t("markSeen"):t("seen")}</button></div>
+    </article>`;}).join("");
+  g.querySelectorAll(".thumb img").forEach(img=>img.addEventListener("error",()=>{
+    const host=(()=>{try{return new URL(img.src).hostname.replace(/^www\./,"")}catch(x){return""}})();
+    img.parentElement.querySelector(".play")?.remove();img.outerHTML=`<div class="ph"><span>◻</span><span>${esc(host)}</span><span class="ph-note">${esc(t("thumbFail"))}</span></div>`;},{once:true}));
+}
+function render(){renderCheck();renderFeed();renderMedia();renderSources();document.getElementById("t-u").textContent=items.filter(i=>!readSet.has(i.id)).length||"";}
+function renderCheck(){const c=document.getElementById("check");if(loadErr){c.textContent=t("loadFail");return;}if(!lastCheck){c.textContent=t("loading");return;}c.innerHTML=`${esc(t("lastCheck"))}: <span class="mono">${fmt(lastCheck)}</span>`;}
+const hostOf=u=>{try{return new URL(u).hostname.replace(/^(www|edition|m)\./,"")}catch(e){return""}};
+function renderSources(){
+  const box=document.getElementById("srcs");
+  const TYPES=["official","data","media","database","social"], TL={official:["sOfficial","c-ok"],data:["data","c-info"],media:["sMedia","c-warn"],database:["sDatabase",""],social:["sSocial","c-crit"]};
+  document.getElementById("t-s").textContent=sources.filter(x=>x.active!==false).length||"";
+  document.getElementById("s-n-all").textContent=sources.length;
+  TYPES.forEach(k=>document.getElementById("s-n-"+k).textContent=sources.filter(x=>x.type===k).length);
+  const count=x=>{const h=hostOf(x.url);return h?items.filter(i=>{const ih=hostOf(i.url);return ih===h||ih.endsWith("."+h)||h.endsWith("."+ih);}).length:0;};
+  const list=sources.filter(x=>sType==="all"||x.type===sType).sort((a,b)=>(a.active===false)-(b.active===false)||TYPES.indexOf(a.type)-TYPES.indexOf(b.type)||a.name.localeCompare(b.name,lang));
+  if(!list.length){box.innerHTML=`<div class="empty">${esc(t(sources.length?"noSrc":"loading"))}</div>`;return;}
+  box.innerHTML=list.map(x=>{const [lk,c]=TL[x.type]||TL.media, n=count(x);
+    return `<article class="src t-${esc(x.type)}${x.active===false?" off":""}">
+      <h3><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a></h3>
+      <div class="src-meta"><span class="tag ${c}">${esc(t(lk))}</span>${x.active===false?`<span class="tag c-crit">${esc(t("inactive"))}</span>`:""}<span>${esc(hostOf(x.url))}</span><span>${esc(t(x.access==="websearch"?"searchOnly":x.access==="tip"?"tipOnly":x.access==="api"?"viaApi":"direct"))}</span>${n?`<span>${esc(t("entriesN",n))}</span>`:""}<span class="mono">${t("addedAt")} ${fmtDate(x.added_at)}</span></div>
+      ${x.note?`<p>${esc(x.note)}</p>`:""}
+    </article>`;}).join("");
+}
+function showTab(tab){
+  if(!["aktualizace","media","zdroje"].includes(tab))tab="aktualizace";
+  [["u","aktualizace"],["m","media"],["s","zdroje"]].forEach(([k,n])=>{const on=n===tab;document.getElementById("p-"+k).hidden=!on;document.getElementById("tab-"+k).setAttribute("aria-selected",String(on));});
+  if(location.hash!=="#"+tab)history.replaceState(null,"",location.search+"#"+tab);
+}
+
+function renderFeed(){
+  const unread=items.filter(i=>!readSet.has(i.id));
+  document.getElementById("n-new").textContent=unread.length;
+  document.getElementById("n-all").textContent=items.length;
+  document.getElementById("ack-all").hidden=!unread.length;
+  document.title=(unread.length?`(${unread.length}) `:"")+(CASE?.feed_title||"Incident Monitor");
+  const list=filter==="new"?unread:items.filter(i=>filter==="all"||i.status===filter);
+  const feed=document.getElementById("feed");
+  if(!list.length){feed.innerHTML=`<div class="empty">${t(filter==="new"?"noUnread":"noFilter")}</div>`;return;}
+  feed.innerHTML=list.map(i=>{
+    const [l,c]=lbl(i.status), isRead=readSet.has(i.id), ti=tx(i,"title"), te=tx(i,"text");
+    const media=(i.media||[]).map(m=>`<a href="${esc(m.url)}" target="_blank" rel="noopener">${m.type==="video"?"▶ "+t("video"):t("photo")}: ${esc(tx(m,"caption").v||t("link"))}</a>`).join("");
+    return `<article class="item ${esc(i.status)} ${isRead?"read":"unread"}">
+      <div class="item-head">${isRead?"":`<span class="tag new">${t("newTag")}</span>`}<span class="tag ${c}">${l}</span><span class="mono">${t("found")} ${fmt(i.found_at)}</span>${i.published_at?`<span class="mono">${t("publ")} ${fmt(i.published_at)}</span>`:""}<span>${esc(i.source)}</span>${ti.fb?fbTag():""}</div>
+      <h3><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(ti.v)}</a></h3>
+      <p>${esc(te.v)}</p>
+      <div class="foot"><div class="media">${media}</div><button type="button" class="ack" data-id="${esc(i.id)}" aria-pressed="${isRead}">${isRead?t("read"):t("ack")}</button></div>
+    </article>`;}).join("");
+}
+function setFilter(f){filter=f;document.querySelectorAll("button[data-f]").forEach(x=>x.setAttribute("aria-pressed",x.dataset.f===f?"true":"false"));render();}
+
+async function refresh(){
+  try{
+    loadErr=false;
+    const r=await fetch(DATA+"/updates.json?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error(r.status);
+    const d=await r.json(), m=d.meta||{};
+    try{const rs=await fetch(DATA+"/sources.json?t="+Date.now(),{cache:"no-store"});if(rs.ok)sources=(await rs.json()).sources||[];}catch(e){}
+    const next=(d.updates||[]).slice().sort((a,b)=>String(b.found_at).localeCompare(String(a.found_at))||String(b.id).localeCompare(String(a.id)));
+    if(known){const fresh=next.filter(i=>!known.has(i.id));
+      if(fresh.length){document.getElementById("banner-text").textContent=t("added",fresh.length);document.getElementById("banner").hidden=false;notify(fresh);}}
+    known=new Set(next.map(i=>i.id)); items=next; lastCheck=m.last_check;
+    render();
+  }catch(e){loadErr=true;document.getElementById("check").textContent=t("loadFail");if(!items.length)document.getElementById("feed").innerHTML=`<div class="empty">${esc(t("noData"))}</div>`;}
+}
+document.getElementById("feed").addEventListener("click",e=>{
+  const b=e.target.closest(".ack");if(!b)return;e.preventDefault();e.stopPropagation();
+  const id=b.dataset.id;readSet.has(id)?readSet.delete(id):readSet.add(id);store();render();});
+document.getElementById("ack-all").addEventListener("click",()=>{items.forEach(i=>readSet.add(i.id));store();render();});
+document.querySelectorAll("button[data-f]").forEach(b=>b.addEventListener("click",()=>setFilter(b.dataset.f)));
+document.querySelectorAll("button[data-m]").forEach(b=>b.addEventListener("click",()=>{mType=b.dataset.m;document.querySelectorAll("button[data-m]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));renderMedia();}));
+document.getElementById("m-status").addEventListener("change",e=>{mStatus=e.target.value;renderMedia();});
+document.getElementById("m-source").addEventListener("change",e=>{mSource=e.target.value;renderMedia();});
+document.getElementById("gallery").addEventListener("click",e=>{
+  const b=e.target.closest(".seen");if(!b)return;e.preventDefault();e.stopPropagation();
+  const k=b.dataset.key;viewedSet.has(k)?viewedSet.delete(k):viewedSet.add(k);storeM();renderMedia();});
+document.getElementById("seen-all").addEventListener("click",()=>{media.forEach(e=>viewedSet.add(e.key));storeM();renderMedia();});
+document.getElementById("m-new").addEventListener("change",e=>{mNew=e.target.checked;renderMedia();});
+document.querySelectorAll("[role=tab]").forEach(b=>b.addEventListener("click",()=>showTab(b.dataset.tab)));
+window.addEventListener("hashchange",()=>showTab(location.hash.slice(1)));
+showTab(location.hash.slice(1));
+document.querySelectorAll("button[data-s]").forEach(b=>b.addEventListener("click",()=>{sType=b.dataset.s;document.querySelectorAll("button[data-s]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));renderSources();}));
+document.getElementById("banner-show").addEventListener("click",()=>{document.getElementById("banner").hidden=true;showTab("aktualizace");setFilter("new");window.scrollTo({top:0});});
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)refresh();});
+function notify(fresh){
+  if(!("Notification" in window)||Notification.permission!=="granted")return;
+  try{const n=new Notification(t("notifTitle",fresh.length),{body:fresh.slice(0,3).map(i=>`[${lbl(i.status)[0]}] ${tx(i,"title").v}`).join("\n"),tag:CID});
+    n.onclick=()=>{window.focus();document.getElementById("banner-show").click();n.close();};}catch(e){}
+}
+function notifyBtn(){
+  const b=document.getElementById("notify");
+  if(!("Notification" in window)){b.hidden=true;return;}
+  b.hidden=false;const p=Notification.permission;
+  b.textContent=t(p==="granted"?"notifOn":p==="denied"?"notifBlocked":"notifEnable");
+  b.disabled=p!=="default";
+}
+document.getElementById("notify").addEventListener("click",()=>Notification.requestPermission().then(notifyBtn));
+function applyLang(l,save){
+  lang=l;if(save){try{localStorage.setItem(LKEY,l)}catch(e){}
+    const q=new URLSearchParams(location.search);if(q.has("lang")){q.set("lang",l);history.replaceState(null,"","?"+q+location.hash);}}
+  document.documentElement.lang=l;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{el.textContent=t(el.dataset.i18n);});
+  document.querySelectorAll("[data-i18n-aria]").forEach(el=>el.setAttribute("aria-label",t(el.dataset.i18nAria)));
+  document.querySelectorAll("button[data-lang]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.lang===l)));
+  const rss=FEED+(l==="cs"?"feed.xml":`feed-${l}.xml`);
+  if(CASE){document.getElementById("case-sub").textContent=CASE.i18n?.[l]?.sub||CASE.sub||"";
+    const q=new URLSearchParams(location.search);document.getElementById("back").href="./"+(q.has("lang")?"?lang="+l:"");}
+  document.getElementById("rss").href=rss;document.querySelector('link[rel=alternate]').href=rss;
+  notifyBtn();if(items.length||loadErr)render();else renderCheck();
+}
+document.querySelectorAll("button[data-lang]").forEach(b=>b.addEventListener("click",()=>applyLang(b.dataset.lang,true)));
+async function init(){
+  try{const r=await fetch("cases.json?t="+Date.now(),{cache:"no-store"});CASE=((await r.json()).cases||[]).find(c=>c.id===CID)||null;}catch(e){}
+  if(!CASE){applyLang(lang,false);document.getElementById("case-title").textContent=t("unknownCase");document.getElementById("feed").innerHTML=`<div class="empty"><a href="./">${esc(t("back"))}</a></div>`;return;}
+  CASE.short=CASE.short||CASE.id.toUpperCase();
+  DATA=CASE.data_dir.replace(/\/+$/,""); FEED=CASE.feed_dir?CASE.feed_dir.replace(/\/+$/,"")+"/":"";
+  document.getElementById("case-title").textContent=CASE.title;
+  applyLang(lang,false);
+  refresh(); setInterval(refresh,POLL);
+}
+init();
+</script>
+</body>
+</html>

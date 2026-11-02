@@ -1,8 +1,25 @@
-# FZ1073 Incident Monitor
+# Incident Monitor (více případů)
 
-Veřejný dashboard (GitHub Pages) sledující incident flydubai FZ1073 z 30. 9. 2026. Správce: Tomas (Safety / Compliance Manager, Elite Jet). Stránku sdílí s uživateli mimo organizaci; notifikace jsou přes RSS (`feed.xml`) a přímo na stránce.
+Veřejný dashboard (GitHub Pages) sledující letecké incidenty a nehody. Správce: Tomas (Safety / Compliance Manager, Elite Jet). Stránku sdílí s uživateli mimo organizaci; notifikace jsou přes RSS (každý případ má vlastní feed) a přímo na stránce.
 
-## Incident (výchozí stav k 30. 9. 2026 12:25Z)
+## Případy
+- Registr případů je **`cases.json`** (jediný zdroj pravdy): `id`, `status` (`active`/`closed`), `date`, `data_dir`, `feed_dir`, `command`, `title`, `sub` + `i18n`, `feed_title`, `description` + `description_i18n`, volitelně `social` (dotazy pro `social_search.py`).
+- `index.html` = rozcestník: seznam případů, uživatel si vybere, které sleduje (localStorage `monitor.follow`), vidí počet nových zpráv a dostává upozornění jen u sledovaných. `case.html?c=<id>` = stránka případu (záložky Aktualizace / Foto & video / Zdroje).
+- Každý případ má vlastní `updates.json`, `sources.json`, `inbox.json` v `data_dir` a RSS v `feed_dir`. Pravidla obsahu, statusy a pravidla zdrojů níže platí **pro všechny případy**. Id záznamů (`u001`…) jsou číslována zvlášť v každém případě.
+- **FZ1073** (`fz1073`): kvůli existujícím odběratelům RSS a cloudové rutině zůstává v původních cestách – data `data/`, RSS `feed.xml` v kořeni, rutina `/check-fz1073`. Staré odkazy `/#aktualizace` apod. přesměruje rozcestník na `case.html?c=fz1073`.
+- **N722BD** (`n722bd`): data `cases/n722bd/data/`, RSS `cases/n722bd/feed*.xml`, rutina `/check-n722bd`.
+- **Nový případ:** přidej položku do `cases.json`, založ `cases/<id>/data/{updates,sources,inbox}.json`, sekci případu do tohoto souboru a rutinu `.claude/commands/check-<id>.md` (podle `check-n722bd.md`), pak `python3 scripts/build_feed.py`.
+- Rutina případu mění jen soubory svého případu.
+
+## Případ N722BD (výchozí stav k 2. 11. 2026 10:05Z)
+- Learjet 60 **N722BD** (r. v. 2004), let Austin-Bergstrom (AUS) → North Eleuthera (ELH, Bahamy), 1. 11. 2026. Havárie kolem 12:50 LT (17:49Z) v obytné oblasti Palm Beach County (Greenacres / Cresthaven), Florida. Na palubě 9 osob, všechny zahynuly (ministr dopravy podle médií).
+- **Oficiálně (FAA, přímo přečteno):** havárie u Cresthaven, 9 osob, šetření vede NTSB, FAA se podílí.
+- **Data (FR24 ADS-B):** v 17:48Z krátké stoupání, pak strmý pravotočivý sestup; poslední údaj 8 750 ft v 17:49:22Z, > 32 000 ft/min. Posádka podle záznamu ATC hlásila námrazu, mírnou turbulenci, srážky a žádala FL370; pak mayday a overspeed.
+- **Neověřeno / rozpory:** místo (FAA „Cresthaven“ / NTSB „Lake Worth Beach“ / šerif Military Trail); provozovatel a režim letu (Part 91 vs. charter Part 135 – zmiňována Aurora Aviation); sériové číslo (60-271 vs. 60-186). Vlastník v registru: LR60271 LLC (Wilmington, DE).
+- Otevřené otázky: příčina (námraza / turbulence / overspeed / jiné), provozovatel, kvalifikace posádky, předběžná zpráva NTSB.
+- Jména obětí a pilotů nezveřejňuj (platí obecné pravidlo níže).
+
+## Případ FZ1073 – incident (výchozí stav k 30. 9. 2026 12:25Z)
 - Let FZ1073 DXB→TLV, B737-8 **A6-FKF**, vzlet 03:05Z, FL340.
 - 05:21Z výškové výkyvy, 05:22Z pokles >14 000 ft za <30 s (FR24); 05:31Z squawk 7700, 05:38Z 7500, poté zpět 7700; přistání Tabuk (TUU) ~06:45Z.
 - **Oficiálně (flydubai):** incident během letu, bezpečné přistání v TUU, všichni cestující v pořádku. Příčinu neuvádí.
@@ -28,7 +45,7 @@ Veřejný dashboard (GitHub Pages) sledující incident flydubai FZ1073 z 30. 9.
 - Žádné osobní údaje osob na palubě kromě toho, co zveřejnil sám zdroj a je to podstatné. Jména pilotů nezveřejňuj.
 
 ## Data
-`data/updates.json`:
+`<data_dir>/updates.json` (FZ1073: `data/updates.json`, N722BD: `cases/n722bd/data/updates.json`):
 ```json
 {
   "meta": {"incident": "...", "last_check": "ISO UTC", "next_check": "ISO UTC", "new_count": 0},
@@ -44,10 +61,10 @@ Veřejný dashboard (GitHub Pages) sledující incident flydubai FZ1073 z 30. 9.
 - `id` je `u` + trojmístné číslo, pokračuj od nejvyššího existujícího. Existující `id` nikdy neměň (stránka podle něj eviduje stav „přečteno“ u uživatelů).
 - Opravu staršího záznamu zapiš jako **nový** záznam, který na původní odkazuje. Starý záznam nepřepisuj.
 - Média: stejné foto/video nepřidávej opakovaně. `build_feed.py` porovnává normalizované URL (twitter↔x, youtu.be↔youtube, zmenšeniny obrázků, sledovací parametry). Duplicita v rámci jednoho záznamu je chyba, napříč záznamy jen upozornění (web je sloučí do jedné karty).
-- Po každé změně spusť `python3 scripts/build_feed.py`. Validuje data a přegeneruje `feed.xml`, `feed-sk.xml`, `feed-en.xml` (upozorní na chybějící překlady). Při chybě necommituj.
+- Po každé změně spusť `python3 scripts/build_feed.py` (všechny případy) nebo `--case <id>`. Validuje `cases.json` a data a přegeneruje `feed.xml`, `feed-sk.xml`, `feed-en.xml` každého případu (upozorní na chybějící překlady). Při chybě necommituj.
 
 ## Zdroje
-Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravdy). Každá kontrola projde všechny aktivní zdroje a hledá na webu další důvěryhodné zdroje; nové do registru přidá a od další kontroly je sleduje. Zdroje se nemažou, jen deaktivují (`active: false` + důvod). Každý web citovaný v záznamu (`url`) musí být v registru – web ho zobrazuje v záložce Zdroje.
+Seznam monitorovaných zdrojů je v **`<data_dir>/sources.json`** každého případu (jediný zdroj pravdy pro daný případ; FZ1073: `data/sources.json`). Každá kontrola projde všechny aktivní zdroje a hledá na webu další důvěryhodné zdroje; nové do registru přidá a od další kontroly je sleduje. Zdroje se nemažou, jen deaktivují (`active: false` + důvod). Každý web citovaný v záznamu (`url`) musí být v registru – web ho zobrazuje v záložce Zdroje.
 
 - `access` určuje způsob čtení:
   - `"curl"` = web je dostupný a povoluje automatické čtení → přímé čtení jen přes `python3 scripts/fetch_source.py URL` (read-only GET).
@@ -57,13 +74,13 @@ Seznam monitorovaných zdrojů je v **`data/sources.json`** (jediný zdroj pravd
   - `"websearch"` = web automatické čtení zakazuje nebo blokuje → jen WebSearch. Týká se: AvHerald (`robots.txt`: `Disallow: /` pro všechny boty, i RSS), ASN (Cloudflare challenge, i RSS; Bluesky účet ASN je neaktivní), flydubai.com (Akamai 403).
   - AvHerald má navíc oficiální Bluesky účet `@avherald.com` čitelný přes veřejné API (`public.api.bsky.app`, `access: "curl"`). Jsou v něm jen titulky → záznam z nich je vždy `unconfirmed`.
 - Přímé čtení (`curl` i `webfetch`) se počítá jako „přímo přečteno“ pro statusy `official` / `data` / `reported`.
-- Pravidla pro `fetch_source.py` (skript je sám vynucuje): jen host aktivního zdroje s `access: "curl"`; `robots.txt` musí čtení povolit; jeden GET s poctivým User-Agentem `FZ1073-monitor/1.0`; žádné opakování s jiným UA, cookies ani obcházení ochrany. Návratový kód 2 / `UNAVAILABLE` = zdroj nedostupný → použij WebSearch a v záznamu uveď, že obsah nebyl přímo čten. Curl ani jiné nástroje mimo tento skript na zdroje nepoužívej.
+- Pravidla pro `fetch_source.py` (skript je sám vynucuje): jen host aktivního zdroje s `access: "curl"` v registru kteréhokoli případu z `cases.json`; `robots.txt` musí čtení povolit; jeden GET s poctivým User-Agentem `FZ1073-monitor/1.0`; žádné opakování s jiným UA, cookies ani obcházení ochrany. Návratový kód 2 / `UNAVAILABLE` = zdroj nedostupný → použij WebSearch a v záznamu uveď, že obsah nebyl přímo čten. Curl ani jiné nástroje mimo tento skript na zdroje nepoužívej.
 - Zdroj převeď na `"curl"` jen po úspěšném testu skriptem; když skript opakovaně vrací `UNAVAILABLE` (403, challenge, robots), vrať ho na `"websearch"` a důvod zapiš do `note`.
 - Priorita: oficiální orgány (flydubai, GCAA UAE, GACA/AIB KSA, izraelské úřady) > agentury a renomovaná média > letecké weby > ostatní.
 
-**Tipy správce (sociální sítě):** X, Instagram, Facebook a Reddit se automaticky nemonitorují (vyžadují přihlášení; fóra a anonymní účty nejsou zdroj pro registr). Správce vkládá odkazy na příspěvky jiných lidí do `data/inbox.json` (`tips`); rutina je zpracuje a přesune do `processed` (`result` = id záznamu nebo „zamítnuto: důvod“). Tip může být samotný odkaz nebo objekt s `url`; formát kontroluje `build_feed.py`. Platformy jsou v registru jako `type: "social"`, `access: "tip"`. Příspěvek sám o sobě = `unconfirmed`; `source` je autor příspěvku, ne správce. Přístupové údaje ke svým účtům správce nikdy nesdílí.
+**Tipy správce (sociální sítě):** X, Instagram, Facebook a Reddit se automaticky nemonitorují (vyžadují přihlášení; fóra a anonymní účty nejsou zdroj pro registr). Správce vkládá odkazy na příspěvky jiných lidí do `inbox.json` daného případu (`tips`); rutina je zpracuje a přesune do `processed` (`result` = id záznamu nebo „zamítnuto: důvod“). Tip může být samotný odkaz nebo objekt s `url`; formát kontroluje `build_feed.py`. Platformy jsou v registru jako `type: "social"`, `access: "tip"`. Příspěvek sám o sobě = `unconfirmed`; `source` je autor příspěvku, ne správce. Přístupové údaje ke svým účtům správce nikdy nesdílí.
 
-**Automatické hledání přes API (X, Reddit):** `scripts/social_search.py` hledá nové příspěvky přes oficiální API a řadí je do `inbox.json` jako tipy (`via: "x-api" | "reddit-api"`); zpracují se stejně jako ostatní tipy (sám o sobě = `unconfirmed`). Klíče jsou **jen** v proměnných prostředí cloudového prostředí (`X_BEARER_TOKEN`; `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME`), nikdy v repu ani v chatu. X je placené per-use (0,005 USD za přečtený příspěvek, docs.x.com, 30. 9. 2026) – skript bere max. 10 příspěvků na běh. Text příspěvků se do repa neukládá. Facebook a Instagram API pro hledání veřejných příspěvků nenabízí → jen ruční tipy. Stav kurzoru: `data/social_state.json`.
+**Automatické hledání přes API (X, Reddit):** `scripts/social_search.py [--case <id>]` (výchozí `fz1073`; dotazy v `cases.json` → `social`, bez nich se případ přeskočí) hledá nové příspěvky přes oficiální API a řadí je do `inbox.json` jako tipy (`via: "x-api" | "reddit-api"`); zpracují se stejně jako ostatní tipy (sám o sobě = `unconfirmed`). Klíče jsou **jen** v proměnných prostředí cloudového prostředí (`X_BEARER_TOKEN`; `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME`), nikdy v repu ani v chatu. X je placené per-use (0,005 USD za přečtený příspěvek, docs.x.com, 30. 9. 2026) – skript bere max. 10 příspěvků na běh. Text příspěvků se do repa neukládá. Facebook a Instagram API pro hledání veřejných příspěvků nenabízí → jen ruční tipy. Stav kurzoru: `<data_dir>/social_state.json`.
 
 Nedostupné nebo zakázané weby neobcházej (žádné mirrory, cache, změna User-Agenta ani obcházení ochrany proti botům). Použij výsledky vyhledávání a v záznamu uveď, že obsah nebyl přímo čten.
 
@@ -73,16 +90,17 @@ Nedostupné nebo zakázané weby neobcházej (žádné mirrory, cache, změna Us
 - Fakta uváděj se zdrojem; co není ověřeno, výslovně označ jako názor.
 
 ## Rutina kontroly
-Příkaz `/check-fz1073` (viz `.claude/commands/check-fz1073.md`).
+Jeden příkaz na případ: `/check-fz1073`, `/check-n722bd` (viz `.claude/commands/`).
 
 ## Struktura
-- `index.html` – stránka se záložkami Aktualizace a Foto & video (agregace médií se sloučením duplicit a filtry typ/status/zdroj/nové); čte `data/updates.json` a každých 5 min kontroluje nové záznamy; stav „přečteno“ je v localStorage prohlížeče
-- `data/inbox.json` – schránka tipů od správce (odkazy na příspěvky ze sociálních sítí)
-- `data/sources.json` – registr monitorovaných zdrojů (rutina ho rozšiřuje)
-- `feed.xml`, `feed-sk.xml`, `feed-en.xml` – generované RSS pro každý jazyk, needituj ručně
+- `cases.json` – registr případů
+- `index.html` – rozcestník případů (výběr sledovaných, počty nových, upozornění)
+- `case.html?c=<id>` – stránka případu se záložkami Aktualizace, Foto & video (agregace médií se sloučením duplicit a filtry typ/status/zdroj/nové) a Zdroje; každých 5 min kontroluje nové záznamy; stav „přečteno“ je v localStorage prohlížeče (`<id>.read`, `<id>.mviewed`)
+- `<data_dir>/updates.json`, `sources.json`, `inbox.json` – data, registr zdrojů a schránka tipů případu (FZ1073 `data/`, N722BD `cases/n722bd/data/`)
+- `feed.xml`, `feed-sk.xml`, `feed-en.xml` v `feed_dir` případu – generované RSS pro každý jazyk, needituj ručně
 - `config.json` – `site_url` pro RSS (nastav na skutečnou adresu GitHub Pages)
 - `scripts/social_search.py` – hledání na X a Redditu přes oficiální API → tipy do `inbox.json`
-- `scripts/build_feed.py` – validace (`updates.json` + `inbox.json`) + generování RSS
+- `scripts/build_feed.py` – validace (`cases.json`, `updates.json` + `inbox.json`) + generování RSS všech případů (`--case <id>` jen jeden)
 - `scripts/fetch_source.py` – přímé read-only čtení zdrojů s `access: "curl"` (kontrola registru, robots.txt, bot challenge; vypíše og:/meta tagy a text)
 
 ---

@@ -1,0 +1,158 @@
+{
+ "note": "Registr zdrojů k případu N722BD (viz CLAUDE.md, Zdroje).",
+ "sources": [
+  {
+   "name": "NTSB – Newsroom",
+   "url": "https://www.ntsb.gov/news/press-releases/Pages/default.aspx",
+   "type": "official",
+   "access": "webfetch",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Vyšetřovací orgán (vede šetření). Tiskové zprávy, briefingy, předběžná zpráva. stránka vyžaduje JavaScript (fetch_source: bez čitelného obsahu) – WebFetch/WebSearch (test 2026-11-02 10:04Z)"
+  },
+  {
+   "name": "NTSB – vyšetřování (CAROL)",
+   "url": "https://data.ntsb.gov/carol-main-public/basic-search",
+   "type": "official",
+   "access": "websearch",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Databáze NTSB – záznam o vyšetřování, předběžná a finální zpráva. aplikace vyžaduje JavaScript – jen WebSearch (test 2026-11-02 10:04Z)"
+  },
+  {
+   "name": "NTSB Newsroom – X",
+   "url": "https://x.com/NTSB_Newsroom",
+   "type": "social",
+   "access": "tip",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Oficiální účet NTSB na X; tipy správce."
+  },
+  {
+   "name": "FAA – Newsroom / statements",
+   "url": "https://www.faa.gov/newsroom/statements/accident_incidents",
+   "type": "official",
+   "access": "curl",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Prohlášení FAA k nehodám (FAA podporuje NTSB)."
+  },
+  {
+   "name": "Palm Beach County Sheriff's Office",
+   "url": "https://www.pbso.org/",
+   "type": "official",
+   "access": "websearch",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Místní úřady – zásah na místě, uzavírky, evakuace. robots.txt nedostupný (timeout) – jen WebSearch (test 2026-11-02 10:04Z)"
+  },
+  {
+   "name": "Flightradar24 Blog",
+   "url": "https://www.flightradar24.com/blog/flight-tracking-news/major-incident/learjet-60-crashes-near-west-palm-beach-florida/",
+   "type": "data",
+   "access": "curl",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Článek FR24 s ADS-B daty letu (profil sestupu)."
+  },
+  {
+   "name": "FlightAware – N722BD",
+   "url": "https://www.flightaware.com/live/flight/N722BD/history",
+   "type": "data",
+   "access": "curl",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Historie letů registrace N722BD (ADS-B)."
+  },
+  {
+   "name": "NBC News",
+   "url": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874",
+   "type": "media",
+   "access": "curl",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Renomované médium."
+  },
+  {
+   "name": "NBC 6 Miami",
+   "url": "https://www.nbcmiami.com/news/local/officials-respond-to-fiery-aircraft-incident-in-palm-beach-county/3881532/",
+   "type": "media",
+   "access": "curl",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Místní stanice NBC – live updates."
+  },
+  {
+   "name": "ABC News",
+   "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
+   "type": "media",
+   "access": "curl",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Renomované médium; cituje FAA."
+  },
+  {
+   "name": "FlightGlobal",
+   "url": "https://www.flightglobal.com/ops-safety/2026/11/emergency-services-attend-apparent-executive-jet-crash-near-west-palm-beach/",
+   "type": "media",
+   "access": "curl",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Odborný letecký web."
+  },
+  {
+   "name": "Associated Press",
+   "url": "https://apnews.com/",
+   "type": "media",
+   "access": "websearch",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Agentura. HTTP 403 bot challenge – jen WebSearch (test 2026-11-02 10:04Z)"
+  },
+  {
+   "name": "Reuters",
+   "url": "https://www.reuters.com/",
+   "type": "media",
+   "access": "websearch",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Agentura. robots.txt zakazuje automatické čtení – jen WebSearch (test 2026-11-02 10:04Z)"
+  },
+  {
+   "name": "The Aviation Herald",
+   "url": "https://avherald.com/",
+   "type": "media",
+   "access": "websearch",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Letecký web; robots.txt zakazuje automatické čtení – jen WebSearch (viz FZ1073 registr)."
+  },
+  {
+   "name": "Aviation Safety Network",
+   "url": "https://aviation-safety.net/wikibase/",
+   "type": "database",
+   "access": "websearch",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Databáze nehod; Cloudflare challenge – jen WebSearch (viz FZ1073 registr). Záznam N722BD zatím nenalezen."
+  },
+  {
+   "name": "Simple Flying",
+   "url": "https://simpleflying.com/learjet-60-fatally-crashes-missile-like-crash-mar-a-lago/",
+   "type": "media",
+   "access": "curl",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Letecký zpravodajský web."
+  },
+  {
+   "name": "International Business Times UK",
+   "url": "https://www.ibtimes.co.uk/florida-learjet-crash-charter-flight-investigation-1829485",
+   "type": "media",
+   "access": "curl",
+   "added_at": "2026-11-02T10:05:00Z",
+   "active": true,
+   "note": "Zpravodajský web; spekulativnější titulky – záznamy z něj konzervativně (unconfirmed, není-li potvrzeno jinde)."
+  }
+ ]
+}

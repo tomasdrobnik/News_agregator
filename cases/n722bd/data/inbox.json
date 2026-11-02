@@ -1,0 +1,6 @@
+{
+  "note": "Schránka tipů od správce k případu N722BD. Do 'tips' vlož odkaz na příspěvek (X, Instagram, Facebook, Reddit, …) – stačí samotný odkaz v uvozovkách, např. \"https://x.com/…\", více odkazů odděl čárkou. Rutina /check-n722bd každý tip zpracuje a přesune do 'processed'. Formát kontroluje scripts/build_feed.py.",
+  "tips": [],
+  "example": {"url": "https://x.com/uzivatel/status/123", "added_at": "2026-11-02T10:00:00Z", "note": "volitelná poznámka"},
+  "processed": []
+}
