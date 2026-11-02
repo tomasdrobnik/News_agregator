@@ -1,9 +1,9 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-02T10:06:16Z",
-    "next_check": "2026-11-02T11:06:16Z",
-    "new_count": 8
+    "last_check": "2026-11-02T18:29:37Z",
+    "next_check": "2026-11-02T19:29:37Z",
+    "new_count": 1
   },
   "updates": [
     {
@@ -196,6 +196,27 @@
         "en": {
           "title": "Operator and flight rules (Part 91 / 135) unclear",
           "text": "IBTimes UK reports that N722BD appears in charter listings under Aurora Aviation's Part 135 certificate, but officials have not confirmed whether the flight was a charter; Austin airport described the aircraft as private. Unconfirmed, single source. Discrepancy: serial number 60-271 (registry / IBTimes) vs 60-186 (charter site FlyUSA, per search results)."
+        }
+      }
+    },
+    {
+      "id": "u009",
+      "found_at": "2026-11-02T18:29:37Z",
+      "published_at": null,
+      "source": "CBS12 (WPEC)",
+      "url": "https://cbs12.com/news/local/ntsb-to-brief-on-deadly-greenacres-jet-crash-as-600-residents-remain-displacedgreenacres-plane-crash-greenacres-jet-crash-learjet-60-crash-military-trail-crash-10th-avenue-north-crash-palm-beach-county-plane-crash-nine-killed-in-plane-crash-600-re",
+      "title": "Podle CBS12 zůstává asi 600 obyvatel mimo domovy; NTSB chystá briefing",
+      "text": "Podle výsledků vyhledávání (stránka nebyla přímo čtena) zůstává po havárii kolem 600 obyvatel Greenacres vysídleno či v péči úřadů a NTSB má v pondělí ve West Palm Beach uspořádat briefing. Výsledky také zmiňují prohlášení Bombardieru o podpoře šetření; příčina ani vliv počasí zatím nejsou určeny.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Podľa CBS12 zostáva približne 600 obyvateľov mimo domovov; NTSB chystá brífing",
+          "text": "Podľa výsledkov vyhľadávania (stránka nebola priamo čítaná) zostáva po havárii okolo 600 obyvateľov Greenacres vysídlených alebo v starostlivosti úradov a NTSB má v pondelok vo West Palm Beach uskutočniť brífing. Výsledky spomínajú aj vyhlásenie Bombardieru o podpore vyšetrovania; príčina ani vplyv počasia zatiaľ nie sú určené."
+        },
+        "en": {
+          "title": "CBS12: about 600 residents remain displaced; NTSB to hold briefing",
+          "text": "According to search results (page not read directly), around 600 Greenacres residents remain displaced or assisted by authorities after the crash, and the NTSB is due to hold a briefing in West Palm Beach on Monday. Results also mention a Bombardier statement supporting the investigation; the cause and any role of weather are not yet determined."
         }
       }
     }
