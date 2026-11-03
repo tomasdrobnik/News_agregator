@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 18:29:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 03:24:45 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] WPTV: 77 mobile homes remain displaced, Military Trail may be closed for weeks</title>
+      <link>https://www.wptv.com/news/palm-beach-county/evacuations-road-closures-follow-deadly-greenacres-jet-crash</link>
+      <guid isPermaLink="false">n722bd-u010</guid>
+      <pubDate>Tue, 03 Nov 2026 03:24:45 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (page not read directly), about 77 mobile homes remain displaced after Monday's news conference by officials and NTSB members, and residents do not know when they can return. Military Trail between Cresthaven Blvd and 10th Avenue North may stay closed for weeks; the cause of the crash has not been determined. (Source: WPTV)</description>
+    </item>
     <item>
       <title>[Unconfirmed] CBS12: about 600 residents remain displaced; NTSB to hold briefing</title>
       <link>https://cbs12.com/news/local/ntsb-to-brief-on-deadly-greenacres-jet-crash-as-600-residents-remain-displacedgreenacres-plane-crash-greenacres-jet-crash-learjet-60-crash-military-trail-crash-10th-avenue-north-crash-palm-beach-county-plane-crash-nine-killed-in-plane-crash-600-re</link>

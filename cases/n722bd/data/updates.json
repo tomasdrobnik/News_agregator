@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-02T18:29:37Z",
-    "next_check": "2026-11-02T19:29:37Z",
+    "last_check": "2026-11-03T03:24:45Z",
+    "next_check": "2026-11-03T04:24:37Z",
     "new_count": 1
   },
   "updates": [
@@ -217,6 +217,27 @@
         "en": {
           "title": "CBS12: about 600 residents remain displaced; NTSB to hold briefing",
           "text": "According to search results (page not read directly), around 600 Greenacres residents remain displaced or assisted by authorities after the crash, and the NTSB is due to hold a briefing in West Palm Beach on Monday. Results also mention a Bombardier statement supporting the investigation; the cause and any role of weather are not yet determined."
+        }
+      }
+    },
+    {
+      "id": "u010",
+      "found_at": "2026-11-03T03:24:45Z",
+      "published_at": null,
+      "source": "WPTV",
+      "url": "https://www.wptv.com/news/palm-beach-county/evacuations-road-closures-follow-deadly-greenacres-jet-crash",
+      "title": "WPTV: 77 mobilních domů zůstává vysídleno, Military Trail může být týdny uzavřena",
+      "text": "Podle výsledků vyhledávání (stránka nebyla přímo čtena) zůstává po tiskové konferenci úřadů a členů NTSB v pondělí vysídleno asi 77 mobilních domů a obyvatelé neví, kdy se budou moci vrátit. Military Trail mezi Cresthaven Blvd a 10th Avenue North má být uzavřena i několik týdnů; příčina havárie zatím není určena.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "WPTV: 77 mobilných domov zostáva vysídlených, Military Trail môže byť týždne uzavretá",
+          "text": "Podľa výsledkov vyhľadávania (stránka nebola priamo čítaná) zostáva po tlačovej konferencii úradov a členov NTSB v pondelok vysídlených asi 77 mobilných domov a obyvatelia nevedia, kedy sa budú môcť vrátiť. Military Trail medzi Cresthaven Blvd a 10th Avenue North má byť uzavretá aj niekoľko týždňov; príčina havárie zatiaľ nie je určená."
+        },
+        "en": {
+          "title": "WPTV: 77 mobile homes remain displaced, Military Trail may be closed for weeks",
+          "text": "According to search results (page not read directly), about 77 mobile homes remain displaced after Monday's news conference by officials and NTSB members, and residents do not know when they can return. Military Trail between Cresthaven Blvd and 10th Avenue North may stay closed for weeks; the cause of the crash has not been determined."
         }
       }
     }

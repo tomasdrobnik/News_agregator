@@ -171,6 +171,15 @@
       "added_at": "2026-11-02T18:29:37Z",
       "active": true,
       "note": "Letecký web (nehody NTSB); zatím jen přes WebSearch."
+    },
+    {
+      "name": "WPTV (Palm Beach County)",
+      "url": "https://www.wptv.com/",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-11-03T03:24:45Z",
+      "active": true,
+      "note": "Místní zpravodajství (NBC afiliát); zatím jen přes WebSearch, přímé čtení neověřeno."
     }
   ]
 }

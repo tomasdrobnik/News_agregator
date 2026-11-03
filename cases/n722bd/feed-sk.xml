@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o havárii Learjetu 60 N722BD v Palm Beach County na Floride (1. 11. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Mon, 02 Nov 2026 18:29:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 03:24:45 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] WPTV: 77 mobilných domov zostáva vysídlených, Military Trail môže byť týždne uzavretá</title>
+      <link>https://www.wptv.com/news/palm-beach-county/evacuations-road-closures-follow-deadly-greenacres-jet-crash</link>
+      <guid isPermaLink="false">n722bd-u010</guid>
+      <pubDate>Tue, 03 Nov 2026 03:24:45 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Podľa výsledkov vyhľadávania (stránka nebola priamo čítaná) zostáva po tlačovej konferencii úradov a členov NTSB v pondelok vysídlených asi 77 mobilných domov a obyvatelia nevedia, kedy sa budú môcť vrátiť. Military Trail medzi Cresthaven Blvd a 10th Avenue North má byť uzavretá aj niekoľko týždňov; príčina havárie zatiaľ nie je určená. (Zdroj: WPTV)</description>
+    </item>
     <item>
       <title>[Neoverené] Podľa CBS12 zostáva približne 600 obyvateľov mimo domovov; NTSB chystá brífing</title>
       <link>https://cbs12.com/news/local/ntsb-to-brief-on-deadly-greenacres-jet-crash-as-600-residents-remain-displacedgreenacres-plane-crash-greenacres-jet-crash-learjet-60-crash-military-trail-crash-10th-avenue-north-crash-palm-beach-county-plane-crash-nine-killed-in-plane-crash-600-re</link>
