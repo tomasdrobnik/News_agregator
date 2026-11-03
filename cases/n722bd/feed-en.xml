@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:24:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 15:24:08 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Operator: East Coast Jets reportedly confirmed a crew member's death (per search results)</title>
+      <link>https://www.wptv.com/news/palm-beach-county/loved-ones-remember-9-killed-in-greenacres-learjet-crash-including-boca-raton-co-pilot</link>
+      <guid isPermaLink="false">n722bd-u012</guid>
+      <pubDate>Tue, 03 Nov 2026 15:24:08 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (article not read directly), East Coast Jets confirmed that a crew member is among the victims; WPTV and CBS12 carry tributes from loved ones. This does not confirm the flight regime (Part 91 / 135) and the company's relationship to the flight must be verified. Crew names are not published. (Source: WPTV)</description>
+    </item>
     <item>
       <title>[Unconfirmed] NTSB briefing: crew reported ice and turbulence, then overspeed and rapid descent</title>
       <link>https://cbs12.com/</link>

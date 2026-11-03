@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-03T06:24:25Z",
-    "next_check": "2026-11-03T09:24:25Z",
+    "last_check": "2026-11-03T15:24:08Z",
+    "next_check": "2026-11-03T18:30:00Z",
     "new_count": 1
   },
   "updates": [
@@ -258,6 +258,27 @@
         "en": {
           "title": "NTSB briefing: crew reported ice and turbulence, then overspeed and rapid descent",
           "text": "According to search results (a CBS12 article on the ice and turbulence report; content not read directly, not confirmed by other sources), an NTSB board member said at Monday's briefing that the crew reported light clear ice and moderate turbulence shortly before the crash, followed by an overspeed and a steep descent. A crater filled with water hampers access to the wreckage; about 20 investigators are on scene and the cause is undetermined. Local officials say the road may stay closed a month or more."
+        }
+      }
+    },
+    {
+      "id": "u012",
+      "found_at": "2026-11-03T15:24:08Z",
+      "published_at": null,
+      "source": "WPTV",
+      "url": "https://www.wptv.com/news/palm-beach-county/loved-ones-remember-9-killed-in-greenacres-learjet-crash-including-boca-raton-co-pilot",
+      "title": "Provozovatel: East Coast Jets podle výsledků vyhledávání potvrdil úmrtí člena posádky",
+      "text": "Podle výsledků vyhledávání (článek nebyl přímo čten) společnost East Coast Jets potvrdila, že mezi oběťmi je člen posádky letu; WPTV a CBS12 přinášejí vzpomínky blízkých. Režim letu (Part 91 / 135) tím není potvrzen a vztah společnosti k letu je třeba ověřit. Jména posádky neuvádíme.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Prevádzkovateľ: East Coast Jets podľa výsledkov vyhľadávania potvrdil úmrtie člena posádky",
+          "text": "Podľa výsledkov vyhľadávania (článok nebol priamo čítaný) spoločnosť East Coast Jets potvrdila, že medzi obeťami je člen posádky letu; WPTV a CBS12 prinášajú spomienky blízkych. Režim letu (Part 91 / 135) tým nie je potvrdený a vzťah spoločnosti k letu je potrebné overiť. Mená posádky neuvádzame."
+        },
+        "en": {
+          "title": "Operator: East Coast Jets reportedly confirmed a crew member's death (per search results)",
+          "text": "According to search results (article not read directly), East Coast Jets confirmed that a crew member is among the victims; WPTV and CBS12 carry tributes from loved ones. This does not confirm the flight regime (Part 91 / 135) and the company's relationship to the flight must be verified. Crew names are not published."
         }
       }
     }

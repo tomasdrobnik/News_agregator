@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o havárii Learjetu 60 N722BD v Palm Beach County, Florida (1. 11. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:24:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 15:24:08 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Provozovatel: East Coast Jets podle výsledků vyhledávání potvrdil úmrtí člena posádky</title>
+      <link>https://www.wptv.com/news/palm-beach-county/loved-ones-remember-9-killed-in-greenacres-learjet-crash-including-boca-raton-co-pilot</link>
+      <guid isPermaLink="false">n722bd-u012</guid>
+      <pubDate>Tue, 03 Nov 2026 15:24:08 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (článek nebyl přímo čten) společnost East Coast Jets potvrdila, že mezi oběťmi je člen posádky letu; WPTV a CBS12 přinášejí vzpomínky blízkých. Režim letu (Part 91 / 135) tím není potvrzen a vztah společnosti k letu je třeba ověřit. Jména posádky neuvádíme. (Zdroj: WPTV)</description>
+    </item>
     <item>
       <title>[Neověřeno] NTSB na briefingu: posádka hlásila led a turbulenci, poté overspeed a rychlý sestup</title>
       <link>https://cbs12.com/</link>
