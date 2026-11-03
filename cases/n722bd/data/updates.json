@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-03T03:24:45Z",
-    "next_check": "2026-11-03T04:24:37Z",
+    "last_check": "2026-11-03T06:24:25Z",
+    "next_check": "2026-11-03T09:24:25Z",
     "new_count": 1
   },
   "updates": [
@@ -238,6 +238,26 @@
         "en": {
           "title": "WPTV: 77 mobile homes remain displaced, Military Trail may be closed for weeks",
           "text": "According to search results (page not read directly), about 77 mobile homes remain displaced after Monday's news conference by officials and NTSB members, and residents do not know when they can return. Military Trail between Cresthaven Blvd and 10th Avenue North may stay closed for weeks; the cause of the crash has not been determined."
+        }
+      }
+    },
+    {
+      "id": "u011",
+      "found_at": "2026-11-03T06:24:25Z",
+      "published_at": null,
+      "source": "CBS12 (WPEC)",
+      "url": "https://cbs12.com/",
+      "title": "NTSB na briefingu: posádka hlásila led a turbulenci, poté overspeed a rychlý sestup",
+      "text": "Podle výsledků vyhledávání (článek CBS12 s titulkem o hlášení ledu a turbulence; obsah nebyl přímo čten, jiné zdroje nepotvrzeny) člen NTSB na pondělním briefingu uvedl, že posádka krátce před havárií hlásila slabou čirou námrazu a mírnou turbulenci, poté nastal overspeed a prudký sestup. Na místě je kráter s vodou, který ztěžuje přístup k troskám; šetří asi 20 vyšetřovatelů a příčina není určena. Silnice má být podle místních úřadů zavřena měsíc či déle.",
+      "status": "unconfirmed",
+      "i18n": {
+        "sk": {
+          "title": "NTSB na brífingu: posádka hlásila ľad a turbulenciu, potom overspeed a rýchly zostup",
+          "text": "Podľa výsledkov vyhľadávania (článok CBS12 s titulkom o hlásení ľadu a turbulencie; obsah nebol priamo čítaný, iné zdroje nepotvrdené) člen NTSB na pondelkovom brífingu uviedol, že posádka krátko pred haváriou hlásila slabú čírú námrazu a miernu turbulenciu, potom nastal overspeed a prudký zostup. Na mieste je kráter s vodou, ktorý sťažuje prístup k troskám; vyšetruje asi 20 vyšetrovateľov a príčina nie je určená. Cesta má byť podľa miestnych úradov zatvorená mesiac či dlhšie."
+        },
+        "en": {
+          "title": "NTSB briefing: crew reported ice and turbulence, then overspeed and rapid descent",
+          "text": "According to search results (a CBS12 article on the ice and turbulence report; content not read directly, not confirmed by other sources), an NTSB board member said at Monday's briefing that the crew reported light clear ice and moderate turbulence shortly before the crash, followed by an overspeed and a steep descent. A crater filled with water hampers access to the wreckage; about 20 investigators are on scene and the cause is undetermined. Local officials say the road may stay closed a month or more."
         }
       }
     }

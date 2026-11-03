@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o havárii Learjetu 60 N722BD v Palm Beach County, Florida (1. 11. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Tue, 03 Nov 2026 03:24:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:24:25 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] NTSB na briefingu: posádka hlásila led a turbulenci, poté overspeed a rychlý sestup</title>
+      <link>https://cbs12.com/</link>
+      <guid isPermaLink="false">n722bd-u011</guid>
+      <pubDate>Tue, 03 Nov 2026 06:24:25 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (článek CBS12 s titulkem o hlášení ledu a turbulence; obsah nebyl přímo čten, jiné zdroje nepotvrzeny) člen NTSB na pondělním briefingu uvedl, že posádka krátce před havárií hlásila slabou čirou námrazu a mírnou turbulenci, poté nastal overspeed a prudký sestup. Na místě je kráter s vodou, který ztěžuje přístup k troskám; šetří asi 20 vyšetřovatelů a příčina není určena. Silnice má být podle místních úřadů zavřena měsíc či déle. (Zdroj: CBS12 (WPEC))</description>
+    </item>
     <item>
       <title>[Neověřeno] WPTV: 77 mobilních domů zůstává vysídleno, Military Trail může být týdny uzavřena</title>
       <link>https://www.wptv.com/news/palm-beach-county/evacuations-road-closures-follow-deadly-greenacres-jet-crash</link>

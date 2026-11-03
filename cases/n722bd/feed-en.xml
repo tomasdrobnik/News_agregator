@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 03:24:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:24:25 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] NTSB briefing: crew reported ice and turbulence, then overspeed and rapid descent</title>
+      <link>https://cbs12.com/</link>
+      <guid isPermaLink="false">n722bd-u011</guid>
+      <pubDate>Tue, 03 Nov 2026 06:24:25 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (a CBS12 article on the ice and turbulence report; content not read directly, not confirmed by other sources), an NTSB board member said at Monday's briefing that the crew reported light clear ice and moderate turbulence shortly before the crash, followed by an overspeed and a steep descent. A crater filled with water hampers access to the wreckage; about 20 investigators are on scene and the cause is undetermined. Local officials say the road may stay closed a month or more. (Source: CBS12 (WPEC))</description>
+    </item>
     <item>
       <title>[Unconfirmed] WPTV: 77 mobile homes remain displaced, Military Trail may be closed for weeks</title>
       <link>https://www.wptv.com/news/palm-beach-county/evacuations-road-closures-follow-deadly-greenacres-jet-crash</link>
