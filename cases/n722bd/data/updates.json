@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-03T15:24:08Z",
-    "next_check": "2026-11-03T18:30:00Z",
+    "last_check": "2026-11-03T21:26:00Z",
+    "next_check": "2026-11-04T00:30:00Z",
     "new_count": 1
   },
   "updates": [
@@ -279,6 +279,26 @@
         "en": {
           "title": "Operator: East Coast Jets reportedly confirmed a crew member's death (per search results)",
           "text": "According to search results (article not read directly), East Coast Jets confirmed that a crew member is among the victims; WPTV and CBS12 carry tributes from loved ones. This does not confirm the flight regime (Part 91 / 135) and the company's relationship to the flight must be verified. Crew names are not published."
+        }
+      }
+    },
+    {
+      "id": "u013",
+      "found_at": "2026-11-03T21:26:00Z",
+      "published_at": null,
+      "source": "PBS NewsHour (AP)",
+      "url": "https://www.pbs.org/newshour/nation/evidence-suggests-parts-of-jet-broke-off-before-florida-crash-ntsb-investigator-says",
+      "title": "AP/PBS: letoun se podle NTSB začal rozpadat ještě ve vzduchu",
+      "text": "Podle zprávy agentury AP (přímo přečteno na PBS NewsHour) člen NTSB Tom Chapman uvedl, že důkazy naznačují rozpad letounu před dopadem a že trosky mohou ležet dál od místa nárazu; rozsah a čas oddělení částí zatím nejsou určeny. Experti citovaní AP zmiňují možné odlomení částí ocasu při turbulenci či střemhlavém letu – jde o spekulaci. Vyšetřovatelé se budou výrazně zaměřovat na počasí.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "AP/PBS: lietadlo sa podľa NTSB začalo rozpadávať ešte vo vzduchu",
+          "text": "Podľa správy agentúry AP (priamo prečítané na PBS NewsHour) člen NTSB Tom Chapman uviedol, že dôkazy naznačujú rozpad lietadla pred dopadom a že trosky môžu ležať ďalej od miesta nárazu; rozsah a čas oddelenia častí zatiaľ nie sú určené. Experti citovaní AP spomínajú možné odlomenie častí chvosta pri turbulencii či strmhlavom lete – ide o špekuláciu. Vyšetrovatelia sa budú výrazne zameriavať na počasie."
+        },
+        "en": {
+          "title": "AP/PBS: aircraft began breaking up in the air, NTSB says",
+          "text": "According to an AP report (read directly on PBS NewsHour), NTSB member Tom Chapman said evidence suggests the aircraft started to break up before impact and that wreckage may lie farther from the impact site; the extent and timing of any separation are not yet determined. Experts quoted by AP mention possible detachment of tail parts in turbulence or the dive – this is speculation. Investigators will focus heavily on weather."
         }
       }
     }

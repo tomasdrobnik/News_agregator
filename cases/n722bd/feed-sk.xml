@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o havárii Learjetu 60 N722BD v Palm Beach County na Floride (1. 11. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Tue, 03 Nov 2026 15:24:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 21:26:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] AP/PBS: lietadlo sa podľa NTSB začalo rozpadávať ešte vo vzduchu</title>
+      <link>https://www.pbs.org/newshour/nation/evidence-suggests-parts-of-jet-broke-off-before-florida-crash-ntsb-investigator-says</link>
+      <guid isPermaLink="false">n722bd-u013</guid>
+      <pubDate>Tue, 03 Nov 2026 21:26:00 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa správy agentúry AP (priamo prečítané na PBS NewsHour) člen NTSB Tom Chapman uviedol, že dôkazy naznačujú rozpad lietadla pred dopadom a že trosky môžu ležať ďalej od miesta nárazu; rozsah a čas oddelenia častí zatiaľ nie sú určené. Experti citovaní AP spomínajú možné odlomenie častí chvosta pri turbulencii či strmhlavom lete – ide o špekuláciu. Vyšetrovatelia sa budú výrazne zameriavať na počasie. (Zdroj: PBS NewsHour (AP))</description>
+    </item>
     <item>
       <title>[Neoverené] Prevádzkovateľ: East Coast Jets podľa výsledkov vyhľadávania potvrdil úmrtie člena posádky</title>
       <link>https://www.wptv.com/news/palm-beach-county/loved-ones-remember-9-killed-in-greenacres-learjet-crash-including-boca-raton-co-pilot</link>

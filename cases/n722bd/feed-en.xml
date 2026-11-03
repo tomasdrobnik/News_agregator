@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 15:24:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 21:26:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] AP/PBS: aircraft began breaking up in the air, NTSB says</title>
+      <link>https://www.pbs.org/newshour/nation/evidence-suggests-parts-of-jet-broke-off-before-florida-crash-ntsb-investigator-says</link>
+      <guid isPermaLink="false">n722bd-u013</guid>
+      <pubDate>Tue, 03 Nov 2026 21:26:00 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to an AP report (read directly on PBS NewsHour), NTSB member Tom Chapman said evidence suggests the aircraft started to break up before impact and that wreckage may lie farther from the impact site; the extent and timing of any separation are not yet determined. Experts quoted by AP mention possible detachment of tail parts in turbulence or the dive – this is speculation. Investigators will focus heavily on weather. (Source: PBS NewsHour (AP))</description>
+    </item>
     <item>
       <title>[Unconfirmed] Operator: East Coast Jets reportedly confirmed a crew member's death (per search results)</title>
       <link>https://www.wptv.com/news/palm-beach-county/loved-ones-remember-9-killed-in-greenacres-learjet-crash-including-boca-raton-co-pilot</link>

@@ -180,6 +180,15 @@
       "added_at": "2026-11-03T03:24:45Z",
       "active": true,
       "note": "Místní zpravodajství (NBC afiliát); zatím jen přes WebSearch, přímé čtení neověřeno."
+    },
+    {
+      "name": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-11-03T21:26:00Z",
+      "active": true,
+      "note": "Přebírá zprávy AP; článek o rozpadu letounu přečten přes WebFetch."
     }
   ]
 }
