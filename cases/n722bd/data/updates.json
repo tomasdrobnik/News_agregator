@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-03T21:26:00Z",
-    "next_check": "2026-11-04T00:30:00Z",
+    "last_check": "2026-11-04T12:26:00Z",
+    "next_check": "2026-11-04T15:26:00Z",
     "new_count": 1
   },
   "updates": [
@@ -299,6 +299,26 @@
         "en": {
           "title": "AP/PBS: aircraft began breaking up in the air, NTSB says",
           "text": "According to an AP report (read directly on PBS NewsHour), NTSB member Tom Chapman said evidence suggests the aircraft started to break up before impact and that wreckage may lie farther from the impact site; the extent and timing of any separation are not yet determined. Experts quoted by AP mention possible detachment of tail parts in turbulence or the dive – this is speculation. Investigators will focus heavily on weather."
+        }
+      }
+    },
+    {
+      "id": "u014",
+      "found_at": "2026-11-04T12:26:00Z",
+      "published_at": null,
+      "source": "ABC News",
+      "url": "https://abcnews.com/US/learjet-breaking-crashed-florida-ntsb/story?id=137781527",
+      "title": "ABC: NTSB našla levé výškovkové kormidlo 1,3–3,8 míle od místa dopadu",
+      "text": "Podle ABC News (přímo přečteno) uvedl člen NTSB Tom Chapman na briefingu v úterý, že většina levé výškovky byla nalezena ve třech kusech 1,3 až 3,8 míle od místa havárie, takže se části letounu oddělily před dopadem. Zatím není jasné, zda ztráta výškovky přispěla k havárii, nebo zda k oddělení vedly síly při sestupu nad certifikovanou rychlostí. Vyšetřovatelé měli ve středu vstoupit do kráteru ve vozovce. Jde o tvrzení médií citující NTSB; text NTSB nebyl přímo čten.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "ABC: NTSB našla ľavé výškovkové kormidlo 1,3–3,8 míle od miesta dopadu",
+          "text": "Podľa ABC News (priamo prečítané) uviedol člen NTSB Tom Chapman na briefingu v utorok, že väčšina ľavej výškovky bola nájdená v troch kusoch 1,3 až 3,8 míle od miesta havárie, takže sa časti lietadla oddelili pred dopadom. Zatiaľ nie je jasné, či strata výškovky prispela k havárii, alebo či k oddeleniu viedli sily pri zostupe nad certifikovanou rýchlosťou. Vyšetrovatelia mali v stredu vstúpiť do krátera vo vozovke. Ide o tvrdenie médií citujúce NTSB; text NTSB nebol priamo čítaný."
+        },
+        "en": {
+          "title": "ABC: NTSB found left elevator 1.3–3.8 miles from the impact site",
+          "text": "According to ABC News (read directly), NTSB member Tom Chapman said at Tuesday's briefing that most of the left elevator was found in three pieces 1.3 to 3.8 miles from the crash site, so parts separated before impact. It is unclear whether losing the elevator contributed to the crash or whether forces in the descent above certified maximum speed caused the separation. Investigators were to enter the crater in the roadway on Wednesday. This is a media report citing the NTSB; the NTSB's own text was not read directly."
         }
       }
     }
