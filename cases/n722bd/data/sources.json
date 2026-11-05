@@ -189,6 +189,15 @@
       "added_at": "2026-11-03T21:26:00Z",
       "active": true,
       "note": "Přebírá zprávy AP; článek o rozpadu letounu přečten přes WebFetch."
+    },
+    {
+      "name": "Fox News",
+      "url": "https://www.foxnews.com/us/",
+      "type": "media",
+      "access": "webfetch",
+      "added_at": "2026-11-05T00:24:56Z",
+      "active": true,
+      "note": "Renomované médium; článek o nálezu výškovky přečten přes WebFetch."
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-04T12:26:00Z",
-    "next_check": "2026-11-04T15:26:00Z",
+    "last_check": "2026-11-05T00:24:56Z",
+    "next_check": "2026-11-05T03:24:56Z",
     "new_count": 1
   },
   "updates": [
@@ -319,6 +319,26 @@
         "en": {
           "title": "ABC: NTSB found left elevator 1.3–3.8 miles from the impact site",
           "text": "According to ABC News (read directly), NTSB member Tom Chapman said at Tuesday's briefing that most of the left elevator was found in three pieces 1.3 to 3.8 miles from the crash site, so parts separated before impact. It is unclear whether losing the elevator contributed to the crash or whether forces in the descent above certified maximum speed caused the separation. Investigators were to enter the crater in the roadway on Wednesday. This is a media report citing the NTSB; the NTSB's own text was not read directly."
+        }
+      }
+    },
+    {
+      "id": "u015",
+      "found_at": "2026-11-05T00:24:56Z",
+      "published_at": "2026-11-04T16:04:00Z",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/us/pilots-push-level-jet-may-have-torn-off-key-piece-found-miles-florida-crash-former-ntsb-expert-says",
+      "title": "Fox News: letoun měl záznamník hlasů, ale NTSB jej zatím nenašla; bývalý vyšetřovatel zvažuje přetížení konstrukce",
+      "text": "Podle Fox News (přímo přečteno) měl letoun záznamník hlasu z kokpitu, vyšetřovatelé jej však zatím nenašli a nemohou potvrdit, že byl na palubě v době nehody. Posádka krátce před ztrátou výšky hlásila námrazu a mírnou turbulenci ve výšce asi 35 000 ft. Bývalý vyšetřovatel NTSB Greg Feith to je jeho názor, nikoli zjištění NTSB: pilot se mohl snažit letoun vyrovnat a přetížit konstrukci. Jde o tvrzení médií; text NTSB nebyl přímo čten.",
+      "status": "reported",
+      "i18n": {
+        "sk": {
+          "title": "Fox News: lietadlo malo záznamník hlasov, ale NTSB ho zatiaľ nenašla; bývalý vyšetrovateľ zvažuje preťaženie konštrukcie",
+          "text": "Podľa Fox News (priamo prečítané) malo lietadlo záznamník hlasu z kokpitu, vyšetrovatelia ho však zatiaľ nenašli a nemôžu potvrdiť, že bol na palube v čase nehody. Posádka krátko pred stratou výšky hlásila námrazu a miernu turbulenciu vo výške asi 35 000 ft. Bývalý vyšetrovateľ NTSB Greg Feith – ide o jeho názor, nie zistenie NTSB – uviedol, že pilot sa mohol snažiť lietadlo vyrovnať a preťažiť konštrukciu. Ide o tvrdenie médií; text NTSB nebol priamo čítaný."
+        },
+        "en": {
+          "title": "Fox News: jet had a cockpit voice recorder but NTSB has not found it yet; ex-investigator considers structural overstress",
+          "text": "According to Fox News (read directly), the aircraft had a cockpit voice recorder, but investigators have not found it and cannot confirm it was aboard at the time of the crash. The crew reported icing and moderate turbulence at about 35,000 ft shortly before the rapid loss of altitude. Former NTSB investigator Greg Feith, in his own opinion and not an NTSB finding, said a pilot may have tried to level the jet and overstressed the structure. This is a media report; the NTSB's own text was not read directly."
         }
       }
     }

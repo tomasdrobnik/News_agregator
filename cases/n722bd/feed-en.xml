@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 12:26:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 00:24:56 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Fox News: jet had a cockpit voice recorder but NTSB has not found it yet; ex-investigator considers structural overstress</title>
+      <link>https://www.foxnews.com/us/pilots-push-level-jet-may-have-torn-off-key-piece-found-miles-florida-crash-former-ntsb-expert-says</link>
+      <guid isPermaLink="false">n722bd-u015</guid>
+      <pubDate>Thu, 05 Nov 2026 00:24:56 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to Fox News (read directly), the aircraft had a cockpit voice recorder, but investigators have not found it and cannot confirm it was aboard at the time of the crash. The crew reported icing and moderate turbulence at about 35,000 ft shortly before the rapid loss of altitude. Former NTSB investigator Greg Feith, in his own opinion and not an NTSB finding, said a pilot may have tried to level the jet and overstressed the structure. This is a media report; the NTSB's own text was not read directly. (Source: Fox News)</description>
+    </item>
     <item>
       <title>[Media] ABC: NTSB found left elevator 1.3–3.8 miles from the impact site</title>
       <link>https://abcnews.com/US/learjet-breaking-crashed-florida-ntsb/story?id=137781527</link>

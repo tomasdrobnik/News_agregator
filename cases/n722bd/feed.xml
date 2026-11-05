@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o havárii Learjetu 60 N722BD v Palm Beach County, Florida (1. 11. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Wed, 04 Nov 2026 12:26:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 00:24:56 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Fox News: letoun měl záznamník hlasů, ale NTSB jej zatím nenašla; bývalý vyšetřovatel zvažuje přetížení konstrukce</title>
+      <link>https://www.foxnews.com/us/pilots-push-level-jet-may-have-torn-off-key-piece-found-miles-florida-crash-former-ntsb-expert-says</link>
+      <guid isPermaLink="false">n722bd-u015</guid>
+      <pubDate>Thu, 05 Nov 2026 00:24:56 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle Fox News (přímo přečteno) měl letoun záznamník hlasu z kokpitu, vyšetřovatelé jej však zatím nenašli a nemohou potvrdit, že byl na palubě v době nehody. Posádka krátce před ztrátou výšky hlásila námrazu a mírnou turbulenci ve výšce asi 35 000 ft. Bývalý vyšetřovatel NTSB Greg Feith to je jeho názor, nikoli zjištění NTSB: pilot se mohl snažit letoun vyrovnat a přetížit konstrukci. Jde o tvrzení médií; text NTSB nebyl přímo čten. (Zdroj: Fox News)</description>
+    </item>
     <item>
       <title>[Média] ABC: NTSB našla levé výškovkové kormidlo 1,3–3,8 míle od místa dopadu</title>
       <link>https://abcnews.com/US/learjet-breaking-crashed-florida-ntsb/story?id=137781527</link>

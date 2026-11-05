@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o havárii Learjetu 60 N722BD v Palm Beach County na Floride (1. 11. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Wed, 04 Nov 2026 12:26:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 00:24:56 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Fox News: lietadlo malo záznamník hlasov, ale NTSB ho zatiaľ nenašla; bývalý vyšetrovateľ zvažuje preťaženie konštrukcie</title>
+      <link>https://www.foxnews.com/us/pilots-push-level-jet-may-have-torn-off-key-piece-found-miles-florida-crash-former-ntsb-expert-says</link>
+      <guid isPermaLink="false">n722bd-u015</guid>
+      <pubDate>Thu, 05 Nov 2026 00:24:56 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa Fox News (priamo prečítané) malo lietadlo záznamník hlasu z kokpitu, vyšetrovatelia ho však zatiaľ nenašli a nemôžu potvrdiť, že bol na palube v čase nehody. Posádka krátko pred stratou výšky hlásila námrazu a miernu turbulenciu vo výške asi 35 000 ft. Bývalý vyšetrovateľ NTSB Greg Feith – ide o jeho názor, nie zistenie NTSB – uviedol, že pilot sa mohol snažiť lietadlo vyrovnať a preťažiť konštrukciu. Ide o tvrdenie médií; text NTSB nebol priamo čítaný. (Zdroj: Fox News)</description>
+    </item>
     <item>
       <title>[Médiá] ABC: NTSB našla ľavé výškovkové kormidlo 1,3–3,8 míle od miesta dopadu</title>
       <link>https://abcnews.com/US/learjet-breaking-crashed-florida-ntsb/story?id=137781527</link>
