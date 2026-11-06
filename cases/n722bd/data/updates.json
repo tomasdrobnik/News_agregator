@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-05T00:24:56Z",
-    "next_check": "2026-11-05T03:24:56Z",
+    "last_check": "2026-11-06T09:24:22Z",
+    "next_check": "2026-11-06T12:24:22Z",
     "new_count": 1
   },
   "updates": [
@@ -339,6 +339,26 @@
         "en": {
           "title": "Fox News: jet had a cockpit voice recorder but NTSB has not found it yet; ex-investigator considers structural overstress",
           "text": "According to Fox News (read directly), the aircraft had a cockpit voice recorder, but investigators have not found it and cannot confirm it was aboard at the time of the crash. The crew reported icing and moderate turbulence at about 35,000 ft shortly before the rapid loss of altitude. Former NTSB investigator Greg Feith, in his own opinion and not an NTSB finding, said a pilot may have tried to level the jet and overstressed the structure. This is a media report; the NTSB's own text was not read directly."
+        }
+      }
+    },
+    {
+      "id": "u016",
+      "found_at": "2026-11-06T09:24:22Z",
+      "published_at": null,
+      "source": "WFTV (Orlando)",
+      "url": "https://www.wftv.com/news/local/learjet-60-broke-apart-before-crashing-palm-beach-county-ntsb-says/CEBMS4ZUBFHKJKT2DNS24AGIVI/",
+      "title": "Podle výsledků vyhledávání: NTSB označila provozovatele Aurora Aviation (Upper Jet), šetření ERA27MA026",
+      "text": "Podle výsledků vyhledávání (stránka nebyla přímo přečtena) měla NTSB uvést jako provozovatele Aurora Aviation obchodně působící jako Upper Jet; šetření má vést pod číslem ERA27MA026. To se liší od dřívější zmínky o East Coast Jets (u012) a režim letu zůstává nepotvrzen. Žádná zpráva NTSB novější než briefing z 2. 11. nebyla nalezena.",
+      "status": "unconfirmed",
+      "i18n": {
+        "sk": {
+          "title": "Podľa výsledkov vyhľadávania: NTSB označila prevádzkovateľa Aurora Aviation (Upper Jet), vyšetrovanie ERA27MA026",
+          "text": "Podľa výsledkov vyhľadávania (stránka nebola priamo prečítaná) mala NTSB uviesť ako prevádzkovateľa Aurora Aviation obchodne pôsobiacu ako Upper Jet; vyšetrovanie má viesť pod číslom ERA27MA026. To sa líši od skoršej zmienky o East Coast Jets (u012) a režim letu zostáva nepotvrdený. Žiadna správa NTSB novšia než briefing z 2. 11. nebola nájdená."
+        },
+        "en": {
+          "title": "Per search results: NTSB named operator Aurora Aviation (Upper Jet), investigation ERA27MA026",
+          "text": "According to search results (page not read directly), the NTSB reportedly named Aurora Aviation, doing business as Upper Jet, as the operator, with the investigation numbered ERA27MA026. This differs from the earlier mention of East Coast Jets (u012), and the flight regime remains unconfirmed. No NTSB information newer than the 2 Nov briefing was found."
         }
       }
     }

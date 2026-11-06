@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 00:24:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 09:24:22 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] Per search results: NTSB named operator Aurora Aviation (Upper Jet), investigation ERA27MA026</title>
+      <link>https://www.wftv.com/news/local/learjet-60-broke-apart-before-crashing-palm-beach-county-ntsb-says/CEBMS4ZUBFHKJKT2DNS24AGIVI/</link>
+      <guid isPermaLink="false">n722bd-u016</guid>
+      <pubDate>Fri, 06 Nov 2026 09:24:22 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (page not read directly), the NTSB reportedly named Aurora Aviation, doing business as Upper Jet, as the operator, with the investigation numbered ERA27MA026. This differs from the earlier mention of East Coast Jets (u012), and the flight regime remains unconfirmed. No NTSB information newer than the 2 Nov briefing was found. (Source: WFTV (Orlando))</description>
+    </item>
     <item>
       <title>[Media] Fox News: jet had a cockpit voice recorder but NTSB has not found it yet; ex-investigator considers structural overstress</title>
       <link>https://www.foxnews.com/us/pilots-push-level-jet-may-have-torn-off-key-piece-found-miles-florida-crash-former-ntsb-expert-says</link>

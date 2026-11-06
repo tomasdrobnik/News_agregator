@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o havárii Learjetu 60 N722BD v Palm Beach County, Florida (1. 11. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Thu, 05 Nov 2026 00:24:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 09:24:22 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] Podle výsledků vyhledávání: NTSB označila provozovatele Aurora Aviation (Upper Jet), šetření ERA27MA026</title>
+      <link>https://www.wftv.com/news/local/learjet-60-broke-apart-before-crashing-palm-beach-county-ntsb-says/CEBMS4ZUBFHKJKT2DNS24AGIVI/</link>
+      <guid isPermaLink="false">n722bd-u016</guid>
+      <pubDate>Fri, 06 Nov 2026 09:24:22 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (stránka nebyla přímo přečtena) měla NTSB uvést jako provozovatele Aurora Aviation obchodně působící jako Upper Jet; šetření má vést pod číslem ERA27MA026. To se liší od dřívější zmínky o East Coast Jets (u012) a režim letu zůstává nepotvrzen. Žádná zpráva NTSB novější než briefing z 2. 11. nebyla nalezena. (Zdroj: WFTV (Orlando))</description>
+    </item>
     <item>
       <title>[Média] Fox News: letoun měl záznamník hlasů, ale NTSB jej zatím nenašla; bývalý vyšetřovatel zvažuje přetížení konstrukce</title>
       <link>https://www.foxnews.com/us/pilots-push-level-jet-may-have-torn-off-key-piece-found-miles-florida-crash-former-ntsb-expert-says</link>

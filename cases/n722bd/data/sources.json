@@ -198,6 +198,15 @@
       "added_at": "2026-11-05T00:24:56Z",
       "active": true,
       "note": "Renomované médium; článek o nálezu výškovky přečten přes WebFetch."
+    },
+    {
+      "name": "WFTV (Orlando)",
+      "url": "https://www.wftv.com/",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-11-06T09:24:22Z",
+      "active": true,
+      "note": "Regionální TV (Cox Media); článek o NTSB briefingu. Automatické čtení neověřeno – zatím jen WebSearch."
     }
   ]
 }
