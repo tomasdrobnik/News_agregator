@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-06T09:24:22Z",
-    "next_check": "2026-11-06T12:24:22Z",
+    "last_check": "2026-11-08T15:25:00Z",
+    "next_check": "2026-11-08T18:25:00Z",
     "new_count": 1
   },
   "updates": [
@@ -359,6 +359,27 @@
         "en": {
           "title": "Per search results: NTSB named operator Aurora Aviation (Upper Jet), investigation ERA27MA026",
           "text": "According to search results (page not read directly), the NTSB reportedly named Aurora Aviation, doing business as Upper Jet, as the operator, with the investigation numbered ERA27MA026. This differs from the earlier mention of East Coast Jets (u012), and the flight regime remains unconfirmed. No NTSB information newer than the 2 Nov briefing was found."
+        }
+      }
+    },
+    {
+      "id": "u017",
+      "found_at": "2026-11-08T15:25:00Z",
+      "published_at": "2026-11-05T00:00:00Z",
+      "source": "CBS12 (WPEC)",
+      "url": "https://cbs12.com/news/local/ntsb-says-excavation-at-greenacres-learjet-crash-site-is-ongoing-engine-section-found-florida-news-learjet-update-plane-crash-in-greenacres",
+      "title": "NTSB: pokračuje odkopávání kráteru, nalezena část motoru",
+      "text": "Podle výsledků vyhledávání (článek nebyl přímo čten) NTSB 5. 11. uvedla, že odkopávání místa dopadu pokračuje a byla nalezena část jednoho z motorů; zbytky letounu se odvezou do zabezpečeného místa. Zda byl nalezen záznamník hlasů v kabině, zpráva podle dostupných výsledků neuvádí. Předběžná zpráva NTSB se očekává do ~30 dnů od havárie, zatím nevyšla.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "NTSB: pokračuje odkopávanie krátera, nájdená časť motora",
+          "text": "Podľa výsledkov vyhľadávania (článok nebol priamo čítaný) NTSB 5. 11. uviedla, že odkopávanie miesta dopadu pokračuje a bola nájdená časť jedného z motorov; zvyšky lietadla sa odvezú na zabezpečené miesto. Či bol nájdený záznamník hlasov v kabíne, správa podľa dostupných výsledkov neuvádza. Predbežná správa NTSB sa očakáva do ~30 dní od havárie, zatiaľ nevyšla."
+        },
+        "en": {
+          "title": "NTSB: crater excavation continues, part of an engine found",
+          "text": "According to search results (article not read directly), NTSB said on 5 Nov that excavation of the impact site continues and a portion of one engine was recovered; wreckage will go to a secure location. Whether the cockpit voice recorder was found is not stated in the available results. The NTSB preliminary report is expected within ~30 days of the crash and has not been published yet."
         }
       }
     }

@@ -207,6 +207,15 @@
       "added_at": "2026-11-06T09:24:22Z",
       "active": true,
       "note": "Regionální TV (Cox Media); článek o NTSB briefingu. Automatické čtení neověřeno – zatím jen WebSearch."
+    },
+    {
+      "name": "AIN – Aviation International News",
+      "url": "https://www.ainonline.com/",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-11-08T15:25:00Z",
+      "active": true,
+      "note": "Odborný web o business aviation; pokrývá vyšetřování havárie N722BD. Přímé čtení nezkoušeno – jen WebSearch."
     }
   ]
 }

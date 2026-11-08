@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o havárii Learjetu 60 N722BD v Palm Beach County, Florida (1. 11. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Fri, 06 Nov 2026 09:24:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 15:25:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] NTSB: pokračuje odkopávání kráteru, nalezena část motoru</title>
+      <link>https://cbs12.com/news/local/ntsb-says-excavation-at-greenacres-learjet-crash-site-is-ongoing-engine-section-found-florida-news-learjet-update-plane-crash-in-greenacres</link>
+      <guid isPermaLink="false">n722bd-u017</guid>
+      <pubDate>Sun, 08 Nov 2026 15:25:00 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (článek nebyl přímo čten) NTSB 5. 11. uvedla, že odkopávání místa dopadu pokračuje a byla nalezena část jednoho z motorů; zbytky letounu se odvezou do zabezpečeného místa. Zda byl nalezen záznamník hlasů v kabině, zpráva podle dostupných výsledků neuvádí. Předběžná zpráva NTSB se očekává do ~30 dnů od havárie, zatím nevyšla. (Zdroj: CBS12 (WPEC))</description>
+    </item>
     <item>
       <title>[Neověřeno] Podle výsledků vyhledávání: NTSB označila provozovatele Aurora Aviation (Upper Jet), šetření ERA27MA026</title>
       <link>https://www.wftv.com/news/local/learjet-60-broke-apart-before-crashing-palm-beach-county-ntsb-says/CEBMS4ZUBFHKJKT2DNS24AGIVI/</link>
