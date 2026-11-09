@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Fri, 23 Oct 2026 08:12:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 18:11:15 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] flydubai údajně prodloužil pozastavení letů do Tel Avivu do 30. 11.</title>
+      <link>https://en.yenisafak.com/world/flydubai-extends-tel-aviv-flight-suspension-until-nov-30-3725001</link>
+      <guid isPermaLink="false">fz1073-u115</guid>
+      <pubDate>Mon, 09 Nov 2026 18:11:15 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (článek nebyl přímo čten) turecký web Yeni Şafak s odkazem na izraelskou Channel 12 uvádí, že flydubai prodloužil pozastavení linky do Tel Avivu do 30. listopadu. Oficiální potvrzení od dopravce nebylo nalezeno; dřívější zprávy (u113, u114) uváděly 15. 11. (Zdroj: Yeni Şafak (cituje Channel 12))</description>
+    </item>
     <item>
       <title>[Média] JNS: lety Tel Aviv–Dubaj zůstávají tři týdny po incidentu pozastaveny</title>
       <link>https://www.jns.org/news/israel-news/flights-to-dubai-from-tel-aviv-remain-suspended-three-weeks-after-attack</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
       <category>Neověřeno</category>
       <description>[Neověřeno] Podle výsledků vyhledávání (stránky nebyly přímo čteny) se hodiny po FZ1073 objevily zprávy, že se z Tel Avivu vrací další let flydubai. Média píšou, že šlo o chybu webů pro sledování letů a let FZ1081 pokračoval normálně; oficiální potvrzení chybí. (Zdroj: The Week / Business Today / Cedar News (přes vyhledávání))</description>
-    </item>
-    <item>
-      <title>[Média] Netanjahu: pilot bodl druhého a byl zatčen Saúdy</title>
-      <link>https://www.jpost.com/israel-news/benjamin-netanyahu/article-910205</link>
-      <guid isPermaLink="false">fz1073-u015</guid>
-      <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
-      <category>Média</category>
-      <description>[Média] Podle výsledků vyhledávání (JPost, AFP a další; stránky nebyly přímo čteny) izraelský premiér Netanjahu uvedl, že jeden pilot bodl druhého, zřejmě se pokusil letoun zřítit či sabotovat jeho systémy, a že byl zatčen a saúdské úřady ho vyslýchají. Jde o tvrzení izraelské strany; UAE/KSA ani vyšetřovací orgány to oficiálně nepotvrdily a rozporuje to titulek AvHerald (u014) o podezření ze sebevraždy. (Zdroj: Jerusalem Post / AFP / další (přes vyhledávání))</description>
     </item>
   </channel>
 </rss>

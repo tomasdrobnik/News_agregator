@@ -585,6 +585,15 @@
       "added_at": "2026-10-23T08:12:30Z",
       "active": true,
       "note": "Zpravodajská agentura/web s redakcí (autor Etgar Lefkovits); sleduje dopady incidentu na lety Tel Aviv–Dubaj. Přímé čtení přes WebFetch uspělo."
+    },
+    {
+      "name": "Yeni Şafak (EN)",
+      "url": "https://en.yenisafak.com/",
+      "type": "media",
+      "access": "websearch",
+      "added_at": "2026-11-09T18:11:15Z",
+      "active": true,
+      "note": "Turecký zpravodajský web; zde cituje Channel 12 k pozastavení letů. Zatím jen WebSearch."
     }
   ]
 }

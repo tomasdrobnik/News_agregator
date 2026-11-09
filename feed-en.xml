@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 08:12:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 18:11:15 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] flydubai reportedly extends Tel Aviv suspension to 30 Nov</title>
+      <link>https://en.yenisafak.com/world/flydubai-extends-tel-aviv-flight-suspension-until-nov-30-3725001</link>
+      <guid isPermaLink="false">fz1073-u115</guid>
+      <pubDate>Mon, 09 Nov 2026 18:11:15 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (article not read directly), Turkish site Yeni Şafak, citing Israel's Channel 12, says flydubai extended its Tel Aviv suspension to 30 November. No official confirmation from the carrier was found; earlier reports (u113, u114) gave 15 Nov. (Source: Yeni Şafak (cituje Channel 12))</description>
+    </item>
     <item>
       <title>[Media] JNS: Tel Aviv–Dubai flights remain suspended three weeks after the incident</title>
       <link>https://www.jns.org/news/israel-news/flights-to-dubai-from-tel-aviv-remain-suspended-three-weeks-after-attack</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
       <category>Unconfirmed</category>
       <description>[Unconfirmed] According to search results (pages not read directly), hours after FZ1073 reports emerged that another flydubai flight was turning back from Tel Aviv. Media say it was a glitch on flight-tracking sites and flight FZ1081 continued normally; there is no official confirmation. (Source: The Week / Business Today / Cedar News (přes vyhledávání))</description>
-    </item>
-    <item>
-      <title>[Media] Netanyahu: pilot stabbed the other and was arrested by the Saudis</title>
-      <link>https://www.jpost.com/israel-news/benjamin-netanyahu/article-910205</link>
-      <guid isPermaLink="false">fz1073-u015</guid>
-      <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
-      <category>Media</category>
-      <description>[Media] According to search results (JPost, AFP and others; pages not read directly), Israeli PM Netanyahu said one pilot stabbed the other, apparently tried to crash the plane or sabotage its systems, and was arrested and is being questioned by Saudi authorities. This is a claim by the Israeli side; UAE/KSA and investigators have not officially confirmed it, and it conflicts with the AvHerald headline (u014) about a suspected suicide attempt. (Source: Jerusalem Post / AFP / další (přes vyhledávání))</description>
     </item>
   </channel>
 </rss>

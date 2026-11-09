@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-10-23T08:12:30Z",
-    "next_check": "2026-10-23T09:12:30Z",
+    "last_check": "2026-11-09T18:11:15Z",
+    "next_check": "2026-11-09T19:11:15Z",
     "new_count": 1
   },
   "updates": [
@@ -2692,6 +2692,27 @@
         "en": {
           "title": "JNS: Tel Aviv–Dubai flights remain suspended three weeks after the incident",
           "text": "According to the directly read JNS article (21 Oct), flydubai has suspended the route until at least 15 Nov and bookings are unavailable until year-end; Etihad is the only carrier between the UAE and Israel. The article says the dispute between Israeli and Emirati authorities over security measures continues, and that unnamed Israeli security officials reportedly want their own personnel and X-ray baggage screening in Dubai. This is a media claim, not an official statement."
+        }
+      }
+    },
+    {
+      "id": "u115",
+      "found_at": "2026-11-09T18:11:15Z",
+      "published_at": null,
+      "source": "Yeni Şafak (cituje Channel 12)",
+      "url": "https://en.yenisafak.com/world/flydubai-extends-tel-aviv-flight-suspension-until-nov-30-3725001",
+      "title": "flydubai údajně prodloužil pozastavení letů do Tel Avivu do 30. 11.",
+      "text": "Podle výsledků vyhledávání (článek nebyl přímo čten) turecký web Yeni Şafak s odkazem na izraelskou Channel 12 uvádí, že flydubai prodloužil pozastavení linky do Tel Avivu do 30. listopadu. Oficiální potvrzení od dopravce nebylo nalezeno; dřívější zprávy (u113, u114) uváděly 15. 11.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "flydubai údajne predĺžil pozastavenie letov do Tel Avivu do 30. 11.",
+          "text": "Podľa výsledkov vyhľadávania (článok nebol priamo čítaný) turecký web Yeni Şafak s odkazom na izraelskú Channel 12 uvádza, že flydubai predĺžil pozastavenie linky do Tel Avivu do 30. novembra. Oficiálne potvrdenie od dopravcu sa nenašlo; skoršie správy (u113, u114) uvádzali 15. 11."
+        },
+        "en": {
+          "title": "flydubai reportedly extends Tel Aviv suspension to 30 Nov",
+          "text": "According to search results (article not read directly), Turkish site Yeni Şafak, citing Israel's Channel 12, says flydubai extended its Tel Aviv suspension to 30 November. No official confirmation from the carrier was found; earlier reports (u113, u114) gave 15 Nov."
         }
       }
     }
