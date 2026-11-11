@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o havárii Learjetu 60 N722BD v Palm Beach County, Florida (1. 11. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Sun, 08 Nov 2026 15:25:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:26:01 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neověřeno] NTSB podle vyhledávání získala záznamník hlasů v kabině, odkopávání dokončeno</title>
+      <link>https://www.wptv.com/news/region-c-palm-beach-county/greenacres/ntsb-recovers-cockpit-voice-recorder-from-learjet-that-crashed-near-greenacres</link>
+      <guid isPermaLink="false">n722bd-u018</guid>
+      <pubDate>Wed, 11 Nov 2026 06:26:01 +0000</pubDate>
+      <category>Neověřeno</category>
+      <description>[Neověřeno] Podle výsledků vyhledávání (článek nebyl přímo čten) NTSB 9. 11. oznámila, že na místě prvního dopadu našla záznamník hlasů v kabině (CVR) a odeslala ho do laboratoře ve Washingtonu; odkopávání kráteru je dokončeno. Obsah záznamu ani termín jeho zveřejnění nejsou známy. Předběžná zpráva NTSB zatím nevyšla. (Zdroj: WPTV)</description>
+    </item>
     <item>
       <title>[Neověřeno] NTSB: pokračuje odkopávání kráteru, nalezena část motoru</title>
       <link>https://cbs12.com/news/local/ntsb-says-excavation-at-greenacres-learjet-crash-site-is-ongoing-engine-section-found-florida-news-learjet-update-plane-crash-in-greenacres</link>

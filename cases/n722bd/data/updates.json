@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-08T15:25:00Z",
-    "next_check": "2026-11-08T18:25:00Z",
+    "last_check": "2026-11-11T06:26:01Z",
+    "next_check": "2026-11-11T09:26:01Z",
     "new_count": 1
   },
   "updates": [
@@ -380,6 +380,27 @@
         "en": {
           "title": "NTSB: crater excavation continues, part of an engine found",
           "text": "According to search results (article not read directly), NTSB said on 5 Nov that excavation of the impact site continues and a portion of one engine was recovered; wreckage will go to a secure location. Whether the cockpit voice recorder was found is not stated in the available results. The NTSB preliminary report is expected within ~30 days of the crash and has not been published yet."
+        }
+      }
+    },
+    {
+      "id": "u018",
+      "found_at": "2026-11-11T06:26:01Z",
+      "published_at": "2026-11-09T00:00:00Z",
+      "source": "WPTV",
+      "url": "https://www.wptv.com/news/region-c-palm-beach-county/greenacres/ntsb-recovers-cockpit-voice-recorder-from-learjet-that-crashed-near-greenacres",
+      "title": "NTSB podle vyhledávání získala záznamník hlasů v kabině, odkopávání dokončeno",
+      "text": "Podle výsledků vyhledávání (článek nebyl přímo čten) NTSB 9. 11. oznámila, že na místě prvního dopadu našla záznamník hlasů v kabině (CVR) a odeslala ho do laboratoře ve Washingtonu; odkopávání kráteru je dokončeno. Obsah záznamu ani termín jeho zveřejnění nejsou známy. Předběžná zpráva NTSB zatím nevyšla.",
+      "status": "unconfirmed",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "NTSB podľa vyhľadávania získala záznamník hlasov v kabíne, odkopávanie dokončené",
+          "text": "Podľa výsledkov vyhľadávania (článok nebol priamo čítaný) NTSB 9. 11. oznámila, že na mieste prvého dopadu našla záznamník hlasov v kabíne (CVR) a odoslala ho do laboratória vo Washingtone; odkopávanie krátera je dokončené. Obsah záznamu ani termín jeho zverejnenia nie sú známe. Predbežná správa NTSB zatiaľ nevyšla."
+        },
+        "en": {
+          "title": "NTSB reportedly recovers cockpit voice recorder; excavation complete",
+          "text": "According to search results (article not read directly), NTSB said on 9 Nov it found the cockpit voice recorder at the initial impact site and sent it to its Washington lab; crater excavation is complete. The recording's content and release timing are unknown. The NTSB preliminary report has not been published yet."
         }
       }
     }

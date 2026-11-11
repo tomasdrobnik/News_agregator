@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 15:25:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:26:01 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] NTSB reportedly recovers cockpit voice recorder; excavation complete</title>
+      <link>https://www.wptv.com/news/region-c-palm-beach-county/greenacres/ntsb-recovers-cockpit-voice-recorder-from-learjet-that-crashed-near-greenacres</link>
+      <guid isPermaLink="false">n722bd-u018</guid>
+      <pubDate>Wed, 11 Nov 2026 06:26:01 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] According to search results (article not read directly), NTSB said on 9 Nov it found the cockpit voice recorder at the initial impact site and sent it to its Washington lab; crater excavation is complete. The recording's content and release timing are unknown. The NTSB preliminary report has not been published yet. (Source: WPTV)</description>
+    </item>
     <item>
       <title>[Unconfirmed] NTSB: crater excavation continues, part of an engine found</title>
       <link>https://cbs12.com/news/local/ntsb-says-excavation-at-greenacres-learjet-crash-site-is-ongoing-engine-section-found-florida-news-learjet-update-plane-crash-in-greenacres</link>
