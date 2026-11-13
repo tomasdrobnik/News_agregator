@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-11T06:26:01Z",
-    "next_check": "2026-11-11T09:26:01Z",
+    "last_check": "2026-11-13T12:24:34Z",
+    "next_check": "2026-11-13T15:24:00Z",
     "new_count": 1
   },
   "updates": [
@@ -401,6 +401,26 @@
         "en": {
           "title": "NTSB reportedly recovers cockpit voice recorder; excavation complete",
           "text": "According to search results (article not read directly), NTSB said on 9 Nov it found the cockpit voice recorder at the initial impact site and sent it to its Washington lab; crater excavation is complete. The recording's content and release timing are unknown. The NTSB preliminary report has not been published yet."
+        }
+      }
+    },
+    {
+      "id": "u019",
+      "found_at": "2026-11-13T12:24:34Z",
+      "published_at": "2026-11-04T10:35:59Z",
+      "source": "International Business Times UK",
+      "url": "https://www.ibtimes.co.uk/florida-learjet-crash-fatal-charter-accidents-1830113",
+      "title": "IBTimes: let byl charter (Part 135) provozovaný Aurora Aviation / Upper Jets",
+      "text": "Článek (přímo přečten, aktualizován 9. 11.) popisuje nehodu jako charterový let provozovaný Aurora Aviation (Upper Jets) a řadí ji mezi dosud pět smrtelných charterových nehod v USA od roku 2010. Režim letu ani provozovatele zde nepotvrzuje úřad, jde o tvrzení média; oficiální potvrzení NTSB/FAA jsme přímo nečetli, proto zůstává nepotvrzené (viz u016). Příčina není stanovena.",
+      "status": "unconfirmed",
+      "i18n": {
+        "sk": {
+          "title": "IBTimes: let bol charter (Part 135) prevádzkovaný Aurora Aviation / Upper Jets",
+          "text": "Článok (priamo prečítaný, aktualizovaný 9. 11.) opisuje nehodu ako charterový let prevádzkovaný Aurora Aviation (Upper Jets) a radí ju medzi doteraz päť smrteľných charterových nehôd v USA od roku 2010. Režim letu ani prevádzkovateľa tu nepotvrdzuje úrad, ide o tvrdenie média; oficiálne potvrdenie NTSB/FAA sme priamo nečítali, preto zostáva nepotvrdené (pozri u016). Príčina nie je stanovená."
+        },
+        "en": {
+          "title": "IBTimes: flight was a charter (Part 135) operated by Aurora Aviation / Upper Jets",
+          "text": "The article (read directly, updated 9 Nov) describes the flight as a charter operated by Aurora Aviation (Upper Jets) and counts it as the fifth fatal US charter accident since 2010. The flight regime and operator are not confirmed here by an authority; this is a media claim, and no NTSB/FAA confirmation was read directly, so it stays unconfirmed (see u016). No cause has been established."
         }
       }
     }

@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 06:26:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:24:34 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Unconfirmed] IBTimes: flight was a charter (Part 135) operated by Aurora Aviation / Upper Jets</title>
+      <link>https://www.ibtimes.co.uk/florida-learjet-crash-fatal-charter-accidents-1830113</link>
+      <guid isPermaLink="false">n722bd-u019</guid>
+      <pubDate>Fri, 13 Nov 2026 12:24:34 +0000</pubDate>
+      <category>Unconfirmed</category>
+      <description>[Unconfirmed] The article (read directly, updated 9 Nov) describes the flight as a charter operated by Aurora Aviation (Upper Jets) and counts it as the fifth fatal US charter accident since 2010. The flight regime and operator are not confirmed here by an authority; this is a media claim, and no NTSB/FAA confirmation was read directly, so it stays unconfirmed (see u016). No cause has been established. (Source: International Business Times UK)</description>
+    </item>
     <item>
       <title>[Unconfirmed] NTSB reportedly recovers cockpit voice recorder; excavation complete</title>
       <link>https://www.wptv.com/news/region-c-palm-beach-county/greenacres/ntsb-recovers-cockpit-voice-recorder-from-learjet-that-crashed-near-greenacres</link>

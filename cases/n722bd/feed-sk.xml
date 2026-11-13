@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o havárii Learjetu 60 N722BD v Palm Beach County na Floride (1. 11. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Wed, 11 Nov 2026 06:26:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:24:34 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Neoverené] IBTimes: let bol charter (Part 135) prevádzkovaný Aurora Aviation / Upper Jets</title>
+      <link>https://www.ibtimes.co.uk/florida-learjet-crash-fatal-charter-accidents-1830113</link>
+      <guid isPermaLink="false">n722bd-u019</guid>
+      <pubDate>Fri, 13 Nov 2026 12:24:34 +0000</pubDate>
+      <category>Neoverené</category>
+      <description>[Neoverené] Článok (priamo prečítaný, aktualizovaný 9. 11.) opisuje nehodu ako charterový let prevádzkovaný Aurora Aviation (Upper Jets) a radí ju medzi doteraz päť smrteľných charterových nehôd v USA od roku 2010. Režim letu ani prevádzkovateľa tu nepotvrdzuje úrad, ide o tvrdenie média; oficiálne potvrdenie NTSB/FAA sme priamo nečítali, preto zostáva nepotvrdené (pozri u016). Príčina nie je stanovená. (Zdroj: International Business Times UK)</description>
+    </item>
     <item>
       <title>[Neoverené] NTSB podľa vyhľadávania získala záznamník hlasov v kabíne, odkopávanie dokončené</title>
       <link>https://www.wptv.com/news/region-c-palm-beach-county/greenacres/ntsb-recovers-cockpit-voice-recorder-from-learjet-that-crashed-near-greenacres</link>
