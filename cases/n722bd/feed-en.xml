@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the Learjet 60 N722BD accident in Palm Beach County, Florida (1 Nov 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:24:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 00:24:28 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Official] NTSB (read directly): investigation ERA27MA026 ongoing, voice recorder in lab, no preliminary report yet</title>
+      <link>https://www.ntsb.gov/investigations/Pages/ERA27MA026.aspx</link>
+      <guid isPermaLink="false">n722bd-u020</guid>
+      <pubDate>Sat, 14 Nov 2026 00:24:28 +0000</pubDate>
+      <category>Official</category>
+      <description>[Official] The NTSB investigation page (read directly) shows status ongoing, operator Aurora Aviation (dba Upper Jet) and media briefings on 2 and 3 Nov. Latest update, 9 Nov: the cockpit voice recorder was found at the initial impact site and is being evaluated in the Washington lab; excavation is complete. No preliminary report is published yet and no cause is stated. This confirms earlier media claims about the operator (u016) and the recorder (u018). (Source: NTSB – stránka šetření ERA27MA026)</description>
+    </item>
     <item>
       <title>[Unconfirmed] IBTimes: flight was a charter (Part 135) operated by Aurora Aviation / Upper Jets</title>
       <link>https://www.ibtimes.co.uk/florida-learjet-crash-fatal-charter-accidents-1830113</link>

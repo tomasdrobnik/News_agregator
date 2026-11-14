@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "Learjet 60 N722BD, havárie 1. 11. 2026, Palm Beach County, Florida (AUS → North Eleuthera)",
-    "last_check": "2026-11-13T12:24:34Z",
-    "next_check": "2026-11-13T15:24:00Z",
+    "last_check": "2026-11-14T00:24:28Z",
+    "next_check": "2026-11-14T03:24:00Z",
     "new_count": 1
   },
   "updates": [
@@ -421,6 +421,27 @@
         "en": {
           "title": "IBTimes: flight was a charter (Part 135) operated by Aurora Aviation / Upper Jets",
           "text": "The article (read directly, updated 9 Nov) describes the flight as a charter operated by Aurora Aviation (Upper Jets) and counts it as the fifth fatal US charter accident since 2010. The flight regime and operator are not confirmed here by an authority; this is a media claim, and no NTSB/FAA confirmation was read directly, so it stays unconfirmed (see u016). No cause has been established."
+        }
+      }
+    },
+    {
+      "id": "u020",
+      "found_at": "2026-11-14T00:24:28Z",
+      "published_at": "2026-11-09T00:00:00Z",
+      "source": "NTSB – stránka šetření ERA27MA026",
+      "url": "https://www.ntsb.gov/investigations/Pages/ERA27MA026.aspx",
+      "title": "NTSB (přímo čteno): šetření ERA27MA026 pokračuje, záznamník hlasů v laboratoři, předběžná zpráva zatím není",
+      "text": "Oficiální stránka šetření NTSB (přímo přečtena) uvádí stav „probíhá“, provozovatele Aurora Aviation (dba Upper Jet) a briefingy 2. a 3. 11. Poslední aktualizace z 9. 11.: záznamník hlasů v kabině byl nalezen na místě prvního dopadu a vyhodnocuje se ve washingtonské laboratoři, odkopávání je dokončeno. Předběžná zpráva zatím není zveřejněna a stránka neuvádí příčinu. Potvrzuje dřívější tvrzení médií o provozovateli (u016) i o záznamníku (u018).",
+      "status": "official",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "NTSB (priamo čítané): šetrenie ERA27MA026 pokračuje, záznamník hlasov v laboratóriu, predbežná správa zatiaľ nie je",
+          "text": "Oficiálna stránka šetrenia NTSB (priamo prečítaná) uvádza stav „prebieha“, prevádzkovateľa Aurora Aviation (dba Upper Jet) a brífingy 2. a 3. 11. Posledná aktualizácia z 9. 11.: záznamník hlasov v kabíne bol nájdený na mieste prvého dopadu a vyhodnocuje sa vo washingtonskom laboratóriu, odkopávanie je dokončené. Predbežná správa zatiaľ nie je zverejnená a stránka neuvádza príčinu. Potvrdzuje skoršie tvrdenia médií o prevádzkovateľovi (u016) aj o záznamníku (u018)."
+        },
+        "en": {
+          "title": "NTSB (read directly): investigation ERA27MA026 ongoing, voice recorder in lab, no preliminary report yet",
+          "text": "The NTSB investigation page (read directly) shows status ongoing, operator Aurora Aviation (dba Upper Jet) and media briefings on 2 and 3 Nov. Latest update, 9 Nov: the cockpit voice recorder was found at the initial impact site and is being evaluated in the Washington lab; excavation is complete. No preliminary report is published yet and no cause is stated. This confirms earlier media claims about the operator (u016) and the recorder (u018)."
         }
       }
     }

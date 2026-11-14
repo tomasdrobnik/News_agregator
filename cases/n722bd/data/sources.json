@@ -216,6 +216,15 @@
       "added_at": "2026-11-08T15:25:00Z",
       "active": true,
       "note": "Odborný web o business aviation; pokrývá vyšetřování havárie N722BD. Přímé čtení nezkoušeno – jen WebSearch."
+    },
+    {
+      "name": "NTSB – stránka šetření ERA27MA026",
+      "url": "https://www.ntsb.gov/investigations/Pages/ERA27MA026.aspx",
+      "type": "official",
+      "access": "webfetch",
+      "added_at": "2026-11-14T00:24:28Z",
+      "active": true,
+      "note": "Oficiální stránka šetření (provozovatel, stav, aktualizace, odkaz na předběžnou zprávu). Přímo přečteno přes WebFetch."
     }
   ]
 }

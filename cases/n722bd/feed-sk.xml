@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/cases/n722bd/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o havárii Learjetu 60 N722BD v Palm Beach County na Floride (1. 11. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:24:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 00:24:28 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Oficiálne] NTSB (priamo čítané): šetrenie ERA27MA026 pokračuje, záznamník hlasov v laboratóriu, predbežná správa zatiaľ nie je</title>
+      <link>https://www.ntsb.gov/investigations/Pages/ERA27MA026.aspx</link>
+      <guid isPermaLink="false">n722bd-u020</guid>
+      <pubDate>Sat, 14 Nov 2026 00:24:28 +0000</pubDate>
+      <category>Oficiálne</category>
+      <description>[Oficiálne] Oficiálna stránka šetrenia NTSB (priamo prečítaná) uvádza stav „prebieha“, prevádzkovateľa Aurora Aviation (dba Upper Jet) a brífingy 2. a 3. 11. Posledná aktualizácia z 9. 11.: záznamník hlasov v kabíne bol nájdený na mieste prvého dopadu a vyhodnocuje sa vo washingtonskom laboratóriu, odkopávanie je dokončené. Predbežná správa zatiaľ nie je zverejnená a stránka neuvádza príčinu. Potvrdzuje skoršie tvrdenia médií o prevádzkovateľovi (u016) aj o záznamníku (u018). (Zdroj: NTSB – stránka šetření ERA27MA026)</description>
+    </item>
     <item>
       <title>[Neoverené] IBTimes: let bol charter (Part 135) prevádzkovaný Aurora Aviation / Upper Jets</title>
       <link>https://www.ibtimes.co.uk/florida-learjet-crash-fatal-charter-accidents-1830113</link>
