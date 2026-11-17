@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 18:11:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 18:10:16 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Ctech: flydubai extends Tel Aviv suspension to 15 Dec</title>
+      <link>https://www.calcalistech.com/ctechnews/article/2jgn42x79</link>
+      <guid isPermaLink="false">fz1073-u116</guid>
+      <pubDate>Tue, 17 Nov 2026 18:10:16 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to the directly read Ctech article (14 Nov), flydubai extended its Dubai–Ben Gurion suspension to 15 December 2026. This is a single-outlet report; no official carrier confirmation was read directly. Earlier reports (u115) gave 30 Nov. (Source: Ctech (Calcalist))</description>
+    </item>
     <item>
       <title>[Unconfirmed] flydubai reportedly extends Tel Aviv suspension to 30 Nov</title>
       <link>https://en.yenisafak.com/world/flydubai-extends-tel-aviv-flight-suspension-until-nov-30-3725001</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 15:11:29 +0000</pubDate>
       <category>Media</category>
       <description>[Media] According to Ynetnews (article read directly), Defense Minister Katz called the incident an attempted "jihadist terrorist attack" and said the intent was to crash the aircraft; this is a claim by an Israeli official, not a confirmed fact. Flydubai, by contrast, says the causes and motives are unknown and subject to an official investigation, and urges against speculation. Israeli passengers left Tabuk on a replacement flight after Mossad vetted the crew. (Source: Ynetnews)</description>
-    </item>
-    <item>
-      <title>[Unconfirmed] Second flydubai flight to Tel Aviv: media say tracking glitch</title>
-      <link>https://www.theweek.in/news/middle-east/2026/09/30/flydubai-emergency-landing-saudi-arabia.html</link>
-      <guid isPermaLink="false">fz1073-u016</guid>
-      <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
-      <category>Unconfirmed</category>
-      <description>[Unconfirmed] According to search results (pages not read directly), hours after FZ1073 reports emerged that another flydubai flight was turning back from Tel Aviv. Media say it was a glitch on flight-tracking sites and flight FZ1081 continued normally; there is no official confirmation. (Source: The Week / Business Today / Cedar News (přes vyhledávání))</description>
     </item>
   </channel>
 </rss>

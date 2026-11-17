@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-11-09T18:11:15Z",
-    "next_check": "2026-11-09T19:11:15Z",
+    "last_check": "2026-11-17T18:10:16Z",
+    "next_check": "2026-11-17T19:10:16Z",
     "new_count": 1
   },
   "updates": [
@@ -2713,6 +2713,27 @@
         "en": {
           "title": "flydubai reportedly extends Tel Aviv suspension to 30 Nov",
           "text": "According to search results (article not read directly), Turkish site Yeni Şafak, citing Israel's Channel 12, says flydubai extended its Tel Aviv suspension to 30 November. No official confirmation from the carrier was found; earlier reports (u113, u114) gave 15 Nov."
+        }
+      }
+    },
+    {
+      "id": "u116",
+      "found_at": "2026-11-17T18:10:16Z",
+      "published_at": "2026-11-14T18:26:00Z",
+      "source": "Ctech (Calcalist)",
+      "url": "https://www.calcalistech.com/ctechnews/article/2jgn42x79",
+      "title": "Ctech: flydubai prodloužil pozastavení letů do Tel Avivu do 15. 12.",
+      "text": "Podle přímo přečteného článku Ctech (14. 11.) flydubai prodloužil pozastavení linky Dubaj–Ben Gurion do 15. prosince 2026. Jde o zprávu jediného média; oficiální potvrzení od dopravce nebylo přímo čteno. Dřívější zprávy (u115) uváděly 30. 11.",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Ctech: flydubai predĺžil pozastavenie letov do Tel Avivu do 15. 12.",
+          "text": "Podľa priamo prečítaného článku Ctech (14. 11.) flydubai predĺžil pozastavenie linky Dubaj–Ben Gurion do 15. decembra 2026. Ide o správu jediného média; oficiálne potvrdenie od dopravcu nebolo priamo čítané. Skoršie správy (u115) uvádzali 30. 11."
+        },
+        "en": {
+          "title": "Ctech: flydubai extends Tel Aviv suspension to 15 Dec",
+          "text": "According to the directly read Ctech article (14 Nov), flydubai extended its Dubai–Ben Gurion suspension to 15 December 2026. This is a single-outlet report; no official carrier confirmation was read directly. Earlier reports (u115) gave 30 Nov."
         }
       }
     }

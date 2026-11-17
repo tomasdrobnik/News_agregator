@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-sk.xml" rel="self" type="application/rss+xml"/>
     <description>Priebežný prehľad verejných informácií o incidente flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiálne, dátové, mediálne a neoverené správy.</description>
     <language>sk</language>
-    <lastBuildDate>Mon, 09 Nov 2026 18:11:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 18:10:16 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Médiá] Ctech: flydubai predĺžil pozastavenie letov do Tel Avivu do 15. 12.</title>
+      <link>https://www.calcalistech.com/ctechnews/article/2jgn42x79</link>
+      <guid isPermaLink="false">fz1073-u116</guid>
+      <pubDate>Tue, 17 Nov 2026 18:10:16 +0000</pubDate>
+      <category>Médiá</category>
+      <description>[Médiá] Podľa priamo prečítaného článku Ctech (14. 11.) flydubai predĺžil pozastavenie linky Dubaj–Ben Gurion do 15. decembra 2026. Ide o správu jediného média; oficiálne potvrdenie od dopravcu nebolo priamo čítané. Skoršie správy (u115) uvádzali 30. 11. (Zdroj: Ctech (Calcalist))</description>
+    </item>
     <item>
       <title>[Neoverené] flydubai údajne predĺžil pozastavenie letov do Tel Avivu do 30. 11.</title>
       <link>https://en.yenisafak.com/world/flydubai-extends-tel-aviv-flight-suspension-until-nov-30-3725001</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 15:11:29 +0000</pubDate>
       <category>Médiá</category>
       <description>[Médiá] Podľa Ynetnews (článok priamo prečítaný) označil minister obrany Katz incident za pokus o „džihádistický teroristický útok“ a uviedol, že zámerom bolo zrútiť lietadlo; ide o tvrdenie izraelského predstaviteľa, nie potvrdený fakt. Flydubai naopak uvádza, že príčiny a motívy sú neznáme a podliehajú oficiálnemu vyšetrovaniu, a vyzýva na nespekulovanie. Izraelskí cestujúci odleteli náhradným letom z Tabuku po preverení posádky Mossadom. (Zdroj: Ynetnews)</description>
-    </item>
-    <item>
-      <title>[Neoverené] Druhý let flydubai do Tel Avivu: podľa médií chyba sledovania</title>
-      <link>https://www.theweek.in/news/middle-east/2026/09/30/flydubai-emergency-landing-saudi-arabia.html</link>
-      <guid isPermaLink="false">fz1073-u016</guid>
-      <pubDate>Wed, 30 Sep 2026 14:20:00 +0000</pubDate>
-      <category>Neoverené</category>
-      <description>[Neoverené] Podľa výsledkov vyhľadávania (stránky neboli priamo čítané) sa hodiny po FZ1073 objavili správy, že sa z Tel Avivu vracia ďalší let flydubai. Médiá píšu, že išlo o chybu webov na sledovanie letov a let FZ1081 pokračoval normálne; oficiálne potvrdenie chýba. (Zdroj: The Week / Business Today / Cedar News (přes vyhledávání))</description>
     </item>
   </channel>
 </rss>
