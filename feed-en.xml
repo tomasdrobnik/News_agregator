@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed-en.xml" rel="self" type="application/rss+xml"/>
     <description>Running overview of public information on the flydubai FZ1073 incident (30 Sep 2026). Distinguishes official, data, media and unconfirmed reports.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 18:10:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 18:10:16 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Media] Israeli officials met flydubai in Dubai on 16 Nov on restoring Tel Aviv flights</title>
+      <link>https://www.jns.org/news/israel-news/israel-uae-in-talks-to-resume-flydubai-flights-to-tel-aviv-in-december</link>
+      <guid isPermaLink="false">fz1073-u117</guid>
+      <pubDate>Mon, 23 Nov 2026 18:10:16 +0000</pubDate>
+      <category>Media</category>
+      <description>[Media] According to search results (JNS, Ynet, Times of Israel; articles not read directly), Israeli transport and security officials met flydubai management in Dubai on 16 Nov to discuss security measures for resuming the route. JNS mentions a possible restart from 1 Dec, while other reports cite an uncertain date and an Israel–UAE dispute over security and the investigation; no confirmed restart date exists (suspension runs to 15 Dec per u116). (Source: JNS)</description>
+    </item>
     <item>
       <title>[Media] Ctech: flydubai extends Tel Aviv suspension to 15 Dec</title>
       <link>https://www.calcalistech.com/ctechnews/article/2jgn42x79</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 16:11:54 +0000</pubDate>
       <category>Media</category>
       <description>[Media] According to Saudi Gazette (article read directly), Tabuk airport says the distress call came at 08:44 local time, the aircraft landed at 09:45 and all passengers left on a replacement aircraft at 17:40. Both the captain and the co-pilot were injured and taken to hospital; the airport says the competent authorities are investigating. The article also repeats flydubai's statement that causes and motives are unknown. (Source: Saudi Gazette)</description>
-    </item>
-    <item>
-      <title>[Media] Israeli Defense Minister Katz: attempted terrorist attack; flydubai urges no speculation</title>
-      <link>https://www.ynetnews.com/article/h18fh5qqge</link>
-      <guid isPermaLink="false">fz1073-u017</guid>
-      <pubDate>Wed, 30 Sep 2026 15:11:29 +0000</pubDate>
-      <category>Media</category>
-      <description>[Media] According to Ynetnews (article read directly), Defense Minister Katz called the incident an attempted "jihadist terrorist attack" and said the intent was to crash the aircraft; this is a claim by an Israeli official, not a confirmed fact. Flydubai, by contrast, says the causes and motives are unknown and subject to an official investigation, and urges against speculation. Israeli passengers left Tabuk on a replacement flight after Mossad vetted the crew. (Source: Ynetnews)</description>
     </item>
   </channel>
 </rss>

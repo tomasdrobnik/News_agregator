@@ -1,8 +1,8 @@
 {
   "meta": {
     "incident": "flydubai FZ1073",
-    "last_check": "2026-11-17T18:10:16Z",
-    "next_check": "2026-11-17T19:10:16Z",
+    "last_check": "2026-11-23T18:10:16Z",
+    "next_check": "2026-11-23T19:10:16Z",
     "new_count": 1
   },
   "updates": [
@@ -2734,6 +2734,27 @@
         "en": {
           "title": "Ctech: flydubai extends Tel Aviv suspension to 15 Dec",
           "text": "According to the directly read Ctech article (14 Nov), flydubai extended its Dubai–Ben Gurion suspension to 15 December 2026. This is a single-outlet report; no official carrier confirmation was read directly. Earlier reports (u115) gave 30 Nov."
+        }
+      }
+    },
+    {
+      "id": "u117",
+      "found_at": "2026-11-23T18:10:16Z",
+      "published_at": null,
+      "source": "JNS",
+      "url": "https://www.jns.org/news/israel-news/israel-uae-in-talks-to-resume-flydubai-flights-to-tel-aviv-in-december",
+      "title": "Izraelští úředníci jednali 16. 11. v Dubaji s flydubai o obnovení letů do Tel Avivu",
+      "text": "Podle výsledků vyhledávání (JNS, Ynet, Times of Israel; články nebyly přímo čteny) se 16. 11. v Dubaji sešli představitelé izraelského ministerstva dopravy a bezpečnosti s vedením flydubai a jednali o bezpečnostních opatřeních pro obnovení linky. JNS zmiňuje možný restart už od 1. 12., jiné zprávy uvádějí nejistý termín a spor Izraele a SAE o bezpečnost a vyšetřování; potvrzený termín obnovení není (pozastavení platí do 15. 12. podle u116).",
+      "status": "reported",
+      "media": [],
+      "i18n": {
+        "sk": {
+          "title": "Izraelskí predstavitelia rokovali 16. 11. v Dubaji s flydubai o obnovení letov do Tel Avivu",
+          "text": "Podľa výsledkov vyhľadávania (JNS, Ynet, Times of Israel; články neboli priamo čítané) sa 16. 11. v Dubaji stretli predstavitelia izraelského ministerstva dopravy a bezpečnosti s vedením flydubai a rokovali o bezpečnostných opatreniach na obnovenie linky. JNS spomína možný reštart už od 1. 12., iné správy uvádzajú neistý termín a spor Izraela a SAE o bezpečnosť a vyšetrovanie; potvrdený termín obnovenia nie je (pozastavenie platí do 15. 12. podľa u116)."
+        },
+        "en": {
+          "title": "Israeli officials met flydubai in Dubai on 16 Nov on restoring Tel Aviv flights",
+          "text": "According to search results (JNS, Ynet, Times of Israel; articles not read directly), Israeli transport and security officials met flydubai management in Dubai on 16 Nov to discuss security measures for resuming the route. JNS mentions a possible restart from 1 Dec, while other reports cite an uncertain date and an Israel–UAE dispute over security and the investigation; no confirmed restart date exists (suspension runs to 15 Dec per u116)."
         }
       }
     }

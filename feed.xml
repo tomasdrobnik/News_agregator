@@ -6,8 +6,16 @@
     <atom:link href="https://tomasdrobnik.github.io/News_agregator/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Průběžný přehled veřejných informací o incidentu flydubai FZ1073 (30. 9. 2026). Rozlišuje oficiální, datové, mediální a neověřené zprávy.</description>
     <language>cs</language>
-    <lastBuildDate>Tue, 17 Nov 2026 18:10:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 18:10:16 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Média] Izraelští úředníci jednali 16. 11. v Dubaji s flydubai o obnovení letů do Tel Avivu</title>
+      <link>https://www.jns.org/news/israel-news/israel-uae-in-talks-to-resume-flydubai-flights-to-tel-aviv-in-december</link>
+      <guid isPermaLink="false">fz1073-u117</guid>
+      <pubDate>Mon, 23 Nov 2026 18:10:16 +0000</pubDate>
+      <category>Média</category>
+      <description>[Média] Podle výsledků vyhledávání (JNS, Ynet, Times of Israel; články nebyly přímo čteny) se 16. 11. v Dubaji sešli představitelé izraelského ministerstva dopravy a bezpečnosti s vedením flydubai a jednali o bezpečnostních opatřeních pro obnovení linky. JNS zmiňuje možný restart už od 1. 12., jiné zprávy uvádějí nejistý termín a spor Izraele a SAE o bezpečnost a vyšetřování; potvrzený termín obnovení není (pozastavení platí do 15. 12. podle u116). (Zdroj: JNS)</description>
+    </item>
     <item>
       <title>[Média] Ctech: flydubai prodloužil pozastavení letů do Tel Avivu do 15. 12.</title>
       <link>https://www.calcalistech.com/ctechnews/article/2jgn42x79</link>
@@ -799,14 +807,6 @@
       <pubDate>Wed, 30 Sep 2026 16:11:54 +0000</pubDate>
       <category>Média</category>
       <description>[Média] Podle Saudi Gazette (článek přímo přečten) letiště Tabuk uvádí, že tísňové volání přišlo v 08:44 místního času, přistání proběhlo v 09:45 a všichni cestující odletěli náhradním letadlem v 17:40. Kapitán i druhý pilot byli zranění a převezeni do nemocnice; letiště říká, že šetření vedou příslušné orgány. Text přebírá i prohlášení flydubai, že příčiny a motivy jsou neznámé. (Zdroj: Saudi Gazette)</description>
-    </item>
-    <item>
-      <title>[Média] Izraelský ministr obrany Katz: pokus o teroristický útok; flydubai vyzývá k nespekulování</title>
-      <link>https://www.ynetnews.com/article/h18fh5qqge</link>
-      <guid isPermaLink="false">fz1073-u017</guid>
-      <pubDate>Wed, 30 Sep 2026 15:11:29 +0000</pubDate>
-      <category>Média</category>
-      <description>[Média] Podle Ynetnews (článek přímo přečten) označil ministr obrany Katz incident za pokus o „džihádistický teroristický útok“ a uvedl, že úmysl byl zřítit letadlo; jde o tvrzení izraelského představitele, nikoli potvrzený fakt. Flydubai naopak uvádí, že příčiny a motivy jsou neznámé a podléhají oficiálnímu šetření, a vyzývá k nespekulování. Izraelští cestující odletěli náhradním letem z Tabuku po prověrce posádky Mossadem. (Zdroj: Ynetnews)</description>
     </item>
   </channel>
 </rss>
