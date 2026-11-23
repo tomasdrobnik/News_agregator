@@ -1,7 +1,7 @@
 # Multi-case structure (hub + case pages)
 
 **ID:** P005
-**Last updated:** 2026-11-02
+**Last updated:** 2026-11-23
 **Status:** Active
 
 ---
@@ -26,7 +26,7 @@
 - Ids `u001…` restart per case.
 - N722BD direct-read OK (curl): FAA statements, FR24 blog, FlightAware, NBC, NBC 6, ABC, FlightGlobal (paywall: intro only), Simple Flying, IBTimes. Not readable: AP (403), Reuters (robots), NTSB newsroom/CAROL (JS), PBSO (robots timeout).
 - FlightAware hides N722BD history at owner's request; owner LR60271 LLC.
-- N722BD cloud routine `trig_01VG8oLALZJEYX5Ubb1LZVmf` ("N722BD source check"), every 3 h at :23 (`23 */3 * * *`), same env/model/tools as FZ1073, no MCP connectors (server auto-attached some – cleared). Reduce to daily after NTSB preliminary report.
+- N722BD cloud routine `trig_01VG8oLALZJEYX5Ubb1LZVmf` ("N722BD source check"), daily at 09:00 Europe/Bratislava (`CRON_TZ=Europe/Bratislava 0 9 * * *`, set by user 2026-11-23; was every 3 h), same env/model/tools as FZ1073, no MCP connectors. Prompt text still says "3-hourly" (cosmetic).
 - Decision 2026-11-02: no X/Reddit API search for N722BD (cost vs. value) – manual tips via inbox.json only.
 
 ---
@@ -45,6 +45,7 @@
 
 ## History
 
+- 2026-11-23: N722BD routine cadence 3 h → daily 09:00 LT
 - 2026-11-02: Initial documentation (multi-case refactor, N722BD added)
 
 ---
